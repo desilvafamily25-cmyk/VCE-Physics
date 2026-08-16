@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+__pycache__/
+*.pyc
+.env
+.env.local
+.env.*.local
+
+# Raw VCAA source materials -- never committed, published or redistributed
+# in bulk (see INDEX.md). Only the individual per-paper copies the running
+# app needs live under public/papers/ and ARE committed -- see
+# docs/DATA-ARCHITECTURE.md for the distinction.
+/archive-2002-2016/
+/previous-design-2017-2023/
+/current-design-2024-2027/
+/reference/

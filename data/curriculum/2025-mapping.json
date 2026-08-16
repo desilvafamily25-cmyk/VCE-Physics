@@ -1,0 +1,861 @@
+{
+  "studyDesignRef": "data/curriculum/study-design-2024-2027.json",
+  "paperId": "2025",
+  "generatedBy": "editorial mapping \u2014 each question's own text checked against the official study design's key knowledge (see scripts/build_2025_curriculum_map.py)",
+  "questions": [
+    {
+      "canonicalId": "2025-A1",
+      "interactionId": "A1",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Newton's second law along a straight line",
+      "skills": [
+        "forces along a line",
+        "Newton's second law"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-A2",
+      "interactionId": "A2",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Uniform circular motion in a vertical plane",
+      "skills": [
+        "circular motion",
+        "centripetal acceleration direction"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-A3",
+      "interactionId": "A3",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Conservation of momentum in collisions",
+      "skills": [
+        "conservation of momentum",
+        "elastic/inelastic collisions"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-A4",
+      "interactionId": "A4",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Energy transformations in a spring-mass oscillator",
+      "skills": [
+        "elastic potential energy",
+        "gravitational potential energy",
+        "conservation of energy"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-A5",
+      "interactionId": "A5",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Field diagrams: gravitational vs electric fields",
+      "skills": [
+        "field shapes and directions",
+        "attractive vs repulsive fields"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-A6",
+      "interactionId": "A6",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Force on a current loop from a nearby current-carrying wire",
+      "skills": [
+        "magnetic fields of current-carrying wires",
+        "force on a current-carrying conductor"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-A7",
+      "interactionId": "A7",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Static vs non-uniform field definitions",
+      "skills": [
+        "static vs changing fields",
+        "uniform vs non-uniform fields"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-A8",
+      "interactionId": "A8",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Electric field between two point charges",
+      "skills": [
+        "inverse square law for electric fields",
+        "field superposition"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-A9",
+      "interactionId": "A9",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Work done by a force perpendicular to circular motion",
+      "skills": [
+        "work done by a force",
+        "circular motion of a satellite"
+      ],
+      "confidence": "medium",
+      "uncertain": true
+    },
+    {
+      "canonicalId": "2025-A10",
+      "interactionId": "A10",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Ideal transformer power/current relationship",
+      "skills": [
+        "ideal transformer action",
+        "RMS voltage and current"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-A11",
+      "interactionId": "A11",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Comparing AC RMS and DC supplies",
+      "skills": [
+        "root-mean-square (RMS) voltage and current"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-A12",
+      "interactionId": "A12",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Reading frequency/period from an AC voltage trace",
+      "skills": [
+        "sinusoidal AC voltage: frequency and period"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-A13",
+      "interactionId": "A13",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Factors affecting DC motor torque",
+      "skills": [
+        "simple DC motors",
+        "torque of a motor"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-A14",
+      "interactionId": "A14",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Identifying inertial frames of reference",
+      "skills": [
+        "Einstein's postulates of special relativity",
+        "inertial frames"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-A15",
+      "interactionId": "A15",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Electron and X-ray diffraction pattern comparison",
+      "skills": [
+        "de Broglie wavelength",
+        "electron diffraction"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-A16",
+      "interactionId": "A16",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Length contraction via the Lorentz factor",
+      "skills": [
+        "length contraction",
+        "proper length"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-A17",
+      "interactionId": "A17",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Phenomena requiring the concept of quantisation",
+      "skills": [
+        "quantisation",
+        "the photoelectric effect"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-A18",
+      "interactionId": "A18",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Classifying systematic vs random measurement error",
+      "skills": [
+        "error and uncertainty"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-A19",
+      "interactionId": "A19",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Identifying a systematic error from an unexpected graph shape",
+      "skills": [
+        "identify limitations of data and methods",
+        "systematic error"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-A20",
+      "interactionId": "A20",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Linearising kinematics data (v\u00b2 vs s)",
+      "skills": [
+        "physical significance of the gradient of linearised data"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B1a",
+      "interactionId": "B1a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Free fall: time to fall a known height",
+      "skills": [
+        "equations for constant acceleration"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B1b",
+      "interactionId": "B1b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Free fall: speed just before impact",
+      "skills": [
+        "equations for constant acceleration"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B1c",
+      "interactionId": "B1c",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Energy dissipation in an inelastic bounce",
+      "skills": [
+        "energy dissipated as heat, sound and deformation"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B1d",
+      "interactionId": "B1d",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Projectile motion: independence of horizontal and vertical components",
+      "skills": [
+        "projectile motion near Earth's surface"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B2a",
+      "interactionId": "B2a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Impulse from a change in momentum",
+      "skills": [
+        "impulse: F\u0394t = m\u0394v"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B2b",
+      "interactionId": "B2b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Impulse and average force over an extended collision time",
+      "skills": [
+        "impulse: F\u0394t = m\u0394v"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B2c",
+      "interactionId": "B2c",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Peak force from a force-displacement graph",
+      "skills": [
+        "work done = area under force vs distance graph"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B3a",
+      "interactionId": "B3a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Free-body force diagram on an inclined plane",
+      "skills": [
+        "coplanar forces in two dimensions"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B3b",
+      "interactionId": "B3b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Resistive force on an incline at constant velocity",
+      "skills": [
+        "Newton's laws of motion",
+        "forces along a line"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B3c",
+      "interactionId": "B3c",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Stopping distance from kinetic energy and a resistive force",
+      "skills": [
+        "work-energy theorem",
+        "conservation of energy"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B4a",
+      "interactionId": "B4a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Centripetal force for a car cornering on a flat road",
+      "skills": [
+        "uniform circular motion: a vehicle moving around a circular road"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B4b",
+      "interactionId": "B4b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Banking angle for zero sideways friction",
+      "skills": [
+        "uniform circular motion: a vehicle moving around a banked track"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B5a",
+      "interactionId": "B5a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Electric field magnitude from a single point charge",
+      "skills": [
+        "inverse square law for electric fields about a point charge"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B5b",
+      "interactionId": "B5b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Superposition of electric fields from two point charges",
+      "skills": [
+        "field shapes and directions",
+        "vector addition of fields"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B6a",
+      "interactionId": "B6a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Electric force on a charge in a uniform field",
+      "skills": [
+        "magnitude of the force on a charged particle: F = qE"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B6b",
+      "interactionId": "B6b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Effect of plate separation on an accelerated charge's kinetic energy",
+      "skills": [
+        "potential energy changes in a uniform electric field: W = qV"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B7a",
+      "interactionId": "B7a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Direction of magnetic force on a moving charge",
+      "skills": [
+        "magnitude and direction of the force on an electron beam by a magnetic field"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B7b",
+      "interactionId": "B7b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Radius of a charged particle's circular path in a magnetic field",
+      "skills": [
+        "radius of the path followed by an electron in a magnetic field"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B8a",
+      "interactionId": "B8a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Orbital period of a satellite in uniform circular motion",
+      "skills": [
+        "satellite motion modelled as uniform circular motion"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B8b",
+      "interactionId": "B8b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Gravitational force on an orbiting satellite",
+      "skills": [
+        "inverse square law for gravitational fields"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B8c",
+      "interactionId": "B8c",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Explaining centripetal acceleration via Newton's laws and gravity",
+      "skills": [
+        "force due to gravity in relation to satellites in orbit"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B9",
+      "interactionId": "B9",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Limitation of Eg = mg\u0394h over large altitude changes",
+      "skills": [
+        "gravitational potential energy: Eg = mg\u0394h",
+        "assumption of uniform field"
+      ],
+      "confidence": "medium",
+      "uncertain": true
+    },
+    {
+      "canonicalId": "2025-B10a",
+      "interactionId": "B10a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Explaining induced current from a changing magnetic flux",
+      "skills": [
+        "electromagnetic induction and induced emf"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B10b",
+      "interactionId": "B10b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Asymmetric induced EMF spikes from varying rate of flux change",
+      "skills": [
+        "rate of change of magnetic flux"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B11a",
+      "interactionId": "B11a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Current through a load given power and voltage",
+      "skills": [
+        "transmission of electricity: power calculations"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B11b",
+      "interactionId": "B11b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Number of parallel loads from total current and voltage",
+      "skills": [
+        "transmission of electricity: power calculations"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B11ci",
+      "interactionId": "B11ci",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Identifying step-up vs step-down transformers",
+      "skills": [
+        "ideal transformer action"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B11cii",
+      "interactionId": "B11cii",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Justifying transformer choice to reduce transmission losses",
+      "skills": [
+        "transmission losses across transmission lines",
+        "ideal transformer action"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B12a",
+      "interactionId": "B12a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Why flux through a rotating coil changes",
+      "skills": [
+        "magnetic flux: effect of differing angles between area and field"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B12b",
+      "interactionId": "B12b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Calculating a change in magnetic flux",
+      "skills": [
+        "magnetic flux calculation"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B12c",
+      "interactionId": "B12c",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Average induced EMF from a changing flux over time",
+      "skills": [
+        "induced emf: rate of change of magnetic flux"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B12d",
+      "interactionId": "B12d",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Modifying a generator to produce a DC output",
+      "skills": [
+        "DC generators (split-ring commutator) vs AC alternators (slip rings)"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B13",
+      "interactionId": "B13",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Accelerating voltage for a target de Broglie wavelength",
+      "skills": [
+        "de Broglie wavelength"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B14",
+      "interactionId": "B14",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Michelson-Morley's null result and special relativity",
+      "skills": [
+        "the Michelson-Morley experiment"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B15a",
+      "interactionId": "B15a",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Slit separation from a double-slit interference pattern",
+      "skills": [
+        "Young's double slit experiment: effect of wavelength, distance and slit separation"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B15b",
+      "interactionId": "B15b",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Effect of light frequency on an interference pattern",
+      "skills": [
+        "Young's double slit experiment"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B16a",
+      "interactionId": "B16a",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Planck's constant from a photoelectric-effect graph gradient",
+      "skills": [
+        "kinetic energy of emitted photoelectrons vs frequency"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B16b",
+      "interactionId": "B16b",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Work function from a photoelectric-effect graph intercept",
+      "skills": [
+        "kinetic energy of emitted photoelectrons vs frequency"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B17",
+      "interactionId": "B17",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Relative speed from a proper-time / dilated-time comparison",
+      "skills": [
+        "time dilation",
+        "proper time"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B18a",
+      "interactionId": "B18a",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Photon wavelength from emitted energy",
+      "skills": [
+        "photon energy from spectral transitions: E = hf"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B18b",
+      "interactionId": "B18b",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Representing an energy-level transition on a diagram",
+      "skills": [
+        "atomic emission line spectra",
+        "electron energy states"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B19a",
+      "interactionId": "B19a",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Classifying independent, dependent and controlled variables",
+      "skills": [
+        "independent, dependent and controlled variables"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B19b",
+      "interactionId": "B19b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Forces on the sides of a current loop parallel to a magnetic field",
+      "skills": [
+        "force on a current-carrying conductor: F = nIlB"
+      ],
+      "confidence": "medium",
+      "uncertain": true
+    },
+    {
+      "canonicalId": "2025-B19c",
+      "interactionId": "B19c",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Justifying an experimental design choice (pivot at the centre)",
+      "skills": [
+        "investigation design",
+        "validity of method"
+      ],
+      "confidence": "medium",
+      "uncertain": true
+    },
+    {
+      "canonicalId": "2025-B19d",
+      "interactionId": "B19d",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Importance of repeated measurements",
+      "skills": [
+        "repeatability, reproducibility"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B19e",
+      "interactionId": "B19e",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Plotting data with uncertainty bars and a trend line",
+      "skills": [
+        "use of uncertainty bars",
+        "linearised data"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B19f",
+      "interactionId": "B19f",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Gradient of a linearised experimental graph",
+      "skills": [
+        "physical significance of the gradient of linearised data"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B19gi",
+      "interactionId": "B19gi",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Estimating magnetic field strength from a force-current gradient",
+      "skills": [
+        "force on a current-carrying conductor: F = nIlB"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2025-B19gii",
+      "interactionId": "B19gii",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Effect of conductor length on magnetic force",
+      "skills": [
+        "force on a current-carrying conductor: F = nIlB"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    }
+  ]
+}

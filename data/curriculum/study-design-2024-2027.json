@@ -1,0 +1,91 @@
+{
+  "studyDesign": "VCE Physics Study Design 2023-2027 (Units 1 and 2: 2023-2027; Units 3 and 4: 2024-2027)",
+  "appliesToExamYears": [2024, 2025, 2026, 2027],
+  "note": "Accredited VCAA study design used for VCE Physics Units 3 and 4 from the 2024 examination onward, sourced directly from VCAA's own published study design document (www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/physics/physics). Earlier examinations (2023 and before) were set against the previous VCE Physics Study Design, whose Units 3 and 4 Areas of Study differ substantially (e.g. no dedicated fields/motion structure) and must be mapped separately -- see study-design-2016.json.",
+  "units": [
+    {
+      "unit": "Unit 3",
+      "title": "How do fields explain motion and electricity?",
+      "areasOfStudy": [
+        {
+          "code": "U3AoS1",
+          "title": "How do physicists explain motion in two dimensions?",
+          "keyTopics": [
+            "Newton's three laws of motion", "coplanar forces in one and two dimensions",
+            "uniform circular motion (vehicle on a circular/banked road, object on a string)",
+            "satellite motion modelled as uniform circular motion",
+            "Newton's second law applied to vertical circular motion",
+            "projectile motion near Earth's surface", "qualitative effect of air resistance",
+            "conservation of energy and momentum in one-dimensional isolated systems",
+            "impulse: FΔt = mΔv", "work done by a force", "work as area under a force-distance graph",
+            "kinetic energy", "elastic and inelastic collisions",
+            "elastic potential energy and Hooke's Law", "gravitational potential energy: Eg = mgΔh"
+          ]
+        },
+        {
+          "code": "U3AoS2",
+          "title": "How do things move without contact?",
+          "keyTopics": [
+            "field model for gravitation, magnetism and electricity",
+            "field shapes and directions, attractive/repulsive effects, dipoles and monopoles",
+            "inverse square law for gravitational and electric fields about a point mass/charge",
+            "potential energy changes of a mass or charge moving in a field",
+            "magnetic fields of bar magnets, current-carrying wires, loops and solenoids",
+            "static vs changing fields; uniform vs non-uniform fields",
+            "electric field acceleration of a charge: F = qE, W = qV",
+            "magnetic force on a charged particle: F = qvB", "radius of circular path of a charged particle in a magnetic field",
+            "gravitational field acceleration of a mass: Eg = mgΔh",
+            "force due to gravity and normal force for satellites in circular orbit",
+            "force on a current-carrying conductor: F = nIlB",
+            "simple DC motors, split-ring commutators, torque",
+            "particle accelerators and synchrotrons (linear acceleration + magnetic direction change)"
+          ]
+        },
+        {
+          "code": "U3AoS3",
+          "title": "How are fields used in electricity generation?",
+          "keyTopics": [
+            "magnetic flux", "electromagnetic induction and induced emf",
+            "AC voltage generation", "DC generators (split-ring commutator) vs AC alternators (slip rings)",
+            "photovoltaic cells and the need for an inverter",
+            "sinusoidal AC voltage: frequency, period, amplitude, peak-to-peak voltage/current",
+            "root-mean-square (RMS) voltage and current", "ideal transformer action",
+            "transmission losses across transmission lines"
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "Unit 4",
+      "title": "How have creative ideas and investigation revolutionised thinking in physics?",
+      "areasOfStudy": [
+        {
+          "code": "U4AoS1",
+          "title": "How has understanding about the physical world changed?",
+          "keyTopics": [
+            "light as a transverse electromagnetic wave", "standing waves and superposition",
+            "diffraction and the effect of gap/obstacle size", "Young's double slit experiment and interference",
+            "quantised photon energy: E = hf", "the photoelectric effect",
+            "limitations of the wave model of light", "electron diffraction as evidence for wave-like matter",
+            "de Broglie wavelength", "momentum of photons and matter",
+            "atomic absorption and emission line spectra", "photon energy from spectral transitions: E = hf",
+            "Einstein's postulates of special relativity", "the Michelson-Morley experiment",
+            "proper time and proper length", "time dilation and length contraction",
+            "relativistic examples: muon decay, particle accelerators, GPS satellite corrections",
+            "mass-energy equivalence: E = mc², Etot = Ek + E0"
+          ]
+        },
+        {
+          "code": "U4AoS2",
+          "title": "How is scientific inquiry used to investigate fields, motion or light?",
+          "keyTopics": [
+            "student-designed practical investigation design", "independent, dependent and controlled variables",
+            "accuracy, precision, repeatability, reproducibility, resolution, validity",
+            "error and uncertainty", "scientific poster presentation and science communication",
+            "evaluating evidence for a hypothesis, model or theory", "logbook authentication of primary data"
+          ]
+        }
+      ]
+    }
+  ]
+}

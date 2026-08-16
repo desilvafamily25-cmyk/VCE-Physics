@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "A1",
+    "section": "A",
+    "question": "1",
+    "page": 2,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.14,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A2",
+    "section": "A",
+    "question": "2",
+    "page": 2,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.4,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A3",
+    "section": "A",
+    "question": "3",
+    "page": 2,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.66,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A4",
+    "section": "A",
+    "question": "4",
+    "page": 3,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.14,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A5",
+    "section": "A",
+    "question": "5",
+    "page": 3,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.4,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A6",
+    "section": "A",
+    "question": "6",
+    "page": 3,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.66,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A7",
+    "section": "A",
+    "question": "7",
+    "page": 4,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.14,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A8",
+    "section": "A",
+    "question": "8",
+    "page": 4,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.4,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A9",
+    "section": "A",
+    "question": "9",
+    "page": 4,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.66,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A10",
+    "section": "A",
+    "question": "10",
+    "page": 5,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.14,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A11",
+    "section": "A",
+    "question": "11",
+    "page": 5,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.4,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A12",
+    "section": "A",
+    "question": "12",
+    "page": 5,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.66,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A13",
+    "section": "A",
+    "question": "13",
+    "page": 6,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.14,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A14",
+    "section": "A",
+    "question": "14",
+    "page": 6,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.4,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A15",
+    "section": "A",
+    "question": "15",
+    "page": 6,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.66,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A16",
+    "section": "A",
+    "question": "16",
+    "page": 7,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.14,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A17",
+    "section": "A",
+    "question": "17",
+    "page": 7,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.4,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A18",
+    "section": "A",
+    "question": "18",
+    "page": 7,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.66,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A19",
+    "section": "A",
+    "question": "19",
+    "page": 8,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.14,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "A20",
+    "section": "A",
+    "question": "20",
+    "page": 8,
+    "type": "mcq",
+    "rect": {
+      "x": 0.858,
+      "y": 0.4,
+      "width": 0.112,
+      "height": 0.035
+    },
+    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode."
+  },
+  {
+    "id": "B1",
+    "section": "B",
+    "question": "1",
+    "page": 16,
+    "type": "text",
+    "rect": {
+      "x": 0.059,
+      "y": 0.226,
+      "width": 0.78,
+      "height": 0.053
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B2",
+    "section": "B",
+    "question": "2",
+    "page": 16,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.708,
+      "width": 0.673,
+      "height": 0.173
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B3",
+    "section": "B",
+    "question": "3",
+    "page": 17,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.095,
+      "width": 0.673,
+      "height": 0.234
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B4",
+    "section": "B",
+    "question": "4",
+    "page": 18,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.403,
+      "width": 0.673,
+      "height": 0.203
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B5",
+    "section": "B",
+    "question": "5",
+    "page": 18,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.714,
+      "width": 0.673,
+      "height": 0.113
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B6",
+    "section": "B",
+    "question": "6",
+    "page": 20,
+    "type": "text",
+    "rect": {
+      "x": 0.131,
+      "y": 0.326,
+      "width": 0.642,
+      "height": 0.053
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B7",
+    "section": "B",
+    "question": "7",
+    "page": 20,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.466,
+      "width": 0.673,
+      "height": 0.264
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B8",
+    "section": "B",
+    "question": "8",
+    "page": 21,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.112,
+      "width": 0.673,
+      "height": 0.113
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B9",
+    "section": "B",
+    "question": "9",
+    "page": 21,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.316,
+      "width": 0.673,
+      "height": 0.114
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B10",
+    "section": "B",
+    "question": "10",
+    "page": 22,
+    "type": "text",
+    "rect": {
+      "x": 0.151,
+      "y": 0.248,
+      "width": 0.526,
+      "height": 0.053
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B11",
+    "section": "B",
+    "question": "11",
+    "page": 22,
+    "type": "text",
+    "rect": {
+      "x": 0.144,
+      "y": 0.639,
+      "width": 0.514,
+      "height": 0.053
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B12",
+    "section": "B",
+    "question": "12",
+    "page": 23,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.095,
+      "width": 0.673,
+      "height": 0.113
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B13",
+    "section": "B",
+    "question": "13",
+    "page": 23,
+    "type": "text",
+    "rect": {
+      "x": 0.222,
+      "y": 0.655,
+      "width": 0.514,
+      "height": 0.053
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B14",
+    "section": "B",
+    "question": "14",
+    "page": 24,
+    "type": "text",
+    "rect": {
+      "x": 0.101,
+      "y": 0.262,
+      "width": 0.625,
+      "height": 0.053
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B15",
+    "section": "B",
+    "question": "15",
+    "page": 24,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.387,
+      "width": 0.673,
+      "height": 0.113
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B16",
+    "section": "B",
+    "question": "16",
+    "page": 24,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.584,
+      "width": 0.673,
+      "height": 0.114
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B17",
+    "section": "B",
+    "question": "17",
+    "page": 25,
+    "type": "text",
+    "rect": {
+      "x": 0.141,
+      "y": 0.677,
+      "width": 0.78,
+      "height": 0.204
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B18",
+    "section": "B",
+    "question": "18",
+    "page": 26,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.492,
+      "width": 0.673,
+      "height": 0.143
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B19",
+    "section": "B",
+    "question": "19",
+    "page": 26,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.676,
+      "width": 0.673,
+      "height": 0.143
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B20",
+    "section": "B",
+    "question": "20",
+    "page": 27,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.178,
+      "width": 0.673,
+      "height": 0.144
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B21",
+    "section": "B",
+    "question": "21",
+    "page": 28,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.569,
+      "width": 0.673,
+      "height": 0.143
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B22",
+    "section": "B",
+    "question": "22",
+    "page": 29,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.157,
+      "width": 0.673,
+      "height": 0.143
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B23",
+    "section": "B",
+    "question": "23",
+    "page": 30,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.437,
+      "width": 0.673,
+      "height": 0.113
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B24",
+    "section": "B",
+    "question": "24",
+    "page": 30,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.614,
+      "width": 0.673,
+      "height": 0.113
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B25",
+    "section": "B",
+    "question": "25",
+    "page": 30,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.768,
+      "width": 0.673,
+      "height": 0.083
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B26",
+    "section": "B",
+    "question": "26",
+    "page": 32,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.391,
+      "width": 0.673,
+      "height": 0.143
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B27",
+    "section": "B",
+    "question": "27",
+    "page": 33,
+    "type": "text",
+    "rect": {
+      "x": 0.238,
+      "y": 0.243,
+      "width": 0.52,
+      "height": 0.053
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B28",
+    "section": "B",
+    "question": "28",
+    "page": 33,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.453,
+      "width": 0.673,
+      "height": 0.143
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B29",
+    "section": "B",
+    "question": "29",
+    "page": 34,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.348,
+      "width": 0.673,
+      "height": 0.114
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B30",
+    "section": "B",
+    "question": "30",
+    "page": 34,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.576,
+      "width": 0.673,
+      "height": 0.173
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B31",
+    "section": "B",
+    "question": "31",
+    "page": 35,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.112,
+      "width": 0.673,
+      "height": 0.173
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B32",
+    "section": "B",
+    "question": "32",
+    "page": 36,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.572,
+      "width": 0.673,
+      "height": 0.083
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B33",
+    "section": "B",
+    "question": "33",
+    "page": 37,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.112,
+      "width": 0.673,
+      "height": 0.173
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B34",
+    "section": "B",
+    "question": "34",
+    "page": 37,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.392,
+      "width": 0.673,
+      "height": 0.114
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B35",
+    "section": "B",
+    "question": "35",
+    "page": 37,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.596,
+      "width": 0.673,
+      "height": 0.083
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B36",
+    "section": "B",
+    "question": "36",
+    "page": 38,
+    "type": "text",
+    "rect": {
+      "x": 0.149,
+      "y": 0.518,
+      "width": 0.528,
+      "height": 0.053
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B37",
+    "section": "B",
+    "question": "37",
+    "page": 38,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.635,
+      "width": 0.673,
+      "height": 0.113
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B38",
+    "section": "B",
+    "question": "38",
+    "page": 38,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.788,
+      "width": 0.673,
+      "height": 0.144
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B39",
+    "section": "B",
+    "question": "39",
+    "page": 39,
+    "type": "text",
+    "rect": {
+      "x": 0.176,
+      "y": 0.178,
+      "width": 0.673,
+      "height": 0.113
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B40",
+    "section": "B",
+    "question": "40",
+    "page": 39,
+    "type": "text",
+    "rect": {
+      "x": 0.176,
+      "y": 0.315,
+      "width": 0.673,
+      "height": 0.083
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B41",
+    "section": "B",
+    "question": "41",
+    "page": 39,
+    "type": "text",
+    "rect": {
+      "x": 0.176,
+      "y": 0.472,
+      "width": 0.673,
+      "height": 0.294
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B42",
+    "section": "B",
+    "question": "42",
+    "page": 40,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.192,
+      "width": 0.673,
+      "height": 0.173
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B43",
+    "section": "B",
+    "question": "43",
+    "page": 40,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.62,
+      "width": 0.673,
+      "height": 0.083
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B44",
+    "section": "B",
+    "question": "44",
+    "page": 41,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.416,
+      "width": 0.673,
+      "height": 0.113
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B45",
+    "section": "B",
+    "question": "45",
+    "page": 41,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.797,
+      "width": 0.673,
+      "height": 0.143
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B46",
+    "section": "B",
+    "question": "46",
+    "page": 42,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.556,
+      "width": 0.673,
+      "height": 0.143
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B47",
+    "section": "B",
+    "question": "47",
+    "page": 42,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.74,
+      "width": 0.673,
+      "height": 0.143
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B48",
+    "section": "B",
+    "question": "48",
+    "page": 44,
+    "type": "text",
+    "rect": {
+      "x": 0.139,
+      "y": 0.425,
+      "width": 0.544,
+      "height": 0.364
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B49",
+    "section": "B",
+    "question": "49",
+    "page": 45,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.122,
+      "width": 0.673,
+      "height": 0.113
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B50",
+    "section": "B",
+    "question": "50",
+    "page": 45,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.544,
+      "width": 0.673,
+      "height": 0.143
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B51",
+    "section": "B",
+    "question": "51",
+    "page": 45,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.745,
+      "width": 0.673,
+      "height": 0.113
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B52",
+    "section": "B",
+    "question": "52",
+    "page": 46,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.584,
+      "width": 0.673,
+      "height": 0.173
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B53",
+    "section": "B",
+    "question": "53",
+    "page": 47,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.189,
+      "width": 0.673,
+      "height": 0.173
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B54",
+    "section": "B",
+    "question": "54",
+    "page": 47,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.485,
+      "width": 0.673,
+      "height": 0.203
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B55",
+    "section": "B",
+    "question": "55",
+    "page": 49,
+    "type": "text",
+    "rect": {
+      "x": 0.1,
+      "y": 0.603,
+      "width": 0.743,
+      "height": 0.053
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B56",
+    "section": "B",
+    "question": "56",
+    "page": 50,
+    "type": "text",
+    "rect": {
+      "x": 0.089,
+      "y": 0.08,
+      "width": 0.77,
+      "height": 0.094
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B57",
+    "section": "B",
+    "question": "57",
+    "page": 50,
+    "type": "text",
+    "rect": {
+      "x": 0.089,
+      "y": 0.25,
+      "width": 0.77,
+      "height": 0.458
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B58",
+    "section": "B",
+    "question": "58",
+    "page": 50,
+    "type": "text",
+    "rect": {
+      "x": 0.089,
+      "y": 0.721,
+      "width": 0.77,
+      "height": 0.221
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B59",
+    "section": "B",
+    "question": "59",
+    "page": 51,
+    "type": "text",
+    "rect": {
+      "x": 0.367,
+      "y": 0.411,
+      "width": 0.571,
+      "height": 0.548
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  },
+  {
+    "id": "B60",
+    "section": "B",
+    "question": "60",
+    "page": 52,
+    "type": "text",
+    "rect": {
+      "x": 0.062,
+      "y": 0.678,
+      "width": 0.78,
+      "height": 0.114
+    },
+    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+  }
+]

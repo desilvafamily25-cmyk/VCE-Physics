@@ -1,0 +1,618 @@
+"""Discovers every exam PDF across the three source eras, copies each into
+public/papers/, extracts that paper's own era-correct formula sheet (VCAA
+appends it to the back of every exam PDF -- confirmed by inspecting 2025,
+2017, 2016 and 2002's own PDFs directly) into public/formula-sheets/, and
+writes best-effort interaction geometry + public/papers.json.
+
+Structural invariants baked in here are from direct reconnaissance of the
+source cover pages (see docs/DATA-ARCHITECTURE.md), not guessed:
+  - current-design-2024-2027 (2024-2025): 15 min reading, 150 min writing,
+    Section A = 20 MCQ (20 marks), Section B = 100 marks, total 120.
+  - previous-design-2017-2023 (2017-2023): 15 min reading, 150 min writing,
+    Section A = 20 MCQ (20 marks), Section B = 110 marks, total 130.
+  - archive-2002-2016: NO multiple choice at all -- "Section A" there means
+    compulsory Area-of-Study short-answer questions and "Section B" means a
+    pick-one-of-six elective Detailed Study, a fundamentally different
+    structure. 2013-2016 is a single 150-mark, 150-minute exam; 2002-2012
+    split into two 90-mark, 90-minute sittings (Exam 1 in June, Exam 2 in
+    November), each with its own elective options -- both confirmed off
+    those years' own cover pages. Every archive interaction is modelled as
+    Section B (written) regardless of VCAA's own Section A/B labelling,
+    because this app's Section A always means auto-gradeable MCQ.
+
+Per the build brief's sequence, only 2025 is meant to be airtight right now:
+its interaction geometry is hand-verified and checked into
+data/2025-interactions.json, loaded verbatim below rather than
+auto-generated. Every other paper gets best-effort auto-generated geometry
+so Timed Mode works immediately; those get refined working backward through
+years, matching how 2025 was done.
+"""
+import json
+import re
+import shutil
+from pathlib import Path
+
+import fitz
+
+ROOT = Path(__file__).resolve().parents[1]
+PUBLIC = ROOT / "public"
+PAPERS_DIR = PUBLIC / "papers"
+INTERACTIONS_DIR = PUBLIC / "interactions"
+FORMULA_DIR = PUBLIC / "formula-sheets"
+
+SOURCE_FOLDERS = [
+    ("current-design-2024-2027", "current"),
+    ("previous-design-2017-2023", "previous"),
+    ("archive-2002-2016", "archive"),
+]
+
+# (readingMinutes, writingMinutes, totalMarks) -- see module docstring for
+# how each was confirmed.
+ERA_DURATIONS = {
+    "current": (15, 150, 120),
+    "previous": (15, 150, 130),
+}
+ARCHIVE_SINGLE = (15, 150, 150)  # 2013-2016
+ARCHIVE_DUAL = (15, 90, 90)  # 2002-2012 (and the 2004 pilot), per sitting
+
+# Interaction geometry hand-verified against the rendered PDF for 2025 --
+# the "airtight" flagship year -- takes precedence over auto-generation.
+TUNED_INTERACTIONS = {"2025"}
+
+
+def slug_for(path: Path) -> str:
+    name = path.stem.lower()
+    name = name.replace("-physics-", "-")
+    name = re.sub(r"-exam$", "", name)  # single-sitting years: "2025-exam" -> "2025" (keeps "-exam1"/"-exam2")
+    name = re.sub(r"[^a-z0-9]+", "-", name).strip("-")
+    return name
+
+
+def title_for(path: Path, era: str) -> str:
+    name = path.stem
+    year_match = re.search(r"(20\d{2})", name)
+    year = year_match.group(1) if year_match else "Sample"
+    if "pilot" in name.lower():
+        suffix = " Pilot"
+    else:
+        suffix = ""
+    if "exam1" in name.lower():
+        return f"{year} VCE Physics{suffix} Exam 1"
+    if "exam2" in name.lower():
+        return f"{year} VCE Physics{suffix} Exam 2"
+    return f"{year} VCE Physics{suffix}"
+
+
+def find_exam_pdfs():
+    results = []
+    for folder_name, era in SOURCE_FOLDERS:
+        folder = ROOT / folder_name
+        if not folder.exists():
+            continue
+        for path in sorted(folder.glob("*.pdf")):
+            if "exam" not in path.stem.lower():
+                continue
+            results.append((path, era))
+    # Most recent first, dual exams in sitting order.
+    def sort_key(item):
+        path, era = item
+        year_match = re.search(r"(20\d{2})", path.stem)
+        year = int(year_match.group(1)) if year_match else 0
+        era_rank = {"current": 0, "previous": 1, "archive": 2}[era]
+        exam_rank = 1 if "exam2" in path.stem.lower() else 0
+        pilot_rank = 1 if "pilot" in path.stem.lower() else 0
+        return (era_rank, -year, pilot_rank, exam_rank)
+
+    return sorted(results, key=sort_key)
+
+
+def page_text(page):
+    return page.get_text("text").replace("\n", " ")
+
+
+_OPTION_LABEL_RE = re.compile(r"^[A-D]\.$")
+
+
+def option_block_bottom(page, heading_y0, next_heading_y0):
+    """Finds the y1/x0 to place the MCQ selector just below the last (D.)
+    option, between one question heading and the next, by the exact
+    left-margin "A." "B." "C." "D." tokens (confirmed stable across the 2025
+    exam's own page layout). VCAA alternates which side carries the grey "Do
+    not write in this area" margin between facing pages, so the options'
+    left x-position genuinely differs page to page -- reading it from the
+    real word positions here (rather than a fixed constant) adapts to that
+    automatically. Returns (x0_frac, y1_frac) or None if not found (falls
+    back to the coarser heading-relative heuristic).
+
+    Some questions lay options out as a table (e.g. a grid of direction
+    arrows per option) rather than a plain list -- there the "D." label's own
+    text sits well above the true bottom of that option's row/cell, so
+    anchoring to the label text alone would land the selector overlapping
+    the table. Preferring the lowest ruled table border within a short
+    window below the D label (found the same way report extraction finds
+    ruled lines, via get_drawings()) accounts for that; plain-list questions
+    have no such border below D and fall back to the label position.
+    """
+    words = page.get_text("words")
+    candidates = [
+        w for w in words
+        if _OPTION_LABEL_RE.match(w[4].strip()) and heading_y0 - 2 <= w[1] < next_heading_y0
+    ]
+    if not candidates:
+        return None
+    last = max(candidates, key=lambda w: w[1])
+    x0, d_y0, d_y1 = last[0], last[1], last[3]
+
+    # Option D's own answer text can wrap onto a second line below the "D."
+    # label itself (long-worded options) -- anchoring to the label word
+    # alone would then overlap that wrapped continuation. Extend the anchor
+    # to the lowest word that starts at or after D's label, up to the next
+    # heading, which naturally includes any wrapped lines belonging to D.
+    # Restricted to roughly the same content column as the option labels --
+    # the page's rotated "Do not write in this area" sidebar text is split
+    # into individual word fragments by PyMuPDF, and at least one of those
+    # ("write") lands with a y0 inside this window but a y1 well past it
+    # (its bounding box follows the rotated glyph run), which would
+    # otherwise corrupt the anchor with a margin note nowhere near the
+    # actual options.
+    trailing_words = [
+        w for w in words
+        if d_y0 - 1 <= w[1] < next_heading_y0 and x0 - 20 <= w[0] <= x0 + 480
+    ]
+    d_y1 = max((w[3] for w in trailing_words), default=d_y1)
+
+    search_bottom = d_y1 + 90  # ~8% of a typical page height, in points
+    best_border_y = None
+    for d in page.get_drawings():
+        r = d.get("rect")
+        if r is None or d.get("fill") not in ((0.0, 0.0, 0.0), None):
+            continue
+        if r.height >= 1.5 or r.width < 20:
+            continue  # not a thin horizontal ruled line
+        if r.x0 > x0 + 250 or r.x1 < x0:
+            continue  # not roughly under the options block
+        if d_y1 - 2 <= r.y0 <= search_bottom:
+            if best_border_y is None or r.y0 > best_border_y:
+                best_border_y = r.y0
+
+    anchor_y1 = best_border_y if best_border_y is not None else d_y1
+    return x0 / page.rect.width, anchor_y1 / page.rect.height
+
+
+def detect_section_b_start(doc, has_mcq, section_a_total):
+    if not has_mcq:
+        return 1
+    for page_index in range(doc.page_count):
+        text = page_text(doc[page_index])
+        if "Contents" in text[:900]:
+            continue
+        section_match = re.search(r"\bSECTION\s+B\b|\bSection\s+B\b", text)
+        if section_match and section_match.start() < 350:
+            return page_index + 1
+    if all(not page_text(doc[i]).strip() for i in range(min(4, doc.page_count))):
+        return 16  # no text layer at all -- 2024's known layout
+    return None
+
+
+def make_mcqs(doc, total, section_b_start):
+    if total <= 0:
+        return []
+    items = []
+    seen = set()
+    for page_number in range(1, min(section_b_start, doc.page_count + 1)):
+        page = doc[page_number - 1]
+        words = page.get_text("words")
+        headings = []  # (question_number, y0_abs)
+        for index, word in enumerate(words[:-1]):
+            if word[4].lower().strip(".:") == "question":
+                nxt = words[index + 1][4].strip(".:")
+                if nxt.isdigit():
+                    headings.append((int(nxt), word[1]))
+        headings.sort(key=lambda h: h[1])
+
+        for idx, (question, heading_y0) in enumerate(headings):
+            if not (1 <= question <= total) or question in seen:
+                continue
+            next_y0 = headings[idx + 1][1] if idx + 1 < len(headings) else page.rect.height
+            found = option_block_bottom(page, heading_y0, next_y0)
+            seen.add(question)
+            if found:
+                x0_frac, y1_frac = found
+                next_y0_frac = next_y0 / page.rect.height
+                # Hard ceiling: the box's bottom edge must never reach the
+                # next question's heading. Prefer a full-height box with a
+                # comfortable pad below D; when the page is laid out too
+                # tightly for that, shrink the box (down to a usable floor)
+                # rather than let it run into the next question's number --
+                # a slightly shorter selector reads far better than one that
+                # visually strikes through the next heading.
+                y = round(y1_frac + 0.004, 3)
+                height = min(0.032, max(0.016, next_y0_frac - y - 0.004))
+                note = None
+                if height < 0.032:
+                    note = "Little vertical room before the next question; box height reduced. Confirm with developer coordinate mode."
+                y = min(0.94, y)
+                item = {
+                    "id": f"A{question}",
+                    "section": "A",
+                    "question": str(question),
+                    "page": page_number,
+                    "type": "mcq",
+                    "rect": {
+                        "x": round(x0_frac, 3),
+                        "y": y,
+                        "width": 0.145,
+                        "height": height,
+                    },
+                }
+                if note:
+                    item["note"] = note
+                items.append(item)
+            else:
+                # Couldn't find the option-label tokens (e.g. options span an
+                # unusual layout) -- fall back to a position just below the
+                # question heading itself, flagged for manual review.
+                items.append(
+                    {
+                        "id": f"A{question}",
+                        "section": "A",
+                        "question": str(question),
+                        "page": page_number,
+                        "type": "mcq",
+                        "rect": {
+                            "x": 0.06,
+                            "y": min(0.92, max(0.08, round(heading_y0 / page.rect.height + 0.2, 3))),
+                            "width": 0.145,
+                            "height": 0.032,
+                        },
+                        "note": "Could not locate A-D option labels; confirm with developer coordinate mode.",
+                    }
+                )
+    for question in range(1, total + 1):
+        if question not in seen:
+            page_number = min(2 + (question - 1) // 3, max(1, section_b_start - 1))
+            y = 0.14 + ((question - 1) % 3) * 0.26
+            items.append(
+                {
+                    "id": f"A{question}",
+                    "section": "A",
+                    "question": str(question),
+                    "page": page_number,
+                    "type": "mcq",
+                    "rect": {"x": 0.858, "y": round(y, 3), "width": 0.112, "height": 0.035},
+                    "note": "Generated fallback position (no text layer to detect from); confirm with developer coordinate mode.",
+                }
+            )
+    return sorted(items, key=lambda item: int(item["question"]))
+
+
+def answer_line_rows(page):
+    rows = []
+    width = page.rect.width
+    height = page.rect.height
+    for drawing in page.get_drawings():
+        for item in drawing.get("items", []):
+            if item[0] != "l":
+                continue
+            p1, p2 = item[1], item[2]
+            line_width = abs(p2.x - p1.x) / width
+            y = p1.y / height
+            if abs(p1.y - p2.y) < 1.2 and line_width > 0.5 and 0.08 < y < 0.95:
+                x1 = min(p1.x, p2.x) / width
+                x2 = max(p1.x, p2.x) / width
+                if x1 < 0 or x2 > 1 or x2 <= x1:
+                    continue
+                rows.append((round(x1, 3), round(y, 3), round(x2 - x1, 3)))
+    rows.sort(key=lambda row: row[1])
+    deduped = []
+    for row in rows:
+        if deduped and abs(row[1] - deduped[-1][1]) < 0.012:
+            continue
+        deduped.append(row)
+    return deduped
+
+
+def raster_answer_line_rows(page):
+    pix = page.get_pixmap(matrix=fitz.Matrix(1, 1), alpha=False)
+    width = pix.width
+    height = pix.height
+    samples = pix.samples
+    rows = []
+    for y in range(int(height * 0.08), int(height * 0.95)):
+        start = None
+        runs = []
+        offset = y * width * 3
+        left = int(width * 0.09)
+        right = int(width * 0.86)
+        for x in range(left, right):
+            i = offset + x * 3
+            red, green, blue = samples[i], samples[i + 1], samples[i + 2]
+            grey_line = (
+                120 < red < 235
+                and 120 < green < 235
+                and 120 < blue < 235
+                and max(red, green, blue) - min(red, green, blue) < 18
+            )
+            if grey_line and start is None:
+                start = x
+            elif not grey_line and start is not None:
+                if x - start > width * 0.45:
+                    runs.append((start, x))
+                start = None
+        if start is not None and right - start > width * 0.45:
+            runs.append((start, right))
+        for x1, x2 in runs:
+            norm_x = x1 / width
+            norm_width = (x2 - x1) / width
+            if 0.08 <= norm_x <= 0.22 and norm_width >= 0.62:
+                rows.append((round(norm_x, 3), round(y / height, 3), round(norm_width, 3)))
+
+    deduped = []
+    for row in rows:
+        if deduped and abs(row[1] - deduped[-1][1]) < 0.01:
+            old = deduped[-1]
+            deduped[-1] = (min(old[0], row[0]), old[1], max(old[2], row[2]))
+        else:
+            deduped.append(row)
+    return [row for row in deduped if row[2] > 0.5]
+
+
+def line_groups(rows):
+    groups = []
+    current = []
+    for row in rows:
+        if current and row[1] - current[-1][1] > 0.055:
+            groups.append(current)
+            current = []
+        current.append(row)
+    if current:
+        groups.append(current)
+    return groups
+
+
+def first_question_heading_y_fraction(page):
+    """Returns the y-fraction of the first 'Question N' heading on this page,
+    or None if there isn't one. Section B's opening page carries an
+    Instructions block above Question 1, whose own horizontal divider rule
+    line is otherwise indistinguishable from a genuine ruled answer line to
+    the geometry detector below -- excluding anything above the first real
+    heading avoids manufacturing a phantom interaction out of that rule."""
+    words = page.get_text("words")
+    for index, word in enumerate(words[:-1]):
+        if word[4].lower().strip(".:()") == "question":
+            nxt = words[index + 1][4].strip(".:()")
+            if nxt.isdigit():
+                return word[1] / page.rect.height
+    return None
+
+
+def make_written_fields(doc, section_b_start, start_counter=1, id_prefix="B"):
+    start = section_b_start or 1
+    items = []
+    counter = start_counter
+    for page_number in range(start, doc.page_count + 1):
+        page = doc[page_number - 1]
+        text = page_text(page)
+        if re.search(r"This page is blank|End of question|FORMULA SHEET|Formula Sheet", text, re.I):
+            continue
+        rows = answer_line_rows(page)
+        if not rows:
+            rows = raster_answer_line_rows(page)
+        from_raster = not answer_line_rows(page)
+        if page_number == start:
+            # Only Section B's own opening page carries the Instructions
+            # block (with its own horizontal divider rule, indistinguishable
+            # from a genuine ruled answer line by geometry alone) above
+            # Question 1 -- applying this on every page would also strip a
+            # legitimate answer line that happens to sit above THAT page's
+            # own heading on a continuation page (e.g. part b.'s lines at
+            # the top of a page whose Question N+1 heading appears further
+            # down the same page).
+            heading_y = first_question_heading_y_fraction(page)
+            if heading_y is not None:
+                rows = [row for row in rows if row[1] >= heading_y - 0.005]
+        groups = line_groups(rows)
+        for group in groups:
+            if from_raster and len(group) == 1:
+                continue
+            first = group[0]
+            last = group[-1]
+            if len(group) == 1 and first[1] < 0.15:
+                continue
+            rect = {
+                "x": first[0],
+                "y": max(0.08, round(first[1] - 0.022, 3)),
+                "width": min(0.78, first[2]),
+                "height": min(0.7, round((last[1] - first[1]) + 0.053, 3)),
+            }
+            response_type = "drawing" if re.search(r"\bdraw|diagram|graph|sketch\b", text, re.I) else "text"
+            items.append(
+                {
+                    "id": f"{id_prefix}{counter}",
+                    "section": "B",
+                    "question": str(counter),
+                    "page": page_number,
+                    "type": response_type,
+                    "rect": rect,
+                    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed.",
+                }
+            )
+            counter += 1
+    return items
+
+
+def parse_duration_minutes(text):
+    """Extracts (readingMinutes, writingMinutes) from cover-page prose like
+    'Reading time: ... (15 minutes)' / 'Writing time: ... (2 hours 30
+    minutes)' or 'Writing time is 2 hours 30 minutes'. Returns (None, None)
+    if not found (e.g. no text layer)."""
+    reading = None
+    writing = None
+    reading_match = re.search(r"Reading time[^(]*\((\d+)\s*minutes?\)", text, re.I)
+    if reading_match:
+        reading = int(reading_match.group(1))
+    else:
+        reading_match2 = re.search(r"Reading time is\s*(\d+)\s*minutes?", text, re.I)
+        if reading_match2:
+            reading = int(reading_match2.group(1))
+
+    writing_match = re.search(r"Writing time[^(]*\((?:(\d+)\s*hours?\s*)?(\d+)?\s*minutes?\)", text, re.I)
+    if writing_match:
+        hours = int(writing_match.group(1) or 0)
+        mins = int(writing_match.group(2) or 0)
+        writing = hours * 60 + mins
+    else:
+        writing_match2 = re.search(r"Writing time is\s*(?:(\d+)\s*hours?\s*)?(\d+)?\s*minutes?", text, re.I)
+        if writing_match2 and (writing_match2.group(1) or writing_match2.group(2)):
+            hours = int(writing_match2.group(1) or 0)
+            mins = int(writing_match2.group(2) or 0)
+            writing = hours * 60 + mins
+
+    return reading, writing
+
+
+def find_formula_sheet_range(doc):
+    """Returns (start_page_1indexed, end_page_1indexed) for the embedded
+    formula sheet, or None if not detected via text search (e.g. no text
+    layer -- caller applies a positional fallback)."""
+    for page_index in range(doc.page_count - 1, max(-1, doc.page_count - 12), -1):
+        text = page_text(doc[page_index])
+        if re.search(r"formula\s*sheet", text, re.I):
+            start = page_index
+            # Walk backward while the previous page is still part of the
+            # formula sheet block (its own title/cover page).
+            while start > 0 and re.search(r"formula\s*sheet|victorian certificate", page_text(doc[start - 1]), re.I):
+                start -= 1
+            return start + 1, doc.page_count
+    return None
+
+
+def extract_formula_sheet(doc, source_path, slug, era):
+    result = find_formula_sheet_range(doc)
+    if result is None:
+        # No text layer (e.g. 2024) -- current/previous-design papers are
+        # consistently 52 (current) or ~49 (previous) pages with the formula
+        # sheet as the last 4 pages (confirmed against 2025's detected
+        # boundary of pages 49-52 of 52, and 2023's of 45-48 of 49). Fall
+        # back to "last 4 pages" with a note for manual confirmation.
+        if doc.page_count >= 4:
+            result = (doc.page_count - 3, doc.page_count)
+        else:
+            return None, "not-detected"
+
+    start, end = result
+    sheet = fitz.open()
+    sheet.insert_pdf(doc, from_page=start - 1, to_page=end - 1)
+    out_path = FORMULA_DIR / f"{slug}.pdf"
+    sheet.save(out_path)
+    sheet.close()
+    source_note = "detected" if find_formula_sheet_range(doc) else "positional-fallback (no text layer)"
+    return f"/formula-sheets/{slug}.pdf", source_note
+
+
+def main():
+    PAPERS_DIR.mkdir(parents=True, exist_ok=True)
+    INTERACTIONS_DIR.mkdir(parents=True, exist_ok=True)
+    FORMULA_DIR.mkdir(parents=True, exist_ok=True)
+
+    papers = []
+    for source, era in find_exam_pdfs():
+        slug = slug_for(source)
+        title = title_for(source, era)
+        public_pdf = PAPERS_DIR / f"{slug}.pdf"
+        shutil.copy2(source, public_pdf)
+        doc = fitz.open(source)
+
+        has_mcq = era != "archive"
+        section_a_total = 20 if has_mcq else 0
+
+        cover_text = " ".join(page_text(doc[i]) for i in range(min(2, doc.page_count)))
+        detected_reading, detected_writing = parse_duration_minutes(cover_text)
+
+        is_dual = "exam1" in source.stem.lower() or "exam2" in source.stem.lower()
+        if era in ERA_DURATIONS:
+            default_reading, default_writing, total_marks = ERA_DURATIONS[era]
+        elif is_dual:
+            default_reading, default_writing, total_marks = ARCHIVE_DUAL
+        else:
+            default_reading, default_writing, total_marks = ARCHIVE_SINGLE
+
+        reading_minutes = detected_reading or default_reading
+        writing_minutes = detected_writing or default_writing
+        duration_source = "detected" if (detected_reading and detected_writing) else f"assumed-standard for {era} era"
+
+        section_b_start = detect_section_b_start(doc, has_mcq, section_a_total)
+
+        tuned_path = ROOT / "data" / f"{slug}-interactions.json"
+        if slug in TUNED_INTERACTIONS and tuned_path.exists():
+            interactions = json.loads(tuned_path.read_text(encoding="utf-8-sig"))
+        else:
+            mcqs = make_mcqs(doc, section_a_total, section_b_start or (doc.page_count + 1)) if has_mcq else []
+            written = make_written_fields(doc, section_b_start or 1)
+            interactions = mcqs + written
+
+        interaction_file = INTERACTIONS_DIR / f"{slug}.json"
+        interaction_file.write_text(json.dumps(interactions, indent=2), encoding="utf-8")
+
+        formula_sheet_url, formula_source = extract_formula_sheet(doc, source, slug, era)
+
+        # hasAnswerData/hasCurriculumMap are derived from whether the
+        # per-year extraction/mapping pipeline has actually produced data
+        # for this paper (data/answers/<slug>.json, data/curriculum/<slug>-
+        # mapping.json) -- never hand-toggled, so they can't drift out of
+        # sync with what's really been extracted (a hand-edited public/
+        # papers.json would just get overwritten the next time this script
+        # runs anyway). The static-content JSON itself is copied from data/
+        # (the source of truth, reviewed alongside its extraction script)
+        # into public/ (what the running app actually fetches) every run,
+        # so the two can never silently drift apart the way a manual copy
+        # can.
+        answers_src = ROOT / "data" / "answers" / f"{slug}.json"
+        has_answer_data = answers_src.exists()
+        if has_answer_data:
+            (PUBLIC / "answers" / f"{slug}.json").write_text(
+                answers_src.read_text(encoding="utf-8"), encoding="utf-8"
+            )
+
+        curriculum_src = ROOT / "data" / "curriculum" / f"{slug}-mapping.json"
+        has_curriculum_map = curriculum_src.exists()
+        if has_curriculum_map:
+            (PUBLIC / "curriculum" / f"{slug}-mapping.json").write_text(
+                curriculum_src.read_text(encoding="utf-8"), encoding="utf-8"
+            )
+        stimulus_src = ROOT / "data" / "curriculum" / f"{slug}-shared-stimulus.json"
+        if stimulus_src.exists():
+            (PUBLIC / "curriculum" / f"{slug}-shared-stimulus.json").write_text(
+                stimulus_src.read_text(encoding="utf-8"), encoding="utf-8"
+            )
+
+        papers.append(
+            {
+                "id": slug,
+                "title": title,
+                "era": era,
+                "pdfUrl": f"/papers/{slug}.pdf",
+                "interactionsUrl": f"/interactions/{slug}.json",
+                "formulaSheetUrl": formula_sheet_url,
+                "storageKey": f"vce-physics-{slug}-attempt",
+                "sectionATotal": section_a_total,
+                "totalMarks": total_marks,
+                "source": str(source.relative_to(ROOT)).replace("\\", "/"),
+                "pageCount": doc.page_count,
+                "interactionCount": len(interactions),
+                "readingMinutes": reading_minutes,
+                "writingMinutes": writing_minutes,
+                "durationSource": duration_source,
+                "hasAnswerData": has_answer_data,
+                "hasCurriculumMap": has_curriculum_map,
+                "hasMultipleChoice": has_mcq,
+            }
+        )
+        print(f"{slug}: {title} ({era}) -- {len(interactions)} interactions, formula sheet: {formula_source}")
+
+    (PUBLIC / "papers.json").write_text(json.dumps(papers, indent=2), encoding="utf-8")
+    print(f"\nGenerated {len(papers)} papers")
+
+
+if __name__ == "__main__":
+    main()

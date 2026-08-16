@@ -1,0 +1,954 @@
+[
+  {
+    "id": "A1",
+    "section": "A",
+    "question": "1",
+    "page": 2,
+    "type": "mcq",
+    "rect": {
+      "x": 0.059,
+      "y": 0.652,
+      "width": 0.145,
+      "height": 0.032
+    }
+  },
+  {
+    "id": "A2",
+    "section": "A",
+    "question": "2",
+    "page": 3,
+    "type": "mcq",
+    "rect": {
+      "x": 0.141,
+      "y": 0.808,
+      "width": 0.145,
+      "height": 0.032
+    }
+  },
+  {
+    "id": "A3",
+    "section": "A",
+    "question": "3",
+    "page": 4,
+    "type": "mcq",
+    "rect": {
+      "x": 0.059,
+      "y": 0.567,
+      "width": 0.145,
+      "height": 0.032
+    }
+  },
+  {
+    "id": "A4",
+    "section": "A",
+    "question": "4",
+    "page": 5,
+    "type": "mcq",
+    "rect": {
+      "x": 0.141,
+      "y": 0.583,
+      "width": 0.145,
+      "height": 0.032
+    }
+  },
+  {
+    "id": "A5",
+    "section": "A",
+    "question": "5",
+    "page": 6,
+    "type": "mcq",
+    "rect": {
+      "x": 0.059,
+      "y": 0.731,
+      "width": 0.145,
+      "height": 0.032
+    }
+  },
+  {
+    "id": "A6",
+    "section": "A",
+    "question": "6",
+    "page": 7,
+    "type": "mcq",
+    "rect": {
+      "x": 0.141,
+      "y": 0.651,
+      "width": 0.145,
+      "height": 0.032
+    }
+  },
+  {
+    "id": "A7",
+    "section": "A",
+    "question": "7",
+    "page": 8,
+    "type": "mcq",
+    "rect": {
+      "x": 0.059,
+      "y": 0.296,
+      "width": 0.145,
+      "height": 0.02919229644399846
+    },
+    "note": "Little vertical room before the next question; box height reduced. Confirm with developer coordinate mode."
+  },
+  {
+    "id": "A8",
+    "section": "A",
+    "question": "8",
+    "page": 8,
+    "type": "mcq",
+    "rect": {
+      "x": 0.059,
+      "y": 0.583,
+      "width": 0.145,
+      "height": 0.032
+    }
+  },
+  {
+    "id": "A9",
+    "section": "A",
+    "question": "9",
+    "page": 9,
+    "type": "mcq",
+    "rect": {
+      "x": 0.141,
+      "y": 0.621,
+      "width": 0.145,
+      "height": 0.028994779869918722
+    },
+    "note": "Little vertical room before the next question; box height reduced. Confirm with developer coordinate mode."
+  },
+  {
+    "id": "A10",
+    "section": "A",
+    "question": "10",
+    "page": 9,
+    "type": "mcq",
+    "rect": {
+      "x": 0.141,
+      "y": 0.922,
+      "width": 0.145,
+      "height": 0.032
+    }
+  },
+  {
+    "id": "A11",
+    "section": "A",
+    "question": "11",
+    "page": 10,
+    "type": "mcq",
+    "rect": {
+      "x": 0.059,
+      "y": 0.434,
+      "width": 0.145,
+      "height": 0.032
+    }
+  },
+  {
+    "id": "A12",
+    "section": "A",
+    "question": "12",
+    "page": 11,
+    "type": "mcq",
+    "rect": {
+      "x": 0.141,
+      "y": 0.676,
+      "width": 0.145,
+      "height": 0.032
+    }
+  },
+  {
+    "id": "A13",
+    "section": "A",
+    "question": "13",
+    "page": 12,
+    "type": "mcq",
+    "rect": {
+      "x": 0.059,
+      "y": 0.561,
+      "width": 0.145,
+      "height": 0.016408988535636108
+    },
+    "note": "Little vertical room before the next question; box height reduced. Confirm with developer coordinate mode."
+  },
+  {
+    "id": "A14",
+    "section": "A",
+    "question": "14",
+    "page": 12,
+    "type": "mcq",
+    "rect": {
+      "x": 0.059,
+      "y": 0.768,
+      "width": 0.145,
+      "height": 0.032
+    }
+  },
+  {
+    "id": "A15",
+    "section": "A",
+    "question": "15",
+    "page": 13,
+    "type": "mcq",
+    "rect": {
+      "x": 0.141,
+      "y": 0.492,
+      "width": 0.145,
+      "height": 0.016841821590795617
+    },
+    "note": "Little vertical room before the next question; box height reduced. Confirm with developer coordinate mode."
+  },
+  {
+    "id": "A16",
+    "section": "A",
+    "question": "16",
+    "page": 13,
+    "type": "mcq",
+    "rect": {
+      "x": 0.141,
+      "y": 0.717,
+      "width": 0.145,
+      "height": 0.01666403166239006
+    },
+    "note": "Little vertical room before the next question; box height reduced. Confirm with developer coordinate mode."
+  },
+  {
+    "id": "A17",
+    "section": "A",
+    "question": "17",
+    "page": 13,
+    "type": "mcq",
+    "rect": {
+      "x": 0.141,
+      "y": 0.9,
+      "width": 0.145,
+      "height": 0.032
+    }
+  },
+  {
+    "id": "A18",
+    "section": "A",
+    "question": "18",
+    "page": 14,
+    "type": "mcq",
+    "rect": {
+      "x": 0.059,
+      "y": 0.764,
+      "width": 0.145,
+      "height": 0.032
+    }
+  },
+  {
+    "id": "A19",
+    "section": "A",
+    "question": "19",
+    "page": 15,
+    "type": "mcq",
+    "rect": {
+      "x": 0.141,
+      "y": 0.62,
+      "width": 0.145,
+      "height": 0.01730484112619213
+    },
+    "note": "Little vertical room before the next question; box height reduced. Confirm with developer coordinate mode."
+  },
+  {
+    "id": "A20",
+    "section": "A",
+    "question": "20",
+    "page": 15,
+    "type": "mcq",
+    "rect": {
+      "x": 0.141,
+      "y": 0.94,
+      "width": 0.145,
+      "height": 0.032
+    }
+  },
+  {
+    "id": "B1a",
+    "section": "B",
+    "question": "1a",
+    "page": 16,
+    "type": "drawing",
+    "rect": {
+      "x": 0.095,
+      "y": 0.723,
+      "width": 0.673,
+      "height": 0.147
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B1b",
+    "section": "B",
+    "question": "1b",
+    "page": 17,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.097,
+      "width": 0.673,
+      "height": 0.146
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B1c",
+    "section": "B",
+    "question": "1c",
+    "page": 17,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.367,
+      "width": 0.673,
+      "height": 0.146
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B1d",
+    "section": "B",
+    "question": "1d",
+    "page": 17,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.698,
+      "width": 0.673,
+      "height": 0.147
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B2a",
+    "section": "B",
+    "question": "2a",
+    "page": 18,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.54,
+      "width": 0.673,
+      "height": 0.116
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B2b",
+    "section": "B",
+    "question": "2b",
+    "page": 19,
+    "type": "drawing",
+    "rect": {
+      "x": 0.177,
+      "y": 0.157,
+      "width": 0.673,
+      "height": 0.178
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B2c",
+    "section": "B",
+    "question": "2c",
+    "page": 19,
+    "type": "drawing",
+    "rect": {
+      "x": 0.177,
+      "y": 0.668,
+      "width": 0.673,
+      "height": 0.178
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B3b",
+    "section": "B",
+    "question": "3b",
+    "page": 20,
+    "type": "drawing",
+    "rect": {
+      "x": 0.095,
+      "y": 0.754,
+      "width": 0.673,
+      "height": 0.146
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B3c",
+    "section": "B",
+    "question": "3c",
+    "page": 21,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.396,
+      "width": 0.673,
+      "height": 0.147
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B4a",
+    "section": "B",
+    "question": "4a",
+    "page": 22,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.606,
+      "width": 0.673,
+      "height": 0.147
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B4b",
+    "section": "B",
+    "question": "4b",
+    "page": 23,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.352,
+      "width": 0.673,
+      "height": 0.209
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B5a",
+    "section": "B",
+    "question": "5a",
+    "page": 24,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.555,
+      "width": 0.673,
+      "height": 0.115
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B5b",
+    "section": "B",
+    "question": "5b",
+    "page": 25,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.114,
+      "width": 0.673,
+      "height": 0.241
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B6a",
+    "section": "B",
+    "question": "6a",
+    "page": 26,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.607,
+      "width": 0.673,
+      "height": 0.147
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B6b",
+    "section": "B",
+    "question": "6b",
+    "page": 27,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.139,
+      "width": 0.673,
+      "height": 0.147
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B7a",
+    "section": "B",
+    "question": "7a",
+    "page": 27,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.622,
+      "width": 0.673,
+      "height": 0.085
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B7b",
+    "section": "B",
+    "question": "7b",
+    "page": 27,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.78,
+      "width": 0.673,
+      "height": 0.116
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B8a",
+    "section": "B",
+    "question": "8a",
+    "page": 28,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.505,
+      "width": 0.673,
+      "height": 0.178
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B8b",
+    "section": "B",
+    "question": "8b",
+    "page": 28,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.709,
+      "width": 0.673,
+      "height": 0.147
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B8c",
+    "section": "B",
+    "question": "8c",
+    "page": 29,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.114,
+      "width": 0.673,
+      "height": 0.21
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B9",
+    "section": "B",
+    "question": "9",
+    "page": 29,
+    "type": "text",
+    "rect": {
+      "x": 0.141,
+      "y": 0.501,
+      "width": 0.709,
+      "height": 0.147
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B10a",
+    "section": "B",
+    "question": "10a",
+    "page": 30,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.548,
+      "width": 0.673,
+      "height": 0.147
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B10b",
+    "section": "B",
+    "question": "10b",
+    "page": 31,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.637,
+      "width": 0.673,
+      "height": 0.21
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B11a",
+    "section": "B",
+    "question": "11a",
+    "page": 32,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.532,
+      "width": 0.673,
+      "height": 0.085
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B11b",
+    "section": "B",
+    "question": "11b",
+    "page": 32,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.679,
+      "width": 0.673,
+      "height": 0.209
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B11cii",
+    "section": "B",
+    "question": "11cii",
+    "page": 33,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.506,
+      "width": 0.673,
+      "height": 0.147
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B12a",
+    "section": "B",
+    "question": "12a",
+    "page": 34,
+    "type": "drawing",
+    "rect": {
+      "x": 0.095,
+      "y": 0.542,
+      "width": 0.673,
+      "height": 0.084
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B12b",
+    "section": "B",
+    "question": "12b",
+    "page": 34,
+    "type": "drawing",
+    "rect": {
+      "x": 0.095,
+      "y": 0.67,
+      "width": 0.673,
+      "height": 0.085
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B12c",
+    "section": "B",
+    "question": "12c",
+    "page": 35,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.114,
+      "width": 0.673,
+      "height": 0.21
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B12d",
+    "section": "B",
+    "question": "12d",
+    "page": 35,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.447,
+      "width": 0.673,
+      "height": 0.209
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B13",
+    "section": "B",
+    "question": "13",
+    "page": 36,
+    "type": "drawing",
+    "rect": {
+      "x": 0.059,
+      "y": 0.516,
+      "width": 0.78,
+      "height": 0.209
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B14",
+    "section": "B",
+    "question": "14",
+    "page": 37,
+    "type": "text",
+    "rect": {
+      "x": 0.141,
+      "y": 0.135,
+      "width": 0.78,
+      "height": 0.21
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B15a",
+    "section": "B",
+    "question": "15a",
+    "page": 38,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.47,
+      "width": 0.673,
+      "height": 0.147
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B15b",
+    "section": "B",
+    "question": "15b",
+    "page": 38,
+    "type": "text",
+    "rect": {
+      "x": 0.095,
+      "y": 0.765,
+      "width": 0.673,
+      "height": 0.146
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B16a",
+    "section": "B",
+    "question": "16a",
+    "page": 40,
+    "type": "drawing",
+    "rect": {
+      "x": 0.095,
+      "y": 0.691,
+      "width": 0.673,
+      "height": 0.147
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B16b",
+    "section": "B",
+    "question": "16b",
+    "page": 41,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.097,
+      "width": 0.673,
+      "height": 0.146
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B17",
+    "section": "B",
+    "question": "17",
+    "page": 41,
+    "type": "text",
+    "rect": {
+      "x": 0.141,
+      "y": 0.531,
+      "width": 0.709,
+      "height": 0.303
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B18a",
+    "section": "B",
+    "question": "18a",
+    "page": 42,
+    "type": "drawing",
+    "rect": {
+      "x": 0.095,
+      "y": 0.145,
+      "width": 0.673,
+      "height": 0.147
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B19b",
+    "section": "B",
+    "question": "19b",
+    "page": 45,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.405,
+      "width": 0.673,
+      "height": 0.146
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B19c",
+    "section": "B",
+    "question": "19c",
+    "page": 45,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.578,
+      "width": 0.673,
+      "height": 0.147
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B19d",
+    "section": "B",
+    "question": "19d",
+    "page": 45,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.793,
+      "width": 0.673,
+      "height": 0.085
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B19e",
+    "section": "B",
+    "question": "19e",
+    "page": 46,
+    "type": "drawing",
+    "rect": {
+      "x": 0.194,
+      "y": 0.497,
+      "width": 0.573,
+      "height": 0.344
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B19f",
+    "section": "B",
+    "question": "19f",
+    "page": 47,
+    "type": "drawing",
+    "rect": {
+      "x": 0.177,
+      "y": 0.114,
+      "width": 0.673,
+      "height": 0.147
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B19gi",
+    "section": "B",
+    "question": "19gi",
+    "page": 47,
+    "type": "drawing",
+    "rect": {
+      "x": 0.177,
+      "y": 0.409,
+      "width": 0.673,
+      "height": 0.209
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B19gii",
+    "section": "B",
+    "question": "19gii",
+    "page": 47,
+    "type": "drawing",
+    "rect": {
+      "x": 0.177,
+      "y": 0.742,
+      "width": 0.673,
+      "height": 0.146
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B3a",
+    "section": "B",
+    "question": "3a",
+    "page": 20,
+    "type": "drawing",
+    "rect": {
+      "x": 0.08,
+      "y": 0.374,
+      "width": 0.75,
+      "height": 0.27
+    },
+    "note": "Manually placed: annotate-the-figure question (Figure 5) with no ruled answer lines to detect."
+  },
+  {
+    "id": "B11ci",
+    "section": "B",
+    "question": "11ci",
+    "page": 33,
+    "type": "text",
+    "rect": {
+      "x": 0.177,
+      "y": 0.398,
+      "width": 0.466,
+      "height": 0.05
+    },
+    "note": "Manually placed: spans both the T1: and T2: bordered boxes (each narrower than the ruled-line detector's half-page-width threshold)."
+  },
+  {
+    "id": "B18b",
+    "section": "B",
+    "question": "18b",
+    "page": 42,
+    "type": "drawing",
+    "rect": {
+      "x": 0.08,
+      "y": 0.449,
+      "width": 0.75,
+      "height": 0.252
+    },
+    "note": "Manually placed: annotate-the-figure question (Figure 21) with no ruled answer lines to detect."
+  },
+  {
+    "id": "B19a",
+    "section": "B",
+    "question": "19a",
+    "page": 45,
+    "type": "text",
+    "rect": {
+      "x": 0.359,
+      "y": 0.223,
+      "width": 0.364,
+      "height": 0.111
+    },
+    "note": "Manually placed: fill-in-the-table question; box spans the table's Variable column across all three rows."
+  }
+]
