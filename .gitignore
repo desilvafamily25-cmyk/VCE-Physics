@@ -7,6 +7,7 @@ __pycache__/
 .env
 .env.local
 .env.*.local
+.claude/
 
 # Raw VCAA source materials -- never committed, published or redistributed
 # in bulk (see INDEX.md). Only the individual per-paper copies the running
