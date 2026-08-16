@@ -32,9 +32,15 @@ function App() {
               <Route path="/topics" element={<TopicPracticeRoute />} />
               <Route path="/errors" element={<ErrorBankRoute />} />
               <Route path="/progress" element={<ProgressRoute />} />
+              {/* Nested inside Shell (not a standalone top-level route) so the
+                  main site navigation stays visible during a paper attempt --
+                  a student mid-Practice or -Timed attempt can still reach
+                  Dashboard/Past Papers/theme toggle/sign-out without the header
+                  disappearing. See .topbar's sticky offset in styles.css, which
+                  stacks below .shell-nav rather than overlapping it. */}
+              <Route path="/attempt/:paperId/:mode" element={<AttemptRoute />} />
+              <Route path="/topics/session" element={<TopicSessionRoute />} />
             </Route>
-            <Route path="/attempt/:paperId/:mode" element={<AttemptRoute />} />
-            <Route path="/topics/session" element={<TopicSessionRoute />} />
             <Route path="*" element={<Navigate to="/dashboard" replace />} />
           </Routes>
         </BrowserRouter>

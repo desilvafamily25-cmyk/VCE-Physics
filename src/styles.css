@@ -592,15 +592,22 @@ table {
 }
 
 .auth-side-points li::before {
-  content: "";
+  content: "✓";
   position: absolute;
   left: 0;
-  top: 4px;
+  top: 1px;
   width: 18px;
   height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: var(--radius-full);
-  background: rgba(255, 255, 255, 0.18);
-  border: 1.5px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.22);
+  border: 1.5px solid rgba(255, 255, 255, 0.7);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1;
 }
 
 .auth-card {
@@ -1175,13 +1182,19 @@ table.topic-table tr:last-child td {
 }
 
 /* ---- Attempt / exam-taking layout ----------------------------------------------- */
+/* .app now always renders nested inside Shell's <Outlet /> (see main.tsx), so
+   it fills the remaining flex space below .shell-nav rather than claiming a
+   second full viewport height of its own. */
 .app {
-  min-height: 100vh;
+  flex: 1;
   display: flex;
   flex-direction: column;
   background: var(--bg);
 }
 
+/* .shell-nav is ~64px tall (14px vertical padding + a 34px control row) and
+   sticks to top: 0 above this. .topbar stacks directly below it instead of
+   overlapping -- both stay visible and pinned while scrolling a long paper. */
 .topbar {
   display: flex;
   align-items: center;
@@ -1191,8 +1204,8 @@ table.topic-table tr:last-child td {
   background: var(--bg-elevated);
   border-bottom: 1px solid var(--border);
   position: sticky;
-  top: 0;
-  z-index: 30;
+  top: 64px;
+  z-index: 15;
   flex-wrap: wrap;
 }
 
@@ -1486,8 +1499,9 @@ table.topic-table tr:last-child td {
   width: 360px;
   flex-shrink: 0;
   position: sticky;
-  top: 84px;
-  max-height: calc(100vh - 100px);
+  /* Sits below both .shell-nav (~64px) and .topbar (~84px stacked beneath it). */
+  top: 148px;
+  max-height: calc(100vh - 164px);
   overflow-y: auto;
   padding: var(--space-5);
   animation: slide-in 0.25s var(--ease-out);
