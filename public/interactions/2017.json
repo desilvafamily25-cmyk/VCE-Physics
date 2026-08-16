@@ -21,7 +21,7 @@
     "type": "mcq",
     "rect": {
       "x": 0.079,
-      "y": 0.891,
+      "y": 0.591,
       "width": 0.145,
       "height": 0.032
     }
@@ -62,7 +62,7 @@
     "type": "mcq",
     "rect": {
       "x": 0.09,
-      "y": 0.907,
+      "y": 0.727,
       "width": 0.145,
       "height": 0.032
     }
@@ -75,7 +75,7 @@
     "type": "mcq",
     "rect": {
       "x": 0.084,
-      "y": 0.891,
+      "y": 0.605,
       "width": 0.145,
       "height": 0.032
     }
@@ -116,7 +116,7 @@
     "type": "mcq",
     "rect": {
       "x": 0.09,
-      "y": 0.907,
+      "y": 0.673,
       "width": 0.145,
       "height": 0.032
     }
@@ -143,7 +143,7 @@
     "type": "mcq",
     "rect": {
       "x": 0.079,
-      "y": 0.891,
+      "y": 0.397,
       "width": 0.145,
       "height": 0.032
     }
@@ -170,7 +170,7 @@
     "type": "mcq",
     "rect": {
       "x": 0.09,
-      "y": 0.907,
+      "y": 0.769,
       "width": 0.145,
       "height": 0.032
     }
@@ -197,7 +197,7 @@
     "type": "mcq",
     "rect": {
       "x": 0.079,
-      "y": 0.891,
+      "y": 0.543,
       "width": 0.145,
       "height": 0.032
     }
@@ -238,7 +238,7 @@
     "type": "mcq",
     "rect": {
       "x": 0.09,
-      "y": 0.907,
+      "y": 0.746,
       "width": 0.145,
       "height": 0.032
     }
@@ -265,15 +265,15 @@
     "type": "mcq",
     "rect": {
       "x": 0.079,
-      "y": 0.891,
+      "y": 0.296,
       "width": 0.145,
       "height": 0.032
     }
   },
   {
-    "id": "B1",
+    "id": "B2a",
     "section": "B",
-    "question": "1",
+    "question": "2a",
     "page": 13,
     "type": "text",
     "rect": {
@@ -282,12 +282,12 @@
       "width": 0.727,
       "height": 0.186
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B2",
+    "id": "B2b",
     "section": "B",
-    "question": "2",
+    "question": "2b",
     "page": 13,
     "type": "text",
     "rect": {
@@ -296,12 +296,12 @@
       "width": 0.727,
       "height": 0.153
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B3",
+    "id": "B3a",
     "section": "B",
-    "question": "3",
+    "question": "3a",
     "page": 14,
     "type": "drawing",
     "rect": {
@@ -310,12 +310,12 @@
       "width": 0.727,
       "height": 0.153
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B4",
+    "id": "B3b",
     "section": "B",
-    "question": "4",
+    "question": "3b",
     "page": 15,
     "type": "text",
     "rect": {
@@ -324,12 +324,12 @@
       "width": 0.727,
       "height": 0.186
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B5",
+    "id": "B4a",
     "section": "B",
-    "question": "5",
+    "question": "4a",
     "page": 16,
     "type": "text",
     "rect": {
@@ -338,12 +338,12 @@
       "width": 0.727,
       "height": 0.153
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B6",
+    "id": "B4b",
     "section": "B",
-    "question": "6",
+    "question": "4b",
     "page": 16,
     "type": "text",
     "rect": {
@@ -352,12 +352,12 @@
       "width": 0.727,
       "height": 0.22
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B7",
+    "id": "B4c",
     "section": "B",
-    "question": "7",
+    "question": "4c",
     "page": 17,
     "type": "text",
     "rect": {
@@ -366,12 +366,12 @@
       "width": 0.727,
       "height": 0.319
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B8",
+    "id": "B5a",
     "section": "B",
-    "question": "8",
+    "question": "5a",
     "page": 18,
     "type": "text",
     "rect": {
@@ -380,12 +380,12 @@
       "width": 0.727,
       "height": 0.153
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B9",
+    "id": "B5b",
     "section": "B",
-    "question": "9",
+    "question": "5b",
     "page": 19,
     "type": "drawing",
     "rect": {
@@ -394,12 +394,12 @@
       "width": 0.727,
       "height": 0.219
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B10",
+    "id": "B6a",
     "section": "B",
-    "question": "10",
+    "question": "6a",
     "page": 20,
     "type": "text",
     "rect": {
@@ -408,12 +408,12 @@
       "width": 0.727,
       "height": 0.153
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B11",
+    "id": "B6b",
     "section": "B",
-    "question": "11",
+    "question": "6b",
     "page": 20,
     "type": "text",
     "rect": {
@@ -422,12 +422,12 @@
       "width": 0.727,
       "height": 0.153
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B12",
+    "id": "B7b",
     "section": "B",
-    "question": "12",
+    "question": "7b",
     "page": 21,
     "type": "drawing",
     "rect": {
@@ -436,12 +436,12 @@
       "width": 0.727,
       "height": 0.186
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B13",
+    "id": "B8a",
     "section": "B",
-    "question": "13",
+    "question": "8a",
     "page": 22,
     "type": "text",
     "rect": {
@@ -450,12 +450,12 @@
       "width": 0.727,
       "height": 0.186
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B14",
+    "id": "B8b",
     "section": "B",
-    "question": "14",
+    "question": "8b",
     "page": 22,
     "type": "text",
     "rect": {
@@ -464,12 +464,12 @@
       "width": 0.727,
       "height": 0.153
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B15",
+    "id": "B9",
     "section": "B",
-    "question": "15",
+    "question": "9",
     "page": 23,
     "type": "text",
     "rect": {
@@ -478,12 +478,12 @@
       "width": 0.507,
       "height": 0.053
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B16",
+    "id": "B9a",
     "section": "B",
-    "question": "16",
+    "question": "9a",
     "page": 23,
     "type": "text",
     "rect": {
@@ -492,12 +492,12 @@
       "width": 0.727,
       "height": 0.186
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B17",
+    "id": "B9b",
     "section": "B",
-    "question": "17",
+    "question": "9b",
     "page": 24,
     "type": "text",
     "rect": {
@@ -506,12 +506,12 @@
       "width": 0.507,
       "height": 0.053
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B18",
+    "id": "B9c",
     "section": "B",
-    "question": "18",
+    "question": "9c",
     "page": 25,
     "type": "drawing",
     "rect": {
@@ -520,12 +520,12 @@
       "width": 0.611,
       "height": 0.455
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B19",
+    "id": "B10",
     "section": "B",
-    "question": "19",
+    "question": "10",
     "page": 26,
     "type": "text",
     "rect": {
@@ -534,12 +534,12 @@
       "width": 0.78,
       "height": 0.186
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B20",
+    "id": "B11a",
     "section": "B",
-    "question": "20",
+    "question": "11a",
     "page": 27,
     "type": "text",
     "rect": {
@@ -548,12 +548,12 @@
       "width": 0.727,
       "height": 0.119
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B21",
+    "id": "B11b",
     "section": "B",
-    "question": "21",
+    "question": "11b",
     "page": 27,
     "type": "text",
     "rect": {
@@ -562,12 +562,12 @@
       "width": 0.727,
       "height": 0.153
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B22",
+    "id": "B11c",
     "section": "B",
-    "question": "22",
+    "question": "11c",
     "page": 27,
     "type": "text",
     "rect": {
@@ -576,12 +576,12 @@
       "width": 0.727,
       "height": 0.253
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B23",
+    "id": "B12",
     "section": "B",
-    "question": "23",
+    "question": "12",
     "page": 28,
     "type": "text",
     "rect": {
@@ -590,12 +590,12 @@
       "width": 0.78,
       "height": 0.286
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B24",
+    "id": "B13a",
     "section": "B",
-    "question": "24",
+    "question": "13a",
     "page": 29,
     "type": "text",
     "rect": {
@@ -604,12 +604,12 @@
       "width": 0.727,
       "height": 0.22
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B25",
+    "id": "B13b",
     "section": "B",
-    "question": "25",
+    "question": "13b",
     "page": 29,
     "type": "text",
     "rect": {
@@ -618,12 +618,12 @@
       "width": 0.727,
       "height": 0.219
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B26",
+    "id": "B14a",
     "section": "B",
-    "question": "26",
+    "question": "14a",
     "page": 30,
     "type": "drawing",
     "rect": {
@@ -632,12 +632,12 @@
       "width": 0.727,
       "height": 0.086
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B27",
+    "id": "B14c",
     "section": "B",
-    "question": "27",
+    "question": "14c",
     "page": 31,
     "type": "text",
     "rect": {
@@ -646,12 +646,12 @@
       "width": 0.727,
       "height": 0.219
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B28",
+    "id": "B15a",
     "section": "B",
-    "question": "28",
+    "question": "15a",
     "page": 32,
     "type": "text",
     "rect": {
@@ -660,12 +660,12 @@
       "width": 0.727,
       "height": 0.12
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B29",
+    "id": "B15a-2",
     "section": "B",
-    "question": "29",
+    "question": "15a-2",
     "page": 32,
     "type": "text",
     "rect": {
@@ -674,12 +674,12 @@
       "width": 0.599,
       "height": 0.053
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B30",
+    "id": "B15b",
     "section": "B",
-    "question": "30",
+    "question": "15b",
     "page": 33,
     "type": "text",
     "rect": {
@@ -688,12 +688,12 @@
       "width": 0.727,
       "height": 0.219
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B31",
+    "id": "B15c",
     "section": "B",
-    "question": "31",
+    "question": "15c",
     "page": 33,
     "type": "text",
     "rect": {
@@ -702,12 +702,12 @@
       "width": 0.727,
       "height": 0.219
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B32",
+    "id": "B16a",
     "section": "B",
-    "question": "32",
+    "question": "16a",
     "page": 34,
     "type": "text",
     "rect": {
@@ -716,12 +716,12 @@
       "width": 0.727,
       "height": 0.12
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B33",
+    "id": "B16b",
     "section": "B",
-    "question": "33",
+    "question": "16b",
     "page": 34,
     "type": "text",
     "rect": {
@@ -730,12 +730,12 @@
       "width": 0.727,
       "height": 0.12
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B34",
+    "id": "B16c",
     "section": "B",
-    "question": "34",
+    "question": "16c",
     "page": 35,
     "type": "drawing",
     "rect": {
@@ -744,12 +744,12 @@
       "width": 0.727,
       "height": 0.219
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B35",
+    "id": "B17",
     "section": "B",
-    "question": "35",
+    "question": "17",
     "page": 36,
     "type": "drawing",
     "rect": {
@@ -758,12 +758,12 @@
       "width": 0.578,
       "height": 0.053
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B36",
+    "id": "B17a",
     "section": "B",
-    "question": "36",
+    "question": "17a",
     "page": 36,
     "type": "drawing",
     "rect": {
@@ -772,12 +772,12 @@
       "width": 0.727,
       "height": 0.12
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B37",
+    "id": "B17c",
     "section": "B",
-    "question": "37",
+    "question": "17c",
     "page": 37,
     "type": "drawing",
     "rect": {
@@ -786,12 +786,12 @@
       "width": 0.727,
       "height": 0.419
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B38",
+    "id": "B18b",
     "section": "B",
-    "question": "38",
+    "question": "18b",
     "page": 38,
     "type": "drawing",
     "rect": {
@@ -800,12 +800,12 @@
       "width": 0.727,
       "height": 0.086
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   },
   {
-    "id": "B39",
+    "id": "B18c",
     "section": "B",
-    "question": "39",
+    "question": "18c",
     "page": 38,
     "type": "drawing",
     "rect": {
@@ -814,6 +814,20 @@
       "width": 0.727,
       "height": 0.153
     },
-    "note": "Generated from PDF answer-line geometry; refine with developer coordinate mode if needed."
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
+  },
+  {
+    "id": "B19",
+    "section": "B",
+    "question": "19",
+    "page": 39,
+    "type": "text",
+    "rect": {
+      "x": 0.09,
+      "y": 0.184,
+      "width": 0.78,
+      "height": 0.319
+    },
+    "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually."
   }
 ]

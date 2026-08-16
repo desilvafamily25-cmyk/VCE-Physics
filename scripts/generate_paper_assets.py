@@ -57,7 +57,7 @@ ARCHIVE_DUAL = (15, 90, 90)  # 2002-2012 (and the 2004 pilot), per sitting
 
 # Interaction geometry hand-verified against the rendered PDF for 2025 --
 # the "airtight" flagship year -- takes precedence over auto-generation.
-TUNED_INTERACTIONS = {"2025", "2024"}
+TUNED_INTERACTIONS = {"2025", "2024", "2023"}
 
 # 2024's exam has no text layer at all (confirmed: 0 fonts, every character
 # a vector path -- see Missing_Resources.md), so Section A geometry can't be
@@ -424,6 +424,27 @@ def make_mcqs_no_text_layer(doc, total, section_b_start, slug=None):
     return items, seen
 
 
+def _page_footer_y0(page):
+    """Returns the y0 of this page's own running footer ('SECTION A --
+    continued' or similar), or None if not found. Used as a ceiling for MCQ
+    placement in place of the raw page height when a question is the last
+    heading on its page: without this, option_block_bottom's trailing-words
+    search window (bounded by "the next heading, or the page height if
+    there is none on this page") would extend all the way past the footer
+    to the literal bottom edge of the page, sweeping the footer's own text
+    into the option block and placing the selector box far below the real
+    options (confirmed on 2023's Question 1, whose selector landed at
+    y=0.89 -- past the footer -- when the true D option sat at y=0.44 with
+    nothing else on the rest of the page)."""
+    words = page.get_text("words")
+    for index, word in enumerate(words[:-1]):
+        if word[4].strip().upper() == "SECTION" and word[1] > page.rect.height * 0.5:
+            nxt = words[index + 1][4].strip() if index + 1 < len(words) else ""
+            if nxt.upper() in ("A", "B"):
+                return word[1]
+    return None
+
+
 def make_mcqs(doc, total, section_b_start, slug=None):
     if total <= 0:
         return []
@@ -447,11 +468,12 @@ def make_mcqs(doc, total, section_b_start, slug=None):
                 if nxt.isdigit():
                     headings.append((int(nxt), word[1]))
         headings.sort(key=lambda h: h[1])
+        page_ceiling = _page_footer_y0(page) or page.rect.height
 
         for idx, (question, heading_y0) in enumerate(headings):
             if not (1 <= question <= total) or question in seen:
                 continue
-            next_y0 = headings[idx + 1][1] if idx + 1 < len(headings) else page.rect.height
+            next_y0 = headings[idx + 1][1] if idx + 1 < len(headings) else page_ceiling
             found = option_block_bottom(page, heading_y0, next_y0)
             seen.add(question)
             if found:
@@ -608,6 +630,20 @@ def line_groups(rows):
     return groups
 
 
+def _is_skippable_section_b_page(text):
+    """True for a page that's entirely 'this page is blank' filler, a
+    formula-sheet cover, or the 'END OF QUESTION AND ANSWER BOOK' end
+    marker with nothing else on it -- true for every one of those, since
+    each is short enough that the marker text makes up virtually the whole
+    page. Deliberately NOT a bare substring search: VCAA prints "END OF
+    QUESTION AND ANSWER BOOK" as a one-line footer at the very bottom of the
+    genuine final content page (confirmed on 2023's own exam, where that
+    page still carries two full, real, ruled answer boxes above the
+    footer) -- a substring search would discard real answer geometry along
+    with the footer merely for sharing a page with it."""
+    return bool(re.search(r"This page is blank|End of question|FORMULA SHEET|Formula Sheet", text[:80], re.I))
+
+
 def first_question_heading_y_fraction(page):
     """Returns the y-fraction of the first 'Question N' heading on this page,
     or None if there isn't one. Section B's opening page carries an
@@ -631,7 +667,7 @@ def make_written_fields(doc, section_b_start, start_counter=1, id_prefix="B"):
     for page_number in range(start, doc.page_count + 1):
         page = doc[page_number - 1]
         text = page_text(page)
-        if re.search(r"This page is blank|End of question|FORMULA SHEET|Formula Sheet", text, re.I):
+        if _is_skippable_section_b_page(text):
             continue
         rows = answer_line_rows(page)
         if not rows:
@@ -676,6 +712,198 @@ def make_written_fields(doc, section_b_start, start_counter=1, id_prefix="B"):
                 }
             )
             counter += 1
+    return items
+
+
+_LETTER_RE = re.compile(r"^([a-h])\.$")
+_ROMAN_RE = re.compile(r"^([ivx]+)\.$", re.I)
+
+
+def _is_real_question_heading(words, index):
+    """True if the 'Question' token at `index` is a genuine question heading
+    ('Question N (M marks)'), not the 'SECTION B – Question N – continued'
+    running footer some previous-design years print at the bottom of every
+    Section B page (confirmed on 2023's exam: same word text and even the
+    same x0 as a real heading on some pages, differing only in that the
+    footer's question number is followed by '–' rather than the opening
+    paren of its mark allocation -- '(5', '(3', etc -- which a genuine
+    heading always has immediately after the number)."""
+    if index + 2 >= len(words):
+        return False
+    nxt = words[index + 1][4].strip(".:()")
+    if not nxt.isdigit():
+        return False
+    return words[index + 2][4].startswith("(")
+
+
+def _section_b_heading_x0(page):
+    """Returns the x0 of this page's own 'Question N' heading, or None if
+    this is a continuation page with no heading of its own."""
+    words = page.get_text("words")
+    for index, word in enumerate(words[:-1]):
+        if word[4].strip().lower().rstrip(".:()") == "question" and _is_real_question_heading(words, index):
+            return word[0]
+    return None
+
+
+def _section_b_label_events(page, margin_x0):
+    """Returns [(y0_fraction, kind, value)] for 'question'/'letter'/'roman'
+    label tokens on this page, in the same units as ruled-line group
+    y-fractions so both can be merged into one sorted per-page stream.
+
+    Physics running text routinely contains bare single-letter variable
+    names followed by a full stop ("...the initial value of a.") or diagram
+    point labels, lexically indistinguishable from a genuine subpart label
+    ("a.") by text alone -- confirmed on the 2025 exam itself. Real VCAA
+    subpart labels always sit at the page's exact left content margin
+    (identical x0 to that page's own "Question N" heading); filtering on x0
+    eliminates false positives cleanly while keeping every real label.
+    `margin_x0` is that page's known margin (from its own heading, or
+    inherited from the same facing-page parity elsewhere in the document for
+    continuation pages with no heading of their own -- see the per-parity
+    tracking in make_written_fields_labelled)."""
+    events = []
+    words = page.get_text("words")
+    height = page.rect.height
+    for index, word in enumerate(words[:-1]):
+        text = word[4].strip()
+        x0 = word[0]
+        if text.lower().rstrip(".:()") == "question" and _is_real_question_heading(words, index):
+            nxt = words[index + 1][4].strip(".:()")
+            events.append((word[1] / height, "question", int(nxt)))
+            continue
+        if margin_x0 is None:
+            continue
+        m = _LETTER_RE.match(text)
+        if m and abs(x0 - margin_x0) <= 3:
+            events.append((word[1] / height, "letter", m.group(1)))
+            continue
+        m = _ROMAN_RE.match(text)
+        if m and 15 <= (x0 - margin_x0) <= 45:
+            events.append((word[1] / height, "roman", m.group(1).lower()))
+    return events
+
+
+def make_written_fields_labelled(doc, section_b_first, section_b_last, id_prefix="B"):
+    """Text-layer equivalent of make_written_fields that labels each ruled
+    answer-line group with the actual VCAA subpart id (B1a, B1b, B11ci, ...)
+    it belongs to, instead of a flat sequential counter (B1, B2, B3...).
+    This matters because the examination report's own answer records are
+    keyed by these same subpart ids (built from the report's "Question 11c.i"
+    style headings) -- a flat sequential id can never be joined to its
+    official answer.
+
+    Method: on each page, merge three independently-detected signals into
+    one top-to-bottom event stream: "Question N" headings, subpart letter
+    labels "a."-"h." at the page's left content margin, and nested roman-
+    numeral labels "i.", "ii." indented further right than the letters. Each
+    detected ruled-line answer group is then labelled with whichever
+    (question, letter, roman) label most recently preceded it. A question
+    with no subpart letter at all keeps the letter/roman slots empty, giving
+    id "B9" -- matching report_extraction_lib.py's own heading_to_
+    interaction_id("Question 9") -> "B9". First hand-verified end to end
+    against 2025 (49/49 exact match against that year's report ids -- see
+    the now-retired scripts/build_2025_section_b.py this generalises from)
+    before becoming the shared default for every text-layer paper.
+
+    Callers should still individually verify each paper against its own
+    report once extracted -- annotate-the-figure questions and narrow
+    bordered-box answers (neither wide enough to trigger the ruled-line
+    detector) have no line group to label at all and need a per-paper
+    MANUAL_ENTRIES fallback, the same as 2025's and 2024's own scripts."""
+    from collections import Counter
+
+    x0_samples = {0: [], 1: []}
+    for page_number in range(section_b_first, section_b_last + 1):
+        x0 = _section_b_heading_x0(doc[page_number - 1])
+        if x0 is not None:
+            x0_samples[page_number % 2].append(round(x0, 1))
+    margin_x0_by_parity = {
+        parity: (Counter(samples).most_common(1)[0][0] if samples else None)
+        for parity, samples in x0_samples.items()
+    }
+
+    items = []
+    seen_ids = {}
+    current_question = None
+    current_letter = None
+    current_roman = None
+
+    for page_number in range(section_b_first, section_b_last + 1):
+        page = doc[page_number - 1]
+        margin_x0 = margin_x0_by_parity[page_number % 2]
+        text = page_text(page)
+        if _is_skippable_section_b_page(text):
+            continue
+
+        events = _section_b_label_events(page, margin_x0)
+
+        rows = answer_line_rows(page)
+        from_raster = False
+        if not rows:
+            rows = raster_answer_line_rows(page)
+            from_raster = True
+        if page_number == section_b_first:
+            # Only this page carries the Instructions block above Question 1
+            # -- see make_written_fields for why this must not apply to
+            # every page.
+            heading_y = first_question_heading_y_fraction(page)
+            if heading_y is not None:
+                rows = [row for row in rows if row[1] >= heading_y - 0.005]
+        groups = line_groups(rows)
+        for group in groups:
+            if from_raster and len(group) == 1:
+                continue
+            if len(group) == 1 and group[0][1] < 0.15:
+                continue
+            events.append((group[0][1], "linegroup", group))
+
+        events.sort(key=lambda e: e[0])
+
+        for y, kind, value in events:
+            if kind == "question":
+                current_question = value
+                current_letter = None
+                current_roman = None
+            elif kind == "letter":
+                current_letter = value
+                current_roman = None
+            elif kind == "roman":
+                current_roman = value
+            else:  # linegroup
+                group = value
+                if current_question is None:
+                    continue  # a ruled line before any question heading was ever seen -- skip
+                interaction_id = f"{id_prefix}{current_question}{current_letter or ''}{current_roman or ''}"
+                first, last = group[0], group[-1]
+                rect = {
+                    "x": first[0],
+                    "y": max(0.08, round(first[1] - 0.022, 3)),
+                    "width": min(0.78, first[2]),
+                    "height": min(0.7, round((last[1] - first[1]) + 0.053, 3)),
+                }
+                # Two ruled-line groups can legitimately belong to the same
+                # subpart (e.g. a working box plus a separate answer box) --
+                # suffix a disambiguator rather than silently overwriting.
+                base_id = interaction_id
+                if base_id in seen_ids:
+                    seen_ids[base_id] += 1
+                    interaction_id = f"{base_id}-{seen_ids[base_id]}"
+                else:
+                    seen_ids[base_id] = 1
+
+                response_type = "drawing" if re.search(r"\bdraw|diagram|graph|sketch\b", text, re.I) else "text"
+                items.append(
+                    {
+                        "id": interaction_id,
+                        "section": "B",
+                        "question": interaction_id[1:],
+                        "page": page_number,
+                        "type": response_type,
+                        "rect": rect,
+                        "note": "Auto-placed from ruled-line geometry, labelled by detected subpart; verify visually.",
+                    }
+                )
     return items
 
 
@@ -786,7 +1014,20 @@ def main():
             interactions = json.loads(tuned_path.read_text(encoding="utf-8-sig"))
         else:
             mcqs = make_mcqs(doc, section_a_total, section_b_start or (doc.page_count + 1), slug) if has_mcq else []
-            written = make_written_fields(doc, section_b_start or 1)
+            has_text_layer = bool(doc[0].get_fonts())
+            if has_text_layer:
+                # Prefer subpart-labelled ids (B1a, B1b, ...) over a flat
+                # sequential counter whenever there's a text layer to read
+                # "Question N"/"a."/"b." labels from -- report data (once
+                # extracted for a paper) is keyed by those same subpart ids,
+                # so a flat B1/B2/B3 counter can never be joined to its
+                # official answer. See make_written_fields_labelled's
+                # docstring.
+                formula_range = find_formula_sheet_range(doc)
+                section_b_last = (formula_range[0] - 1) if formula_range else doc.page_count
+                written = make_written_fields_labelled(doc, section_b_start or 1, section_b_last)
+            else:
+                written = make_written_fields(doc, section_b_start or 1)
             interactions = mcqs + written
 
         interaction_file = INTERACTIONS_DIR / f"{slug}.json"

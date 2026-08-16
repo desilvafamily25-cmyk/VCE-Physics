@@ -1,0 +1,880 @@
+{
+  "studyDesignRef": "data/curriculum/study-design-2016.json",
+  "paperId": "2023",
+  "generatedBy": "editorial mapping \u2014 each question's own text (data/raw/2023-exam-text.txt) checked against the official 2017-2023 study design's key knowledge (see scripts/build_2023_curriculum_map.py)",
+  "questions": [
+    {
+      "canonicalId": "2023-A1",
+      "interactionId": "A1",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Magnetic polarity from the force on a current-carrying coil",
+      "skills": [
+        "force on a current-carrying conductor: F = nIlB"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A2",
+      "interactionId": "A2",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Coulomb force when charge and separation are both halved",
+      "skills": [
+        "inverse square law for gravitational and electric fields about a point mass/charge"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A3",
+      "interactionId": "A3",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Satellite altitude where gravitational field strength is halved",
+      "skills": [
+        "inverse square law for gravitational fields",
+        "satellite motion modelled as uniform circular motion"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A4",
+      "interactionId": "A4",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Impulse from a force-time graph (tennis racquet impact)",
+      "skills": [
+        "impulse in an isolated system: F*delta t = m*delta v"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A5",
+      "interactionId": "A5",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Globe brightness before/during/after a magnetic field is switched off",
+      "skills": [
+        "generation of emf",
+        "rate of change of magnetic flux"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A6",
+      "interactionId": "A6",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Magnetic flux magnitude through a coil",
+      "skills": [
+        "magnetic flux: Phi = B*A"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A7",
+      "interactionId": "A7",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Peak-to-peak voltage and frequency from an oscilloscope trace",
+      "skills": [
+        "sinusoidal AC voltage: frequency, period, amplitude, peak-to-peak voltage/current"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A8",
+      "interactionId": "A8",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Why two falling people of different mass reach the water together",
+      "skills": [
+        "Newton's three laws of motion",
+        "projectile motion near Earth's surface"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A9",
+      "interactionId": "A9",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Banked-track angle for a velodrome with no sideways friction",
+      "skills": [
+        "uniform circular motion (vehicle on a banked track)"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A10",
+      "interactionId": "A10",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Spring constant from a force-compression graph",
+      "skills": [
+        "strain potential energy: ideal springs obeying Hooke's Law"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A11",
+      "interactionId": "A11",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Additional strain potential energy stored under further compression",
+      "skills": [
+        "strain potential energy: area under a force-distance graph"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A12",
+      "interactionId": "A12",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Colour dispersion of white light through a lens",
+      "skills": [
+        "colour dispersion in prisms and lenses"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A13",
+      "interactionId": "A13",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Classifying sound and light as longitudinal or transverse waves",
+      "skills": [
+        "distinguish between transverse and longitudinal waves"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A14",
+      "interactionId": "A14",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Polarisation as evidence for the transverse wave model of light",
+      "skills": [
+        "polarisation of visible light and its relation to the transverse wave model"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A15",
+      "interactionId": "A15",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Doppler effect for two ambulances moving towards/away from an observer",
+      "skills": [
+        "qualitative explanation of the Doppler effect"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A16",
+      "interactionId": "A16",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Identifying refraction as water waves change direction at a barrier",
+      "skills": [
+        "refraction: Snell's Law"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A17",
+      "interactionId": "A17",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Why X-ray and electron diffraction patterns can be compared",
+      "skills": [
+        "electron diffraction patterns as evidence for the wave-like nature of matter",
+        "distinguishing diffraction patterns produced by photons and electrons"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A18",
+      "interactionId": "A18",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Coherence and wavelength range of different light sources",
+      "skills": [
+        "production of light in lasers, synchrotrons, LEDs and incandescent lights"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A19",
+      "interactionId": "A19",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Frequency of a spectral line from a hydrogen emission spectrum",
+      "skills": [
+        "atomic absorption and emission line spectra",
+        "photon energy from spectral transitions: delta E = hf"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-A20",
+      "interactionId": "A20",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Heisenberg's uncertainty principle in single-slit electron diffraction",
+      "skills": [
+        "Heisenberg's uncertainty principle illustrated via single-slit diffraction"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B1a",
+      "interactionId": "B1a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Force diagram for charged balls in electrostatic/gravitational equilibrium",
+      "skills": [
+        "field model for gravitation, magnetism and electricity"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B1b",
+      "interactionId": "B1b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Tension force from a suspended charged-ball equilibrium",
+      "skills": [
+        "Newton's three laws of motion: coplanar forces"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B1c",
+      "interactionId": "B1c",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Electrostatic force between two suspended charged balls",
+      "skills": [
+        "inverse square law for electric fields about a point charge"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B2a",
+      "interactionId": "B2a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Gravitational field strength above a planet's surface",
+      "skills": [
+        "inverse square law for gravitational fields"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B2b",
+      "interactionId": "B2b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Orbital period of a moon in circular orbit",
+      "skills": [
+        "satellite motion modelled as uniform circular motion"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B2c",
+      "interactionId": "B2c",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Effect of a shrinking orbital radius on orbital period",
+      "skills": [
+        "satellite motion modelled as uniform circular motion"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B3a",
+      "interactionId": "B3a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Sketching the magnetic field around two parallel current-carrying wires",
+      "skills": [
+        "magnetic fields of ... current-carrying wires, loops and solenoids"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B3b",
+      "interactionId": "B3b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Whether two antiparallel current-carrying wires attract or repel",
+      "skills": [
+        "describe the interaction of two fields ... current carrying conductors can either attract or repel"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B4a",
+      "interactionId": "B4a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Primary-to-secondary turns ratio of an ideal transformer",
+      "skills": [
+        "ideal transformer action"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B4b",
+      "interactionId": "B4b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Primary coil current of a transformer supplying a known load",
+      "skills": [
+        "ideal transformer action"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B4c",
+      "interactionId": "B4c",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Why a transformer needs AC rather than constant DC input",
+      "skills": [
+        "ideal transformer action",
+        "generation of emf"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B5a",
+      "interactionId": "B5a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Average EMF induced as a loop enters a magnetic field",
+      "skills": [
+        "generation of emf ... rate of change of magnetic flux"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B5b",
+      "interactionId": "B5b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Direction of induced current as a loop enters a magnetic field",
+      "skills": [
+        "direction of induced emf in a coil"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B6a",
+      "interactionId": "B6a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Why a particular magnet arrangement fails to generate an EMF",
+      "skills": [
+        "generation of emf ... rate of change of magnetic flux"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B6b",
+      "interactionId": "B6b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Repositioning magnets so a simple generator produces an EMF",
+      "skills": [
+        "explain the production of DC voltage in DC generators ... split ring commutators"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B7a",
+      "interactionId": "B7a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Total resistance of a transmission line from power-loss data",
+      "skills": [
+        "analyse the supply of power by considering transmission losses"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B7b",
+      "interactionId": "B7b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Voltage available at the far end of a transmission line",
+      "skills": [
+        "analyse the supply of power by considering transmission losses"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B7c",
+      "interactionId": "B7c",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Effect of transmitting at a much lower voltage on line losses",
+      "skills": [
+        "identify the advantage of the use of AC power",
+        "transmission losses"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B8a",
+      "interactionId": "B8a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Force diagram for a skateboarder rolling down a slope",
+      "skills": [
+        "Newton's three laws of motion: coplanar forces along a straight line and in two dimensions"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B8b",
+      "interactionId": "B8b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Total frictional force on a skateboarder at constant velocity",
+      "skills": [
+        "Newton's three laws of motion"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B8c",
+      "interactionId": "B8c",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "What happens to momentum and kinetic energy when coming to rest",
+      "skills": [
+        "conservation of energy and momentum in isolated systems",
+        "energy dissipated to the environment"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B9a",
+      "interactionId": "B9a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Time of flight for a ball thrown vertically and caught at the same height",
+      "skills": [
+        "motion of projectiles near Earth's surface"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B9b",
+      "interactionId": "B9b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Speed of a racquet head modelled as uniform circular motion",
+      "skills": [
+        "uniform circular motion of an object moving in a horizontal plane"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B9c",
+      "interactionId": "B9c",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Height of a served ball above a net (2D projectile motion)",
+      "skills": [
+        "motion of projectiles near Earth's surface"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B10a",
+      "interactionId": "B10a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Proton speed from its Lorentz factor",
+      "skills": [
+        "model mathematically time dilation and length contraction"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B10b",
+      "interactionId": "B10b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Beamline length in the proton's own reference frame (length contraction)",
+      "skills": [
+        "proper length (L0)",
+        "length contraction: L = L0/gamma"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B10c",
+      "interactionId": "B10c",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Relativistic kinetic energy of an accelerated proton",
+      "skills": [
+        "mass-energy equivalence: Ek = (gamma - 1)mc^2"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B11a",
+      "interactionId": "B11a",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Frequency of a standing wave on a guitar string",
+      "skills": [
+        "wave speed, frequency, wavelength and period: v = f*lambda"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B11b",
+      "interactionId": "B11b",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "How a standing wave forms on a string fixed at both ends",
+      "skills": [
+        "standing waves in strings fixed at one or both ends"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B12a",
+      "interactionId": "B12a",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Critical angle for total internal reflection in a glass prism",
+      "skills": [
+        "total internal reflection and critical angle"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B12b",
+      "interactionId": "B12b",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Whether total internal reflection occurs at a prism face",
+      "skills": [
+        "total internal reflection and critical angle"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B13a",
+      "interactionId": "B13a",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Path difference between two rays in a double-slit interference pattern",
+      "skills": [
+        "Young's double slit experiment: path differences"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B13b",
+      "interactionId": "B13b",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Effect of switching to a longer wavelength laser on fringe spacing",
+      "skills": [
+        "effect of wavelength ... on interference patterns"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B13c",
+      "interactionId": "B13c",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Young's double-slit experiment as evidence for the wave-like nature of light",
+      "skills": [
+        "explain the results of Young's double slit experiment: evidence for the wave-like nature of light"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B14a",
+      "interactionId": "B14a",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Neutron speed from a given de Broglie wavelength",
+      "skills": [
+        "calculate the de Broglie wavelength of matter: lambda = h/p"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B14b",
+      "interactionId": "B14b",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Whether a neutron beam will diffract through a crystal lattice",
+      "skills": [
+        "effects of varying the width of a gap or diameter of an obstacle on the diffraction pattern"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B14c",
+      "interactionId": "B14c",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Comparing electron and neutron speed at equal de Broglie wavelength",
+      "skills": [
+        "calculate the de Broglie wavelength of matter: lambda = h/p"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B15a",
+      "interactionId": "B15a",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Work function of calcium estimated from a photoelectric-effect graph",
+      "skills": [
+        "kinetic energy of emitted photoelectrons: Ek max = hf - phi"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B15b",
+      "interactionId": "B15b",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Maximum photoelectron-emitting wavelength for calcium",
+      "skills": [
+        "kinetic energy of emitted photoelectrons: Ek max = hf - phi"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B15c",
+      "interactionId": "B15c",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Sketching the photoelectric graph for a metal with a different work function",
+      "skills": [
+        "kinetic energy of emitted photoelectrons: Ek max = hf - phi"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B15d",
+      "interactionId": "B15d",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Whether photoelectrons are ejected by a given photon wavelength",
+      "skills": [
+        "kinetic energy of emitted photoelectrons: Ek max = hf - phi"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B16a",
+      "interactionId": "B16a",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Photon energy of a mercury emission spectral line",
+      "skills": [
+        "interpret spectra and calculate the energy of absorbed or emitted photons: delta E = hf"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B16b",
+      "interactionId": "B16b",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Marking a transition arrow on a mercury energy-level diagram",
+      "skills": [
+        "explain the production of atomic absorption and emission line spectra"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B16c",
+      "interactionId": "B16c",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Possible re-emitted photon energies after absorption to an excited state",
+      "skills": [
+        "analyse the absorption of photons by atoms: change in energy levels"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B17a",
+      "interactionId": "B17a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Electron speed after acceleration through a potential difference",
+      "skills": [
+        "electric field acceleration of a charge: F = qE, W = qV"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B17b",
+      "interactionId": "B17b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Why a charged particle follows a circular arc in a magnetic field",
+      "skills": [
+        "magnetic force on a charged particle: F = qvB"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B17c",
+      "interactionId": "B17c",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Relating mass, charge, speed, field and radius for circular motion in a field",
+      "skills": [
+        "radius of the path followed by a low-velocity electron in a magnetic field"
+      ],
+      "confidence": "medium",
+      "uncertain": true
+    },
+    {
+      "canonicalId": "2023-B17d",
+      "interactionId": "B17d",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS3",
+      "topic": "Identifying independent, dependent and controlled variables in an e/m experiment",
+      "skills": [
+        "independent, dependent and controlled variables"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B17e",
+      "interactionId": "B17e",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS3",
+      "topic": "Completing a data table of measured values",
+      "skills": [
+        "methods of organising ... primary data"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B17f",
+      "interactionId": "B17f",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS3",
+      "topic": "Plotting experimental data with uncertainty bars and a line of best fit",
+      "skills": [
+        "methods of organising, analysing and evaluating primary data ... sources of uncertainty and error"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2023-B17g",
+      "interactionId": "B17g",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS3",
+      "topic": "Gradient of a linearised V0-vs-r^2 graph",
+      "skills": [
+        "methods of organising, analysing and evaluating primary data"
+      ],
+      "confidence": "medium",
+      "uncertain": true
+    },
+    {
+      "canonicalId": "2023-B17h",
+      "interactionId": "B17h",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Deriving the charge-to-mass ratio e/m from a graph's gradient",
+      "skills": [
+        "radius of the path followed by a low-velocity electron in a magnetic field"
+      ],
+      "confidence": "medium",
+      "uncertain": true
+    }
+  ]
+}

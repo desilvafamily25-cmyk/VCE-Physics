@@ -19,6 +19,13 @@ KNOWN_TINY_FIELDS = {
     # pixel-precise ink-band scans of the source PDF and a rendered overlay
     # check -- see MANUAL_ENTRIES in scripts/build_2024_section_b.py.
     "2024": {"B10b", "B16cii", "B16ciii"},
+    # 2023: B5b is a "show current direction on the small square loop in
+    # Figure 5" annotation with no ruled working lines around it; B17e is a
+    # fill-in-the-table question whose interactive rect is one table column
+    # (narrower than a normal writable field by design). Confirmed correct
+    # via a rendered overlay check -- see MANUAL_ENTRIES in
+    # scripts/build_2023_section_b.py.
+    "2023": {"B5b", "B17e"},
 }
 
 

@@ -1,0 +1,142 @@
+{
+  "studyDesign": "VCE Physics Study Design (Units 1 and 2: 2016-2022; Units 3 and 4: 2017-2023)",
+  "appliesToExamYears": [2017, 2018, 2019, 2020, 2021, 2022, 2023],
+  "note": "Accredited VCAA study design used for VCE Physics Units 3 and 4 examinations from 2017 to 2023 inclusive, sourced directly from VCAA's own published study design document (2016PhysicsSD.pdf, Updated version 1.1, 'FOR USE IN 2023'). This is structurally different from the current 2024-2027 design, most notably: relativity (time dilation, length contraction, muon decay) sits in Unit 3 Area of Study 3 here ('How fast can things go?', alongside Newton's laws, circular/projectile motion, and energy/momentum), not in Unit 4 as it does from 2024 onward; and Unit 4's photoelectric-effect/de-Broglie/wave-particle-duality content is split across two areas of study (wave behaviour of light, then light-matter similarities) with a third area of study dedicated entirely to the student-designed practical investigation. See study-design-2024-2027.json for the current design this superseded.",
+  "units": [
+    {
+      "unit": "Unit 3",
+      "title": "How do fields explain motion and electricity?",
+      "areasOfStudy": [
+        {
+          "code": "U3AoS1",
+          "title": "How do things move without contact?",
+          "keyTopics": [
+            "field model for gravitation, magnetism and electricity",
+            "field shapes and directions, attractive/repulsive effects, dipoles and monopoles",
+            "gravitational and electric fields about a point mass/charge: direction, shape, inverse square law, qualitative potential energy changes",
+            "magnetic fields of bar magnets, current-carrying wires, loops and solenoids",
+            "static vs changing fields; uniform vs non-uniform fields",
+            "electric field acceleration of a charge: F = qE, W = qV, E = V/d",
+            "magnetic force on a charged particle: F = qvB (perpendicular or parallel v and B)",
+            "radius of the path followed by a low-velocity electron in a magnetic field: r = mv/(qB)",
+            "gravitational field and force: g = GM/r^2, Fg = Gm1m2/r^2",
+            "force due to gravity and normal reaction force for satellites in orbit (uniform, circular)",
+            "modelling satellite motion (artificial, Moon, planet) as uniform circular orbital motion",
+            "interaction of two fields: attraction/repulsion of charges, poles and current-carrying conductors vs mass-only attraction",
+            "force on a current-carrying conductor: F = nIlB",
+            "simple DC motors: one coil free to rotate in a uniform field, split-ring commutator",
+            "particle accelerators: linear acceleration by a uniform electric field, direction change by a uniform magnetic field"
+          ]
+        },
+        {
+          "code": "U3AoS2",
+          "title": "How are fields used to move electrical energy?",
+          "keyTopics": [
+            "magnetic flux: Phi = B*A (field perpendicular to area), qualitative effect of differing angles",
+            "generation of emf: AC voltage, induced emf epsilon = -N(delta Phi / delta t) — rate of change of flux, number of loops, direction of induced emf",
+            "DC generators (split-ring commutator) vs AC alternators (slip rings)",
+            "sinusoidal AC voltage from uniform rotation of a loop: frequency, period, amplitude, peak-to-peak voltage/current",
+            "root-mean-square (RMS) voltage/current compared to constant DC voltage delivering the same power",
+            "converting between RMS, peak and peak-to-peak values",
+            "ideal transformer action: V1/V2 = N1/N2 = I2/I1",
+            "transmission losses across transmission lines",
+            "advantage of AC as a domestic power supply"
+          ]
+        },
+        {
+          "code": "U3AoS3",
+          "title": "How fast can things go?",
+          "keyTopics": [
+            "Newton's three laws of motion: coplanar forces along a straight line and in two dimensions",
+            "uniform circular motion in a horizontal plane: Fnet = mv^2/r — vehicle on a circular road, vehicle on a banked track, object on a string",
+            "natural and artificial satellite motion modelled as uniform circular motion",
+            "Newton's second law applied to circular motion in a vertical plane (highest and lowest positions only)",
+            "projectile motion near Earth's surface, including qualitative effect of air resistance",
+            "conservation of energy and momentum in isolated systems, one dimension",
+            "Einstein's postulates of special relativity: laws of physics same in all inertial frames; speed of light constant for all observers",
+            "comparing special relativity with classical (Newtonian) physics",
+            "proper time (t0) and proper length (L0)",
+            "time dilation: t = t0*gamma; length contraction: L = L0/gamma",
+            "Lorentz factor gamma = 1/sqrt(1 - v^2/c^2)",
+            "explaining why muons reach Earth's surface despite their short half-life (relativistic muon decay)",
+            "impulse in an isolated system for straight-line collisions: F*delta t = m*delta v",
+            "work done by a constant force: force x distance, and as area under a force-distance graph",
+            "kinetic energy Ek = 1/2 m v^2; elastic and inelastic collisions and conservation of kinetic energy",
+            "strain potential energy: area under a force-distance graph; ideal springs and Hooke's Law: Es = 1/2 k(delta x)^2",
+            "gravitational potential energy: Eg = mg*delta h, or from area under a force-distance/field-distance graph",
+            "mass-energy equivalence: Etot = Ek + E0 = gamma*m*c^2, E0 = mc^2, Ek = (gamma - 1)mc^2",
+            "nuclear fusion in the Sun converting matter to energy and emitting electromagnetic radiation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "Unit 4",
+      "title": "How can two contradictory models explain both light and matter?",
+      "areasOfStudy": [
+        {
+          "code": "U4AoS1",
+          "title": "How can waves explain the behaviour of light?",
+          "keyTopics": [
+            "a wave as the transmission of energy through a medium without net transfer of matter",
+            "transverse vs longitudinal waves",
+            "amplitude, wavelength, period and frequency of waves",
+            "wave speed, frequency, wavelength and period: v = f*lambda = lambda/T",
+            "constructive and destructive interference from two coherent sources: path difference n*lambda and (n - 1/2)*lambda",
+            "qualitative explanation of the Doppler effect",
+            "resonance as superposition of a travelling wave and its reflection; forced oscillation matching natural frequency",
+            "standing waves in strings fixed at one or both ends",
+            "diffraction as directional spread of waves, effect of gap width or obstacle size, qualitative effect of the wavelength/gap-width ratio",
+            "light as an electromagnetic wave produced by accelerating charges (changing E and B fields)",
+            "all electromagnetic waves travel at speed c in a vacuum",
+            "the electromagnetic spectrum: radio, microwave, infrared, visible, ultraviolet, x-ray, gamma — wavelength/frequency comparison and uses",
+            "polarisation of visible light and its relation to the transverse wave model",
+            "refraction: Snell's Law n1 sin(theta1) = n2 sin(theta2), n1 v1 = n2 v2",
+            "total internal reflection and critical angle: n1 sin(theta_c) = n2 sin(90 deg)",
+            "colour dispersion in prisms and lenses via refraction of different wavelengths",
+            "Young's double slit experiment: evidence for the wave-like nature of light, path-difference interference, effect of wavelength/slit separation/screen distance on fringe spacing (delta x = lambda*L/d)"
+          ]
+        },
+        {
+          "code": "U4AoS2",
+          "title": "How are light and matter similar?",
+          "keyTopics": [
+            "effect of gap width or obstacle size on the diffraction pattern produced by light; limitations for imaging",
+            "the photoelectric effect as evidence for the particle-like nature of light",
+            "photoelectric-effect data: graphs of photocurrent vs electrode potential, and kinetic energy of emitted electrons vs frequency",
+            "kinetic energy of emitted photoelectrons: Ek max = hf - phi (work function), in joules and electron-volts",
+            "effect of incident light intensity on the emission of photoelectrons",
+            "limitations of the wave model of light in explaining the photoelectric effect",
+            "electron diffraction patterns as evidence for the wave-like nature of matter",
+            "distinguishing between diffraction patterns produced by photons and by electrons",
+            "de Broglie wavelength of matter: lambda = h/p",
+            "momentum of photons and of matter of the same wavelength: p = h/lambda",
+            "atomic absorption and emission line spectra, including metal vapour lamps",
+            "photon energy from spectral transitions: delta E = hf",
+            "absorption of photons by atoms: change in electron energy levels; frequency/wavelength of emitted photons E = hf = hc/lambda",
+            "quantised atomic states explained via electrons forming standing waves — evidence for the dual nature of matter",
+            "single photon/electron double-slit experiment as evidence for the dual nature of light and matter",
+            "Heisenberg's uncertainty principle illustrated via single-slit diffraction",
+            "why classical physics is not appropriate to model motion at very small scales",
+            "production of light in lasers, synchrotrons, LEDs and incandescent lights"
+          ]
+        },
+        {
+          "code": "U4AoS3",
+          "title": "Practical investigation",
+          "keyTopics": [
+            "student-designed practical investigation related to waves, fields or motion, with at least two continuous independent variables",
+            "independent, dependent and controlled variables",
+            "scientific research methodologies and techniques of primary qualitative and quantitative data collection",
+            "precision, accuracy, reliability and validity of data; distinction between uncertainty and error",
+            "health and safety guidelines",
+            "organising, analysing and evaluating primary data: patterns, relationships, sources of uncertainty/error, limitations",
+            "models and theories, their use and limitations in explaining observed phenomena",
+            "nature of evidence that supports or refutes a hypothesis, model or theory",
+            "scientific poster presentation conventions: terminology, representations, symbols, equations, units, significant figures, referencing"
+          ]
+        }
+      ]
+    }
+  ]
+}

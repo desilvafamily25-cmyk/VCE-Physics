@@ -1,0 +1,3164 @@
+{
+  "source": "previous-design-2017-2023/2023-physics-report.docx",
+  "sectionA": {
+    "tableRows": [
+      [
+        "Question",
+        "Correct answer",
+        "% A",
+        "% B",
+        "% C",
+        "% D",
+        "% No answer",
+        "Comments"
+      ],
+      [
+        "1",
+        "A",
+        "65",
+        "25",
+        "7",
+        "3",
+        "0",
+        "Applying a right-hand rule shows X is a north pole and Y is a south pole."
+      ],
+      [
+        "2",
+        "C",
+        "15",
+        "20",
+        "55",
+        "10",
+        "0",
+        "This shows the force will double."
+      ],
+      [
+        "3",
+        "C",
+        "25",
+        "24",
+        "39",
+        "11",
+        "1",
+        "Therefore, if radius increases to , g will decrease to . To determine the altitude we need to subtract the radius. Hence, ."
+      ],
+      [
+        "4",
+        "B",
+        "4",
+        "49",
+        "33",
+        "13",
+        "0",
+        "Area under curve is approx. 10 squares. \nEach square is . \nTherefore, the area represents ~5.0 N s."
+      ],
+      [
+        "5",
+        "A",
+        "59",
+        "24",
+        "9",
+        "8",
+        "0",
+        "Current will only be induced while the field is transitioning from on to off."
+      ],
+      [
+        "6",
+        "A",
+        "59",
+        "22",
+        "15",
+        "3",
+        "0",
+        ""
+      ],
+      [
+        "7",
+        "D",
+        "10",
+        "23",
+        "13",
+        "55",
+        "0",
+        ""
+      ],
+      [
+        "8",
+        "D",
+        "6",
+        "19",
+        "8",
+        "68",
+        "0",
+        "Although they experience different forces (784 N and 588 N, respectively), they will experience the same acceleration \n(9.8 m s−2) and both reach the surface at the same time."
+      ],
+      [
+        "9",
+        "C",
+        "5",
+        "6",
+        "84",
+        "5",
+        "1",
+        ""
+      ],
+      [
+        "10",
+        "D",
+        "8",
+        "14",
+        "6",
+        "71",
+        "0",
+        ""
+      ],
+      [
+        "11",
+        "B",
+        "36",
+        "31",
+        "25",
+        "7",
+        "1",
+        "Energy stored at 4.0 mm = \n = 40 J\nEnergy stored at 8.0 mm = \n = 160 J\nDifference = 1.2 × 102 J"
+      ],
+      [
+        "12",
+        "B",
+        "17",
+        "71",
+        "8",
+        "4",
+        "0",
+        "Shorter wavelengths refract more than longer wavelengths so K, L, M is V, G, R and N, O, P is R, G, V."
+      ],
+      [
+        "13",
+        "D",
+        "7",
+        "3",
+        "12",
+        "77",
+        "0",
+        "Sound is a longitudinal wave; light is a transverse wave."
+      ],
+      [
+        "14",
+        "B",
+        "6",
+        "83",
+        "5",
+        "5",
+        "0",
+        "Polarisation can only be achieved with transverse waves."
+      ],
+      [
+        "15",
+        "D",
+        "2",
+        "2",
+        "7",
+        "89",
+        "0",
+        "Ambulance A is approaching so the pitch will be higher. Ambulance B is receding so the pitch will be lower."
+      ],
+      [
+        "16",
+        "A",
+        "84",
+        "7",
+        "6",
+        "3",
+        "0",
+        "This interaction is diffraction."
+      ],
+      [
+        "17",
+        "B",
+        "9",
+        "78",
+        "6",
+        "6",
+        "0",
+        "Electrons exhibit wave properties related to their velocities."
+      ],
+      [
+        "18",
+        "A",
+        "67",
+        "11",
+        "12",
+        "10",
+        "0",
+        "Laser light is coherent and (ideally) monochromatic."
+      ],
+      [
+        "19",
+        "B",
+        "5",
+        "70",
+        "19",
+        "5",
+        "0",
+        ""
+      ],
+      [
+        "20",
+        "C",
+        "3",
+        "13",
+        "72",
+        "12",
+        "0",
+        "By forcing the electron through the slit the uncertainty in its position is decreased. This results in an increase in the uncertainty of its momentum. This results in a spread of directions after passing through the slit so its position can only be known in a wide range."
+      ]
+    ],
+    "commentSpans": {
+      "1": [
+        {
+          "text": "Applying a right-hand rule shows X is a north pole and Y is a south pole."
+        }
+      ],
+      "2": [
+        {
+          "text": "F∝(Q_1)/(r^2)"
+        },
+        {
+          "text": "(0.5)/(0.5^2)=2"
+        },
+        {
+          "text": "This shows the force will double."
+        }
+      ],
+      "3": [
+        {
+          "text": "r∝sqrt((1)/(g))"
+        },
+        {
+          "text": "Therefore, if radius increases to sqrt(2)R, g will decrease to (g)/(2). To determine the altitude we need to subtract the radius. Hence, (sqrt(2)R)-R."
+        }
+      ],
+      "4": [
+        {
+          "text": "Area under curve is approx. 10 squares. Each square is 50×0.01=0.5 N s. Therefore, the area represents ~5.0 N s."
+        }
+      ],
+      "5": [
+        {
+          "text": "Current will only be induced while the field is transitioning from on to off."
+        }
+      ],
+      "6": [
+        {
+          "text": "Φ=BA"
+        },
+        {
+          "text": "A=πr^2=π×(5×10^(-2))^2=0.008 m^2"
+        },
+        {
+          "text": "Φ=0.2×0.008=0.0016 Wb"
+        }
+      ],
+      "7": [
+        {
+          "text": "6×20=120V_(p-p)"
+        },
+        {
+          "text": "4×0.01=0.04 s"
+        },
+        {
+          "text": "f=(1)/(T)=(1)/(0.04)=25 Hz"
+        }
+      ],
+      "8": [
+        {
+          "text": "Although they experience different forces (784 N and 588 N, respectively), they will experience the same acceleration (9.8 m s−2) and both reach the surface at the same time."
+        }
+      ],
+      "9": [
+        {
+          "text": "tan θ=(O)/(A)"
+        },
+        {
+          "text": "θ=tan^(-1)(((v^2)/(r))/(g))=tan^(-1)(((11^2)/(25))/(9.8))"
+        },
+        {
+          "text": "θ=26°"
+        }
+      ],
+      "10": [
+        {
+          "text": "k=(F)/(x)=(40×10^3)/(8×10^(-3))"
+        },
+        {
+          "text": "k=5×10^6 N m^(-1)"
+        }
+      ],
+      "11": [
+        {
+          "text": "Energy stored at 4.0 mm = 0.5×(4×10^(-3))×(20×10^3) = 40 J"
+        },
+        {
+          "text": "Energy stored at 8.0 mm = 0.5×(8×10^(-3))×(40×10^3) = 160 J"
+        },
+        {
+          "text": "Difference = 1.2 × 102 J"
+        }
+      ],
+      "12": [
+        {
+          "text": "Shorter wavelengths refract more than longer wavelengths so K, L, M is V, G, R and N, O, P is R, G, V."
+        }
+      ],
+      "13": [
+        {
+          "text": "Sound is a longitudinal wave; light is a transverse wave."
+        }
+      ],
+      "14": [
+        {
+          "text": "Polarisation can only be achieved with transverse waves."
+        }
+      ],
+      "15": [
+        {
+          "text": "Ambulance A is approaching so the pitch will be higher. Ambulance B is receding so the pitch will be lower."
+        }
+      ],
+      "16": [
+        {
+          "text": "This interaction is diffraction."
+        }
+      ],
+      "17": [
+        {
+          "text": "Electrons exhibit wave properties related to their velocities."
+        }
+      ],
+      "18": [
+        {
+          "text": "Laser light is coherent and (ideally) monochromatic."
+        }
+      ],
+      "19": [
+        {
+          "text": "f=(c)/(λ)=(3×10^8)/(655×10^(-9))"
+        },
+        {
+          "text": "f=4.6×10^14 Hz"
+        }
+      ],
+      "20": [
+        {
+          "text": "By forcing the electron through the slit the uncertainty in its position is decreased. This results in an increase in the uncertainty of its momentum. This results in a spread of directions after passing through the slit so its position can only be known in a wide range."
+        }
+      ]
+    }
+  },
+  "sectionB": [
+    {
+      "heading": "Question 1a.",
+      "interactionId": "B1a",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 6.0,
+          "1": 8.0,
+          "2": 29.0,
+          "3": 56.0
+        },
+        "average": 2.4
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "imageUrl": "/answer-images/2023-1.png",
+              "width": 205,
+              "height": 147
+            },
+            {
+              "text": "The most common errors were unclear arrows (e.g., arrow heads at both ends), or FE arrows pointing inwards suggesting attraction. There were also a few examples of FE arrows pointing at right angles to the string, which is not correct."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 1b.",
+      "interactionId": "B1b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 41.0,
+          "1": 5.0,
+          "2": 53.0
+        },
+        "average": 1.1
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "T cos⁡(30°)=mg"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "T×0.8660=(4.0×10^(-3))×9.8"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "T=(0.0392)/(0.8660)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "T=4.5×10^(-2) N"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "As this is a ‘show that’ question, the marks are for the working, rather than the answer, so it was essential that students showed full working. They should have also checked that their working was correct."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to incorrectly convert 4g to 0.004 or 4 × 10−3. Many students gave incorrect working that concluded with ‘= 4.5 × 10−2 N’. It was not clear whether the students had failed to check their working or were aware that their working was wrong, but still attempted to obtain the mark. "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 1c.",
+      "interactionId": "B1c",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 58.0,
+          "1": 3.0,
+          "2": 39.0
+        },
+        "average": 0.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students could use trigonometry:"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "F_E=Tcos(60°)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "F_E=(4.5×10^(-2))×0.50"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "F_E=2.3×10^(-2) N"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "or they could use Pythagoras’ theorem:"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "T^2=F_E^2+F_g^2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "(4.5×10^(-2))^2=F_E^2+(4.0×10^(-3)×9.8)^2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "F_E=2.3×10^(-2) N"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to use the incorrect trigonometric identity, and this was fairly evenly split between sin⁡(60°) and tan⁡(60°), which suggested that these students could not interpret the relationships."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 2a.",
+      "interactionId": "B2a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 39.0,
+          "1": 3.0,
+          "2": 58.0
+        },
+        "average": 1.2
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The simplest and shortest method was to use ratios:"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "g=(GM)/(r^2)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "⟹g_surf=(GM)/(r_mars^2) and g_phob=(GM)/(r_phob^2) "
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "∴(g_phob)/(g_surf)=((r_surf)/(r_phob))^2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "(g_phob)/(3.72)=((3390)/(9390))^2=0.130"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "g_phob=0.48N kg-1"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Note that because ratios are being used, the radii do not have to be converted to metres. Most students, however, chose to complete this in two steps:"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "g=(GM)/(r^2)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "3.72=(6.67×10^(-11)×M)/((3390×10^3)^2)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "⟹M=6.41×10^23kg"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "g=(GM)/(r^2)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "g=(6.67×10^(-11)×6.41×10^23)/((9390×10^3)^2)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "g=0.48"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Of interest was the number of students who did not convert the radii to metres, and while they calculated a mass of 6.41×10^17 kg, this cancelled out in the second step."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 2b.",
+      "interactionId": "B2b",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 26.0,
+          "1": 30.0,
+          "2": 4.0,
+          "3": 40.0
+        },
+        "average": 1.6
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "mg=(4π^2rm)/(T^2)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "∴T=sqrt((4π^2r)/(g))"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "T=sqrt((4π^2×(9390×10^3))/(0.48))"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "T=2.77×10^4 s"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "It is also possible to calculate the period using"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "T= sqrt((4 π^(2 )R^3)/(GM))  "
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "However, students who had calculated the mass as 6.41×10^17 kg in part 2a. obtained the wrong answer. No marks were awarded in this case as using the mass from the previous question was not required. Students need to be wary of using results calculated in previous parts of a question in subsequent parts, as consequential errors will only be recognised if there is no alternative method."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 2c.",
+      "interactionId": "B2c",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 21.0,
+          "1": 29.0,
+          "2": 49.0
+        },
+        "average": 1.3
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The orbital period of Phobos will be shorter."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "If one considers the formula: T= sqrt((4 π^(2 )R^3)/(GM)), one can see that as R decreases, the fraction under the square root sign will decrease and, therefore, so will T."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Of concern was the number of students who said, ‘T is directly proportional to R’. In fact, the relationship is T∝R^((3)/(2)). Students seemed to believe that if two variables were on opposite sides of an equal sign then they were ‘directly proportional’."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to refer to the equation T= sqrt((4 π^(2 )R)/(g)) and, again, state that T is proportional to R. This approach did not take the changing value of g into account. Some students also referred to v = (2πr)/(T), assuming v would be constant then claiming that as r decreases, T must also decrease. Students seemed to recognise which formulae were relevant to an area of study but had little understanding of how the formulae represent the natural world."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 3a.",
+      "interactionId": "B3a",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 36.0,
+          "1": 14.0,
+          "2": 23.0,
+          "3": 28.0
+        },
+        "average": 1.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "imageUrl": "/answer-images/2023-2.png",
+              "width": 265,
+              "height": 189
+            },
+            {
+              "text": "To be awarded full marks, the important aspects of the diagram that students needed to demonstrate were the direction of the fields around each wire, that the fields were circular in shape, and that there were five lines as required so the shape could be assessed."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to attempt to draw the lines on Figure 2a instead of Figure 2b. In almost all cases it was only possible to acknowledge that there were five lines, as most of the other criteria were not met. "
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students are reminded to take time to read the questions and follow the instructions carefully."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 3b.",
+      "interactionId": "B3b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 49.0,
+          "1": 28.0,
+          "2": 23.0
+        },
+        "average": 0.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The two wires will repel each other."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "There were several reasonings that students could use:"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 1,
+          "spans": [
+            {
+              "text": "They could apply the right-hand slap rule using the direction of the current in one wire and the direction of the field from the other."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 1,
+          "spans": [
+            {
+              "text": "They could refer to ‘like fields repelling’ and indicate that both fields point down the page in the central region."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common reason for not awarding full marks was the lack of clarity over current and fields. For example, some students stated that ‘the fields are in opposite directions’ without clarifying whether they meant oriented in opposite directions around the wires or in opposite directions between the wires. This problem was exacerbated if their response to part 3a. was incorrect."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 4a.",
+      "interactionId": "B4a",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 24.0,
+          "1": 76.0
+        },
+        "average": 0.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "N_p:N_s=240:12=20:1 "
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This question was generally answered well."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 4b.",
+      "interactionId": "B4b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 42.0,
+          "1": 30.0,
+          "2": 28.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Total power drawn on secondary side: 6×20=120 W."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Therefore, total power supplied on primary side = 120 W."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "P=VI"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "120=240×I"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "I=0.5 A"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Some students chose to find the current drawn by a single globe (1.67 A) and multiply this by six for a total of 10 A on the secondary side. One-twentieth of 10 A is 0.5 A."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to calculate the current for a single globe and assume this was the total secondary current. This led to the incorrect answer of 83.5 mA."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 4c.",
+      "interactionId": "B4c",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 52.0,
+          "1": 12.0,
+          "2": 36.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Transformers need a changing magnetic flux to operate. Only AC will provide a changing flux. DC will produce a constant flux and the transformer will not work."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to make vague statements such as ‘only AC will produce an EMF’ or ‘only AC will create a flux’. Many students appeared to realise that the term ‘flux’ was important but did not seem to know what it was or how it applied to transformers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 5a.",
+      "interactionId": "B5a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 24.0,
+          "1": 4.0,
+          "2": 72.0
+        },
+        "average": 1.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "ε=-N(ΔΦ)/(Δt)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "ε=-1×(0.3×0.04^2)/(0.5)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "ε=9.6×10^(-4) V"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The minus sign can be dropped as there is no reference point."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common errors were failed attempts to convert 0.042 to 0.0016 or convert 0.00096 to 9.6 × 10−4. Students are expected to be able to do these conversions correctly."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 5b.",
+      "interactionId": "B5b",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 55.0,
+          "1": 45.0
+        },
+        "average": 0.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The induced current flows clockwise around the loop."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 6a.",
+      "interactionId": "B6a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 41.0,
+          "1": 27.0,
+          "2": 32.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The field is parallel to the plane of the loop and therefore there is no field through the loop. As the loop rotates there is no change in flux and, as a result, there is no EMF."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to describe the device as a motor and try to refer to forces on a current carrying wire (there is no current and therefore no force) and then state ‘… the motor will not rotate’."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students are advised to spend more time studying motors and generators/alternators and the differences between them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 6b.",
+      "interactionId": "B6b",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 12.0,
+          "1": 88.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students were required to indicate that the positions of the magnets should be rotated by 90°."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 7a.",
+      "interactionId": "B7a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 20.0,
+          "1": 2.0,
+          "2": 78.0
+        },
+        "average": 1.6
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "P_Loss=I^2R "
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "R= (P_Loss)/(I^2)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "R=(20×10^6)/(700^2)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "R=40.8 Ω   "
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "There were no significant common errors."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 7b.",
+      "interactionId": "B7b",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 25.0,
+          "1": 6.0,
+          "2": 3.0,
+          "3": 66.0
+        },
+        "average": 2.1
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The voltage generated by the power plant is 500 kV (given in the question stem)."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The voltage drop across the lines is I×R=700×41=28.7 kV (values given in the question stem)."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The voltage delivered is the difference between the two: 500-28.7=471.3 kV."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This is less than the voltage required by the town."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "OR"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The power supplied by the power plant is 350 MW (given in the question stem)."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The power lost in the transmission lines is 20 MW (given in the question stem)."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The power supplied is the difference between the two: 350-20=330 MW."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "V=(P)/(I)=(330×10^6)/(700)=471.4 kV"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This is less than the voltage required by the town."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was the conversion of some quantities, particularly current, to peak voltage by multiplying by sqrt(2). It was not clear why students thought that this was required."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 7c.",
+      "interactionId": "B7c",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 42.0,
+          "1": 10.0,
+          "2": 48.0
+        },
+        "average": 1.1
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Most students realised that, from an application point of view, the power must remain constant, and this implied the current would increase by a factor of 10. This, according to P=I^2R, meant that the power loss would increase dramatically, and less power would be delivered to the town."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students who simply saw the system as a series circuit reasoned that if the voltage decreased then the current would decrease and, therefore, the power delivered would decrease."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to state that the voltage would decrease but the current would remain the same. If was not clear how this was reasoned."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Some students seemed to believe that the resistance of the lines (41 Ω) was the total resistance of the circuit and tried to support their calculation based on this error."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 8a.",
+      "interactionId": "B8a",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 11.0,
+          "1": 15.0,
+          "2": 27.0,
+          "3": 47.0
+        },
+        "average": 2.1
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common incorrect answer was to add an additional force down the slope."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "A large number of students drew their arrows on the wrong diagram. Given that the most common error was the inclusion of an arrow down the slope, drawing on the wrong diagram made it unclear what the student intended with regards to the existing velocity arrow. Students need to keep in mind that it is their responsibility to make their understanding and meaning clear, as assessors cannot guess the student’s intent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 8b.",
+      "interactionId": "B8b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 48.0,
+          "1": 4.0,
+          "2": 48.0
+        },
+        "average": 1.0
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Constant velocity means that the force down the slope has the same magnitude as the frictional force."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "F_f=mgsinθ"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "F_f=65×9.8×sin(5°)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "F_f=56 N"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The two most common errors were to attempt to use F=ma but then fail to progress as the acceleration is zero, and to use the incorrect trigonometric identity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 8c.",
+      "interactionId": "B8c",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 63.0,
+          "1": 26.0,
+          "2": 11.0
+        },
+        "average": 0.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The momentum is transferred (via the pole) to the Earth."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The kinetic energy is transformed to heat, or work done by the muscles."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The two most common errors were to transfer the momentum only to the pole and not mention the Earth, and to equate both the momentum and the kinetic energy with a statement such as ‘they are both transferred to the pole’."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 9a.",
+      "interactionId": "B9a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 32.0,
+          "1": 2.0,
+          "2": 66.0
+        },
+        "average": 1.4
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "s=vt-(1)/(2)at^2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "1.8=(0×t)-(0.5×-9.8×t^2)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "t=sqrt((1.8)/(4.9)=0.606 )s(to top of flight)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "∴time in air=1.21 s"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students who failed to gain full marks for this question either did not attempt it or were unable to start in a meaningful way."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 9b.",
+      "interactionId": "B9b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 74.0,
+          "1": 0.5,
+          "2": 26.0
+        },
+        "average": 0.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Distance travelled is ¼ of the circumference."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "v=(d)/(t)=(2π×1.8×0.25)/(0.5×1.21)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "v=4.7 m s-1"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The two most common errors were to use the whole circumference rather than one-quarter, and to attempt to use F=(mv^2)/(r)."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This question was not answered well. More than one-fifth of students did not attempt the question and over one-half scored no marks. This type of question has not been seen in previous examinations, which suggests that students are skilled at completing questions they have done before but if presented with something unfamiliar they do not have a strategy for solving the problem."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 9c.",
+      "interactionId": "B9c",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 40.0,
+          "1": 9.0,
+          "2": 20.0,
+          "3": 31.0
+        },
+        "average": 1.4
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The time for the ball to reach the net:"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "t=(d)/(v)=(12)/(24)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "t=0.5 s"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Vertical displacement after 0.5 s"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "s=ut+(1)/(2)at^2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "s=(0×0.5)+(0.5×-9.8×0.5^2)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "s=1.225 m"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Height above net:"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "s=(initial height-vert disp)-net height"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "s=(3.6-1.225)-0.9"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "s=1.5 m"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to calculate the vertical displacement (1.225 m) and then assume that this was the height above the ground."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Only 31 per cent of students gained full marks. Of the approximately 20 per cent of students who gained two marks, most were able to show the first two steps but lost track of the heights. Approximately 40 per cent of students either did not attempt the question or had no strategy for solving a multi-step problem."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "A recurring observation is that many students seem to struggle with multi-step, problem-solving questions. "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 10a.",
+      "interactionId": "B10a",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 27.0,
+          "1": 12.0,
+          "2": 19.0,
+          "3": 43.0
+        },
+        "average": 1.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "γ=(1)/(sqrt(1-(v^2)/(c^2)))"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "… and after much transposition …"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "v=csqrt(1-(1)/(γ^2))"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "v=csqrt(1-(1)/(2^2))"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "v=c×0.866=0.866c"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The two most common errors were to give the velocity in metres per second, and to fail to correctly transpose the Lorentz formula."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 10b.",
+      "interactionId": "B10b",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 27.0,
+          "1": 73.0
+        },
+        "average": 0.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "L=(L_0)/(γ)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "L=(4.8)/(2.0)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "L=2.4 km"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 10c.",
+      "interactionId": "B10c",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 49.0,
+          "1": 4.0,
+          "2": 47.0
+        },
+        "average": 0.1
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E_k=(γ-1)mc^2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E_k=(2-1)×(1.6×10^(-27))×(3.0×10^8)^2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E_k=1.50×10^(-10) J"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to use classical, rather than relativistic, physics and to use E_k=(1)/(2)mv^2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 11a.",
+      "interactionId": "B11a",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 33.0,
+          "1": 67.0
+        },
+        "average": 0.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "v=fλ"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "393=f×(2×0.75)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "f=262 Hz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 11b.",
+      "interactionId": "B11b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 39.0,
+          "1": 29.0,
+          "2": 32.0
+        },
+        "average": 1.0
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Travelling waves reflect off the fixed ends. If the length of the string is a multiple of half the wavelength, then superposition can occur, and a standing wave is produced."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Responses that explained the superposition but left out the reflection that allows the waves to interfere with each other were awarded one mark only. "
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Over a third of students were unable to provide a response that demonstrated any understanding of standing waves on strings."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 12a.",
+      "interactionId": "B12a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 24.0,
+          "1": 3.0,
+          "2": 74.0
+        },
+        "average": 1.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "θ_c=sin^(-1)((n_2)/(n_1))"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "θ_c=sin^(-1)((1.0)/(1.52))"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "θ_c=41°"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This question was answered reasonably well."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 12b.",
+      "interactionId": "B12b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 44.0,
+          "1": 21.0,
+          "2": 35.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The angle of incidence is 45°, which is greater than the critical angle so, yes, total internal reflection will occur. "
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This question was not answered well. The most common error was to confuse the relationship between the angles and state that ‘41° is less than 45° so TIR will not occur’."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 13a.",
+      "interactionId": "B13a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 54.0,
+          "1": 5.0,
+          "2": 41.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Path difference=2λ"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "PD=2×510×10^(-9)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "PD=1.02×10^(-6)  m"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to not convert from micrometres (μm) to metres and report ‘1020 m’ as the path difference. It is a concern that students did not recognise this as a completely unrealistic value. Students are reminded to pay attention to the physical implications of the results."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 13b.",
+      "interactionId": "B13b",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 37.0,
+          "1": 63.0
+        },
+        "average": 0.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The spacing will increase."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The spacing is given by w=(nλL)/(d)  so if the wavelength increases, so will the spacing."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This question was generally well answered."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 13c.",
+      "interactionId": "B13c",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 20.0,
+          "1": 11.0,
+          "2": 33.0,
+          "3": 36.0
+        },
+        "average": 1.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Young’s experiment demonstrates interference. Interference is a wave phenomenon, so the experiment supports a wave model. The particle model predicts two bright regions only, one behind each slit."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Nearly 10 per cent of students chose not to attempt the question and a further 10 per cent were not able to provide a response that achieved any marks. It is of concern that only about one-third of students were able to correctly answer this question, given how often similar types of questions have appeared on past examination papers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 14a.",
+      "interactionId": "B14a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 26.0,
+          "1": 7.0,
+          "2": 67.0
+        },
+        "average": 1.4
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "λ_d=(h)/(mv)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "3.02×10^(-10)=(6.63×10^(-34))/((1.67×10^(-27))×v)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "v=1.3×10^3 m s-1"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common errors were to use the wrong value for Planck’s constant or to transpose incorrectly."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 14b.",
+      "interactionId": "B14b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 43.0,
+          "1": 39.0,
+          "2": 18.0
+        },
+        "average": 0.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The ratio of  (λ)/(w)=0.83.  As this ratio is close to 1, we would expect to be able to observe a diffraction pattern."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This question was not answered well, with only one-fifth of students gaining full marks. The approximately one-third of students who gained one mark were able to identify the ratio as the important factor, and calculate it as 0.83, but were unable to draw the correct conclusion. Of concern was the large number of students who stated that ‘diffraction will not occur if the ratio is less than one’. "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 14c.",
+      "interactionId": "B14c",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 31.0,
+          "1": 12.0,
+          "2": 58.0
+        },
+        "average": 1.3
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The electron will have the greater speed."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "λ_d=(h)/(mv)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The product of mass and velocity must remain constant for wavelength to remain constant, so if mass decreases, velocity must increase."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This question was not answered well, with nearly one-third of students either not attempting it or failing to achieve any marks. Students seemed to struggle to explain the relationship between mass and velocity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 15a.",
+      "interactionId": "B15a",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 33.0,
+          "1": 67.0
+        },
+        "average": 0.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "From the y-intercept, the work function is 3 eV."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "There were two common errors. The first was to state the work function as −3 eV. Work functions are always a positive value. The second was to attempt to use w=hf_0 and then either misreading the graph or making a mathematical mistake."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 15b.",
+      "interactionId": "B15b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 50.0,
+          "1": 3.0,
+          "2": 47.0
+        },
+        "average": 1.0
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most direct method starts with the cut-off frequency."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "f=7.2×10^14 Hz"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "λ=(c)/(f)=(3.0×10^8)/(7.2×10^14)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "λ=4.1×10^(-7) m"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Allowances were made for reading the x-intercept from the graph."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common errors were to attempt to use E=(hc)/(λ) or c=fλ and substitute incorrect values."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 15c.",
+      "interactionId": "B15c",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 22.0,
+          "1": 9.0,
+          "2": 69.0
+        },
+        "average": 1.5
+      },
+      "items": []
+    },
+    {
+      "heading": "Question 15d.",
+      "interactionId": "B15d",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 40.0,
+          "1": 34.0,
+          "2": 5.0,
+          "3": 51.0
+        },
+        "average": 1.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "There were a number of ways students could approach this. Two of the simplest were:"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "a) Find the frequency of the incident photons:"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "f= (c)/()= (3.0 x 10^8)/(380 x 10^(-9))"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "f= 7.9 x 10^14 Hz"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This is below the threshold frequency so there will be no photoelectrons emitted."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "OR"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "b) Find the energy of the incident photons:"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E= (hc)/()= (4.14 × 10^(-15) × 3.0 x 10^8)/(380 x 10^(-9))"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E= 3.27 eV"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This is less than the work function so no photoelectrons will be emitted."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to calculate either a frequency or energy as shown then not know how to interpret the value in relation to the question. "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 16a.",
+      "interactionId": "B16a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 28.0,
+          "1": 2.0,
+          "2": 70.0
+        },
+        "average": 1.4
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E=(hc)/(λ)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E=((4.14×10^(-15))×(3.00×10^8))/(436.6×10^(-9))"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E=2.8 eV"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Most students were able to successfully complete this question."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 16b.",
+      "interactionId": "B16b",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 42.0,
+          "1": 58.0
+        },
+        "average": 0.6
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "There was no common error here. Over 40 per cent of students either did not attempt the question or drew an incorrect arrow. Incorrect arrows included both up and down arrows drawn either from and/or to incorrect levels."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 16c.",
+      "interactionId": "B16c",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 35.0,
+          "1": 6.0,
+          "2": 4.0,
+          "3": 54.0
+        },
+        "average": 1.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The energies that can be emitted are:"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 1,
+          "spans": [
+            {
+              "text": "6.70 eV "
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 1,
+          "spans": [
+            {
+              "text": "4.89 eV "
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 1,
+          "spans": [
+            {
+              "text": "1.81 eV"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Nearly one-quarter of students chose not to attempt this question. A number of students included all possible emissions in the hope of including the correct answers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 17a.",
+      "interactionId": "B17a",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 44.0,
+          "1": 56.0
+        },
+        "average": 0.6
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "From the formula sheet: qV=(1)/(2)mv^2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "v=sqrt((2eV_0)/(m))"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Nearly one-quarter of students did not attempt the question. A further 20 per cent could not determine the relationship."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 17b.",
+      "interactionId": "B17b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 54.0,
+          "1": 26.0,
+          "2": 20.0
+        },
+        "average": 0.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The path is circular because,"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 1,
+          "spans": [
+            {
+              "text": "the force is constant in magnitude"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 1,
+          "spans": [
+            {
+              "text": "the force is always at right angles to the velocity of the electron."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "More than half the students either did not attempt the problem or could not identify either of the reasons above. This is a concern given that this question has appeared in similar forms in many past examinations. "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 17c.",
+      "interactionId": "B17c",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 35.0,
+          "1": 65.0
+        },
+        "average": 0.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "r=(mv)/(eB)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "With the exception of representing the charge as e rather than q, this formula is taken directly from the formula sheet. It is, therefore, a concern that 25 per cent of students did not attempt the question."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 17d.",
+      "interactionId": "B17d",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 11.0,
+          "1": 9.0,
+          "2": 80.0
+        },
+        "average": 1.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This question was well answered."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 17e.",
+      "interactionId": "B17e",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 15.0,
+          "1": 2.0,
+          "2": 83.0
+        },
+        "average": 1.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "imageUrl": "/answer-images/2023-3.png",
+              "width": 288,
+              "height": 128
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This question was well answered."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 17f.",
+      "interactionId": "B17f",
+      "marksTable": {
+        "maxMarks": 7,
+        "distributionPct": {
+          "0": 14.0,
+          "1": 2.0,
+          "2": 2.0,
+          "3": 3.0,
+          "4": 6.0,
+          "5": 12.0,
+          "6": 24.0,
+          "7": 37.0
+        },
+        "average": 5.1
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Just over one-third of students were able to draw this graph correctly. Of concern was the number of students who forced the line of best fit through the first and last points even though this left the point at (0.0035, 1500) completely off the line."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 17g.",
+      "interactionId": "B17g",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 38.0,
+          "1": 9.0,
+          "2": 54.0
+        },
+        "average": 1.2
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "From the graph, use points (0.0022, 900) and (0.0042, 1700)."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Grad=(rise)/(run)=(1700-900)/(0.0042-0.0022)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Grad=(800)/(0.002)=4×10^5 V m-2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Over one-fifth of students did not attempt this question. The most common error was to use points from the table and not from the graph. Many students who correctly drew the graph went on to use (0.0052, 2000) as one of the points for their gradient, even though this point was not on the line of best fit. The question stem clearly stated, ‘Using the graph produced in part f. …’. Students need to know and use the correct method for finding the gradient of a line."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 17h.",
+      "interactionId": "B17h",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 64.0,
+          "1": 6.0,
+          "2": 3.0,
+          "3": 27.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The equation given in the question stem for part 17d. is:"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "V_0=(eB^2)/(2m)r^2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This equation has the form y=mx where y=V_0 and x=r^2. This means that the gradient is (eB^2)/(2m)."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Therefore:"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Grad=(eB^2)/(2m)=(e)/(m)×(B^2)/(2)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "(e)/(m)=(2×grad)/(B^2)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "(e)/(m)=(2×(4×10^5))/((2×10^(-3))^2)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "(e)/(m)=2.0×10^11 C kg-1"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This question was not well answered, with over 40 per cent of students not attempting the question and a further 20 per cent unable to relate the gradient value to the equation. As with Question 9c., this was a straightforward task asked in a new and original way and a significant proportion of students had no strategy for approaching this question."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
