@@ -32,6 +32,13 @@ KNOWN_TINY_FIELDS = {
     # Confirmed correct via a rendered overlay check -- see MANUAL_ENTRIES
     # in scripts/build_2021_section_b.py.
     "2021": {"B1a", "B2b"},
+    # 2020: B3ci, B5a, B6a and B17a are all small bordered boxes holding a
+    # single word/letter/number answer (a point choice, a rotation
+    # direction, a trend direction, a spectral-line wavelength read
+    # straight off a figure), not normal multi-line writable fields.
+    # Confirmed correct via a rendered overlay check -- see MANUAL_ENTRIES
+    # in scripts/build_2020_section_b.py.
+    "2020": {"B3ci", "B5a", "B6a", "B17a"},
 }
 
 

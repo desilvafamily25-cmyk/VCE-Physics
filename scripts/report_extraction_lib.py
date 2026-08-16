@@ -518,23 +518,34 @@ def extract_section_a_table(document):
     """Section A is the first table with header
     Question | Correct answer | % A | % B | % C | % D | Comments -- OR,
     in years whose report omits the "Correct answer" column entirely,
-    Question | %A | %B | %C | %D | % N/A | Comments, where the correct
+    Question | % A | % B | % C | % D [| % N/A] | Comments (the "% N/A"
+    no-answer column is itself optional -- confirmed present for some years,
+    absent for others, e.g. 2020's own report has none), where the correct
     option is instead indicated by a text highlight on its percentage cell
     (see `_highlighted_letter`). Either way, the return shape is normalised
     to [Question, Correct answer, %A, %B, %C, %D, Comments] so
     `build_section_a_answers` never needs to know which format it came from.
+
+    Column-header spacing is not consistent between years either ("%A" vs
+    "% A", confirmed on 2020's own report using the latter) -- matched with
+    whitespace stripped rather than assuming one exact spelling, and the
+    Comments column is located by name (always last) rather than by a
+    hardcoded index, since a missing "% N/A" column shifts it over by one.
     """
     for kind, node in walk_body(document):
         if kind == "table":
             rows = table_to_rows(node)
-            if rows and rows[0][:2] == ["Question", "Correct answer"]:
+            if not rows:
+                continue
+            header = [cell.replace(" ", "") for cell in rows[0]]
+            if header[:2] == ["Question", "Correctanswer"]:
                 return rows
-            if rows and rows[0][:1] == ["Question"] and rows[0][1:5] == ["%A", "%B", "%C", "%D"]:
+            if header[:1] == ["Question"] and header[1:5] == ["%A", "%B", "%C", "%D"]:
                 normalised = [["Question", "Correct answer", "% A", "% B", "% C", "% D", "Comments"]]
                 for table_row, text_row in zip(node.rows[1:], rows[1:]):
                     correct = _highlighted_letter(table_row.cells[1:5])
                     normalised.append(
-                        [text_row[0], correct or "", text_row[1], text_row[2], text_row[3], text_row[4], text_row[6]]
+                        [text_row[0], correct or "", text_row[1], text_row[2], text_row[3], text_row[4], text_row[-1]]
                     )
                 return normalised
     raise RuntimeError("Section A results table not found")
@@ -551,9 +562,10 @@ def extract_section_a_comment_spans(document, image_extractor):
         if kind != "table":
             continue
         rows = table_to_rows(node)
+        header = [cell.replace(" ", "") for cell in rows[0]] if rows else []
         is_results_table = rows and (
-            rows[0][:2] == ["Question", "Correct answer"]
-            or (rows[0][:1] == ["Question"] and rows[0][1:5] == ["%A", "%B", "%C", "%D"])
+            header[:2] == ["Question", "Correctanswer"]
+            or (header[:1] == ["Question"] and header[1:5] == ["%A", "%B", "%C", "%D"])
         )
         if not is_results_table:
             continue
