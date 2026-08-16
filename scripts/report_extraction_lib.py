@@ -77,6 +77,16 @@ ALL_ACCEPTED_RE = re.compile(r"all (?:four )?options? (?:were|was|are|is) accept
 # rather than lumping it into the generic "uncertain" bucket -- see
 # types.ts's "withdrawn" QuestionOutcome (a first-class case from day one).
 WITHDRAWN_RE = re.compile(r"no longer available|question (?:has been |was )?withdrawn|not (?:included|counted|scored)", re.I)
+# Distinct from WITHDRAWN_RE: VCAA sometimes moderates a Section B
+# subquestion so every student receives full marks (a fairness/scoring
+# adjustment, not "this question has no correct answer") -- confirmed
+# verbatim in the 2024 report ("As a result of psychometric analysis and
+# review, all students were awarded full marks for this question"), which
+# genuinely omits the mark value from its own text (no distribution table
+# either, since there's nothing to distribute). Detected here so it's
+# surfaced as a clearly-labelled, confirm-against-the-source-paper case
+# rather than silently reported as a generic extraction gap.
+FULL_MARKS_AWARDED_RE = re.compile(r"all students were awarded full marks", re.I)
 COMMENT_RE = re.compile(
     r"\b(common error|most common|misconception|struggled|confusion|confused|"
     r"could not be (accepted|awarded)|did not|significant number|frequently|"
@@ -191,17 +201,136 @@ def _shape_display_size_pt(object_el):
     return float(m.group(1)), float(n.group(1))
 
 
+def _omml_wrap(text, force_parens=False):
+    """Parenthesises a linearised OMML sub-expression when leaving it bare
+    would be ambiguous once flattened to plain text -- e.g. a superscript of
+    "-2" must render as "^(-2)" (matching how everyone actually writes this
+    in plain text/calculators), not "^-2" which reads as "^ minus 2" applied
+    to whatever follows. Single alphanumeric tokens are left bare (`x^2`,
+    not `x^(2)`) since that's how physics working is normally written."""
+    if force_parens or not re.fullmatch(r"[A-Za-z0-9]+", text):
+        return f"({text})"
+    return text
+
+
+def _omml_to_text(el):
+    """Linearises a OMML (Office Math Markup Language) element tree to a
+    plain-text approximation ("a=6.0x10^-2 m s^-2", "sqrt(-1.8/4.905)") --
+    used for the VCE Physics reports that embed equations as native Word
+    math zones rather than Equation Editor OLE objects/images (confirmed:
+    2024's report uses m:oMath exclusively, 0 OLE objects; 2025's uses OLE
+    objects exclusively, 0 m:oMath -- different Office versions/authors
+    apparently produce different embeddings for the same VCAA report
+    template, so both extraction paths are needed).
+
+    Handles the constructs actually observed in these reports (fractions,
+    super/subscripts, radicals, delimiters, n-ary operators, functions);
+    anything unrecognised falls back to concatenating all descendant m:t
+    text nodes in document order, so no content is ever silently dropped
+    even if the formatting isn't perfectly reconstructed.
+    """
+    tag = el.tag.split("}")[-1]
+
+    if tag == "t":
+        return el.text or ""
+
+    if tag == "f":
+        num = el.find(qn("m:num"))
+        den = el.find(qn("m:den"))
+        num_text = _omml_to_text(num) if num is not None else ""
+        den_text = _omml_to_text(den) if den is not None else ""
+        return f"({num_text})/({den_text})"
+
+    if tag in ("sSup", "sSub", "sSubSup"):
+        base = el.find(qn("m:e"))
+        base_text = _omml_to_text(base) if base is not None else ""
+        out = base_text
+        sub = el.find(qn("m:sub"))
+        if sub is not None:
+            out += f"_{_omml_wrap(_omml_to_text(sub))}"
+        sup = el.find(qn("m:sup"))
+        if sup is not None:
+            out += f"^{_omml_wrap(_omml_to_text(sup))}"
+        return out
+
+    if tag == "rad":
+        base = el.find(qn("m:e"))
+        base_text = _omml_to_text(base) if base is not None else ""
+        deg = el.find(qn("m:deg"))
+        deg_text = _omml_to_text(deg) if deg is not None else ""
+        return f"root({deg_text}, {base_text})" if deg_text.strip() else f"sqrt({base_text})"
+
+    if tag == "d":
+        # Delimiter (parentheses/brackets/braces around one or more m:e
+        # sub-expressions, e.g. "(x + y)"). Falls back to plain parens if
+        # the source didn't specify custom delimiter characters.
+        d_pr = el.find(qn("m:dPr"))
+        beg = "("
+        end = ")"
+        if d_pr is not None:
+            beg_el = d_pr.find(qn("m:begChr"))
+            end_el = d_pr.find(qn("m:endChr"))
+            if beg_el is not None and beg_el.get(qn("m:val")):
+                beg = beg_el.get(qn("m:val"))
+            if end_el is not None and end_el.get(qn("m:val")):
+                end = end_el.get(qn("m:val"))
+        parts = [_omml_to_text(e) for e in el.findall(qn("m:e"))]
+        return f"{beg}{', '.join(parts)}{end}"
+
+    if tag == "func":
+        name_el = el.find(qn("m:fName"))
+        arg_el = el.find(qn("m:e"))
+        name_text = _omml_to_text(name_el) if name_el is not None else ""
+        arg_text = _omml_to_text(arg_el) if arg_el is not None else ""
+        return f"{name_text}({arg_text})"
+
+    if tag == "nary":
+        # Sum/product/integral: symbol + subscript (lower limit) + superscript
+        # (upper limit) + the summand/integrand expression.
+        nary_pr = el.find(qn("m:naryPr"))
+        chr_el = nary_pr.find(qn("m:chr")) if nary_pr is not None else None
+        symbol = chr_el.get(qn("m:val")) if chr_el is not None and chr_el.get(qn("m:val")) else "∑"
+        sub = el.find(qn("m:sub"))
+        sup = el.find(qn("m:sup"))
+        base = el.find(qn("m:e"))
+        out = symbol
+        if sub is not None:
+            out += f"_{_omml_wrap(_omml_to_text(sub))}"
+        if sup is not None:
+            out += f"^{_omml_wrap(_omml_to_text(sup))}"
+        if base is not None:
+            out += _omml_to_text(base)
+        return out
+
+    if tag in ("acc", "bar", "box", "borderBox", "groupChr"):
+        # Accent/overline/box decorations -- the decoration itself doesn't
+        # linearise meaningfully to plain text, so just surface the base
+        # expression it's decorating rather than dropping it.
+        base = el.find(qn("m:e"))
+        return _omml_to_text(base) if base is not None else "".join(_omml_to_text(c) for c in el)
+
+    # Generic container (m:r, m:num, m:den, m:e, m:sub, m:sup, m:deg,
+    # m:oMath, m:oMathPara, or anything not special-cased above): recurse
+    # into every child in document order.
+    return "".join(_omml_to_text(child) for child in el)
+
+
 def paragraph_to_spans(paragraph, image_extractor):
-    """Walks a paragraph's runs in document order, returning a list of
-    InlineSpan-shaped dicts (`{"text": ...}` or `{"imageUrl", "width",
-    "height"}`), so a run of prose with a mid-sentence equation image never
-    gets its image silently dropped or wrenched out to the end -- confirmed
-    directly against the 2025 report's own XML that this genuinely happens
-    ("Many responses simply stated that [equation image] , that force would
-    ..."). Consecutive text runs are merged into one span; an
-    image_extractor of None degrades to text-only (every image silently
-    skipped) for callers that don't have the document/paper context needed
-    to resolve them yet.
+    """Walks a paragraph's direct XML children (not `paragraph.runs` --
+    OMML math zones are `m:oMathPara` elements that sit as paragraph-level
+    siblings of `w:r` runs, not nested inside one, so run-only iteration
+    would skip them entirely and silently drop every embedded equation in a
+    report that uses native Word math instead of Equation Editor OLE
+    objects; see _omml_to_text's docstring) in document order, returning a
+    list of InlineSpan-shaped dicts (`{"text": ...}` or `{"imageUrl",
+    "width", "height"}`). Consecutive text runs are merged into one span,
+    so a mid-sentence equation image/OMML zone never gets wrenched out of
+    its sentence -- confirmed directly against the 2025 report's own XML
+    that images genuinely sit mid-sentence ("Many responses simply stated
+    that [equation image] , that force would ..."). An image_extractor of
+    None degrades to text-only (every image silently skipped, OMML still
+    converted to text) for callers without the document/paper context
+    needed to resolve embedded images.
     """
     spans = []
     text_buffer = []
@@ -213,28 +342,35 @@ def paragraph_to_spans(paragraph, image_extractor):
                 spans.append({"text": joined})
             text_buffer.clear()
 
-    if image_extractor is None:
-        text = paragraph.text
-        return [{"text": text}] if text else []
+    for child in paragraph._p.iterchildren():
+        child_tag = child.tag.split("}")[-1]
 
-    for run in paragraph.runs:
-        el = run._element
-        object_el = el.find(qn("w:object"))
-        if object_el is not None:
-            flush_text()
-            span = image_extractor.from_ole_object(object_el, _shape_display_size_pt(object_el))
-            if span:
-                spans.append(span)
+        if child_tag == "oMathPara" or child_tag == "oMath":
+            text_buffer.append(_omml_to_text(child))
             continue
-        drawing_el = el.find(qn("w:drawing"))
-        if drawing_el is not None and drawing_el.find(f".//{{{_NS_A}}}blip") is not None:
-            flush_text()
-            span = image_extractor.from_drawing(drawing_el)
-            if span:
-                spans.append(span)
-            continue
-        if run.text:
-            text_buffer.append(run.text)
+
+        if child_tag != "r":
+            continue  # paragraph-level metadata (pPr, bookmarks, etc.) -- not content
+
+        if image_extractor is not None:
+            object_el = child.find(qn("w:object"))
+            if object_el is not None:
+                flush_text()
+                span = image_extractor.from_ole_object(object_el, _shape_display_size_pt(object_el))
+                if span:
+                    spans.append(span)
+                continue
+            drawing_el = child.find(qn("w:drawing"))
+            if drawing_el is not None and drawing_el.find(f".//{{{_NS_A}}}blip") is not None:
+                flush_text()
+                span = image_extractor.from_drawing(drawing_el)
+                if span:
+                    spans.append(span)
+                continue
+
+        run_text = "".join(t.text or "" for t in child.findall(f".//{qn('w:t')}"))
+        if run_text:
+            text_buffer.append(run_text)
 
     flush_text()
     return spans
@@ -589,13 +725,25 @@ def build_section_b_answers(questions, source_document, year):
         # content (AnswerPanel renders both sections), so it must not be
         # flagged "uncertain" just because official_answer specifically is
         # empty. Only flag when there is truly nothing captured at all.
+        full_marks_awarded = max_marks is None and any(
+            FULL_MARKS_AWARDED_RE.search(spans_text(item["spans"]))
+            for item in q["items"]
+            if item["kind"] != "table"
+        )
+
         has_any_text = bool(official_answer) or bool(examiner_comments)
         uncertain = (max_marks is None or not has_any_text) and not withdrawn
         reasons = []
         if withdrawn:
             reasons = []
         else:
-            if max_marks is None:
+            if max_marks is None and full_marks_awarded:
+                reasons.append(
+                    "VCAA awarded full marks to every student for this question (stated in the report), "
+                    "but the report text doesn't give the marks value itself -- confirm it against the "
+                    "original exam paper's own mark allocation and set it explicitly."
+                )
+            elif max_marks is None:
                 reasons.append("No marks-distribution table found immediately after the heading.")
             if not has_any_text:
                 reasons.append("No marking-guide or examiner-comment text captured under this heading.")

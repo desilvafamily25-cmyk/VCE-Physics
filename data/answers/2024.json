@@ -1,0 +1,4198 @@
+[
+  {
+    "interactionId": "A1",
+    "canonicalId": "2024-A1",
+    "section": "A",
+    "questionLabel": "1",
+    "marks": 1,
+    "correctAnswer": "C",
+    "acceptedAnswers": [
+      "C"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 54.0,
+    "optionPercents": {
+      "A": 26.0,
+      "B": 8.0,
+      "C": 54.0,
+      "D": 12.0
+    },
+    "officialExplanation": "Since neither Jo nor the lift is accelerating, the force exerted on Jo by the lift floor is the same as her weight force of 75×9.8=735 N.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Since neither Jo nor the lift is accelerating, the force exerted on Jo by the lift floor is the same as her weight force of 75×9.8=735 N."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.54,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A2",
+    "canonicalId": "2024-A2",
+    "section": "A",
+    "questionLabel": "2",
+    "marks": 1,
+    "correctAnswer": "B",
+    "acceptedAnswers": [
+      "B"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 39.0,
+    "optionPercents": {
+      "A": 12.0,
+      "B": 39.0,
+      "C": 39.0,
+      "D": 10.0
+    },
+    "officialExplanation": "The orbital radius in terms of orbital velocity is given by r=(GM)/(v^2) .Given that this relationship is independent of the mass of the SBO and the question states that the velocity is unchanged, the orbital radius remains R.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The orbital radius in terms of orbital velocity is given by r=(GM)/(v^2) ."
+          },
+          {
+            "text": "Given that this relationship is independent of the mass of the SBO and the question states that the velocity is unchanged, the orbital radius remains R."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Hard",
+      "ratio": 0.39,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A3",
+    "canonicalId": "2024-A3",
+    "section": "A",
+    "questionLabel": "3",
+    "marks": 1,
+    "correctAnswer": "A",
+    "acceptedAnswers": [
+      "A"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 51.0,
+    "optionPercents": {
+      "A": 51.0,
+      "B": 4.0,
+      "C": 37.0,
+      "D": 8.0
+    },
+    "officialExplanation": "There are only two forces acting on the ball. The gravitational or weight force acting directly downwards and the tension in the string acting obliquely upwards.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "There are only two forces acting on the ball. The gravitational or weight force acting directly downwards and the tension in the string acting obliquely upwards."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.51,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A4",
+    "canonicalId": "2024-A4",
+    "section": "A",
+    "questionLabel": "4",
+    "marks": 1,
+    "correctAnswer": "C",
+    "acceptedAnswers": [
+      "C"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 63.0,
+    "optionPercents": {
+      "A": 13.0,
+      "B": 17.0,
+      "C": 63.0,
+      "D": 8.0
+    },
+    "officialExplanation": "SPE = KESPE=(1)/(2)bhSPE=0.5×0.1×40SPE=2 JKE=(1)/(2)mv^22=0.5×0.05×v^2v=8.9 m s^(-1)",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "SPE = KE"
+          },
+          {
+            "text": "SPE=(1)/(2)bh"
+          },
+          {
+            "text": "SPE=0.5×0.1×40"
+          },
+          {
+            "text": "SPE=2 J"
+          },
+          {
+            "text": "KE=(1)/(2)mv^2"
+          },
+          {
+            "text": "2=0.5×0.05×v^2"
+          },
+          {
+            "text": "v=8.9 m s^(-1)"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.63,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A5",
+    "canonicalId": "2024-A5",
+    "section": "A",
+    "questionLabel": "5",
+    "marks": 1,
+    "correctAnswer": "A",
+    "acceptedAnswers": [
+      "A"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 73.0,
+    "optionPercents": {
+      "A": 73.0,
+      "B": 7.0,
+      "C": 10.0,
+      "D": 10.0
+    },
+    "officialExplanation": "Conservation of energy in a closed system",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Conservation of energy in a closed system"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.73,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A6",
+    "canonicalId": "2024-A6",
+    "section": "A",
+    "questionLabel": "6",
+    "marks": 1,
+    "correctAnswer": "A",
+    "acceptedAnswers": [
+      "A"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 79.0,
+    "optionPercents": {
+      "A": 79.0,
+      "B": 5.0,
+      "C": 10.0,
+      "D": 6.0
+    },
+    "officialExplanation": "The net field between two like poles is effectively zero, as the field lines repel each other.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The net field between two like poles is effectively zero, as the field lines repel each other."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.79,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A7",
+    "canonicalId": "2024-A7",
+    "section": "A",
+    "questionLabel": "7",
+    "marks": 1,
+    "correctAnswer": "D",
+    "acceptedAnswers": [
+      "D"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 39.0,
+    "optionPercents": {
+      "A": 12.0,
+      "B": 24.0,
+      "C": 25.0,
+      "D": 39.0
+    },
+    "officialExplanation": "The current flows in the same direction in the field in PQ in both cases so the force on PQ will be the same in both cases.The force will be downwards in PQ in both cases but in Diagram A this force is at a right angle to the loop resulting in a maximal torque, while in Diagram B this force is parallel to the loop resulting in no torque on the loop.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The current flows in the same direction in the field in PQ in both cases so the force on PQ will be the same in both cases."
+          },
+          {
+            "text": "The force will be downwards in PQ in both cases but in Diagram A this force is at a right angle to the loop resulting in a maximal torque, while in Diagram B this force is parallel to the loop resulting in no torque on the loop."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Hard",
+      "ratio": 0.39,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A8",
+    "canonicalId": "2024-A8",
+    "section": "A",
+    "questionLabel": "8",
+    "marks": 1,
+    "correctAnswer": "C",
+    "acceptedAnswers": [
+      "C"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 83.0,
+    "optionPercents": {
+      "A": 6.0,
+      "B": 8.0,
+      "C": 83.0,
+      "D": 2.0
+    },
+    "officialExplanation": "F=BIlF=2.0×10^(-3)×5.0×0.04F=4.0×10^(-4) N",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "F=BIl"
+          },
+          {
+            "text": "F=2.0×10^(-3)×5.0×0.04"
+          },
+          {
+            "text": "F=4.0×10^(-4) N"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.83,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A9",
+    "canonicalId": "2024-A9",
+    "section": "A",
+    "questionLabel": "9",
+    "marks": 1,
+    "correctAnswer": "B",
+    "acceptedAnswers": [
+      "B"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 54.0,
+    "optionPercents": {
+      "A": 25.0,
+      "B": 54.0,
+      "C": 13.0,
+      "D": 8.0
+    },
+    "officialExplanation": "F∝(1)/(d^2)If F→6F , then  d^2→(1)/(6)d^2⇒d→sqrt((1)/(6)d)d→0.41d",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "F∝(1)/(d^2)"
+          },
+          {
+            "text": "If F→6F , then  d^2→(1)/(6)d^2"
+          },
+          {
+            "text": "⇒d→sqrt((1)/(6)d)"
+          },
+          {
+            "text": "d→0.41d"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.54,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A10",
+    "canonicalId": "2024-A10",
+    "section": "A",
+    "questionLabel": "10",
+    "marks": 1,
+    "correctAnswer": "C",
+    "acceptedAnswers": [
+      "C"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 34.0,
+    "optionPercents": {
+      "A": 9.0,
+      "B": 22.0,
+      "C": 34.0,
+      "D": 35.0
+    },
+    "officialExplanation": "To induce a constant current, there must be a constantly changing flux. The gradient of the flux graph must be the same for the first and last segments and must be steeper in the middle to induce the higher current.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "To induce a constant current, there must be a constantly changing flux. The gradient of the flux graph must be the same for the first and last segments and must be steeper in the middle to induce the higher current."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Hard",
+      "ratio": 0.34,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A11",
+    "canonicalId": "2024-A11",
+    "section": "A",
+    "questionLabel": "11",
+    "marks": 1,
+    "correctAnswer": "B",
+    "acceptedAnswers": [
+      "B"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 80.0,
+    "optionPercents": {
+      "A": 3.0,
+      "B": 80.0,
+      "C": 7.0,
+      "D": 9.0
+    },
+    "officialExplanation": "Keeping in mind that the fundamental tenet of this area of study is the delivery of power, only high voltages will allow for fixed power to be delivered at lower supply voltages. Power loss is proportional to the square of the current.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Keeping in mind that the fundamental tenet of this area of study is the delivery of power, only high voltages will allow for fixed power to be delivered at lower supply voltages. Power loss is proportional to the square of the current."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.8,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A12",
+    "canonicalId": "2024-A12",
+    "section": "A",
+    "questionLabel": "12",
+    "marks": 1,
+    "correctAnswer": "C",
+    "acceptedAnswers": [
+      "C"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 42.0,
+    "optionPercents": {
+      "A": 30.0,
+      "B": 11.0,
+      "C": 42.0,
+      "D": 16.0
+    },
+    "officialExplanation": "The coil is moving up so it experiences a decreasing upwards flux. To create an increasing upwards flux in the coil, an anticlockwise current is required.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The coil is moving up so it experiences a decreasing upwards flux. To create an increasing upwards flux in the coil, an anticlockwise current is required."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.42,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A13",
+    "canonicalId": "2024-A13",
+    "section": "A",
+    "questionLabel": "13",
+    "marks": 1,
+    "correctAnswer": "A",
+    "acceptedAnswers": [
+      "A"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 51.0,
+    "optionPercents": {
+      "A": 51.0,
+      "B": 11.0,
+      "C": 6.0,
+      "D": 32.0
+    },
+    "officialExplanation": "The split ring commutator will result in a rectified sine wave delivered to the oscilloscope. While the voltage will have a varying value, it will always flow in the same direction and is therefore a DC voltage.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The split ring commutator will result in a rectified sine wave delivered to the oscilloscope. While the voltage will have a varying value, it will always flow in the same direction and is therefore a DC voltage."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.51,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A14",
+    "canonicalId": "2024-A14",
+    "section": "A",
+    "questionLabel": "14",
+    "marks": 1,
+    "correctAnswer": "D",
+    "acceptedAnswers": [
+      "D"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 77.0,
+    "optionPercents": {
+      "A": 9.0,
+      "B": 5.0,
+      "C": 8.0,
+      "D": 77.0
+    },
+    "officialExplanation": "Length contraction only occurs in the axis of the relative motion, so only the horizontal measurement will be affected by length contraction. The vertical measurement will be unaffected.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Length contraction only occurs in the axis of the relative motion, so only the horizontal measurement will be affected by length contraction. The vertical measurement will be unaffected."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.77,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A15",
+    "canonicalId": "2024-A15",
+    "section": "A",
+    "questionLabel": "15",
+    "marks": 1,
+    "correctAnswer": "B",
+    "acceptedAnswers": [
+      "B"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 47.0,
+    "optionPercents": {
+      "A": 31.0,
+      "B": 47.0,
+      "C": 17.0,
+      "D": 5.0
+    },
+    "officialExplanation": "The energy is directly proportional to the Lorentz factor; however, as the velocity is already very close to the speed of light, any increase will be small.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The energy is directly proportional to the Lorentz factor; however, as the velocity is already very close to the speed of light, any increase will be small."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.47,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A16",
+    "canonicalId": "2024-A16",
+    "section": "A",
+    "questionLabel": "16",
+    "marks": 1,
+    "correctAnswer": "D",
+    "acceptedAnswers": [
+      "D"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 43.0,
+    "optionPercents": {
+      "A": 13.0,
+      "B": 27.0,
+      "C": 17.0,
+      "D": 43.0
+    },
+    "officialExplanation": "Diagram P shows three high energy transitions, E5, E4 and E3 all to E1 and two lower energy transitions, E5 to E2, and E5 to E3. Spectrum D shows three high frequency lines at the right and two lower energy frequency lines at the left.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Diagram P shows three high energy transitions, E5, E4 and E3 all to E1 and two lower energy transitions, E5 to E2, and E5 to E3. Spectrum D shows three high frequency lines at the right and two lower energy frequency lines at the left."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.43,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A17",
+    "canonicalId": "2024-A17",
+    "section": "A",
+    "questionLabel": "17",
+    "marks": 1,
+    "correctAnswer": "B",
+    "acceptedAnswers": [
+      "B"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 59.0,
+    "optionPercents": {
+      "A": 12.0,
+      "B": 59.0,
+      "C": 11.0,
+      "D": 18.0
+    },
+    "officialExplanation": "50 Hz gives a period of 0.02 seconds. Therefore, in half a period (0.010 s) the wave will have moved half a wavelength.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "50 Hz gives a period of 0.02 seconds. Therefore, in half a period (0.010 s) the wave will have moved half a wavelength."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.59,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A18",
+    "canonicalId": "2024-A18",
+    "section": "A",
+    "questionLabel": "18",
+    "marks": 1,
+    "correctAnswer": "D",
+    "acceptedAnswers": [
+      "D"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 63.0,
+    "optionPercents": {
+      "A": 13.0,
+      "B": 12.0,
+      "C": 11.0,
+      "D": 63.0
+    },
+    "officialExplanation": "∆x=(λL)/(d)If the geometry changes to: (λ2L)/(0.5d) , ∆x will increase to 4∆x.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "∆x=(λL)/(d)"
+          },
+          {
+            "text": "If the geometry changes to: (λ2L)/(0.5d) , ∆x will increase to 4∆x."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.63,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A19",
+    "canonicalId": "2024-A19",
+    "section": "A",
+    "questionLabel": "19",
+    "marks": 1,
+    "correctAnswer": "D",
+    "acceptedAnswers": [
+      "D"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 69.0,
+    "optionPercents": {
+      "A": 3.0,
+      "B": 13.0,
+      "C": 14.0,
+      "D": 69.0
+    },
+    "officialExplanation": "v=sqrt((GM)/(r))∴v^2=GM×(1)/(r)This has the form of y=mx so a graph of v^2 vs (1)/(r) will give a straight line through the origin.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "v=sqrt((GM)/(r))"
+          },
+          {
+            "text": "∴v^2=GM×(1)/(r)"
+          },
+          {
+            "text": "This has the form of y=mx so a graph of v^2 vs (1)/(r) will give a straight line through the origin."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.69,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "A20",
+    "canonicalId": "2024-A20",
+    "section": "A",
+    "questionLabel": "20",
+    "marks": 1,
+    "correctAnswer": "B",
+    "acceptedAnswers": [
+      "B"
+    ],
+    "allOptionsAccepted": false,
+    "withdrawn": false,
+    "cohortPercentCorrect": 85.0,
+    "optionPercents": {
+      "A": 2.0,
+      "B": 85.0,
+      "C": 3.0,
+      "D": 10.0
+    },
+    "officialExplanation": "Precision describes the variation between measurements.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Precision describes the variation between measurements."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Section A results table"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.85,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B1a",
+    "canonicalId": "2024-B1a",
+    "section": "B",
+    "questionLabel": "1a",
+    "marks": 1,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 44.0,
+      "1": 56.0
+    },
+    "averageMark": 0.6,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "ΣF=ma"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "a=(9.2×10^4-1.2×10^4-1.4×10^4)/(5.0×10^5+6.0×10^5)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "a=6.0×10^(-2) m s^(-2)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "While most students presented sufficient working, there were still many who gave the formula only. There were also some incorrect workings that concluded with ‘= 6.0 × 10−2 m s−2’ when this was clearly not the case. Students should check their working and not attempt to fudge the answer."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The most common errors were to fail to account for the frictional forces or to use the total mass of all three boats."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 1a."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.6,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B1b",
+    "canonicalId": "2024-B1b",
+    "section": "B",
+    "questionLabel": "1b",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 56.0,
+      "1": 3.0,
+      "2": 41.0
+    },
+    "averageMark": 0.9,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "ΣF=ma"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "T_2-1.4×10^4=6.0×10^5×6.0×10^(-2)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "T_2=5.0×10^4 N"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "A few students chose to use a free body diagram, which made their thinking clearer."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "There was a range of incorrect responses. The most common used the mass of both vessels, or subtracted the frictional force from ma rather than adding it."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 1b."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.45,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B2a",
+    "canonicalId": "2024-B2a",
+    "section": "B",
+    "questionLabel": "2a",
+    "marks": 3,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 18.0,
+      "1": 8.0,
+      "2": 4.0,
+      "3": 71.0
+    },
+    "averageMark": 2.3,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "v=sqrt(rg tanθ)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "v=sqrt(1200×9.81×tan⁡(33))"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "v=87.4 m s^(-1)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Many students provided working as shown above, suggesting they had an example like this on their A3 sheet. Few derived the formula from first principles."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The most common errors were to fail to convert the radius from kilometres to metres, or to use the wrong trigonometry identity."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 2a."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.7667,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B2b",
+    "canonicalId": "2024-B2b",
+    "section": "B",
+    "questionLabel": "2b",
+    "marks": 1,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 65.0,
+      "1": 35.0
+    },
+    "averageMark": 0.4,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The normal force is perpendicular to the track. This gives rise to an unbalanced horizontal component that points to the centre of the turn. This force is the centripetal force that allows the car to make the turn without the need for friction between the wheels and the track."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The most common error was to state that the inclined track caused the normal force to point inwards to the centre of the turn. In fact, the normal force points to a point some 1848 m above the centre of the turn. Other incorrect responses indicated a lack of understanding of the problem."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 2b."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.4,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B3a",
+    "canonicalId": "2024-B3a",
+    "section": "B",
+    "questionLabel": "3a",
+    "marks": 3,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 32.0,
+      "1": 23.0,
+      "2": 8.0,
+      "3": 37.0
+    },
+    "averageMark": 1.5,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "u_vert=48sin35=27.53 m s^(-1)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "s=ut+(1)/(2)at^2"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "s=(27.53×6.2)+(0.5×-9.81×6.2^2)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "s=-17.86"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "⇒h=18 m"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "There were other methods students could use."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "There were a number of errors that appeared repeatedly: "
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 1,
+        "spans": [
+          {
+            "text": "Students did not maintain a strong sign convention and had acceleration due to gravity acting upwards, rather than downwards. "
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 1,
+        "spans": [
+          {
+            "text": "Students broke the flight path up into three phases (launch to top of flight, top of flight to launch height, launch height to ground) and tried to keep track of the times for each phase. Errors occurred during this process. "
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 1,
+        "spans": [
+          {
+            "text": "Students used pre-derived formulae, particularly s=(u^2sin^2θ)/(2g) , but did not know how to apply it to this situation. "
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 1,
+        "spans": [
+          {
+            "text": "A few students employed the range equation, apparently unaware that that formula is not applicable in this situation."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 3a."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.5,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B3b",
+    "canonicalId": "2024-B3b",
+    "section": "B",
+    "questionLabel": "3b",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 38.0,
+      "1": 2.0,
+      "2": 60.0
+    },
+    "averageMark": 1.3,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "u_horiz=48cos35=39.32 m s^(-1)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "s=vt"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "s=39.32×6.2"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "s=244 m"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Most students were able to complete this successfully."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 3b."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.65,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B3c",
+    "canonicalId": "2024-B3c",
+    "section": "B",
+    "questionLabel": "3c",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 16.0,
+      "1": 36.0,
+      "2": 48.0
+    },
+    "averageMark": 1.4,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The air resistance will reduce the height that the ball will reach, and it will reduce the horizontal distance that the ball will travel."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Most students identified the reduced distance but failed to mention the reduced height. A few students indicated that the time of flight would be reduced but this is not the same as stating the changes to the flight path."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Some students chose to draw the changes to the flight path, and this helped to make their understanding clear. Students are encouraged to provide diagrams if they think it will help communicate their understanding to the assessors."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 3c."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.7,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B4a",
+    "canonicalId": "2024-B4a",
+    "section": "B",
+    "questionLabel": "4a",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 52.0,
+      "1": 2.0,
+      "2": 47.0
+    },
+    "averageMark": 1.0,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "I=area=(1)/(2)bh"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "I=0.5×240×10^(-3)×24,000"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "I=2.88×10^3 N s"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "There were some students who counted the squares under the graph (72) and multiplied this by the area of a single, small square (40 N s). This was a valid, if rather laborious, approach."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The most common errors were to fail to convert 240 milliseconds to seconds or to simply multiply 240 x 10−3 by 24 000."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 4a."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.5,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B4b",
+    "canonicalId": "2024-B4b",
+    "section": "B",
+    "questionLabel": "4b",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 18.0,
+      "1": 31.0,
+      "2": 51.0
+    },
+    "averageMark": 1.4,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2024-1.png",
+            "width": 419,
+            "height": 232
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "To have the same area and a duration of 480 ms, the maximum force should be 12 000 N."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "While most students had the duration correct, many had incorrect amplitudes. This suggests that students are not confident with impulse and momentum and the graphical representation of these quantities."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 4b."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.7,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B5a",
+    "canonicalId": "2024-B5a",
+    "section": "B",
+    "questionLabel": "5a",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 22.0,
+      "1": 34.0,
+      "2": 44.0
+    },
+    "averageMark": 1.2,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "∆p=p_f-p_i"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "∆p=(0.63×10)-(0.63×-12)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "∆p=13.86"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "That the result is positive indicates that the change is in the same direction as the final momentum, that is, up, and the magnitude is 14 kg m s−1."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The most common error was to calculate the magnitude as 0.63×2=1.26 kg m s^(-1). This was accompanied by an equal mix of ups and downs, suggesting that these students did not know how to determine the direction of the change."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 5a."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.6,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B5b",
+    "canonicalId": "2024-B5b",
+    "section": "B",
+    "questionLabel": "5b",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 14.0,
+      "1": 23.0,
+      "2": 63.0
+    },
+    "averageMark": 1.5,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The collision is inelastic. This is because the final velocity is less than the initial velocity, and as kinetic energy is (1)/(2)mv^2 and the mass stays the same, the final kinetic energy is less than the initial kinetic energy."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The two most common errors were to state that the collision is inelastic because the momentum is not conserved or to state that energy is not conserved, without identifying kinetic energy. While these distinctions may seem trivial, they are at the heart of making a detailed analysis of the system."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 5b."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.75,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B6",
+    "canonicalId": "2024-B6",
+    "section": "B",
+    "questionLabel": "6",
+    "marks": 3,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 28.0,
+      "1": 17.0,
+      "2": 13.0,
+      "3": 43.0
+    },
+    "averageMark": 1.7,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Gravitational force available:"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "F=(GMm)/(r^2)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "F=(6.67×10^(-11)×4.50×10^5×1.50×10^4)/(500^2)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "F=1.80×10^(-6) N"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Centripetal force required:"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "F=(mv^2)/(r)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "F=(1.50×10^4×0.436^2)/(500)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "F=5.7 N"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The centripetal force required for the orbit far exceeds the gravitational force available to provide it so, no, Kwan’s suggestion will not work."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "There were other ways that students could have approached this problem, including comparing orbital velocities or orbital radii."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Before tackling these longer questions, students are encouraged to take a few moments to formulate a strategy for how they will demonstrate their solution."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Most students struggled with this to some degree. While they were able to calculate something (a force, a velocity or an acceleration), they struggled to follow up with something they could compare it to. This suggests that these students did not go into the problem with a strategy for how to respond. As a result, their working was disorganised and incomplete."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 6"
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.5667,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B7a",
+    "canonicalId": "2024-B7a",
+    "section": "B",
+    "questionLabel": "7a",
+    "marks": 1,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 27.0,
+      "1": 73.0
+    },
+    "averageMark": 0.8,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "r=(mv)/(Bq)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "∴v=(Bqr)/(m)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "v=(5.00×10^(-3)×1.60×10^(-19)×1.50×10^(-2))/(9.11×10^(-31))"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "v=1.32×10^7 m s^(-1)"
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The most common error was to incorrectly convert the radius to metres. There were many students who were not able to make a start on this problem."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 7a."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.8,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B7b",
+    "canonicalId": "2024-B7b",
+    "section": "B",
+    "questionLabel": "7b",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 38.0,
+      "1": 7.0,
+      "2": 55.0
+    },
+    "averageMark": 1.2,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Vq=(1)/(2)mv^2"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "V=(0.5×9.11×10^(-31)×(1.32×10^7)^2)/(1.60×10^(-19))"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "V=496 V"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Students who were able to start with the formula above were, generally, able to complete the problem successfully. Most of the students who failed to gain any marks made no significant attempt."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Some students lost marks for not showing adequate working. The working shown above would constitute the minimum working required."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 7b."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.6,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B7c",
+    "canonicalId": "2024-B7c",
+    "section": "B",
+    "questionLabel": "7c",
+    "marks": 3,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 23.0,
+      "1": 41.0,
+      "2": 10.0,
+      "3": 27.0
+    },
+    "averageMark": 1.4,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The proton will be deflected in an anticlockwise direction due to its positive charge. The proton’s path will also have a larger radius due to its larger mass."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Students who failed to gain full marks either only addressed one change in the path or stated the changes without justification."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 7c."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.4667,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B8a",
+    "canonicalId": "2024-B8a",
+    "section": "B",
+    "questionLabel": "8a",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 7.0,
+      "1": 14.0,
+      "2": 78.0
+    },
+    "averageMark": 1.7,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2024-2.png",
+            "width": 361,
+            "height": 209
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The most common error was to draw the lines pointing downwards."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 8a."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.85,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B8b",
+    "canonicalId": "2024-B8b",
+    "section": "B",
+    "questionLabel": "8b",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 15.0,
+      "1": 3.0,
+      "2": 82.0
+    },
+    "averageMark": 1.7,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "E=(V)/(d)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "E=(1.2×10^9)/(850)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "E=1.41×10^6 V m^(-1)"
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The most common error was to incorrectly convert 1.2 GV into volts."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 8b."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.85,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B8c",
+    "canonicalId": "2024-B8c",
+    "section": "B",
+    "questionLabel": "8c",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 55.0,
+      "1": 5.0,
+      "2": 41.0
+    },
+    "averageMark": 0.9,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "E=VIt"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "E=1.2×10^9×30.0×10^3×60×10^(-6)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "E=2.16×10^9 J"
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The most common errors involved using incorrect formulae. Most students were able to respond to three significant figures as required."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 8c."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.45,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B9a",
+    "canonicalId": "2024-B9a",
+    "section": "B",
+    "questionLabel": "9a",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 33.0,
+      "1": 45.0,
+      "2": 22.0
+    },
+    "averageMark": 0.9,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "When the coil is horizontal there will be no force on side FG, as the current in FG is parallel to the magnetic field."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "There were also some students who believed that side FG would never have a force on it."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The most common error was to restate the orientation, thinking that this was the justification. Many students gave responses such as ‘When the loop is horizontal, because if the loop is horizontal, FG is parallel to the magnetic field’. The first clause and the last clause are the same statement."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 9a."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.45,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B9b",
+    "canonicalId": "2024-B9b",
+    "section": "B",
+    "questionLabel": "9b",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 46.0,
+      "1": 24.0,
+      "2": 29.0
+    },
+    "averageMark": 0.9,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "When the coil is vertical, the forces on EF and GH will act vertically, and with no horizontal component the coil will not start rotating."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Students seemed to struggle to explain this situation. Students often made references to induction, seemingly confusing motors and generators."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 9b."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.45,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B9c",
+    "canonicalId": "2024-B9c",
+    "section": "B",
+    "questionLabel": "9c",
+    "marks": 1,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 35.0,
+      "1": 65.0
+    },
+    "averageMark": 0.7,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "If the battery and coil remain the same, one way to increase the torque would be to increase the strength of the magnetic field."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Most students were able to identify this change."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 9c."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.7,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B10a",
+    "canonicalId": "2024-B10a",
+    "section": "B",
+    "questionLabel": "10a",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 25.0,
+      "1": 34.0,
+      "2": 41.0
+    },
+    "averageMark": 1.2,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The purpose of the slip rings is to maintain continuous contact with the spinning loop and allow the current generated to be transferred to the oscilloscope."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Given that questions regarding the role of slip rings and split ring commutators appear on almost every exam, it is important that students ensure they understand these devices."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Many students struggled to adequately explain the role of the slip rings. There were references only to connection to the loop, which could also be achieved with a split ring commutator, or attempts to explain the role of slip rings in a DC motor."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 10a."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.6,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B10b",
+    "canonicalId": "2024-B10b",
+    "section": "B",
+    "questionLabel": "10b",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 11.0,
+      "1": 23.0,
+      "2": 66.0
+    },
+    "averageMark": 1.6,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The correct answers are 8 V and 5 Hz."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The common errors were to refer only to the peak voltage (4 V) or the period (0.2 s)."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 10b."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.8,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B10c",
+    "canonicalId": "2024-B10c",
+    "section": "B",
+    "questionLabel": "10c",
+    "marks": 3,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 48.0,
+      "1": 29.0,
+      "2": 7.0,
+      "3": 15.0
+    },
+    "averageMark": 0.9,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The peak voltage has been doubled while the frequency has remained the same. The only ways this could be done are to double the number of turns from one to two, double the magnetic field, or double the area of the loop. The justification for these changes doubling the peak voltage are all derived from Faraday’s law (ε=-N(∆Φ)/(Δt))."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The most common error was to refer only to increasing the identified quantities rather than doubling them."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 10c."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Hard",
+      "ratio": 0.3,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B11a",
+    "canonicalId": "2024-B11a",
+    "section": "B",
+    "questionLabel": "11a",
+    "marks": 1,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 15.0,
+      "1": 85.0
+    },
+    "averageMark": 0.9,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "(N_p)/(N_s)=(V_p)/(V_s)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "N_s=(460×36)/(230)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "N_s=72 turns"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Most students were able to complete this correctly. The errors were mathematical."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 11a."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.9,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B11b",
+    "canonicalId": "2024-B11b",
+    "section": "B",
+    "questionLabel": "11b",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 35.0,
+      "1": 3.0,
+      "2": 62.0
+    },
+    "averageMark": 1.3,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "(V_p)/(V_s)=(I_s)/(I_p)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "I_p=(36×0.8)/(230)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "I_p=0.13 A"
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The most common error was to convert some or all of the quantities from RMS to peak."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 11b."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.65,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B11c",
+    "canonicalId": "2024-B11c",
+    "section": "B",
+    "questionLabel": "11c",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 40.0,
+      "1": 18.0,
+      "2": 42.0
+    },
+    "averageMark": 1.0,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Transformers require an AC input to create a changing flux in the primary coil to induce a changing flux in the secondary coil to produce an AC output."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "A constant DC input would produce a constant flux in the primary coil, which would not produce any output."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "A significant number of students stated that the transformers required an AC input ‘… because they need an alternating current in the primary coil.’ This is a tautology since the alternating current has been identified in the stem. There were also some students who simply stated that constant DC will not work, without identifying why."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 11c."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.5,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B12a",
+    "canonicalId": "2024-B12a",
+    "section": "B",
+    "questionLabel": "12a",
+    "marks": 1,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 26.0,
+      "1": 74.0
+    },
+    "averageMark": 0.8,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "There are 50 panels each contributing 600 W. "
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "50 × 600 = 30 kW"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Students need to ensure that where there is a unit in the box, they must respond in that unit. The question stem also states that the answer must be in kW."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The most common error was to state 30 000 kW."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 12a."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.8,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B12b",
+    "canonicalId": "2024-B12b",
+    "section": "B",
+    "questionLabel": "12b",
+    "marks": 3,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 23.0,
+      "1": 12.0,
+      "2": 8.0,
+      "3": 57.0
+    },
+    "averageMark": 2.0,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The correct answers are 200 V and 30 A."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "There were two ways that students calculated the string current. The first was to employ the reasoning that in a series circuit the current at all points, and therefore through all panels, is the same. The current through a single panel is found by dividing the power of the panel (600 W) by the voltage output of the panel (20 V) and getting 30 A. Others reasoned that the output current is the quotient of the total power of the string (6000 W) and the total voltage output of the string (200 V). Again, their answer was 30 A."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 12b."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.6667,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B12c",
+    "canonicalId": "2024-B12c",
+    "section": "B",
+    "questionLabel": "12c",
+    "marks": 1,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 59.0,
+      "1": 41.0
+    },
+    "averageMark": 0.4,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The correct answers are 200 V and 150 A."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The most common error was to multiply both quantities by 5 and state 1000 V and 150 A. This suggests that students do not have a good understanding of parallel circuits. Students attempting Units 3 and 4 must master the relevant underpinning concepts in Units 1 and 2."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 12c."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.4,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B12d",
+    "canonicalId": "2024-B12d",
+    "section": "B",
+    "questionLabel": "12d",
+    "marks": 1,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 28.0,
+      "1": 72.0
+    },
+    "averageMark": 0.7,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The role of the inverter is to convert DC power into AC power."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 12d."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.7,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B13a",
+    "canonicalId": "2024-B13a",
+    "section": "B",
+    "questionLabel": "13a",
+    "marks": 1,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 31.0,
+      "1": 69.0
+    },
+    "averageMark": 0.7,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "t=(d)/(v)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "t=(9700-6500)/(0.985×3×10^8)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "t=10.8×10^(-6) s"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "t=10.8 μs"
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Most students who attempted this question completed it correctly. Nearly 20% of students did not attempt the question."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 13a."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.7,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B13b",
+    "canonicalId": "2024-B13b",
+    "section": "B",
+    "questionLabel": "13b",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 26.0,
+      "1": 7.0,
+      "2": 67.0
+    },
+    "averageMark": 1.4,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The mean lifetime of the muon is given as 2.2 s. Given that classical mechanics predicts the muon will take 10.8 s to reach the detector, the muons are unlikely to be able to reach the detector before they decay."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Most students who attempted this question were able to respond appropriately. Those who did not answer it well struggled with how to apply the value calculated in Question 13a. Again, there was a significant number of students who did not attempt the question."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 13b."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.7,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B13c",
+    "canonicalId": "2024-B13c",
+    "section": "B",
+    "questionLabel": "13c",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 22.0,
+      "1": 5.0,
+      "2": 73.0
+    },
+    "averageMark": 1.5,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "γ=(1)/(sqrt(1-(v^2)/(c^2))); (v)/(c)=0.985"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "γ=(1)/(sqrt(1-0.985^2))"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "γ=5.8"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Most students were able to calculate this value."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 13c."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.75,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B13d",
+    "canonicalId": "2024-B13d",
+    "section": "B",
+    "questionLabel": "13d",
+    "marks": 1,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "1": 100.0
+    },
+    "averageMark": 1.0,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "As a result of psychometric analysis and review, all students were awarded full marks for this question."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 13d."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 1.0,
+      "source": "Marks value confirmed against the exam paper's own 'Question 13 (9 marks)' heading and the official 120-mark exam total, not stated directly in the report text -- see the comment above this override in extract_2024_report.py.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B13e",
+    "canonicalId": "2024-B13e",
+    "section": "B",
+    "questionLabel": "13e",
+    "marks": 3,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 38.0,
+      "1": 13.0,
+      "2": 16.0,
+      "3": 33.0
+    },
+    "averageMark": 1.5,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Einstein’s concept of time dilation explains the detection of muons. The mean lifetime of the muon, as measured from the physicist’s frame of reference, is dilated from 2.2 s to 12.8 s. In this time, it is possible for the muons to reach the detector. "
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "This question can also be explained using length contraction and referring to the contracted length to the detector, in the muon’s frame of reference, being 552 m."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "While students seem to be getting better at responding to these questions, there were still a great many responses that showed confusion between frames of reference. Students frequently stated that ‘… the muon experiences time dilation …’, which is not the case."
+          }
+        ]
+      },
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "There were also students who jumped between using a time dilation argument and a length contraction argument, which generally led to a contradiction or greater confusion."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 13e."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.5,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B14a",
+    "canonicalId": "2024-B14a",
+    "section": "B",
+    "questionLabel": "14a",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 60.0,
+      "1": 3.0,
+      "2": 37.0
+    },
+    "averageMark": 0.8,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "E=mc^2"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "E=(2×9.11×10^(-31))×(3.00×10^8)^2"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "E=1.64×10^(-13) J"
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The most common error was to use the mass of a single electron."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 14a."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.4,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B14b",
+    "canonicalId": "2024-B14b",
+    "section": "B",
+    "questionLabel": "14b",
+    "marks": 1,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 85.0,
+      "1": 15.0
+    },
+    "averageMark": 0.2,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The gamma rays travel in opposite directions to conserve momentum within the collision."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "This question was not well answered. Most students stated that it was because the electron and positron are oppositely charged. Some referred to conservation of energy."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 14b."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Hard",
+      "ratio": 0.2,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B15a",
+    "canonicalId": "2024-B15a",
+    "section": "B",
+    "questionLabel": "15a",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 29.0,
+      "1": 4.0,
+      "2": 67.0
+    },
+    "averageMark": 1.4,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "λ=(h)/(p)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "2.00×10^(-10)=(6.63×10^(-34))/(p)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "p=3.32×10^(-24) kg m s^(-1)"
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Most students were able to calculate this correctly. The most common error among those that attempted the question was to use the wrong Planck’s constant."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 15a."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.7,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B15b",
+    "canonicalId": "2024-B15b",
+    "section": "B",
+    "questionLabel": "15b",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 60.0,
+      "1": 14.0,
+      "2": 26.0
+    },
+    "averageMark": 0.7,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Max is correct."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "As the de Broglie wavelength of the electrons and the interatomic spacing are of the same order of magnitude, there will be a useful diffraction pattern produced."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Of concern was the number of students who stated that diffraction would not occur if the wavelength was less than the spacing. Diffraction will begin to be observable when the (λ)/(w) ratio is ~10 and will continue to be observable as the ratio falls below 1. Students should familiarise themselves with the process of diffraction."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 15b."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Hard",
+      "ratio": 0.35,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B15c",
+    "canonicalId": "2024-B15c",
+    "section": "B",
+    "questionLabel": "15c",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 33.0,
+      "1": 44.0,
+      "2": 23.0
+    },
+    "averageMark": 0.9,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The spread of the diffraction pattern is determined by the wavelength of the electron/photon that produced it. As the two patterns have identical spacing, the electron and X-ray have identical wavelengths."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "While most students were able to identify the similarity between the two wavelengths, very few linked the spacing of the pattern to wavelength. This question is very similar to Question 17c from the 2024 Northern Hemisphere Timetable exam. The examination report gives an example of the correct response to questions of this nature. Students are reminded of the value of examination reports."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 15c."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.45,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B15d",
+    "canonicalId": "2024-B15d",
+    "section": "B",
+    "questionLabel": "15d",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 32.0,
+      "1": 7.0,
+      "2": 61.0
+    },
+    "averageMark": 1.3,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "E=(hc)/(λ)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "E=(4.14×10^(-15)×3.00×10^8)/(5.01×10^(-11))"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "E=2.48×10^4 eV"
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "This question was generally well done, with the most common error being to use the wrong Planck’s constant."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 15d."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.65,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B16a",
+    "canonicalId": "2024-B16a",
+    "section": "B",
+    "questionLabel": "16a",
+    "marks": 3,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 16.0,
+      "1": 15.0,
+      "2": 24.0,
+      "3": 45.0
+    },
+    "averageMark": 2.0,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Controlled: intensity / metal plate / light source"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Dependent: voltage"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Independent: filter / frequency / wavelength"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "In each case above, only one option was required."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "There were no consistent common errors. There were some students who reversed the dependent and independent variables."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 16a."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.6667,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B16b",
+    "canonicalId": "2024-B16b",
+    "section": "B",
+    "questionLabel": "16b",
+    "marks": 3,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 7.0,
+      "1": 13.0,
+      "2": 33.0,
+      "3": 47.0
+    },
+    "averageMark": 2.2,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2024-3.png",
+            "width": 449,
+            "height": 304
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The most common error was to put the line of best fit through the first and last points. This question was written with this common error in mind. Students who believe that a line of best fit always goes through the first and last points would have found all three middle points above the line. This should have provided a visual cue that the line was not correct. This remains the most common error when the points are plotted correctly."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 16b."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.7333,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B16ci",
+    "canonicalId": "2024-B16ci",
+    "section": "B",
+    "questionLabel": "16c.i",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 43.0,
+      "1": 15.0,
+      "2": 42.0
+    },
+    "averageMark": 1.0,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Planck’s constant = gradient of the graph"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "grad=(rise)/(run)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "grad=(1.5-0)/((10-5.5)×10^14)"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "grad=3.3×10^(-15) eV s"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "This question is specifically assessing the following point from page 59 of the study design:"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "apply methods of organising, analysing and evaluating primary data to identify patterns and relationships including: the physical significance of the gradient of linearised data; causes of uncertainty; use of uncertainty bars; and assumptions and limitations of data, methodologies and methods [emphasis added]."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Students must address the purpose of the question, which is to clearly demonstrate how Planck’s constant is found from the graph, not just arrive at a number. Failure to clearly demonstrate the gradient calculation risks the student not being awarded full marks."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "While most students knew that Planck’s constant is found from the gradient, many still struggled to demonstrate this adequately. There were some incorrect responses that were commonly seen, including:"
+          }
+        ]
+      },
+      {
+        "type": "examinerComment",
+        "level": 1,
+        "spans": [
+          {
+            "text": "using points from the table when those points are clearly not on the line"
+          }
+        ]
+      },
+      {
+        "type": "examinerComment",
+        "level": 1,
+        "spans": [
+          {
+            "text": "providing a calculation that could not be identified as a gradient calculation from the line, such as stating (1.5)/(4.5 × 10^14) in place of the second line above"
+          }
+        ]
+      },
+      {
+        "type": "examinerComment",
+        "level": 1,
+        "spans": [
+          {
+            "text": "attempting to force the gradient to yield a value close to 4.14 × 10−15"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 16c.i."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.5,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B16cii",
+    "canonicalId": "2024-B16cii",
+    "section": "B",
+    "questionLabel": "16c.ii",
+    "marks": 1,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 37.0,
+      "1": 63.0
+    },
+    "averageMark": 0.7,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "5.5×10^14 Hz"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Taken from the x-intercept."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 16c.ii."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Easy",
+      "ratio": 0.7,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B16ciii",
+    "canonicalId": "2024-B16ciii",
+    "section": "B",
+    "questionLabel": "16c.iii",
+    "marks": 1,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 48.0,
+      "1": 52.0
+    },
+    "averageMark": 0.5,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "1.8 eV"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Taken from the y-intercept."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 16c.iii."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.5,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B16d",
+    "canonicalId": "2024-B16d",
+    "section": "B",
+    "questionLabel": "16d",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 72.0,
+      "1": 10.0,
+      "2": 19.0
+    },
+    "averageMark": 0.5,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The recorded voltage measurements provide information about the maximum kinetic energy of the photoelectrons."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Students found this question difficult. They frequently referred to the photon rather than the photoelectron. Many were also unclear that it is the maximum kinetic energy not simply ‘the energy’. There were also many meaningless responses, which suggests that the photoelectric effect experiment is a difficult concept for many students."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 16d."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Hard",
+      "ratio": 0.25,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B16e",
+    "canonicalId": "2024-B16e",
+    "section": "B",
+    "questionLabel": "16e",
+    "marks": 1,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 56.0,
+      "1": 44.0
+    },
+    "averageMark": 0.5,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The graph would move up/down/left/right while maintaining the same gradient."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The most common error was to state only that the intercepts would change and not state that the gradient would remain the same."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 16e."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.5,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B16f",
+    "canonicalId": "2024-B16f",
+    "section": "B",
+    "questionLabel": "16f",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 38.0,
+      "1": 35.0,
+      "2": 27.0
+    },
+    "averageMark": 0.9,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The position of P will move to the left. This is because the blue photons will have a higher energy to impart to the photoelectrons. This will increase the maximum kinetic energy of the photoelectrons."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "There were many students who simply stated that the blue photons have a higher energy (E=hf) without relating this back to the photoelectrons and the stopping voltage."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 16f."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.45,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B16g",
+    "canonicalId": "2024-B16g",
+    "section": "B",
+    "questionLabel": "16g",
+    "marks": 2,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 93.0,
+      "1": 4.0,
+      "2": 3.0
+    },
+    "averageMark": 0.1,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The horizontal line NM (the photocurrent) will be lower. This is because the change in wavelength without changing the power means there will be fewer photons reaching the metal plate. Fewer photons results in fewer photoelectrons and the photocurrent will be reduced."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The most common error was to state an answer from a previous exam and say that the line stays the same. This ignores the information provided about the power of the light source."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 16g."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Very Hard",
+      "ratio": 0.05,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  },
+  {
+    "interactionId": "B16h",
+    "canonicalId": "2024-B16h",
+    "section": "B",
+    "questionLabel": "16h",
+    "marks": 3,
+    "withdrawn": false,
+    "marksDistributionPct": {
+      "0": 38.0,
+      "1": 14.0,
+      "2": 19.0,
+      "3": 29.0
+    },
+    "averageMark": 1.4,
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Students could refer to one of the following:"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 1,
+        "spans": [
+          {
+            "text": "the existence of a threshold frequency"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 1,
+        "spans": [
+          {
+            "text": "the absence of a time delay"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 1,
+        "spans": [
+          {
+            "text": "the effect of frequency on the energy of the photoelectrons."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Students were then required to provide the wave model prediction and the experiment results and use these to conclude that only the particle model explains these findings."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Of concern was the number of students whose response was an amalgam of all three findings, in what looked like an attempt to find something from their A3 sheet with which to respond. Once again, students are reminded that copying material directly from their A3 sheet without consideration of the specifics of the question is unlikely to result in marks being awarded. Assessors are experienced in identifying the differences between a considered response and a response made up of disjointed facts that may or may not be relevant."
+          }
+        ]
+      }
+    ],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Students struggled to provide concise responses that addressed one of these findings. "
+          }
+        ]
+      },
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Approximately 20% of students did not attempt the problem. This may have been due to it being the last question on the paper or it could be because this type of question has historically been difficult for students. Less than 30% were able to provide a response that addressed both the wave model prediction and the particle model explanation of the experimental findings. The students who received 2 marks could generally articulate the finding and how the finding supported the particle model but frequently could not articulate the wave model prediction. Teachers and students should spend time discussing the predictions of the wave model as well as the actual findings of the experiment."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "document": "2024-physics-report.docx",
+      "location": "Question 16h."
+    },
+    "uncertain": false,
+    "uncertainReason": "",
+    "difficulty": {
+      "level": "Medium",
+      "ratio": 0.4667,
+      "source": "2024 VCE Physics Examination Report cohort statistics.",
+      "rule": "Derived from official cohort performance in the examination report: for Section A, the percentage of the cohort who chose the correct option; for Section B, the average mark achieved divided by the marks available. Bands: ratio >= 0.70 Easy, 0.40-0.69 Medium, 0.20-0.39 Hard, < 0.20 Very Hard. 'unknown' is used only when no official statistic exists for the question."
+    }
+  }
+]

@@ -57,7 +57,58 @@ ARCHIVE_DUAL = (15, 90, 90)  # 2002-2012 (and the 2004 pilot), per sitting
 
 # Interaction geometry hand-verified against the rendered PDF for 2025 --
 # the "airtight" flagship year -- takes precedence over auto-generation.
-TUNED_INTERACTIONS = {"2025"}
+TUNED_INTERACTIONS = {"2025", "2024"}
+
+# 2024's exam has no text layer at all (confirmed: 0 fonts, every character
+# a vector path -- see Missing_Resources.md), so Section A geometry can't be
+# found by searching "Question N"/"A."-"D." text the way every other year
+# is. The vector-path line-clustering heuristic (make_mcqs_no_text_layer)
+# correctly recovers 12 of the 20 -- exactly the plain-list questions --
+# but questions whose options are a 2x2 grid of diagrams/graphs or a
+# genuine multi-column table (Force|Torque, Current direction|Induced
+# field, etc.) don't form its "4 evenly-spaced single-line labels" pattern.
+# Rather than layer more heuristics onto a page-layout quirk this
+# subject-specific, this is a complete, hand-confirmed table for all 20
+# questions -- mirroring exactly how the sibling VCE Chemistry app handled
+# its own text-layer-less 2024 exam (a full MANUAL_MCQ_POSITIONS table, not
+# a partial one).
+#
+# Every (page, x, y[, height]) entry below was cross-checked pixel-precisely
+# against a clean 110dpi render of the actual page: a numpy ink-row/ink-
+# column scan of the rendered grayscale image (thresholding, then finding
+# contiguous dark bands) locates the true bottom edge of each option block
+# and the top edge of whatever follows it, so every box sits in a genuinely
+# blank gap rather than an eyeballed guess -- an eyeballed first pass on
+# this same table originally clipped into option diagrams on 4 questions
+# and into the next question's heading on 3 others; both classes of error
+# are what this scan-based re-derivation exists to rule out. height is
+# omitted (defaults to 0.032) except where the gap before the next heading
+# is too narrow for that default and a shorter box is used instead.
+# See docs/INTERACTION-GEOMETRY-REVIEW.md.
+MANUAL_MCQ_POSITIONS_2024 = {
+    1: (2, 0.059, 0.660),
+    2: (2, 0.059, 0.883),
+    3: (3, 0.06, 0.608),    # 2x2 grid of force-diagram options -- placed below the whole grid (D row bottom = 769px/1287)
+    4: (4, 0.059, 0.818),
+    5: (5, 0.06, 0.747),    # 2x2 grid of energy-vs-time graphs -- below the whole grid (D row bottom = 947px/1287)
+    6: (6, 0.059, 0.316),
+    7: (7, 0.14, 0.621),    # Force/Torque comparison table -- precise (D row y1=519.9pt)
+    8: (8, 0.059, 0.476, 0.024),   # D line bottom=608px, "Question 9" heading top=647px -- shortened to clear it
+    9: (8, 0.059, 0.743),
+    10: (9, 0.14, 0.598),   # 2x2 grid of magnetic-flux graphs -- below the whole grid (D row bottom = 759px/1287)
+    11: (9, 0.141, 0.812),
+    12: (10, 0.06, 0.576),  # Current-direction/induced-field table -- precise (D row y1=482.0pt)
+    13: (11, 0.141, 0.446, 0.024),  # D line bottom=573px, "Question 14" heading top=609px -- shortened to clear it
+    14: (11, 0.14, 0.841),  # wrapped-text options (relativistic length measurements) -- D wraps to 2 lines, ending at 1075px/1287
+    15: (12, 0.059, 0.285, 0.024),  # D line bottom=366px, "Question 16" heading top=402px -- shortened to clear it
+    16: (12, 0.059, 0.803),
+    17: (13, 0.14, 0.450),  # 2x2 grid of standing-wave diagrams -- below the whole grid (D row bottom = 564px/1287)
+    18: (14, 0.059, 0.540),
+    19: (15, 0.39, 0.40),   # 2x2 grid of v-vs-r graphs -- "Question 20" follows immediately below, so placed in
+                             # the blank gap between the A/B and C/D columns instead (x=312-567px is empty for the
+                             # full row height, confirmed by an ink-column scan) rather than shortened below the grid
+    20: (15, 0.141, 0.623),
+}
 
 
 def slug_for(path: Path) -> str:
@@ -111,6 +162,98 @@ def page_text(page):
 
 
 _OPTION_LABEL_RE = re.compile(r"^[A-D]\.$")
+
+
+def _vector_text_line_rects(page):
+    """For pages with no extractable text layer at all (confirmed: 0 fonts
+    -- 2024's exam PDF renders every character as an individually-drawn
+    vector path, not a font glyph), PyMuPDF's get_drawings() still groups
+    each contiguous run of character paths into one compound fill ('f')
+    drawing per visual text line, complete with a real bounding box --
+    confirmed directly: a rect like (37.7, 508.4, 47.1, 516.3) is exactly
+    where a rendered "B." option label sits, even though there is no way to
+    ask what text it contains. This recovers line *positions* (never
+    content) from that, which is enough to find the option-label column
+    pattern below without OCR."""
+    rects = []
+    for d in page.get_drawings():
+        if d.get("type") != "f":
+            continue
+        r = d.get("rect")
+        if r is None:
+            continue
+        rects.append(r)
+    return rects
+
+
+def _known_margin_x(page_number):
+    """VCAA alternates which side carries the content margin between facing
+    pages (confirmed independently for both Section A and Section B: even
+    pages start at x~36.9pt, odd pages at x~87.9pt, on this exam's own
+    layout). Physics answers routinely include scientific notation
+    ("4.0 x 10^-2 N"), whose superscript exponent digits are short enough
+    to otherwise pass the option-label size filter and get clustered as
+    spurious extra "questions" at the *value* column's x position --
+    confirmed directly (2024 page 8: 7 raw clusters detected for what are
+    really only 2 real questions). Restricting to the known label-column x
+    eliminates this: exponents never sit exactly at the margin."""
+    return 36.9 if page_number % 2 == 0 else 87.9
+
+
+def find_option_label_clusters_no_text(page, page_number=None):
+    """No-text-layer equivalent of scanning for "A." "B." "C." "D." word
+    tokens: finds groups of exactly 4 short vector-drawn lines (the option
+    labels' own glyph runs are short -- a letter plus a period, confirmed
+    ~7-11pt wide, ~6-9pt tall) sharing the same left x-position (the option
+    column) with the regular ~18-21pt line spacing confirmed between actual
+    "A."/"B."/"C."/"D." labels on this exam's own pages. Returns
+    [(x0, y0_of_A, y1_of_D)] sorted top-to-bottom -- one entry per detected
+    question on this page, in reading order. Not perfect (options laid out
+    as a table, or a fraction spanning two lines, can suppress or split a
+    match -- see build_2024's manual-override pattern for the residual
+    cases caught by visual review), but accounts for the large majority
+    without any per-question hand placement.
+    """
+    margin_x = _known_margin_x(page_number) if page_number is not None else None
+    candidates = []
+    for r in _vector_text_line_rects(page):
+        w, h = r.x1 - r.x0, r.y1 - r.y0
+        if not (5 <= h <= 9 and 3 <= w <= 13):
+            continue
+        if margin_x is not None and abs(r.x0 - margin_x) > 2.0:
+            continue
+        candidates.append((r.x0, r.y0, r.y1))
+    candidates.sort(key=lambda c: c[0])
+
+    x_groups = []
+    for c in candidates:
+        for g in x_groups:
+            if abs(g[-1][0] - c[0]) <= 2.0:
+                g.append(c)
+                break
+        else:
+            x_groups.append([c])
+
+    clusters = []
+    for g in x_groups:
+        g.sort(key=lambda c: c[1])
+        i = 0
+        while i < len(g):
+            group = [g[i]]
+            j = i + 1
+            while j < len(g):
+                gap = g[j][1] - group[-1][1]
+                if 14 <= gap <= 26:
+                    group.append(g[j])
+                    j += 1
+                else:
+                    break
+            if len(group) == 4:
+                clusters.append((group[0][0], group[0][1], group[-1][2]))
+                i = j
+            else:
+                i += 1
+    return sorted(clusters, key=lambda c: c[1])
 
 
 def option_block_bottom(page, heading_y0, next_heading_y0):
@@ -194,11 +337,106 @@ def detect_section_b_start(doc, has_mcq, section_a_total):
     return None
 
 
-def make_mcqs(doc, total, section_b_start):
-    if total <= 0:
-        return []
+# Registry of complete, hand-confirmed Section A tables for no-text-layer
+# papers where the auto-detection heuristic can't reach every question
+# (see MANUAL_MCQ_POSITIONS_2024's docstring above for why). Keyed by slug.
+MANUAL_MCQ_POSITIONS_BY_SLUG = {"2024": MANUAL_MCQ_POSITIONS_2024}
+
+
+def _mcq_item_from_position(question, page_number, x_fraction, y_fraction, note, height=0.032):
+    rect = {
+        "x": round(x_fraction, 3),
+        "y": round(y_fraction, 3),
+        "width": 0.145,
+        "height": round(height, 3),
+    }
+    return {
+        "id": f"A{question}",
+        "section": "A",
+        "question": str(question),
+        "page": page_number,
+        "type": "mcq",
+        "rect": rect,
+        "note": note,
+    }
+
+
+def make_mcqs_no_text_layer(doc, total, section_b_start, slug=None):
+    """No-text-layer equivalent of make_mcqs's main loop: since there's no
+    "Question N" text to key off of, this zips the detected 4-option
+    clusters (find_option_label_clusters_no_text) sequentially against
+    question numbers 1..total in page/reading order -- safe when every
+    Section A question is laid out as a plain option list, since VCAA lays
+    Section A out strictly in question-number order and detection then
+    finds exactly one cluster per question, in order.
+
+    That assumption breaks for any question whose options are a 2x2 grid of
+    diagrams/graphs or a genuine multi-column table -- those produce zero
+    clusters, silently shifting every subsequent question's auto-assigned
+    number (confirmed for 2024 by direct page-by-page visual audit -- see
+    MANUAL_MCQ_POSITIONS_2024). For a slug with a complete hand-confirmed
+    table in MANUAL_MCQ_POSITIONS_BY_SLUG, that table is used directly
+    instead of trusting the sequential zip at all."""
+    if slug in MANUAL_MCQ_POSITIONS_BY_SLUG:
+        positions = MANUAL_MCQ_POSITIONS_BY_SLUG[slug]
+        items, seen = [], set()
+        for question in range(1, total + 1):
+            if question not in positions:
+                continue
+            entry = positions[question]
+            page_number, x_fraction, y_fraction = entry[0], entry[1], entry[2]
+            height = entry[3] if len(entry) > 3 else 0.032
+            items.append(_mcq_item_from_position(
+                question, page_number, x_fraction, y_fraction,
+                "Hand-confirmed placement (no text layer to auto-detect from); "
+                "see MANUAL_MCQ_POSITIONS_BY_SLUG in generate_paper_assets.py.",
+                height=height,
+            ))
+            seen.add(question)
+        return items, seen
+
+    clusters = []  # (page_number, x0, y0, y1)
+    for page_number in range(1, min(section_b_start, doc.page_count + 1)):
+        page = doc[page_number - 1]
+        for x0, y0, y1 in find_option_label_clusters_no_text(page, page_number):
+            clusters.append((page_number, x0, y0, y1))
+
     items = []
     seen = set()
+    for question, (page_number, x0, y0, y1) in enumerate(clusters[:total], start=1):
+        page = doc[page_number - 1]
+        rect = {
+            "x": round(x0 / page.rect.width, 3),
+            "y": min(0.94, round((y1 + 3) / page.rect.height, 3)),
+            "width": 0.145,
+            "height": 0.032,
+        }
+        items.append({
+            "id": f"A{question}",
+            "section": "A",
+            "question": str(question),
+            "page": page_number,
+            "type": "mcq",
+            "rect": rect,
+            "note": "Auto-placed from vector-path line clustering (no text layer to search); confirm with developer coordinate mode.",
+        })
+        seen.add(question)
+    return items, seen
+
+
+def make_mcqs(doc, total, section_b_start, slug=None):
+    if total <= 0:
+        return []
+    if not doc[0].get_fonts():
+        # No embedded fonts anywhere on the cover page is the confirmed
+        # signal for "this whole PDF has no text layer" (see 2024's exam --
+        # every character is a vector path, not a font glyph).
+        items, seen = make_mcqs_no_text_layer(doc, total, section_b_start, slug)
+    else:
+        items, seen = [], set()
+    if len(seen) == total:
+        return sorted(items, key=lambda item: int(item["question"]))
+
     for page_number in range(1, min(section_b_start, doc.page_count + 1)):
         page = doc[page_number - 1]
         words = page.get_text("words")
@@ -547,7 +785,7 @@ def main():
         if slug in TUNED_INTERACTIONS and tuned_path.exists():
             interactions = json.loads(tuned_path.read_text(encoding="utf-8-sig"))
         else:
-            mcqs = make_mcqs(doc, section_a_total, section_b_start or (doc.page_count + 1)) if has_mcq else []
+            mcqs = make_mcqs(doc, section_a_total, section_b_start or (doc.page_count + 1), slug) if has_mcq else []
             written = make_written_fields(doc, section_b_start or 1)
             interactions = mcqs + written
 

@@ -12,7 +12,14 @@ PUBLIC = ROOT / "public"
 # field. Excluded from the "tiny Section B fields to review" heuristic below
 # so it stays useful for catching real future errors instead of permanently
 # flagging known-good geometry.
-KNOWN_TINY_FIELDS = {}
+KNOWN_TINY_FIELDS = {
+    # 2024: no text layer, so these three subparts have no ruled working
+    # lines to detect at all -- just a bare unit box (Hz, eV) or a pair of
+    # them (V, Hz) with no space above for working. Confirmed correct by
+    # pixel-precise ink-band scans of the source PDF and a rendered overlay
+    # check -- see MANUAL_ENTRIES in scripts/build_2024_section_b.py.
+    "2024": {"B10b", "B16cii", "B16ciii"},
+}
 
 
 def main():

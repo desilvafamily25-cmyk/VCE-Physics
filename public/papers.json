@@ -31,12 +31,12 @@
     "totalMarks": 120,
     "source": "current-design-2024-2027/2024-physics-exam.pdf",
     "pageCount": 52,
-    "interactionCount": 80,
+    "interactionCount": 72,
     "readingMinutes": 15,
     "writingMinutes": 150,
     "durationSource": "assumed-standard for current era",
-    "hasAnswerData": false,
-    "hasCurriculumMap": false,
+    "hasAnswerData": true,
+    "hasCurriculumMap": true,
     "hasMultipleChoice": true
   },
   {

@@ -1,0 +1,2851 @@
+{
+  "source": "current-design-2024-2027/2024-physics-report.docx",
+  "sectionA": {
+    "tableRows": [
+      [
+        "Question",
+        "Correct answer",
+        "% A",
+        "% B",
+        "% C",
+        "% D",
+        "Comments"
+      ],
+      [
+        "1",
+        "C",
+        "26",
+        "8",
+        "54",
+        "12",
+        "Since neither Jo nor the lift is accelerating, the force exerted on Jo by the lift floor is the same as her weight force of ."
+      ],
+      [
+        "2",
+        "B",
+        "12",
+        "39",
+        "39",
+        "10",
+        "The orbital radius in terms of orbital velocity is given by  .\nGiven that this relationship is independent of the mass of the SBO and the question states that the velocity is unchanged, the orbital radius remains R."
+      ],
+      [
+        "3",
+        "A",
+        "51",
+        "4",
+        "37",
+        "8",
+        "There are only two forces acting on the ball. The gravitational or weight force acting directly downwards and the tension in the string acting obliquely upwards."
+      ],
+      [
+        "4",
+        "C",
+        "13",
+        "17",
+        "63",
+        "8",
+        "SPE = KE"
+      ],
+      [
+        "5",
+        "A",
+        "73",
+        "7",
+        "10",
+        "10",
+        "Conservation of energy in a closed system"
+      ],
+      [
+        "6",
+        "A",
+        "79",
+        "5",
+        "10",
+        "6",
+        "The net field between two like poles is effectively zero, as the field lines repel each other."
+      ],
+      [
+        "7",
+        "D",
+        "12",
+        "24",
+        "25",
+        "39",
+        "The current flows in the same direction in the field in PQ in both cases so the force on PQ will be the same in both cases.\nThe force will be downwards in PQ in both cases but in Diagram A this force is at a right angle to the loop resulting in a maximal torque, while in Diagram B this force is parallel to the loop resulting in no torque on the loop."
+      ],
+      [
+        "8",
+        "C",
+        "6",
+        "8",
+        "83",
+        "2",
+        ""
+      ],
+      [
+        "9",
+        "B",
+        "25",
+        "54",
+        "13",
+        "8",
+        ""
+      ],
+      [
+        "10",
+        "C",
+        "9",
+        "22",
+        "34",
+        "35",
+        "To induce a constant current, there must be a constantly changing flux. The gradient of the flux graph must be the same for the first and last segments and must be steeper in the middle to induce the higher current."
+      ],
+      [
+        "11",
+        "B",
+        "3",
+        "80",
+        "7",
+        "9",
+        "Keeping in mind that the fundamental tenet of this area of study is the delivery of power, only high voltages will allow for fixed power to be delivered at lower supply voltages. Power loss is proportional to the square of the current."
+      ],
+      [
+        "12",
+        "C",
+        "30",
+        "11",
+        "42",
+        "16",
+        "The coil is moving up so it experiences a decreasing upwards flux. To create an increasing upwards flux in the coil, an anticlockwise current is required."
+      ],
+      [
+        "13",
+        "A",
+        "51",
+        "11",
+        "6",
+        "32",
+        "The split ring commutator will result in a rectified sine wave delivered to the oscilloscope. While the voltage will have a varying value, it will always flow in the same direction and is therefore a DC voltage."
+      ],
+      [
+        "14",
+        "D",
+        "9",
+        "5",
+        "8",
+        "77",
+        "Length contraction only occurs in the axis of the relative motion, so only the horizontal measurement will be affected by length contraction. The vertical measurement will be unaffected."
+      ],
+      [
+        "15",
+        "B",
+        "31",
+        "47",
+        "17",
+        "5",
+        "The energy is directly proportional to the Lorentz factor; however, as the velocity is already very close to the speed of light, any increase will be small."
+      ],
+      [
+        "16",
+        "D",
+        "13",
+        "27",
+        "17",
+        "43",
+        "Diagram P shows three high energy transitions, E5, E4 and E3 all to E1 and two lower energy transitions, E5 to E2, and E5 to E3. Spectrum D shows three high frequency lines at the right and two lower energy frequency lines at the left."
+      ],
+      [
+        "17",
+        "B",
+        "12",
+        "59",
+        "11",
+        "18",
+        "50 Hz gives a period of 0.02 seconds. Therefore, in half a period (0.010 s) the wave will have moved half a wavelength."
+      ],
+      [
+        "18",
+        "D",
+        "13",
+        "12",
+        "11",
+        "63",
+        "If the geometry changes to:  ,  will increase to ."
+      ],
+      [
+        "19",
+        "D",
+        "3",
+        "13",
+        "14",
+        "69",
+        "This has the form of  so a graph of  vs  will give a straight line through the origin."
+      ],
+      [
+        "20",
+        "B",
+        "2",
+        "85",
+        "3",
+        "10",
+        "Precision describes the variation between measurements."
+      ]
+    ],
+    "commentSpans": {
+      "1": [
+        {
+          "text": "Since neither Jo nor the lift is accelerating, the force exerted on Jo by the lift floor is the same as her weight force of 75×9.8=735 N."
+        }
+      ],
+      "2": [
+        {
+          "text": "The orbital radius in terms of orbital velocity is given by r=(GM)/(v^2) ."
+        },
+        {
+          "text": "Given that this relationship is independent of the mass of the SBO and the question states that the velocity is unchanged, the orbital radius remains R."
+        }
+      ],
+      "3": [
+        {
+          "text": "There are only two forces acting on the ball. The gravitational or weight force acting directly downwards and the tension in the string acting obliquely upwards."
+        }
+      ],
+      "4": [
+        {
+          "text": "SPE = KE"
+        },
+        {
+          "text": "SPE=(1)/(2)bh"
+        },
+        {
+          "text": "SPE=0.5×0.1×40"
+        },
+        {
+          "text": "SPE=2 J"
+        },
+        {
+          "text": "KE=(1)/(2)mv^2"
+        },
+        {
+          "text": "2=0.5×0.05×v^2"
+        },
+        {
+          "text": "v=8.9 m s^(-1)"
+        }
+      ],
+      "5": [
+        {
+          "text": "Conservation of energy in a closed system"
+        }
+      ],
+      "6": [
+        {
+          "text": "The net field between two like poles is effectively zero, as the field lines repel each other."
+        }
+      ],
+      "7": [
+        {
+          "text": "The current flows in the same direction in the field in PQ in both cases so the force on PQ will be the same in both cases."
+        },
+        {
+          "text": "The force will be downwards in PQ in both cases but in Diagram A this force is at a right angle to the loop resulting in a maximal torque, while in Diagram B this force is parallel to the loop resulting in no torque on the loop."
+        }
+      ],
+      "8": [
+        {
+          "text": "F=BIl"
+        },
+        {
+          "text": "F=2.0×10^(-3)×5.0×0.04"
+        },
+        {
+          "text": "F=4.0×10^(-4) N"
+        }
+      ],
+      "9": [
+        {
+          "text": "F∝(1)/(d^2)"
+        },
+        {
+          "text": "If F→6F , then  d^2→(1)/(6)d^2"
+        },
+        {
+          "text": "⇒d→sqrt((1)/(6)d)"
+        },
+        {
+          "text": "d→0.41d"
+        }
+      ],
+      "10": [
+        {
+          "text": "To induce a constant current, there must be a constantly changing flux. The gradient of the flux graph must be the same for the first and last segments and must be steeper in the middle to induce the higher current."
+        }
+      ],
+      "11": [
+        {
+          "text": "Keeping in mind that the fundamental tenet of this area of study is the delivery of power, only high voltages will allow for fixed power to be delivered at lower supply voltages. Power loss is proportional to the square of the current."
+        }
+      ],
+      "12": [
+        {
+          "text": "The coil is moving up so it experiences a decreasing upwards flux. To create an increasing upwards flux in the coil, an anticlockwise current is required."
+        }
+      ],
+      "13": [
+        {
+          "text": "The split ring commutator will result in a rectified sine wave delivered to the oscilloscope. While the voltage will have a varying value, it will always flow in the same direction and is therefore a DC voltage."
+        }
+      ],
+      "14": [
+        {
+          "text": "Length contraction only occurs in the axis of the relative motion, so only the horizontal measurement will be affected by length contraction. The vertical measurement will be unaffected."
+        }
+      ],
+      "15": [
+        {
+          "text": "The energy is directly proportional to the Lorentz factor; however, as the velocity is already very close to the speed of light, any increase will be small."
+        }
+      ],
+      "16": [
+        {
+          "text": "Diagram P shows three high energy transitions, E5, E4 and E3 all to E1 and two lower energy transitions, E5 to E2, and E5 to E3. Spectrum D shows three high frequency lines at the right and two lower energy frequency lines at the left."
+        }
+      ],
+      "17": [
+        {
+          "text": "50 Hz gives a period of 0.02 seconds. Therefore, in half a period (0.010 s) the wave will have moved half a wavelength."
+        }
+      ],
+      "18": [
+        {
+          "text": "∆x=(λL)/(d)"
+        },
+        {
+          "text": "If the geometry changes to: (λ2L)/(0.5d) , ∆x will increase to 4∆x."
+        }
+      ],
+      "19": [
+        {
+          "text": "v=sqrt((GM)/(r))"
+        },
+        {
+          "text": "∴v^2=GM×(1)/(r)"
+        },
+        {
+          "text": "This has the form of y=mx so a graph of v^2 vs (1)/(r) will give a straight line through the origin."
+        }
+      ],
+      "20": [
+        {
+          "text": "Precision describes the variation between measurements."
+        }
+      ]
+    }
+  },
+  "sectionB": [
+    {
+      "heading": "Question 1a.",
+      "interactionId": "B1a",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 44.0,
+          "1": 56.0
+        },
+        "average": 0.6
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "ΣF=ma"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "a=(9.2×10^4-1.2×10^4-1.4×10^4)/(5.0×10^5+6.0×10^5)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "a=6.0×10^(-2) m s^(-2)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common errors were to fail to account for the frictional forces or to use the total mass of all three boats."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "While most students presented sufficient working, there were still many who gave the formula only. There were also some incorrect workings that concluded with ‘= 6.0 × 10−2 m s−2’ when this was clearly not the case. Students should check their working and not attempt to fudge the answer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 1b.",
+      "interactionId": "B1b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 56.0,
+          "1": 3.0,
+          "2": 41.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "ΣF=ma"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "T_2-1.4×10^4=6.0×10^5×6.0×10^(-2)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "T_2=5.0×10^4 N"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "There was a range of incorrect responses. The most common used the mass of both vessels, or subtracted the frictional force from ma rather than adding it."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "A few students chose to use a free body diagram, which made their thinking clearer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 2a.",
+      "interactionId": "B2a",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 18.0,
+          "1": 8.0,
+          "2": 4.0,
+          "3": 71.0
+        },
+        "average": 2.3
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "v=sqrt(rg tanθ)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "v=sqrt(1200×9.81×tan⁡(33))"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "v=87.4 m s^(-1)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Many students provided working as shown above, suggesting they had an example like this on their A3 sheet. Few derived the formula from first principles."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common errors were to fail to convert the radius from kilometres to metres, or to use the wrong trigonometry identity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 2b.",
+      "interactionId": "B2b",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 65.0,
+          "1": 35.0
+        },
+        "average": 0.4
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The normal force is perpendicular to the track. This gives rise to an unbalanced horizontal component that points to the centre of the turn. This force is the centripetal force that allows the car to make the turn without the need for friction between the wheels and the track."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to state that the inclined track caused the normal force to point inwards to the centre of the turn. In fact, the normal force points to a point some 1848 m above the centre of the turn. Other incorrect responses indicated a lack of understanding of the problem."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 3a.",
+      "interactionId": "B3a",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 32.0,
+          "1": 23.0,
+          "2": 8.0,
+          "3": 37.0
+        },
+        "average": 1.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "u_vert=48sin35=27.53 m s^(-1)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "s=ut+(1)/(2)at^2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "s=(27.53×6.2)+(0.5×-9.81×6.2^2)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "s=-17.86"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "⇒h=18 m"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "There were other methods students could use."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "There were a number of errors that appeared repeatedly: "
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 1,
+          "spans": [
+            {
+              "text": "Students did not maintain a strong sign convention and had acceleration due to gravity acting upwards, rather than downwards. "
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 1,
+          "spans": [
+            {
+              "text": "Students broke the flight path up into three phases (launch to top of flight, top of flight to launch height, launch height to ground) and tried to keep track of the times for each phase. Errors occurred during this process. "
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 1,
+          "spans": [
+            {
+              "text": "Students used pre-derived formulae, particularly s=(u^2sin^2θ)/(2g) , but did not know how to apply it to this situation. "
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 1,
+          "spans": [
+            {
+              "text": "A few students employed the range equation, apparently unaware that that formula is not applicable in this situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 3b.",
+      "interactionId": "B3b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 38.0,
+          "1": 2.0,
+          "2": 60.0
+        },
+        "average": 1.3
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "u_horiz=48cos35=39.32 m s^(-1)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "s=vt"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "s=39.32×6.2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "s=244 m"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Most students were able to complete this successfully."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 3c.",
+      "interactionId": "B3c",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 16.0,
+          "1": 36.0,
+          "2": 48.0
+        },
+        "average": 1.4
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The air resistance will reduce the height that the ball will reach, and it will reduce the horizontal distance that the ball will travel."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Most students identified the reduced distance but failed to mention the reduced height. A few students indicated that the time of flight would be reduced but this is not the same as stating the changes to the flight path."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Some students chose to draw the changes to the flight path, and this helped to make their understanding clear. Students are encouraged to provide diagrams if they think it will help communicate their understanding to the assessors."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 4a.",
+      "interactionId": "B4a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 52.0,
+          "1": 2.0,
+          "2": 47.0
+        },
+        "average": 1.0
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "I=area=(1)/(2)bh"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "I=0.5×240×10^(-3)×24,000"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "I=2.88×10^3 N s"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common errors were to fail to convert 240 milliseconds to seconds or to simply multiply 240 x 10−3 by 24 000."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "There were some students who counted the squares under the graph (72) and multiplied this by the area of a single, small square (40 N s). This was a valid, if rather laborious, approach."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 4b.",
+      "interactionId": "B4b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 18.0,
+          "1": 31.0,
+          "2": 51.0
+        },
+        "average": 1.4
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "imageUrl": "/answer-images/2024-1.png",
+              "width": 419,
+              "height": 232
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "To have the same area and a duration of 480 ms, the maximum force should be 12 000 N."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "While most students had the duration correct, many had incorrect amplitudes. This suggests that students are not confident with impulse and momentum and the graphical representation of these quantities."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 5a.",
+      "interactionId": "B5a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 22.0,
+          "1": 34.0,
+          "2": 44.0
+        },
+        "average": 1.2
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "∆p=p_f-p_i"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "∆p=(0.63×10)-(0.63×-12)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "∆p=13.86"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "That the result is positive indicates that the change is in the same direction as the final momentum, that is, up, and the magnitude is 14 kg m s−1."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to calculate the magnitude as 0.63×2=1.26 kg m s^(-1). This was accompanied by an equal mix of ups and downs, suggesting that these students did not know how to determine the direction of the change."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 5b.",
+      "interactionId": "B5b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 14.0,
+          "1": 23.0,
+          "2": 63.0
+        },
+        "average": 1.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The collision is inelastic. This is because the final velocity is less than the initial velocity, and as kinetic energy is (1)/(2)mv^2 and the mass stays the same, the final kinetic energy is less than the initial kinetic energy."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The two most common errors were to state that the collision is inelastic because the momentum is not conserved or to state that energy is not conserved, without identifying kinetic energy. While these distinctions may seem trivial, they are at the heart of making a detailed analysis of the system."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 6",
+      "interactionId": "B6",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 28.0,
+          "1": 17.0,
+          "2": 13.0,
+          "3": 43.0
+        },
+        "average": 1.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Gravitational force available:"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "F=(GMm)/(r^2)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "F=(6.67×10^(-11)×4.50×10^5×1.50×10^4)/(500^2)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "F=1.80×10^(-6) N"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Centripetal force required:"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "F=(mv^2)/(r)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "F=(1.50×10^4×0.436^2)/(500)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "F=5.7 N"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The centripetal force required for the orbit far exceeds the gravitational force available to provide it so, no, Kwan’s suggestion will not work."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "There were other ways that students could have approached this problem, including comparing orbital velocities or orbital radii."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Most students struggled with this to some degree. While they were able to calculate something (a force, a velocity or an acceleration), they struggled to follow up with something they could compare it to. This suggests that these students did not go into the problem with a strategy for how to respond. As a result, their working was disorganised and incomplete."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Before tackling these longer questions, students are encouraged to take a few moments to formulate a strategy for how they will demonstrate their solution."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 7a.",
+      "interactionId": "B7a",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 27.0,
+          "1": 73.0
+        },
+        "average": 0.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "r=(mv)/(Bq)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "∴v=(Bqr)/(m)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "v=(5.00×10^(-3)×1.60×10^(-19)×1.50×10^(-2))/(9.11×10^(-31))"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "v=1.32×10^7 m s^(-1)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to incorrectly convert the radius to metres. There were many students who were not able to make a start on this problem."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 7b.",
+      "interactionId": "B7b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 38.0,
+          "1": 7.0,
+          "2": 55.0
+        },
+        "average": 1.2
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Vq=(1)/(2)mv^2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "V=(0.5×9.11×10^(-31)×(1.32×10^7)^2)/(1.60×10^(-19))"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "V=496 V"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students who were able to start with the formula above were, generally, able to complete the problem successfully. Most of the students who failed to gain any marks made no significant attempt."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Some students lost marks for not showing adequate working. The working shown above would constitute the minimum working required."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 7c.",
+      "interactionId": "B7c",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 23.0,
+          "1": 41.0,
+          "2": 10.0,
+          "3": 27.0
+        },
+        "average": 1.4
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The proton will be deflected in an anticlockwise direction due to its positive charge. The proton’s path will also have a larger radius due to its larger mass."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students who failed to gain full marks either only addressed one change in the path or stated the changes without justification."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 8a.",
+      "interactionId": "B8a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 7.0,
+          "1": 14.0,
+          "2": 78.0
+        },
+        "average": 1.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "imageUrl": "/answer-images/2024-2.png",
+              "width": 361,
+              "height": 209
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to draw the lines pointing downwards."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 8b.",
+      "interactionId": "B8b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 15.0,
+          "1": 3.0,
+          "2": 82.0
+        },
+        "average": 1.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E=(V)/(d)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E=(1.2×10^9)/(850)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E=1.41×10^6 V m^(-1)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to incorrectly convert 1.2 GV into volts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 8c.",
+      "interactionId": "B8c",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 55.0,
+          "1": 5.0,
+          "2": 41.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E=VIt"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E=1.2×10^9×30.0×10^3×60×10^(-6)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E=2.16×10^9 J"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common errors involved using incorrect formulae. Most students were able to respond to three significant figures as required."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 9a.",
+      "interactionId": "B9a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 33.0,
+          "1": 45.0,
+          "2": 22.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "When the coil is horizontal there will be no force on side FG, as the current in FG is parallel to the magnetic field."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to restate the orientation, thinking that this was the justification. Many students gave responses such as ‘When the loop is horizontal, because if the loop is horizontal, FG is parallel to the magnetic field’. The first clause and the last clause are the same statement."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "There were also some students who believed that side FG would never have a force on it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 9b.",
+      "interactionId": "B9b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 46.0,
+          "1": 24.0,
+          "2": 29.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "When the coil is vertical, the forces on EF and GH will act vertically, and with no horizontal component the coil will not start rotating."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students seemed to struggle to explain this situation. Students often made references to induction, seemingly confusing motors and generators."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 9c.",
+      "interactionId": "B9c",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 35.0,
+          "1": 65.0
+        },
+        "average": 0.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "If the battery and coil remain the same, one way to increase the torque would be to increase the strength of the magnetic field."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Most students were able to identify this change."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 10a.",
+      "interactionId": "B10a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 25.0,
+          "1": 34.0,
+          "2": 41.0
+        },
+        "average": 1.2
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The purpose of the slip rings is to maintain continuous contact with the spinning loop and allow the current generated to be transferred to the oscilloscope."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Many students struggled to adequately explain the role of the slip rings. There were references only to connection to the loop, which could also be achieved with a split ring commutator, or attempts to explain the role of slip rings in a DC motor."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Given that questions regarding the role of slip rings and split ring commutators appear on almost every exam, it is important that students ensure they understand these devices."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 10b.",
+      "interactionId": "B10b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 11.0,
+          "1": 23.0,
+          "2": 66.0
+        },
+        "average": 1.6
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The correct answers are 8 V and 5 Hz."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The common errors were to refer only to the peak voltage (4 V) or the period (0.2 s)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 10c.",
+      "interactionId": "B10c",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 48.0,
+          "1": 29.0,
+          "2": 7.0,
+          "3": 15.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The peak voltage has been doubled while the frequency has remained the same. The only ways this could be done are to double the number of turns from one to two, double the magnetic field, or double the area of the loop. The justification for these changes doubling the peak voltage are all derived from Faraday’s law (ε=-N(∆Φ)/(Δt))."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to refer only to increasing the identified quantities rather than doubling them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 11a.",
+      "interactionId": "B11a",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 15.0,
+          "1": 85.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "(N_p)/(N_s)=(V_p)/(V_s)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "N_s=(460×36)/(230)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "N_s=72 turns"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Most students were able to complete this correctly. The errors were mathematical."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 11b.",
+      "interactionId": "B11b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 35.0,
+          "1": 3.0,
+          "2": 62.0
+        },
+        "average": 1.3
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "(V_p)/(V_s)=(I_s)/(I_p)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "I_p=(36×0.8)/(230)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "I_p=0.13 A"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to convert some or all of the quantities from RMS to peak."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 11c.",
+      "interactionId": "B11c",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 40.0,
+          "1": 18.0,
+          "2": 42.0
+        },
+        "average": 1.0
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Transformers require an AC input to create a changing flux in the primary coil to induce a changing flux in the secondary coil to produce an AC output."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "A constant DC input would produce a constant flux in the primary coil, which would not produce any output."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "A significant number of students stated that the transformers required an AC input ‘… because they need an alternating current in the primary coil.’ This is a tautology since the alternating current has been identified in the stem. There were also some students who simply stated that constant DC will not work, without identifying why."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 12a.",
+      "interactionId": "B12a",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 26.0,
+          "1": 74.0
+        },
+        "average": 0.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "There are 50 panels each contributing 600 W. "
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "50 × 600 = 30 kW"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to state 30 000 kW."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students need to ensure that where there is a unit in the box, they must respond in that unit. The question stem also states that the answer must be in kW."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 12b.",
+      "interactionId": "B12b",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 23.0,
+          "1": 12.0,
+          "2": 8.0,
+          "3": 57.0
+        },
+        "average": 2.0
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The correct answers are 200 V and 30 A."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "There were two ways that students calculated the string current. The first was to employ the reasoning that in a series circuit the current at all points, and therefore through all panels, is the same. The current through a single panel is found by dividing the power of the panel (600 W) by the voltage output of the panel (20 V) and getting 30 A. Others reasoned that the output current is the quotient of the total power of the string (6000 W) and the total voltage output of the string (200 V). Again, their answer was 30 A."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 12c.",
+      "interactionId": "B12c",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 59.0,
+          "1": 41.0
+        },
+        "average": 0.4
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The correct answers are 200 V and 150 A."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to multiply both quantities by 5 and state 1000 V and 150 A. This suggests that students do not have a good understanding of parallel circuits. Students attempting Units 3 and 4 must master the relevant underpinning concepts in Units 1 and 2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 12d.",
+      "interactionId": "B12d",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 28.0,
+          "1": 72.0
+        },
+        "average": 0.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The role of the inverter is to convert DC power into AC power."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 13a.",
+      "interactionId": "B13a",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 31.0,
+          "1": 69.0
+        },
+        "average": 0.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "t=(d)/(v)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "t=(9700-6500)/(0.985×3×10^8)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "t=10.8×10^(-6) s"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "t=10.8 μs"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Most students who attempted this question completed it correctly. Nearly 20% of students did not attempt the question."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 13b.",
+      "interactionId": "B13b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 26.0,
+          "1": 7.0,
+          "2": 67.0
+        },
+        "average": 1.4
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The mean lifetime of the muon is given as 2.2 s. Given that classical mechanics predicts the muon will take 10.8 s to reach the detector, the muons are unlikely to be able to reach the detector before they decay."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Most students who attempted this question were able to respond appropriately. Those who did not answer it well struggled with how to apply the value calculated in Question 13a. Again, there was a significant number of students who did not attempt the question."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 13c.",
+      "interactionId": "B13c",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 22.0,
+          "1": 5.0,
+          "2": 73.0
+        },
+        "average": 1.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "γ=(1)/(sqrt(1-(v^2)/(c^2))); (v)/(c)=0.985"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "γ=(1)/(sqrt(1-0.985^2))"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "γ=5.8"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Most students were able to calculate this value."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 13d.",
+      "interactionId": "B13d",
+      "marksTable": null,
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "As a result of psychometric analysis and review, all students were awarded full marks for this question."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 13e.",
+      "interactionId": "B13e",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 38.0,
+          "1": 13.0,
+          "2": 16.0,
+          "3": 33.0
+        },
+        "average": 1.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Einstein’s concept of time dilation explains the detection of muons. The mean lifetime of the muon, as measured from the physicist’s frame of reference, is dilated from 2.2 s to 12.8 s. In this time, it is possible for the muons to reach the detector. "
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This question can also be explained using length contraction and referring to the contracted length to the detector, in the muon’s frame of reference, being 552 m."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "While students seem to be getting better at responding to these questions, there were still a great many responses that showed confusion between frames of reference. Students frequently stated that ‘… the muon experiences time dilation …’, which is not the case."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "There were also students who jumped between using a time dilation argument and a length contraction argument, which generally led to a contradiction or greater confusion."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 14a.",
+      "interactionId": "B14a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 60.0,
+          "1": 3.0,
+          "2": 37.0
+        },
+        "average": 0.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E=mc^2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E=(2×9.11×10^(-31))×(3.00×10^8)^2"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E=1.64×10^(-13) J"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to use the mass of a single electron."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 14b.",
+      "interactionId": "B14b",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 85.0,
+          "1": 15.0
+        },
+        "average": 0.2
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The gamma rays travel in opposite directions to conserve momentum within the collision."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This question was not well answered. Most students stated that it was because the electron and positron are oppositely charged. Some referred to conservation of energy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 15a.",
+      "interactionId": "B15a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 29.0,
+          "1": 4.0,
+          "2": 67.0
+        },
+        "average": 1.4
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "λ=(h)/(p)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "2.00×10^(-10)=(6.63×10^(-34))/(p)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "p=3.32×10^(-24) kg m s^(-1)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Most students were able to calculate this correctly. The most common error among those that attempted the question was to use the wrong Planck’s constant."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 15b.",
+      "interactionId": "B15b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 60.0,
+          "1": 14.0,
+          "2": 26.0
+        },
+        "average": 0.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Max is correct."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "As the de Broglie wavelength of the electrons and the interatomic spacing are of the same order of magnitude, there will be a useful diffraction pattern produced."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Of concern was the number of students who stated that diffraction would not occur if the wavelength was less than the spacing. Diffraction will begin to be observable when the (λ)/(w) ratio is ~10 and will continue to be observable as the ratio falls below 1. Students should familiarise themselves with the process of diffraction."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 15c.",
+      "interactionId": "B15c",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 33.0,
+          "1": 44.0,
+          "2": 23.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The spread of the diffraction pattern is determined by the wavelength of the electron/photon that produced it. As the two patterns have identical spacing, the electron and X-ray have identical wavelengths."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "While most students were able to identify the similarity between the two wavelengths, very few linked the spacing of the pattern to wavelength. This question is very similar to Question 17c from the 2024 Northern Hemisphere Timetable exam. The examination report gives an example of the correct response to questions of this nature. Students are reminded of the value of examination reports."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 15d.",
+      "interactionId": "B15d",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 32.0,
+          "1": 7.0,
+          "2": 61.0
+        },
+        "average": 1.3
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E=(hc)/(λ)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E=(4.14×10^(-15)×3.00×10^8)/(5.01×10^(-11))"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "E=2.48×10^4 eV"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This question was generally well done, with the most common error being to use the wrong Planck’s constant."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 16a.",
+      "interactionId": "B16a",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 16.0,
+          "1": 15.0,
+          "2": 24.0,
+          "3": 45.0
+        },
+        "average": 2.0
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Controlled: intensity / metal plate / light source"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Dependent: voltage"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Independent: filter / frequency / wavelength"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "In each case above, only one option was required."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "There were no consistent common errors. There were some students who reversed the dependent and independent variables."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 16b.",
+      "interactionId": "B16b",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 7.0,
+          "1": 13.0,
+          "2": 33.0,
+          "3": 47.0
+        },
+        "average": 2.2
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "imageUrl": "/answer-images/2024-3.png",
+              "width": 449,
+              "height": 304
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to put the line of best fit through the first and last points. This question was written with this common error in mind. Students who believe that a line of best fit always goes through the first and last points would have found all three middle points above the line. This should have provided a visual cue that the line was not correct. This remains the most common error when the points are plotted correctly."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 16c.i.",
+      "interactionId": "B16ci",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 43.0,
+          "1": 15.0,
+          "2": 42.0
+        },
+        "average": 1.0
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Planck’s constant = gradient of the graph"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "grad=(rise)/(run)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "grad=(1.5-0)/((10-5.5)×10^14)"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "grad=3.3×10^(-15) eV s"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "While most students knew that Planck’s constant is found from the gradient, many still struggled to demonstrate this adequately. There were some incorrect responses that were commonly seen, including:"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 1,
+          "spans": [
+            {
+              "text": "using points from the table when those points are clearly not on the line"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 1,
+          "spans": [
+            {
+              "text": "providing a calculation that could not be identified as a gradient calculation from the line, such as stating (1.5)/(4.5 × 10^14) in place of the second line above"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 1,
+          "spans": [
+            {
+              "text": "attempting to force the gradient to yield a value close to 4.14 × 10−15"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "This question is specifically assessing the following point from page 59 of the study design:"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "apply methods of organising, analysing and evaluating primary data to identify patterns and relationships including: the physical significance of the gradient of linearised data; causes of uncertainty; use of uncertainty bars; and assumptions and limitations of data, methodologies and methods [emphasis added]."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students must address the purpose of the question, which is to clearly demonstrate how Planck’s constant is found from the graph, not just arrive at a number. Failure to clearly demonstrate the gradient calculation risks the student not being awarded full marks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 16c.ii.",
+      "interactionId": "B16cii",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 37.0,
+          "1": 63.0
+        },
+        "average": 0.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "5.5×10^14 Hz"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Taken from the x-intercept."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 16c.iii.",
+      "interactionId": "B16ciii",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 48.0,
+          "1": 52.0
+        },
+        "average": 0.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "1.8 eV"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Taken from the y-intercept."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 16d.",
+      "interactionId": "B16d",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 72.0,
+          "1": 10.0,
+          "2": 19.0
+        },
+        "average": 0.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The recorded voltage measurements provide information about the maximum kinetic energy of the photoelectrons."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students found this question difficult. They frequently referred to the photon rather than the photoelectron. Many were also unclear that it is the maximum kinetic energy not simply ‘the energy’. There were also many meaningless responses, which suggests that the photoelectric effect experiment is a difficult concept for many students."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 16e.",
+      "interactionId": "B16e",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 56.0,
+          "1": 44.0
+        },
+        "average": 0.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The graph would move up/down/left/right while maintaining the same gradient."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to state only that the intercepts would change and not state that the gradient would remain the same."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 16f.",
+      "interactionId": "B16f",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 38.0,
+          "1": 35.0,
+          "2": 27.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The position of P will move to the left. This is because the blue photons will have a higher energy to impart to the photoelectrons. This will increase the maximum kinetic energy of the photoelectrons."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "There were many students who simply stated that the blue photons have a higher energy (E=hf) without relating this back to the photoelectrons and the stopping voltage."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 16g.",
+      "interactionId": "B16g",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 93.0,
+          "1": 4.0,
+          "2": 3.0
+        },
+        "average": 0.1
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The horizontal line NM (the photocurrent) will be lower. This is because the change in wavelength without changing the power means there will be fewer photons reaching the metal plate. Fewer photons results in fewer photoelectrons and the photocurrent will be reduced."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The most common error was to state an answer from a previous exam and say that the line stays the same. This ignores the information provided about the power of the light source."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 16h.",
+      "interactionId": "B16h",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 38.0,
+          "1": 14.0,
+          "2": 19.0,
+          "3": 29.0
+        },
+        "average": 1.4
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students could refer to one of the following:"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 1,
+          "spans": [
+            {
+              "text": "the existence of a threshold frequency"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 1,
+          "spans": [
+            {
+              "text": "the absence of a time delay"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 1,
+          "spans": [
+            {
+              "text": "the effect of frequency on the energy of the photoelectrons."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students were then required to provide the wave model prediction and the experiment results and use these to conclude that only the particle model explains these findings."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students struggled to provide concise responses that addressed one of these findings. "
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Approximately 20% of students did not attempt the problem. This may have been due to it being the last question on the paper or it could be because this type of question has historically been difficult for students. Less than 30% were able to provide a response that addressed both the wave model prediction and the particle model explanation of the experimental findings. The students who received 2 marks could generally articulate the finding and how the finding supported the particle model but frequently could not articulate the wave model prediction. Teachers and students should spend time discussing the predictions of the wave model as well as the actual findings of the experiment."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Of concern was the number of students whose response was an amalgam of all three findings, in what looked like an attempt to find something from their A3 sheet with which to respond. Once again, students are reminded that copying material directly from their A3 sheet without consideration of the specifics of the question is unlikely to result in marks being awarded. Assessors are experienced in identifying the differences between a considered response and a response made up of disjointed facts that may or may not be relevant."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
