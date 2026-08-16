@@ -57,7 +57,7 @@ ARCHIVE_DUAL = (15, 90, 90)  # 2002-2012 (and the 2004 pilot), per sitting
 
 # Interaction geometry hand-verified against the rendered PDF for 2025 --
 # the "airtight" flagship year -- takes precedence over auto-generation.
-TUNED_INTERACTIONS = {"2025", "2024", "2023"}
+TUNED_INTERACTIONS = {"2025", "2024", "2023", "2022"}
 
 # 2024's exam has no text layer at all (confirmed: 0 fonts, every character
 # a vector path -- see Missing_Resources.md), so Section A geometry can't be
@@ -650,13 +650,20 @@ def first_question_heading_y_fraction(page):
     Instructions block above Question 1, whose own horizontal divider rule
     line is otherwise indistinguishable from a genuine ruled answer line to
     the geometry detector below -- excluding anything above the first real
-    heading avoids manufacturing a phantom interaction out of that rule."""
+    heading avoids manufacturing a phantom interaction out of that rule.
+
+    Must apply the same "SECTION B -- Question N -- continued" footer
+    filter as _is_real_question_heading: left unfiltered, this can find
+    that bottom-of-page footer instead of the true top-of-page heading on
+    a paper that prints it (confirmed on 2022's own Section B opening page,
+    where the unfiltered version returned y=0.87 from the footer -- which
+    then excluded every ruled row above it, silently discarding Question
+    1a's own real answer box along with the Instructions block it was
+    actually meant to strip)."""
     words = page.get_text("words")
     for index, word in enumerate(words[:-1]):
-        if word[4].lower().strip(".:()") == "question":
-            nxt = words[index + 1][4].strip(".:()")
-            if nxt.isdigit():
-                return word[1] / page.rect.height
+        if word[4].lower().strip(".:()") == "question" and _is_real_question_heading(words, index):
+            return word[1] / page.rect.height
     return None
 
 

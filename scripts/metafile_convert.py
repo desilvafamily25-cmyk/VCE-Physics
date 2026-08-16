@@ -39,6 +39,54 @@ gdi32.DeleteEnhMetaFile.restype = wintypes.BOOL
 gdi32.DeleteEnhMetaFile.argtypes = [wintypes.HANDLE]
 gdi32.GetEnhMetaFileHeader.argtypes = [wintypes.HANDLE, wintypes.UINT, ctypes.c_void_p]
 
+# Every one of these returns or accepts an HDC/HGDIOBJ/HBITMAP handle. GDI
+# handles are documented by Microsoft to always fit in 32 bits even on
+# 64-bit Windows, but the *pointer-sized register* these functions actually
+# return can still have non-zero garbage in its upper 32 bits (or a
+# genuine, harmless sign-extension of a negative-looking 32-bit handle
+# value -- both observed directly on real handles from this exact code
+# path). Left undeclared, ctypes defaults to a 32-bit c_int for both
+# argument marshaling and return values, which is a silent, size-dependent
+# truncation: it works by coincidence whenever a handle's bit pattern is
+# small, and produces a corrupted, unusable handle for any other page --
+# confirmed as the root cause of a real "PlayEnhMetaFile failed, err=1"
+# on 2022's report (a legitimately-created, non-null metafile handle simply
+# never reached PlayEnhMetaFile intact). Declaring every one of these as
+# pointer-sized (HDC/HGDIOBJ, both c_void_p-compatible) makes the handle
+# round-trip exact regardless of what bit pattern Windows happens to hand
+# back, rather than "usually working."
+HGDIOBJ = ctypes.c_void_p
+user32.GetDC.restype = wintypes.HDC
+user32.GetDC.argtypes = [wintypes.HWND]
+user32.ReleaseDC.restype = ctypes.c_int
+user32.ReleaseDC.argtypes = [wintypes.HWND, wintypes.HDC]
+gdi32.CreateCompatibleDC.restype = wintypes.HDC
+gdi32.CreateCompatibleDC.argtypes = [wintypes.HDC]
+gdi32.CreateCompatibleBitmap.restype = HGDIOBJ
+gdi32.CreateCompatibleBitmap.argtypes = [wintypes.HDC, ctypes.c_int, ctypes.c_int]
+gdi32.SelectObject.restype = HGDIOBJ
+gdi32.SelectObject.argtypes = [wintypes.HDC, HGDIOBJ]
+gdi32.GetStockObject.restype = HGDIOBJ
+gdi32.GetStockObject.argtypes = [ctypes.c_int]
+gdi32.PatBlt.restype = wintypes.BOOL
+gdi32.PatBlt.argtypes = [wintypes.HDC, ctypes.c_int, ctypes.c_int, ctypes.c_int, ctypes.c_int, wintypes.DWORD]
+gdi32.DeleteObject.restype = wintypes.BOOL
+gdi32.DeleteObject.argtypes = [HGDIOBJ]
+gdi32.DeleteDC.restype = wintypes.BOOL
+gdi32.DeleteDC.argtypes = [wintypes.HDC]
+gdi32.GetDIBits.restype = ctypes.c_int
+gdi32.GetDIBits.argtypes = [wintypes.HDC, HGDIOBJ, wintypes.UINT, wintypes.UINT, ctypes.c_void_p, ctypes.c_void_p, wintypes.UINT]
+gdi32.SetMapMode.restype = ctypes.c_int
+gdi32.SetMapMode.argtypes = [wintypes.HDC, ctypes.c_int]
+gdi32.SetWindowOrgEx.restype = wintypes.BOOL
+gdi32.SetWindowOrgEx.argtypes = [wintypes.HDC, ctypes.c_int, ctypes.c_int, ctypes.c_void_p]
+gdi32.SetWindowExtEx.restype = wintypes.BOOL
+gdi32.SetWindowExtEx.argtypes = [wintypes.HDC, ctypes.c_int, ctypes.c_int, ctypes.c_void_p]
+gdi32.SetViewportOrgEx.restype = wintypes.BOOL
+gdi32.SetViewportOrgEx.argtypes = [wintypes.HDC, ctypes.c_int, ctypes.c_int, ctypes.c_void_p]
+gdi32.SetViewportExtEx.restype = wintypes.BOOL
+gdi32.SetViewportExtEx.argtypes = [wintypes.HDC, ctypes.c_int, ctypes.c_int, ctypes.c_void_p]
+
 
 class RECT(ctypes.Structure):
     _fields_ = [("left", wintypes.LONG), ("top", wintypes.LONG), ("right", wintypes.LONG), ("bottom", wintypes.LONG)]
@@ -159,16 +207,42 @@ def emf_to_png(data: bytes, out_path: str, scale: int = 4):
     return size
 
 
+def _emf_via_pillow(data: bytes, out_path: str, scale: int = 3):
+    """Pillow's WMF reader is the broken one (see module docstring) -- its
+    EMF reader is a different code path and, confirmed by direct visual
+    comparison against this exact file, renders cleanly: crisp text and
+    ruled table borders, not the garbled overlapping glyphs WMF produces.
+
+    Encountering a real EMF equation preview for the first time (2022's
+    report; every year inspected before it used WMF exclusively) surfaced a
+    second, unrelated problem in the GDI ctypes path below: PlayEnhMetaFile
+    reliably failed on every one of that year's EMF images even after
+    fixing a genuine handle-truncation bug in this module's Win32
+    declarations (see the HGDIOBJ comment above) -- a plain
+    SetEnhMetaFileBits -> PlayEnhMetaFile round trip could not get past a
+    further failure this investigation didn't chase down, since Pillow
+    already solves EMF correctly with far less code. EMF is routed through
+    it instead of emf_to_png below; that function is kept for reference/
+    future debugging rather than deleted, but is no longer called."""
+    from io import BytesIO
+
+    im = Image.open(BytesIO(data)).convert("RGB")
+    im = im.resize((max(1, im.width * scale), max(1, im.height * scale)), Image.LANCZOS)
+    im.save(out_path)
+    return im.size
+
+
 def metafile_or_raster_to_png(data: bytes, ext: str, out_path: str):
-    """Dispatches by source extension: .wmf/.emf go through GDI; anything
-    else (png/jpg/gif/bmp -- a small number of the report's images are
-    already raster, e.g. photographs used in question stimulus) is a
-    straight Pillow passthrough/re-encode to PNG. Returns (width, height)."""
+    """Dispatches by source extension: .wmf through the native GDI player,
+    .emf through Pillow (see _emf_via_pillow), anything else (png/jpg/gif/
+    bmp -- a small number of the report's images are already raster, e.g.
+    photographs used in question stimulus) a straight Pillow passthrough/
+    re-encode to PNG. Returns (width, height)."""
     ext = ext.lower().lstrip(".")
     if ext == "wmf":
         return wmf_to_png(data, out_path)
     if ext == "emf":
-        return emf_to_png(data, out_path)
+        return _emf_via_pillow(data, out_path)
     from io import BytesIO
 
     im = Image.open(BytesIO(data)).convert("RGB")
