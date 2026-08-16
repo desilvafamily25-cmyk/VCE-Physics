@@ -18,7 +18,7 @@
         "1",
         "1",
         "2",
-        "forces can only be attractive.\n𝑉\n𝐸=\n𝑑\n𝑉\n10−4 2.0 × ="
+        "forces can be attractive or repulsive, whereas\nforces can only be attractive.\n𝑉\n𝐸=\n𝑑"
       ],
       [
         "2",
@@ -27,7 +27,7 @@
         "91",
         "4",
         "3",
-        "10−2 1.0 ×\n10−6 𝑉= 2.0 × 𝑉"
+        "𝑉\n2.0 × 10−4 =\n1.0 × 10−2\n𝑉= 2.0 × 10−6 𝑉"
       ],
       [
         "3",
@@ -36,7 +36,7 @@
         "13",
         "12",
         "14",
-        "vector sum of the forces results in the net force to the left.\n𝑔∝𝑚\n𝑟2\nIf is doubled and is halved, m r"
+        "vector sum of the forces results in the net force to the left."
       ],
       [
         "4",
@@ -45,7 +45,7 @@
         "7",
         "25",
         "58",
-        "2\n𝑔∝\n0.52\n𝑔=× 8\nPrimary coil. Connected to voltage supply."
+        "𝑔∝𝑚\n𝑟2\nIf m is doubled and r is halved,\n2\n𝑔∝\n0.52\n𝑔=× 8"
       ],
       [
         "5",
@@ -54,7 +54,7 @@
         "84",
         "5",
         "3",
-        "Secondary coil. Connected to load.\nStep up. Nsecondary > Nprimary\n240\n1200\n0.2 𝐴𝑅𝑀𝑆\n𝑁𝑠\n𝐼𝑠"
+        "Primary coil. Connected to voltage supply.\nSecondary coil. Connected to load.\nStep up. Nsecondary > Nprimary\n240\n1200"
       ],
       [
         "6",
@@ -63,7 +63,7 @@
         "27",
         "57",
         "5",
-        "𝑁𝑝\n6000\n0.2 ×\n1000\n1.2 𝐴𝑅𝑀𝑆\n25 revolutions per second the period is doubled and,"
+        "0.2 𝐴𝑅𝑀𝑆\n𝑁𝑠\n𝐼𝑠\n𝑁𝑝\n6000\n0.2 ×\n1000"
       ],
       [
         "7",
@@ -72,7 +72,7 @@
         "24",
         "10",
         "60",
-        "the voltage will be halved.\nFaraday’s law, voltage is negative gradient of the flux"
+        "1.2 𝐴𝑅𝑀𝑆\n25 revolutions per second the period is doubled and,\nthe voltage will be halved."
       ],
       [
         "8",
@@ -81,7 +81,7 @@
         "19",
         "6",
         "12",
-        ""
+        "Faraday’s law, voltage is negative gradient of the flux"
       ],
       [
         "9",
@@ -90,7 +90,7 @@
         "9",
         "9",
         "73",
-        "Therefore, n1. 𝜃𝑟3 > 𝜃𝑖1. n3 <\n1\nSince 𝑣, 𝑛∝\n𝑣3 > 𝑣1 > 𝑣2\n𝑛2 = 𝑛1𝑠𝑖𝑛𝜃𝑐𝑟𝑖𝑡\n𝑛2 = 1.75 × 𝑠𝑖𝑛62.0"
+        "Medium 1 to Medium 2: towards the normal.\nTherefore, n1 < n2.\nMedium 2 to Medium 3: away from the normal.\nTherefore, n3 < n2.\n𝜃𝑟3 > 𝜃𝑖1. Therefore, n3 < n1.\n1\nSince 𝑛∝ 𝑣,\n𝑣3 > 𝑣1 > 𝑣2"
       ],
       [
         "10",
@@ -99,7 +99,7 @@
         "75",
         "10",
         "7",
-        "𝑛2 = 1.55"
+        "𝑛2 = 𝑛1𝑠𝑖𝑛𝜃𝑐𝑟𝑖𝑡\n𝑛2 = 1.75 × 𝑠𝑖𝑛62.0\n𝑛2 = 1.55"
       ],
       [
         "11",
@@ -108,7 +108,7 @@
         "5",
         "23",
         "10",
-        "Constant speed implies that Fthrust = Fdrag.\nThe ball is subject only to gravitational force. Therefore, its"
+        "Constant speed implies that Fthrust = Fdrag."
       ],
       [
         "12",
@@ -117,7 +117,7 @@
         "20",
         "61",
         "7",
-        "acceleration is constant.\n𝐿0\n𝐿=\n𝛾\n𝐿0 = 150 × 3"
+        "The ball is subject only to gravitational force. Therefore, its\nacceleration is constant.\n𝐿0"
       ],
       [
         "13",
@@ -126,7 +126,7 @@
         "5",
         "75",
         "1",
-        "𝐿0 = 450 𝑚\nℎ\n𝜆=\n𝑚𝑣\n10−34 6.63 ×\n𝜆=\n10−31 107"
+        "𝐿=\n𝛾\n𝐿0 = 150 × 3\n𝐿0 = 450 𝑚\nℎ"
       ],
       [
         "14",
@@ -135,7 +135,7 @@
         "7",
         "84",
         "5",
-        "9.1 × × 1.0 ×\n10−11 𝜆= 7.3 × 𝑚\n𝜆∝1\n𝑣"
+        "𝜆=\n𝑚𝑣\n6.63 × 10−34\n𝜆=\n9.1 × 10−31 × 1.0 × 107\n𝜆= 7.3 × 10−11 𝑚"
       ],
       [
         "15",
@@ -144,7 +144,7 @@
         "40",
         "25",
         "11",
-        "If increases, decreases. 𝑣 𝜆\nSince the width of the diffraction pattern is proportional to 𝜆,\nif decreases then fringe spacing will decrease. 𝜆"
+        "𝜆∝1\n𝑣\nIf 𝑣 increases, 𝜆 decreases.\nSince the width of the diffraction pattern is proportional to 𝜆,\nif 𝜆 decreases then fringe spacing will decrease."
       ],
       [
         "16",
@@ -153,7 +153,7 @@
         "16",
         "5",
         "77",
-        "will produce more photons but will not affect their"
+        "PE effect demonstrates that 𝐸𝑝ℎ𝑜𝑡𝑜𝑛∝𝑓. Increasing the\nwill produce more photons but will not affect their"
       ],
       [
         "17",
@@ -162,7 +162,7 @@
         "8",
         "10",
         "74",
-        "light is coherent and incandescent light is incoherent.\nstudents determine the length of the pendulum.\nlength is the independent variable. The students\nthe period of the pendulum. Therefore, time is the"
+        "light is coherent and incandescent light is incoherent.\nstudents determine the length of the pendulum."
       ],
       [
         "18",
@@ -171,7 +171,7 @@
         "9",
         "6",
         "2",
-        "variable. The mass and amplitude remain constant\nthe investigation. Therefore, these are both\nvariables.\nreduces the uncertainty in the measurement of the"
+        "length is the independent variable. The students\nthe period of the pendulum. Therefore, time is the\nvariable. The mass and amplitude remain constant\nthe investigation. Therefore, these are both\nvariables."
       ],
       [
         "19",
@@ -180,7 +180,7 @@
         "3",
         "85",
         "8",
-        "variable."
+        "reduces the uncertainty in the measurement of the\nvariable."
       ],
       [
         "20",
@@ -189,7 +189,7 @@
         "36",
         "49",
         "11",
-        "kinetic energy is used to deform the car’s structure.\nthe charge is negative and to identify some process for finding\nor similar was sufficient.\nof students referenced a right-hand rule but reported the\nAverage\n0.6\nalways be at right angles to the direction of motion and the\nBoth these conditions are required to explain the circular\nthat the force was at right angles to the direction of\nto be constant for circular motion to result.\nvelocity was perpendicular to the field the path would be"
+        "kinetic energy is used to deform the car’s structure."
       ]
     ]
   },
@@ -504,7 +504,7 @@
           "level": 0,
           "spans": [
             {
-              "text": "𝑇=\n√4𝜋2𝑅3\n𝐺𝑀\n𝑇=\n√4𝜋2( 2.00 × 107 + 6.37 × 106)3\n(6.67. 𝑥 10−11)(5.98 𝑥 1024)\n𝑇= 4.26 × 104 𝑠"
+              "text": "√4𝜋2𝑅3\n𝑇=\n𝐺𝑀\n√4𝜋2( 2.00 × 107 + 6.37 × 106)3\n𝑇=\n(6.67. 𝑥 10−11)(5.98 𝑥 1024)\n𝑇= 4.26 × 104 𝑠"
             }
           ]
         },
@@ -746,7 +746,7 @@
           "level": 0,
           "spans": [
             {
-              "text": "𝜀=\n∆Φ\nΔ𝑡\n𝜀=\n0.00 −(−0.05)\n0.0125\n𝜀= 4.0𝑉\nOf those students who did not score full marks, most were able to identify the formula for emf but\nshowed no understanding of how to derive the values required for substitution."
+              "text": "∆Φ\n𝜀=\nΔ𝑡\n0.00 −(−0.05)\n𝜀=\n0.0125\n𝜀= 4.0𝑉\nOf those students who did not score full marks, most were able to identify the formula for emf but\nshowed no understanding of how to derive the values required for substitution."
             }
           ]
         }
@@ -829,7 +829,7 @@
           "level": 0,
           "spans": [
             {
-              "text": "The problem required a conservation of energy approach. As an example:\n𝑚𝑔ℎ𝐴= 𝑚𝑔ℎ𝐵+\n1\n2\n𝑚𝑣2\n0.25 × 9.8 × ℎ𝐴= 0.25 × 9.8 × 0.4 + 0.5 × 0.25 × 32\n2.45ℎ𝐴= 0.98 + 1.125\nℎ𝐴=\n2.105\n2.45\nℎ𝐴 = 0.86 𝑚\nThe most common error was to fail to understand how to apply conservation of energy."
+              "text": "The problem required a conservation of energy approach. As an example:\n1\n𝑚𝑔ℎ𝐴= 𝑚𝑔ℎ𝐵+ 𝑚𝑣2\n2\n0.25 × 9.8 × ℎ𝐴= 0.25 × 9.8 × 0.4 + 0.5 × 0.25 × 32\n2.45ℎ𝐴= 0.98 + 1.125\n2.105\nℎ𝐴=\n2.45\nℎ𝐴 = 0.86 𝑚\nThe most common error was to fail to understand how to apply conservation of energy."
             }
           ]
         },
@@ -865,7 +865,7 @@
           "level": 0,
           "spans": [
             {
-              "text": "𝑁+ 𝑚𝑔=\n𝑚𝑣2\n𝑟\n𝑁=\n0.25 × 32\n0.2\n−0.25 × 9.8\n𝑁= 11.25 −2.45\n𝑁= 8.8 𝑁\nThe most common error was to fail to understand the relationship between the centripetal force,\nthe weight force and the normal reaction force."
+              "text": "𝑚𝑣2\n𝑁+ 𝑚𝑔=\n𝑟\n0.25 × 32\n𝑁= −0.25 × 9.8\n0.2\n𝑁= 11.25 −2.45\n𝑁= 8.8 𝑁\nThe most common error was to fail to understand the relationship between the centripetal force,\nthe weight force and the normal reaction force."
             }
           ]
         },
@@ -959,7 +959,7 @@
           "level": 0,
           "spans": [
             {
-              "text": "To show the time to the highest point students were required to demonstrate a proof such as:\n𝑣𝑣𝑒𝑟𝑡= 25 sin(39) = 15.7\n𝑡=\n𝑣𝑣𝑒𝑟𝑡\n𝑎\n=\n15.7\n9.8\n𝑡= 1.60 𝑠𝑒𝑐"
+              "text": "To show the time to the highest point students were required to demonstrate a proof such as:\n𝑣𝑣𝑒𝑟𝑡= 25 sin(39) = 15.7\n𝑣𝑣𝑒𝑟𝑡 15.7\n𝑡= =\n𝑎 9.8\n𝑡= 1.60 𝑠𝑒𝑐"
             }
           ]
         }
@@ -1042,7 +1042,7 @@
           "level": 0,
           "spans": [
             {
-              "text": "𝑇= 0.120 × 4\n𝑇= 0.480 𝑠𝑒𝑐\n𝑓=\n1\n𝑇=\n1\n0.480\n𝑓= 2.08 𝐻𝑧\n𝑣= 𝑓𝜆\n𝑣= 2.08 × 1.40\n𝑣= 2.92 𝑚 𝑠−1\nThe most common error was to incorrectly calculate the frequency.\nThere were a number of students who demonstrated a different solution:\n𝑣=\n𝑥\n𝑡\n𝑣=\n1.40 ÷ 4\n0.120\n𝑣= 2.92 𝑚 𝑠−1\nThis was also accepted."
+              "text": "𝑇= 0.120 × 4\n𝑇= 0.480 𝑠𝑒𝑐\n1 1\n𝑓= 𝑇=\n0.480\n𝑓= 2.08 𝐻𝑧\n𝑣= 𝑓𝜆\n𝑣= 2.08 × 1.40\n𝑣= 2.92 𝑚 𝑠−1\nThe most common error was to incorrectly calculate the frequency.\nThere were a number of students who demonstrated a different solution:\n𝑥\n𝑣=\n𝑡\n1.40 ÷ 4\n𝑣=\n0.120\n𝑣= 2.92 𝑚 𝑠−1\nThis was also accepted."
             }
           ]
         },
@@ -1076,7 +1076,7 @@
           "level": 0,
           "spans": [
             {
-              "text": "𝑣= 𝑓𝜆\n𝜆=\n40\n7.5\n𝜆= 5.3 𝑚"
+              "text": "𝑣= 𝑓𝜆\n40\n𝜆=\n7.5\n𝜆= 5.3 𝑚"
             }
           ]
         }
@@ -1100,7 +1100,7 @@
           "level": 0,
           "spans": [
             {
-              "text": "No, a standing wave will not form.\nStudents were required to state that the string length is not a multiple of\n𝜆2\n⁄ .\nMany students simply stated the string length is not a multiple of the wavelength rather than half\nthe wavelength.\nSome students chose an alternative proof and stated that since 𝜆=\n2𝐿\n𝑛, if solving for n did not yield\nan integer then a standing wave could not form. This was also accepted."
+              "text": "No, a standing wave will not form.\n𝜆2\nStudents were required to state that the string length is not a multiple of ⁄ .\nMany students simply stated the string length is not a multiple of the wavelength rather than half\nthe wavelength.\n2𝐿\nSome students chose an alternative proof and stated that since 𝜆= 𝑛, if solving for did not yield\nn\nan integer then a standing wave could not form. This was also accepted."
             }
           ]
         }
@@ -1124,7 +1124,7 @@
           "level": 0,
           "spans": [
             {
-              "text": "The path difference is 0.806 – 0.723 = 0.083 m. This is also 3𝜆.\nTherefore, 𝜆=\n0.083\n3\n= 2.77 × 10−2𝑚.\n𝑓=\n𝑐\n𝜆\n𝑓=\n3 × 108\n2.77 × 10−2\n𝑓= 1.08 × 1010 𝐻𝑧\nThe most common error was to fail to convert cm to m. Students must ensure they are working in\nthe correct units."
+              "text": "The path difference is 0.806 – 0.723 = 0.083 m. This is also 3𝜆.\n0.083\nTherefore, 𝜆= = 2.77 × 10−2𝑚.\n3\n𝑐\n𝑓=\n𝜆\n3 × 108\n𝑓=\n2.77 × 10−2\n𝑓= 1.08 × 1010 𝐻𝑧\nThe most common error was to fail to convert cm to m. Students must ensure they are working in\nthe correct units."
             }
           ]
         },
@@ -1159,7 +1159,7 @@
           "level": 0,
           "spans": [
             {
-              "text": "The signal strength between P0 and P1 is a minimum because the path difference is\n𝜆2\n⁄ . This\nresults in destructive interference.\nThe most common error was to provide a generic explanation for destructive interference and state\nthe (𝑛−\n1\n2) 𝜆 formula. This did not address the question, which was specifically about the node\nbetween P0 and P1. Students are advised against copying responses from their A3 reference\nsheet, as these responses will not be awarded marks if they do not address the question."
+              "text": "𝜆2\nThe signal strength between P0 and P1 is a minimum because the path difference is ⁄ . This\nresults in destructive interference.\nThe most common error was to provide a generic explanation for destructive interference and state\n1\nthe (𝑛− 2) 𝜆 formula. This did not address the question, which was specifically about the node\nbetween P0 and P1. Students are advised against copying responses from their A3 reference\nsheet, as these responses will not be awarded marks if they do not address the question."
             }
           ]
         }
@@ -1255,7 +1255,7 @@
           "level": 0,
           "spans": [
             {
-              "text": "ℎ=\n𝑟𝑖𝑠𝑒\n𝑟𝑢𝑛\nℎ=\n2.0\n3.8 × 1014\nℎ= 5.3 × 10−15 𝑒𝑉 𝑠\nSome allowance was made for students’ reading of the graph.\nMany students were not able to identify the correct unit of Planck’s constant."
+              "text": "𝑟𝑖𝑠𝑒\nℎ=\n𝑟𝑢𝑛\n2.0\nℎ=\n3.8 × 1014\nℎ= 5.3 × 10−15 𝑒𝑉 𝑠\nSome allowance was made for students’ reading of the graph.\nMany students were not able to identify the correct unit of Planck’s constant."
             }
           ]
         }
@@ -1278,7 +1278,7 @@
           "level": 0,
           "spans": [
             {
-              "text": "𝑓0 = 3.7 × 1014\n𝜆=\n𝑐\n𝑓=\n3.0 × 108\n3.7 × 1014\n𝜆= 810 𝑛𝑚\nSome allowance was made for students’ reading of the graph."
+              "text": "𝑓0 = 3.7 × 1014\n𝑐 3.0 × 108\n𝜆= 𝑓=\n3.7 × 1014\n𝜆= 810 𝑛𝑚\nSome allowance was made for students’ reading of the graph."
             }
           ]
         }
@@ -1376,7 +1376,7 @@
           "level": 0,
           "spans": [
             {
-              "text": "Find momentum of the electron:\n𝑝= √(2𝑚𝐸𝑘)\n𝑝= √(2 × 9.1 × 10−31 × 3.0 × 103 × 1.6 × 10−19)\n𝑝= 2.96 × 10−23 𝑘𝑔 𝑚 𝑠−1\nThe X-ray photon will have the same momentum as the electron.\nFind the wavelength of the X-ray from its momentum:\n𝜆=\nℎ\n𝑝\n𝜆=\n6.63 × 10−34\n2.96 × 10−23\n𝜆= 2.24 × 10−11 𝑚"
+              "text": "Find momentum of the electron:\n𝑝= √(2𝑚𝐸𝑘)\n𝑝= √(2 × 9.1 × 10−31 × 3.0 × 103 × 1.6 × 10−19)\n𝑝= 2.96 × 10−23 𝑘𝑔 𝑚 𝑠−1\nThe X-ray photon will have the same momentum as the electron.\nFind the wavelength of the X-ray from its momentum:\nℎ\n𝜆=\n𝑝\n6.63 × 10−34\n𝜆=\n2.96 × 10−23\n𝜆= 2.24 × 10−11 𝑚"
             }
           ]
         },
@@ -1396,7 +1396,7 @@
           "level": 0,
           "spans": [
             {
-              "text": "𝑓=\n𝑐\n𝜆\n𝑓=\n3.0 × 108\n2.24 × 10−11\n𝑓= 1.34 × 1019 𝐻𝑧\nThere were other workings that were also accepted.\nThis process was complex, with many steps to be taken. While marks are awarded for steps\nthroughout the solution they can only be awarded if the assessor can clearly see the correct\nphysics being demonstrated. Very few students were able to set out their work in a way that could\neasily be followed. Students should observe the solution presented here and note that it has been\nannotated with short phrases indicating the physics being applied. This annotation makes it easier\nfor the assessor to identify the students’ understanding and award marks accordingly."
+              "text": "𝑐\n𝑓=\n𝜆\n3.0 × 108\n𝑓=\n2.24 × 10−11\n𝑓= 1.34 × 1019 𝐻𝑧\nThere were other workings that were also accepted.\nThis process was complex, with many steps to be taken. While marks are awarded for steps\nthroughout the solution they can only be awarded if the assessor can clearly see the correct\nphysics being demonstrated. Very few students were able to set out their work in a way that could\neasily be followed. Students should observe the solution presented here and note that it has been\nannotated with short phrases indicating the physics being applied. This annotation makes it easier\nfor the assessor to identify the students’ understanding and award marks accordingly."
             }
           ]
         }
@@ -1508,7 +1508,7 @@
           "level": 0,
           "spans": [
             {
-              "text": "𝑘𝐴=\n𝑟𝑖𝑠𝑒\n𝑟𝑢𝑛\n𝑘𝐴=\n9.0\n0.60\n𝑘𝐴= 150 𝑁 𝑚−1\nThe most common errors were to not convert the mass to Newtons or the displacement to metres."
+              "text": "𝑟𝑖𝑠𝑒\n𝑘𝐴=\n𝑟𝑢𝑛\n9.0\n𝑘𝐴=\n0.60\n𝑘𝐴= 150 𝑁 𝑚−1\nThe most common errors were to not convert the mass to Newtons or the displacement to metres."
             }
           ]
         }
@@ -1532,7 +1532,7 @@
           "level": 0,
           "spans": [
             {
-              "text": "𝑘𝐵=\n𝑟𝑢𝑛\n𝑘𝐵=\n7.0\n0.20\n𝑘𝐵= 350 𝑁 𝑚−1\nOr\n𝑘𝐴+𝐵=\n𝑟𝑖𝑠𝑒\n𝑟𝑢𝑛\n𝑘𝐴+𝐵=\n10.0\n0.20\n𝑘𝐴+𝐵= 500 𝑁 𝑚−1\n𝑘𝐵= 𝑘𝐴+𝐵−𝑘𝐴\n𝑘𝐵= 500 −150\n𝑘𝐵= 350 𝑁 𝑚−1\nMost students either made no attempt, or demonstrated that they did not know how tackle this\nproblem."
+              "text": "𝑘𝐵=\n𝑟𝑢𝑛\n7.0\n𝑘𝐵=\n0.20\n𝑘𝐵= 350 𝑁 𝑚−1\nOr\n𝑟𝑖𝑠𝑒\n𝑘𝐴+𝐵=\n𝑟𝑢𝑛\n10.0\n𝑘𝐴+𝐵=\n0.20\n𝑘𝐴+𝐵= 500 𝑁 𝑚−1\n𝑘𝐵= 𝑘𝐴+𝐵−𝑘𝐴\n𝑘𝐵= 500 −150\n𝑘𝐵= 350 𝑁 𝑚−1\nMost students either made no attempt, or demonstrated that they did not know how tackle this\nproblem."
             }
           ]
         }
@@ -1556,7 +1556,7 @@
           "level": 0,
           "spans": [
             {
-              "text": "The question stem stated that the required method was to use the area under the graph to\ncalculate the energy.\n𝐸=\n1\n2\n𝑏ℎ\n𝐸= 0.5 × 0.080 × 12\n𝐸= 0.48 𝐽\nOver half the students made either no attempt or were unable to demonstrate how to find the area.\nA number of students attempted to use 𝐸=\n1\n2\n𝑘𝑥2 but were unable to apply this in any meaningful\nway."
+              "text": "The question stem stated that the required method was to use the area under the graph to\ncalculate the energy.\n1\n𝐸= 𝑏ℎ\n2\n𝐸= 0.5 × 0.080 × 12\n𝐸= 0.48 𝐽\nOver half the students made either no attempt or were unable to demonstrate how to find the area.\n1\nA number of students attempted to use 𝐸= 𝑘𝑥2 but were unable to apply this in any meaningful\n2\nway."
             }
           ]
         }
@@ -1580,7 +1580,7 @@
           "level": 0,
           "spans": [
             {
-              "text": "trapezium.\n𝐸=\n1\n2\n𝑏ℎ+\n1\n2\n(𝑎+ 𝑏)ℎ\n𝐸= (0.5 × 0.060 × 9) + (0.5 × (9 + 19) × 0.02)\n𝐸= 0.55 𝐽\nAgain, over 80 per cent of students were unable to demonstrate any meaningful understanding."
+              "text": "trapezium.\n1 1\n𝐸= 𝑏ℎ+ (𝑎+ 𝑏)ℎ\n2 2\n𝐸= (0.5 × 0.060 × 9) + (0.5 × (9 + 19) × 0.02)\n𝐸= 0.55 𝐽\nAgain, over 80 per cent of students were unable to demonstrate any meaningful understanding."
             }
           ]
         }

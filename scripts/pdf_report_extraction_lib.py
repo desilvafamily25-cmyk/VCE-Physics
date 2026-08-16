@@ -38,12 +38,13 @@ def _is_grey(fill, tol=0.03):
 
 def find_column_headers(page):
     """Finds the 'A B C D' header row of a Section A results table on this
-    page: four single-letter words at the same y, evenly spaced ~28pt
-    apart (confirmed stable across every page of 2019's report). Returns
-    ({"A": x, "B": x, "C": x, "D": x}, y) or (None, None) if this page has
-    no such header (e.g. a page with no Section A content, or a stray
-    single "A"/"B" elsewhere in body text that doesn't come as a genuine
-    set of four)."""
+    page: four single-letter words at the same y, evenly spaced apart.
+    The actual gap varies by year -- ~28pt for 2019's narrower column
+    layout, ~44-45pt for 2017/2018's wider one -- so the tolerance below
+    covers both while still requiring evenly-spaced (not just present)
+    letters, which is enough to rule out a stray "A"/"B" elsewhere in
+    body text. Returns ({"A": x, "B": x, "C": x, "D": x}, y) or
+    (None, None) if this page has no such header."""
     words = page.get_text("words")
     by_y = {}
     for w in words:
@@ -55,7 +56,7 @@ def find_column_headers(page):
             continue
         xs = [found[letter] for letter in _LETTERS]
         gaps = [xs[i + 1] - xs[i] for i in range(3)]
-        if all(20 < g < 40 for g in gaps):
+        if all(20 < g < 50 for g in gaps):
             return found, y
     return None, None
 
@@ -101,11 +102,136 @@ def question_number_rows(page, col_x, header_y):
 
 def _row_bottom(rows, index, page_height):
     """The y0 of the next row, or the page's own footer boundary for the
-    last row on a page -- used as the bottom edge when collecting a row's
-    percentage values and comment text/images."""
+    last row on a page -- used as the bottom edge for the percentage-value
+    lookup (which is tightly bound to each row's own y0 already, so this
+    coarser boundary only needs to stay clear of the next row)."""
     if index + 1 < len(rows):
         return rows[index + 1][1] - 2
     return page_height - 60  # VCAA's own footer ("© VCAA  Page N") sits here
+
+
+def _section_b_heading_y(page):
+    """y0 of a standalone 'Section B' heading on this page, if present --
+    used as a hard stop for the *last* Section A row's comment window so
+    it can't sweep past Section A's own table into Section B's heading
+    and marks-table text when both land on the same page (confirmed on
+    2019's report: Question 20 has no following row to bound it, and
+    without this the comment-collection window fell all the way to the
+    page footer, picking up fragments of Section B's own "Average 0.6"
+    marks-table text)."""
+    words = page.get_text("words")
+    for w in words:
+        if w[4].strip() != "Section":
+            continue
+        same_line = sorted(
+            (o for o in words if o is not w and abs(o[1] - w[1]) < 2 and o[0] > w[0]),
+            key=lambda o: o[0],
+        )
+        if same_line and same_line[0][4].strip().rstrip(".,") == "B":
+            return w[1]
+    return None
+
+
+def _row_window(rows, index, header_y, page, y_stop=None):
+    """(top, bottom) y-bounds for collecting this row's comment text.
+
+    Each row's worked-solution comment is vertically *centred* in the
+    slot between its own percentage-row y and its neighbours' -- not
+    top-aligned to its own row -- confirmed directly on 2018's report: a
+    3-line comment for Question 1 started well *above* Question 1's own
+    percentage values (the row's data sits roughly mid-height within its
+    comment block, not at the top of it). A naive "this row's y down to
+    the next row's y" window therefore clips a comment's own leading
+    line(s) while also pulling in the *next* row's leading line(s) --
+    confirmed as a real bug (Question 2's "Right-hand slap rule..."
+    comment was appearing appended to Question 1's own comment). Splitting
+    at the midpoint between consecutive rows instead assigns each comment
+    line to whichever row's percentage line it sits closest to.
+    """
+    _, y0 = rows[index]
+    top = header_y + 2 if index == 0 else (rows[index - 1][1] + y0) / 2
+    if index + 1 < len(rows):
+        bottom = (y0 + rows[index + 1][1]) / 2
+    elif y_stop is not None:
+        bottom = y_stop - 4
+    else:
+        # Last row on the whole table, no "Section B" heading on this page
+        # to stop at either -- comment length varies a lot row to row (a
+        # one-line comment next to a six-line one), so extrapolating from
+        # the previous row's own gap is unreliable (confirmed: it clipped
+        # 2018's own Question 20 mid-sentence). The page's own footer
+        # margin is a safe bound instead, now that the one case that
+        # actually needed a tighter stop -- Section B's heading landing on
+        # the same page -- is handled by `y_stop` above.
+        bottom = page.rect.height - 60
+    return top, bottom
+
+
+def _cluster_lines(words, y_tol=2):
+    """Groups word tuples into visual lines by y-proximity, returning
+    [(mean_y, [word, ...])] ordered top-to-bottom, each line's words
+    sorted left-to-right by x.
+
+    This two-pass approach (cluster by y first, *then* sort each cluster
+    by x) matters because a single sort key of (round(y, 1), x) -- what
+    an earlier version of this module used -- silently reorders words
+    *within* one visual line: a stacked-fraction numerator or a
+    superscript exponent glyph commonly sits 1-2pt above its line's own
+    baseline, just enough to round to a different y and therefore sort
+    *before every word on the line*, regardless of x. Confirmed directly
+    on 2018's report: "F = 4.0 x 10^-4 x 10 x 0.1" came back as
+    "10-4 F= 4.0 x x 10 x 0.1", with the exponent glyph (1.3pt above the
+    line) dragged to the front."""
+    if not words:
+        return []
+    ordered = sorted(words, key=lambda w: w[1])
+    clusters = [[ordered[0]]]
+    anchor_y = ordered[0][1]
+    for w in ordered[1:]:
+        if abs(w[1] - anchor_y) > y_tol:
+            clusters.append([w])
+            anchor_y = w[1]
+        else:
+            clusters[-1].append(w)
+    result = []
+    for cluster in clusters:
+        cluster.sort(key=lambda w: w[0])
+        result.append((sum(w[1] for w in cluster) / len(cluster), cluster))
+    return result
+
+
+def _snap_boundary_to_gap(line_ys, midpoint, window=16):
+    """Refines a row-boundary y from the raw numeric `midpoint` between
+    two rows' own percentage-value y's to the nearest *actual* gap
+    between two comment-line clusters, if one exists within `window`
+    points of it.
+
+    A pure midpoint slices blindly through the middle of whatever
+    content spans that y -- which is wrong exactly when one row's last
+    comment line (e.g. a stacked fraction's own denominator, sitting a
+    further line below that fraction's numerator and "=" prefix) is
+    closer in raw y to the *next* row's own percentage value than to its
+    own. Confirmed directly on 2019's report: Question 1's own "E = V/d"
+    formula had its "d" pulled into Question 2's comment because the
+    pure midpoint fell between "E=" and "d", even though both belong to
+    the same 3-line fraction. Snapping to the widest nearby *line* gap
+    instead keeps a multi-line formula's own sub-lines together with
+    whichever row they visually belong to.
+
+    `line_ys` is every comment-line cluster's mean y on the page,
+    ascending. Only gaps whose *midpoint* falls within `window` of the
+    raw midpoint are considered, so this can't accidentally jump to some
+    other, larger gap that belongs to a different row boundary entirely
+    (dense multi-step working can have its own line gaps just as wide as
+    the real row boundary's)."""
+    best_split, best_gap = None, 0
+    for a, b in zip(line_ys, line_ys[1:]):
+        candidate = (a + b) / 2
+        gap = b - a
+        if abs(candidate - midpoint) <= window and gap > best_gap:
+            best_gap = gap
+            best_split = candidate
+    return best_split if best_split is not None else midpoint
 
 
 def extract_section_a_table_pdf(doc, section_a_page_range):
@@ -129,9 +255,23 @@ def extract_section_a_table_pdf(doc, section_a_page_range):
         q_rows = question_number_rows(page, col_x, header_y)
         grey = shaded_cells(page)
         words = page.get_text("words")
+        sb_heading_y = _section_b_heading_y(page)
+
+        comment_x0 = col_x["D"] + 20
+        page_lines = _cluster_lines([w for w in words if w[0] >= comment_x0 and w[1] > header_y])
+        line_ys = [y for y, _ in page_lines]
+
+        # Compute every row's raw window first, snap adjacent rows'
+        # shared boundary once (so both sides of a boundary agree), then
+        # assign each comment-line cluster to whichever row's snapped
+        # window contains its mean y.
+        windows = [_row_window(q_rows, i, header_y, page, sb_heading_y) for i in range(len(q_rows))]
+        for i in range(len(windows) - 1):
+            snapped = _snap_boundary_to_gap(line_ys, windows[i][1])
+            windows[i] = (windows[i][0], snapped)
+            windows[i + 1] = (snapped, windows[i + 1][1])
 
         for index, (qnum, y0) in enumerate(q_rows):
-            bottom = _row_bottom(q_rows, index, page.rect.height)
             percents = {}
             for letter in _LETTERS:
                 col = col_x[letter]
@@ -144,38 +284,19 @@ def extract_section_a_table_pdf(doc, section_a_page_range):
                     letter = _nearest_letter((rect.x0 + rect.x1) / 2, col_x)
                     correct += letter
 
-            comment_x0 = col_x["D"] + 20
-            comment_words = [
-                w for w in words
-                if w[0] >= comment_x0 and y0 - 2 <= w[1] < bottom
-            ]
-            comment_words.sort(key=lambda w: (round(w[1], 1), w[0]))
-            comment = _words_to_text(comment_words)
+            top, bottom = windows[index]
+            comment_lines = [cluster for y, cluster in page_lines if top <= y < bottom]
+            comment = "\n".join(" ".join(w[4] for w in cluster) for cluster in comment_lines).strip()
 
             rows.append([str(qnum), correct, percents["A"], percents["B"], percents["C"], percents["D"], comment])
     return rows
 
 
 def _words_to_text(words):
-    """Joins word tuples back into readable text, inserting a newline
-    whenever a word's y jumps to a new line rather than continuing the
-    same one (a plain space-join would run every line of a multi-line
-    comment together)."""
-    if not words:
-        return ""
-    lines = []
-    current_y = round(words[0][1], 1)
-    current = []
-    for w in words:
-        y = round(w[1], 1)
-        if abs(y - current_y) > 2:
-            lines.append(" ".join(current))
-            current = []
-            current_y = y
-        current.append(w[4])
-    if current:
-        lines.append(" ".join(current))
-    return "\n".join(lines).strip()
+    """Joins word tuples back into readable text via _cluster_lines (see
+    its docstring for why simple y-then-x sorting misorders words within
+    one visual line)."""
+    return "\n".join(" ".join(w[4] for w in cluster) for _, cluster in _cluster_lines(words)).strip()
 
 
 _QUESTION_HEADING_RE = re.compile(r"^Question\s+(\d+)([a-h])?\.?([ivx]+)?\.?\s*$", re.I)
