@@ -57,7 +57,7 @@ ARCHIVE_DUAL = (15, 90, 90)  # 2002-2012 (and the 2004 pilot), per sitting
 
 # Interaction geometry hand-verified against the rendered PDF for 2025 --
 # the "airtight" flagship year -- takes precedence over auto-generation.
-TUNED_INTERACTIONS = {"2025", "2024", "2023", "2022", "2021", "2020"}
+TUNED_INTERACTIONS = {"2025", "2024", "2023", "2022", "2021", "2020", "2019"}
 
 # 2024's exam has no text layer at all (confirmed: 0 fonts, every character
 # a vector path -- see Missing_Resources.md), so Section A geometry can't be
@@ -698,7 +698,9 @@ def make_written_fields(doc, section_b_start, start_counter=1, id_prefix="B"):
                 continue
             first = group[0]
             last = group[-1]
-            if len(group) == 1 and first[1] < 0.15:
+            # Same fix as make_written_fields_labelled's own copy of this
+            # exclusion -- see the comment there.
+            if page_number == start and len(group) == 1 and first[1] < 0.15:
                 continue
             rect = {
                 "x": first[0],
@@ -861,7 +863,16 @@ def make_written_fields_labelled(doc, section_b_first, section_b_last, id_prefix
         for group in groups:
             if from_raster and len(group) == 1:
                 continue
-            if len(group) == 1 and group[0][1] < 0.15:
+            # A single ruled line very near the top of Section B's own
+            # opening page is the Instructions block's divider rule (see
+            # the heading_y filter above) -- but that's only true on that
+            # one page. Applying the same y<0.15 exclusion on every page
+            # instead discarded a genuine short single-line answer box
+            # that happened to sit near the top of a continuation page
+            # (confirmed on 2019's own Question 7c, whose one-line box at
+            # y=0.133 on a page with no heading of its own was silently
+            # dropped before this fix).
+            if page_number == section_b_first and len(group) == 1 and group[0][1] < 0.15:
                 continue
             events.append((group[0][1], "linegroup", group))
 

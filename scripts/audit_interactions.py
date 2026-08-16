@@ -39,6 +39,13 @@ KNOWN_TINY_FIELDS = {
     # Confirmed correct via a rendered overlay check -- see MANUAL_ENTRIES
     # in scripts/build_2020_section_b.py.
     "2020": {"B3ci", "B5a", "B6a", "B17a"},
+    # 2019: B3a is a small terminal-choice box; B4a and B7bi are bare unit
+    # boxes with no ruled working lines above them; B7a is a "circle one of
+    # these four words" line, not a writable field; B15b spans two short
+    # side-by-side answer lines ("Point X ___ Point Y ___"). Confirmed
+    # correct via a rendered overlay check -- see MANUAL_ENTRIES in
+    # scripts/build_2019_section_b.py.
+    "2019": {"B3a", "B4a", "B7a", "B7bi", "B15b"},
 }
 
 

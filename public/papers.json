@@ -131,12 +131,12 @@
     "totalMarks": 130,
     "source": "previous-design-2017-2023/2019-physics-exam.pdf",
     "pageCount": 45,
-    "interactionCount": 68,
+    "interactionCount": 73,
     "readingMinutes": 15,
     "writingMinutes": 150,
     "durationSource": "detected",
-    "hasAnswerData": false,
-    "hasCurriculumMap": false,
+    "hasAnswerData": true,
+    "hasCurriculumMap": true,
     "hasMultipleChoice": true
   },
   {

@@ -1,0 +1,1638 @@
+{
+  "source": "previous-design-2017-2023/2019-physics-report.pdf",
+  "sectionA": {
+    "tableRows": [
+      [
+        "Question",
+        "Correct answer",
+        "% A",
+        "% B",
+        "% C",
+        "% D",
+        "Comments"
+      ],
+      [
+        "1",
+        "A",
+        "95",
+        "1",
+        "1",
+        "2",
+        "forces can only be attractive.\n𝑉\n𝐸=\n𝑑\n𝑉\n10−4 2.0 × ="
+      ],
+      [
+        "2",
+        "B",
+        "2",
+        "91",
+        "4",
+        "3",
+        "10−2 1.0 ×\n10−6 𝑉= 2.0 × 𝑉"
+      ],
+      [
+        "3",
+        "A",
+        "60",
+        "13",
+        "12",
+        "14",
+        "vector sum of the forces results in the net force to the left.\n𝑔∝𝑚\n𝑟2\nIf is doubled and is halved, m r"
+      ],
+      [
+        "4",
+        "D",
+        "10",
+        "7",
+        "25",
+        "58",
+        "2\n𝑔∝\n0.52\n𝑔=× 8\nPrimary coil. Connected to voltage supply."
+      ],
+      [
+        "5",
+        "B",
+        "8",
+        "84",
+        "5",
+        "3",
+        "Secondary coil. Connected to load.\nStep up. Nsecondary > Nprimary\n240\n1200\n0.2 𝐴𝑅𝑀𝑆\n𝑁𝑠\n𝐼𝑠"
+      ],
+      [
+        "6",
+        "C",
+        "11",
+        "27",
+        "57",
+        "5",
+        "𝑁𝑝\n6000\n0.2 ×\n1000\n1.2 𝐴𝑅𝑀𝑆\n25 revolutions per second the period is doubled and,"
+      ],
+      [
+        "7",
+        "D",
+        "6",
+        "24",
+        "10",
+        "60",
+        "the voltage will be halved.\nFaraday’s law, voltage is negative gradient of the flux"
+      ],
+      [
+        "8",
+        "A",
+        "63",
+        "19",
+        "6",
+        "12",
+        ""
+      ],
+      [
+        "9",
+        "D",
+        "9",
+        "9",
+        "9",
+        "73",
+        "Therefore, n1. 𝜃𝑟3 > 𝜃𝑖1. n3 <\n1\nSince 𝑣, 𝑛∝\n𝑣3 > 𝑣1 > 𝑣2\n𝑛2 = 𝑛1𝑠𝑖𝑛𝜃𝑐𝑟𝑖𝑡\n𝑛2 = 1.75 × 𝑠𝑖𝑛62.0"
+      ],
+      [
+        "10",
+        "B",
+        "8",
+        "75",
+        "10",
+        "7",
+        "𝑛2 = 1.55"
+      ],
+      [
+        "11",
+        "A",
+        "62",
+        "5",
+        "23",
+        "10",
+        "Constant speed implies that Fthrust = Fdrag.\nThe ball is subject only to gravitational force. Therefore, its"
+      ],
+      [
+        "12",
+        "C",
+        "12",
+        "20",
+        "61",
+        "7",
+        "acceleration is constant.\n𝐿0\n𝐿=\n𝛾\n𝐿0 = 150 × 3"
+      ],
+      [
+        "13",
+        "C",
+        "19",
+        "5",
+        "75",
+        "1",
+        "𝐿0 = 450 𝑚\nℎ\n𝜆=\n𝑚𝑣\n10−34 6.63 ×\n𝜆=\n10−31 107"
+      ],
+      [
+        "14",
+        "C",
+        "4",
+        "7",
+        "84",
+        "5",
+        "9.1 × × 1.0 ×\n10−11 𝜆= 7.3 × 𝑚\n𝜆∝1\n𝑣"
+      ],
+      [
+        "15",
+        "B",
+        "23",
+        "40",
+        "25",
+        "11",
+        "If increases, decreases. 𝑣 𝜆\nSince the width of the diffraction pattern is proportional to 𝜆,\nif decreases then fringe spacing will decrease. 𝜆"
+      ],
+      [
+        "16",
+        "D",
+        "3",
+        "16",
+        "5",
+        "77",
+        "will produce more photons but will not affect their"
+      ],
+      [
+        "17",
+        "D",
+        "8",
+        "8",
+        "10",
+        "74",
+        "light is coherent and incandescent light is incoherent.\nstudents determine the length of the pendulum.\nlength is the independent variable. The students\nthe period of the pendulum. Therefore, time is the"
+      ],
+      [
+        "18",
+        "A",
+        "83",
+        "9",
+        "6",
+        "2",
+        "variable. The mass and amplitude remain constant\nthe investigation. Therefore, these are both\nvariables.\nreduces the uncertainty in the measurement of the"
+      ],
+      [
+        "19",
+        "C",
+        "4",
+        "3",
+        "85",
+        "8",
+        "variable."
+      ],
+      [
+        "20",
+        "B",
+        "4",
+        "36",
+        "49",
+        "11",
+        "kinetic energy is used to deform the car’s structure.\nthe charge is negative and to identify some process for finding\nor similar was sufficient.\nof students referenced a right-hand rule but reported the\nAverage\n0.6\nalways be at right angles to the direction of motion and the\nBoth these conditions are required to explain the circular\nthat the force was at right angles to the direction of\nto be constant for circular motion to result.\nvelocity was perpendicular to the field the path would be"
+      ]
+    ]
+  },
+  "sectionB": [
+    {
+      "heading": "Question 1a",
+      "interactionId": "B1a",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 56.0,
+          "1": 44.0
+        },
+        "average": 0.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students were required to state that the charge is negative and to identify some process for finding\nthis. A reference to a right-hand rule or similar was sufficient.\nThere was no common error. A number of students referenced a right-hand rule but reported the\ncharge as positive."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 1b",
+      "interactionId": "B1b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 57.0,
+          "1": 33.0,
+          "2": 10.0
+        },
+        "average": 0.6
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The force applied to the particle would always be at right angles to the direction of motion and the\nforce would be constant in magnitude. Both these conditions are required to explain the circular\nmotion identified in the question stem.\nWhile most students were able to identify that the force was at right angles to the direction of\nmotion, many did not identify that it had to be constant for circular motion to result.\nMany students stated that because the velocity was perpendicular to the field the path would be\ncircular."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 2",
+      "interactionId": "B2",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 8.0,
+          "1": 23.0,
+          "2": 69.0
+        },
+        "average": 1.6
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students were required to draw a diagram as shown below. The diagram had to show the direction\nof the field lines using arrows and the shape of the field between the two charges to receive full\nmarks.\nThe most common reason for full marks not being awarded was careless drawing resulting in\ntouching and/or crossing field lines. Students are reminded that when drawing any field, the field\nlines must not touch or cross."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "imageUrl": "/answer-images/2019-b1.png",
+              "width": 547,
+              "height": 337
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 3a",
+      "interactionId": "B3a",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 22.0,
+          "1": 78.0
+        },
+        "average": 0.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students were required to identify X as the positive terminal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 3b",
+      "interactionId": "B3b",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 45.0,
+          "1": 55.0
+        },
+        "average": 0.6
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students were required to draw a downwards-pointing arrow as shown below."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "imageUrl": "/answer-images/2019-b2.png",
+              "width": 632,
+              "height": 365
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 3c",
+      "interactionId": "B3c",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 19.0,
+          "1": 22.0,
+          "2": 59.0
+        },
+        "average": 1.4
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The purpose of the commutator is to reverse the direction of current every half turn to keep the\nmotor rotating.\nSome students stated that the current is reversed every half turn but could not continue with a\nclear reason. Students who did not refer to the current reversal every half turn generally responded\nin a way that indicated they did not understand the question."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 3d",
+      "interactionId": "B3d",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 16.0,
+          "1": 2.0,
+          "2": 82.0
+        },
+        "average": 1.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "𝐹= 𝑛𝐵𝐼𝑙\n𝐹= 100 × 0.45 × 6.0 × 0.05\n𝐹= 13.5 𝑁\nThe most common errors were to omit the 100 turns, fail to convert 5.0 cm into metres, or both."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 4a",
+      "interactionId": "B4a",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 16.0,
+          "1": 84.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students were required to state that the value at Y is 9.8 N kg-1."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 4b",
+      "interactionId": "B4b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 82.0,
+          "1": 5.0,
+          "2": 14.0
+        },
+        "average": 0.3
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students were required to indicate that the vector sum of the gravitational fields caused by all the\nmass of Earth is zero. Students could do this by indicating that at the centre of Earth there are\nequal masses in all directions, or that the gravitational attraction from one direction is balanced by\nan equal attraction from the opposite direction."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "𝑟2\nthat as r approaches zero, F approaches zero. Students did not seem to realise that as r\napproaches zero F approaches infinity. The second was to represent the net gravitational field as a\ncircle with radial arrows drawn to the centre and the statement that they all cancel out. This\nsuggested that students either felt gravity was a repulsive force that pushes towards the centre of\nEarth or that it is not the mass of Earth in it but rather some object or region at the very core that is\nthe source of the gravitational field."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 4c",
+      "interactionId": "B4c",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 74.0,
+          "1": 1.0,
+          "2": 25.0
+        },
+        "average": 0.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The increase in potential energy is represented by the area under the graph multiplied by the mass\nof the person.\n𝐸= (0.5 × 6.37 × 106 × 9.8) × 75\n𝐸= 2.3 × 109 𝐽\nThe most common error was to apply the gravitational potential energy formula, 𝐸𝑔= 𝑚𝑔ℎ using a\nconstant g = 9.8."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 5a",
+      "interactionId": "B5a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 46.0,
+          "1": 16.0,
+          "2": 38.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "There is only one force acting on the satellite – gravity – and this force acts towards (the centre of)\nthe Earth.\nThe most common error was to state that there were forces other than gravity operating, with many\nstudents thinking that velocity and momentum were also forces."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 5b",
+      "interactionId": "B5b",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 21.0,
+          "1": 24.0,
+          "2": 22.0,
+          "3": 33.0
+        },
+        "average": 1.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "𝑇=\n√4𝜋2𝑅3\n𝐺𝑀\n𝑇=\n√4𝜋2( 2.00 × 107 + 6.37 × 106)3\n(6.67. 𝑥 10−11)(5.98 𝑥 1024)\n𝑇= 4.26 × 104 𝑠"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "imageUrl": "/answer-images/2019-b3.png",
+              "width": 813,
+              "height": 310
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "alike should ensure they refer to the VCAA website under advice for teachers. Here they will find\nan explanation that, for the purposes of VCE Physics, 42 600 has five significant figures."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 6a",
+      "interactionId": "B6a",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 17.0,
+          "1": 84.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The power drawn was 12 W."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 6b",
+      "interactionId": "B6b",
+      "marksTable": {
+        "maxMarks": 4,
+        "distributionPct": {
+          "0": 29.0,
+          "1": 62.0,
+          "2": 3.0,
+          "3": 1.0,
+          "4": 5.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students could respond through one of the following lines of argument:\na. The power delivered to the lights is less than 12 W.\nb. The voltage delivered to the lights is less than 12 V.\nc. The current delivered to the lights is less than 1 A.\nThis then had to be supported by calculations. This required finding the total resistance of the\nsystem (which was 12 Ω + 3 Ω = 15 Ω) and the actual current for the system (which was 12 / (12 +\n3) = 0.8 A). Students could then support their assertions as follows:\na. 𝑃𝑙𝑜𝑠𝑠= 𝐼2𝑅= 0.82 × 3 = 1.92 𝑊 lost in the lead.\nb. 𝑉𝑙𝑜𝑠𝑠= 𝐼𝑅= 0.8 × 3 = 2.4 𝑉 lost over the lead.\nc. 𝐼𝑟𝑒𝑞𝑢𝑖𝑟𝑒𝑑= 1𝐴. 𝐼𝑑𝑒𝑙𝑖𝑣𝑒𝑟𝑒𝑑= 0.8 𝐴\nThe most common errors were either to state the reason and then not follow up with any\ncalculations or calculate a voltage drop across the lead using 3 Ω but 1.0 A rather than 0.8 A."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 6c",
+      "interactionId": "B6c",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 77.0,
+          "1": 3.0,
+          "2": 20.0
+        },
+        "average": 0.45
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students were required to provide a change using the same equipment. The only valid answer was\nto move the transformer from the house end of the lead to the light end of the lead so that the\ncurrent in the lead would be reduced and less power would be lost.\nThe most common errors involved adding to or changing the equipment, such as adding another\ntransformer or replacing the lead."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 7a",
+      "interactionId": "B7a",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 56.0,
+          "1": 44.0
+        },
+        "average": 0.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The device is an alternator.\nThe most common error was to identify it as an AC motor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 7bi",
+      "interactionId": "B7bi",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 18.0,
+          "1": 82.0
+        },
+        "average": 0.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The flux through the loop is 0 (zero) Wb.\nThe most common error was to calculate 0.05 Wb as shown in Question 7d."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 7bii",
+      "interactionId": "B7bii",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 33.0,
+          "1": 67.0
+        },
+        "average": 0.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students were required to state that the plane of the loop is parallel to the magnetic field."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 7c",
+      "interactionId": "B7c",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 15.0,
+          "1": 85.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The period of rotation was 0.05 sec."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 7d",
+      "interactionId": "B7d",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 18.0,
+          "1": 2.0,
+          "2": 80.0
+        },
+        "average": 1.6
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Φ𝑚𝑎𝑥= 𝐵𝐴\nΦ𝑚𝑎𝑥= 0.40 × 0.50 × 0.25\nΦ𝑚𝑎𝑥= 0.05 𝑊𝑏"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "understanding of how to approach the problem."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 7e",
+      "interactionId": "B7e",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 47.0,
+          "1": 2.0,
+          "2": 50.0
+        },
+        "average": 1.0
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "𝜀=\n∆Φ\nΔ𝑡\n𝜀=\n0.00 −(−0.05)\n0.0125\n𝜀= 4.0𝑉\nOf those students who did not score full marks, most were able to identify the formula for emf but\nshowed no understanding of how to derive the values required for substitution."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 7f",
+      "interactionId": "B7f",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 18.0,
+          "1": 12.0,
+          "2": 70.0
+        },
+        "average": 1.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students were required to specify two of the following:\n• increase the rate of rotation of the loop\n• increase the number of loops\n• increase the strength of the magnetic field\n• increase the area of the loop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 7g",
+      "interactionId": "B7g",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 23.0,
+          "1": 77.0
+        },
+        "average": 0.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students were required to draw a full wave rectified waveform as shown below."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "imageUrl": "/answer-images/2019-b4.png",
+              "width": 658,
+              "height": 336
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 8a",
+      "interactionId": "B8a",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 32.0,
+          "1": 4.0,
+          "2": 19.0,
+          "3": 46.0
+        },
+        "average": 1.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The problem required a conservation of energy approach. As an example:\n𝑚𝑔ℎ𝐴= 𝑚𝑔ℎ𝐵+\n1\n2\n𝑚𝑣2\n0.25 × 9.8 × ℎ𝐴= 0.25 × 9.8 × 0.4 + 0.5 × 0.25 × 32\n2.45ℎ𝐴= 0.98 + 1.125\nℎ𝐴=\n2.105\n2.45\nℎ𝐴 = 0.86 𝑚\nThe most common error was to fail to understand how to apply conservation of energy."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "imageUrl": "/answer-images/2019-b5.png",
+              "width": 813,
+              "height": 445
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 8b",
+      "interactionId": "B8b",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 41.0,
+          "1": 10.0,
+          "2": 2.0,
+          "3": 48.0
+        },
+        "average": 1.6
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "𝑁+ 𝑚𝑔=\n𝑚𝑣2\n𝑟\n𝑁=\n0.25 × 32\n0.2\n−0.25 × 9.8\n𝑁= 11.25 −2.45\n𝑁= 8.8 𝑁\nThe most common error was to fail to understand the relationship between the centripetal force,\nthe weight force and the normal reaction force."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "imageUrl": "/answer-images/2019-b6.png",
+              "width": 814,
+              "height": 256
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 8c",
+      "interactionId": "B8c",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 59.0,
+          "1": 20.0,
+          "2": 16.0,
+          "3": 6.0
+        },
+        "average": 0.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students were required to state that the centripetal force required for circular motion exceeds the\nweight force of the car. This requires that a normal reaction force, which acts downwards, be\nadded to enable the car to travel around the track at 3.0 m s-1.\nSome students chose to approach this problem by calculating the minimum speed at which the car\ncould travel around the loop, which was 1.4 m s-1. They then went on to explain how the stated\nspeed was greater than this value, which meant that a normal reaction force would be present."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "not explain where the required extra force would come from."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 9",
+      "interactionId": "B9",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 19.0,
+          "1": 31.0,
+          "2": 4.0,
+          "3": 46.0
+        },
+        "average": 1.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The appropriate approach is to apply conservation of momentum.\n𝑚𝑣1𝑖+ 4𝑚𝑣2𝑖= 𝑚𝑣1𝑓+ 𝑚𝑣2𝑓\n𝑚× 𝑣1𝑖+ 0 = 4.0 × 106 × 4𝑚−6.0 × 106 × 𝑚\n𝑚× 𝑣1𝑖+ 0 = 16.0 × 106 × 𝑚−6.0 × 106 × 𝑚\n𝑚× 𝑣1𝑖+ 0 = 10.0 × 106 × 𝑚\n𝑣1𝑖= 1.0 × 107 𝑚 𝑠−1\nThe most common error was to forget to subtract the momentum of the proton after the collision\ndue to the vector nature of its momentum."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 10a",
+      "interactionId": "B10a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 22.0,
+          "1": 4.0,
+          "2": 75.0
+        },
+        "average": 1.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "To show the time to the highest point students were required to demonstrate a proof such as:\n𝑣𝑣𝑒𝑟𝑡= 25 sin(39) = 15.7\n𝑡=\n𝑣𝑣𝑒𝑟𝑡\n𝑎\n=\n15.7\n9.8\n𝑡= 1.60 𝑠𝑒𝑐"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 10b",
+      "interactionId": "B10b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 35.0,
+          "1": 6.0,
+          "2": 59.0
+        },
+        "average": 1.3
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Given that the students were given the time to the top of flight as 1.60 sec, they should have\ndoubled this to give a total time of flight of 3.20 sec. The horizontal range can then be found using:\n𝑥= 𝑣ℎ𝑜𝑟𝑖𝑧× 𝑡\n𝑥= 25cos (39) × 3.2\n𝑥= 62 𝑚"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "horizontal component of the velocity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 11",
+      "interactionId": "B11",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 27.0,
+          "1": 35.0,
+          "2": 29.0,
+          "3": 9.0
+        },
+        "average": 1.2
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Students can find a statement of Einstein’s postulates in the study design: ‘The speed of light has a\nconstant value for all observers regardless of their motion or the motion of the source.’\nTo explain how this differs from the concept of light in classical physics, students were required to\nexplain that if there was relative motion between the source and observer then the measurement of\nthe speed of light would vary. Specifically, if the source and the observer were approaching each\nother the speed of light would appear faster than 3 x 108 m s-1 and if the source and observer were\nretreating from each other the speed of light would appear slower than 3 x 108 m s-1.\nWhile most students were able to state the second postulate many were unable to adequately\nexplain the classical predictions. Many students simply stated that the speed of light would not be\nconstant, which failed to provide enough detail."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 12",
+      "interactionId": "B12",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 38.0,
+          "1": 14.0,
+          "2": 7.0,
+          "3": 41.0
+        },
+        "average": 1.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "𝑇= 0.120 × 4\n𝑇= 0.480 𝑠𝑒𝑐\n𝑓=\n1\n𝑇=\n1\n0.480\n𝑓= 2.08 𝐻𝑧\n𝑣= 𝑓𝜆\n𝑣= 2.08 × 1.40\n𝑣= 2.92 𝑚 𝑠−1\nThe most common error was to incorrectly calculate the frequency.\nThere were a number of students who demonstrated a different solution:\n𝑣=\n𝑥\n𝑡\n𝑣=\n1.40 ÷ 4\n0.120\n𝑣= 2.92 𝑚 𝑠−1\nThis was also accepted."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "imageUrl": "/answer-images/2019-b7.png",
+              "width": 813,
+              "height": 872
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 13a",
+      "interactionId": "B13a",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 19.0,
+          "1": 81.0
+        },
+        "average": 0.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "𝑣= 𝑓𝜆\n𝜆=\n40\n7.5\n𝜆= 5.3 𝑚"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 13b",
+      "interactionId": "B13b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 41.0,
+          "1": 42.0,
+          "2": 17.0
+        },
+        "average": 0.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "No, a standing wave will not form.\nStudents were required to state that the string length is not a multiple of\n𝜆2\n⁄ .\nMany students simply stated the string length is not a multiple of the wavelength rather than half\nthe wavelength.\nSome students chose an alternative proof and stated that since 𝜆=\n2𝐿\n𝑛, if solving for n did not yield\nan integer then a standing wave could not form. This was also accepted."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 14a",
+      "interactionId": "B14a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 57.0,
+          "1": 17.0,
+          "2": 26.0
+        },
+        "average": 0.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The path difference is 0.806 – 0.723 = 0.083 m. This is also 3𝜆.\nTherefore, 𝜆=\n0.083\n3\n= 2.77 × 10−2𝑚.\n𝑓=\n𝑐\n𝜆\n𝑓=\n3 × 108\n2.77 × 10−2\n𝑓= 1.08 × 1010 𝐻𝑧\nThe most common error was to fail to convert cm to m. Students must ensure they are working in\nthe correct units."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "imageUrl": "/answer-images/2019-b8.png",
+              "width": 687,
+              "height": 345
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 14b",
+      "interactionId": "B14b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 34.0,
+          "1": 49.0,
+          "2": 17.0
+        },
+        "average": 0.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The signal strength between P0 and P1 is a minimum because the path difference is\n𝜆2\n⁄ . This\nresults in destructive interference.\nThe most common error was to provide a generic explanation for destructive interference and state\nthe (𝑛−\n1\n2) 𝜆 formula. This did not address the question, which was specifically about the node\nbetween P0 and P1. Students are advised against copying responses from their A3 reference\nsheet, as these responses will not be awarded marks if they do not address the question."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 14c",
+      "interactionId": "B14c",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 35.0,
+          "1": 24.0,
+          "2": 41.0
+        },
+        "average": 1.0
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Light is a transverse wave. Polarised light is such that its plane of oscillation is in one direction\nonly. While students were not required to include a diagram, many did, which aided their\nexplanation. Students are encouraged to use diagrams wherever they find them useful.\nA number of students attempted to describe how polarisation affected either the electric field\nand/or the magnetic field of the light. It should be noted that the study design states that\npolarisation need only be understood in relation to a transverse wave model. Students and\nteachers should be careful not to overly complicate concepts to the point where understanding is\ncompromised."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 15a",
+      "interactionId": "B15a",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 21.0,
+          "1": 24.0,
+          "2": 28.0,
+          "3": 27.0
+        },
+        "average": 1.6
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The effect being observed is dispersion. The refractive index of the glass is different for different\nwavelengths, so different wavelengths refract at different angles. This is why the different colours\nexit the prism at different angles.\nMany students referred to diffraction, which is not occurring here."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 15b",
+      "interactionId": "B15b",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 32.0,
+          "1": 68.0
+        },
+        "average": 0.7
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The colour at point X would be red. The colour at point Y would be blue/violet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 16ai",
+      "interactionId": "B16ai",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 25.0,
+          "1": 37.0,
+          "2": 38.0
+        },
+        "average": 1.1
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "ℎ=\n𝑟𝑖𝑠𝑒\n𝑟𝑢𝑛\nℎ=\n2.0\n3.8 × 1014\nℎ= 5.3 × 10−15 𝑒𝑉 𝑠\nSome allowance was made for students’ reading of the graph.\nMany students were not able to identify the correct unit of Planck’s constant."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 16aii",
+      "interactionId": "B16aii",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 56.0,
+          "1": 44.0
+        },
+        "average": 0.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "𝑓0 = 3.7 × 1014\n𝜆=\n𝑐\n𝑓=\n3.0 × 108\n3.7 × 1014\n𝜆= 810 𝑛𝑚\nSome allowance was made for students’ reading of the graph."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 16aiii",
+      "interactionId": "B16aiii",
+      "marksTable": {
+        "maxMarks": 1,
+        "distributionPct": {
+          "0": 44.0,
+          "1": 56.0
+        },
+        "average": 0.6
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The y-intercept of the graph is ~1.9 eV. Some allowance was made for students’ reading of the\ngraph."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 16b",
+      "interactionId": "B16b",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 21.0,
+          "1": 9.0,
+          "2": 69.0
+        },
+        "average": 1.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "A solid line parallel to the dashed line as shown below."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 17a",
+      "interactionId": "B17a",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 28.0,
+          "1": 19.0,
+          "2": 31.0,
+          "3": 22.0
+        },
+        "average": 1.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Moving electrons exhibit a wave property (de Broglie wavelength). As diffraction is dependent on\nwavelength, if the de Broglie wavelength of the electron is the same as the wavelength of the X-ray\nthen the diffraction patterns will be the same.\nMany students indicated that the electron and the X-ray would have the same wavelength and the\nsame momentum but different energies. They then failed to link any of these to the process of\ndiffraction."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 17b",
+      "interactionId": "B17b",
+      "marksTable": {
+        "maxMarks": 4,
+        "distributionPct": {
+          "0": 66.0,
+          "1": 6.0,
+          "2": 3.0,
+          "3": 1.0,
+          "4": 23.0
+        },
+        "average": 1.1
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "Find momentum of the electron:\n𝑝= √(2𝑚𝐸𝑘)\n𝑝= √(2 × 9.1 × 10−31 × 3.0 × 103 × 1.6 × 10−19)\n𝑝= 2.96 × 10−23 𝑘𝑔 𝑚 𝑠−1\nThe X-ray photon will have the same momentum as the electron.\nFind the wavelength of the X-ray from its momentum:\n𝜆=\nℎ\n𝑝\n𝜆=\n6.63 × 10−34\n2.96 × 10−23\n𝜆= 2.24 × 10−11 𝑚"
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "imageUrl": "/answer-images/2019-b9.png",
+              "width": 940,
+              "height": 654
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "𝑓=\n𝑐\n𝜆\n𝑓=\n3.0 × 108\n2.24 × 10−11\n𝑓= 1.34 × 1019 𝐻𝑧\nThere were other workings that were also accepted.\nThis process was complex, with many steps to be taken. While marks are awarded for steps\nthroughout the solution they can only be awarded if the assessor can clearly see the correct\nphysics being demonstrated. Very few students were able to set out their work in a way that could\neasily be followed. Students should observe the solution presented here and note that it has been\nannotated with short phrases indicating the physics being applied. This annotation makes it easier\nfor the assessor to identify the students’ understanding and award marks accordingly."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 18a",
+      "interactionId": "B18a",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 30.0,
+          "1": 16.0,
+          "2": 54.0
+        },
+        "average": 1.3
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The hydrogen atom would need to absorb exactly 12.8 eV of energy from an incident photon or\nelectron.\nThe most common errors were to refer to emission or to discuss the process of electron shell\ntransition in general."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 18b",
+      "interactionId": "B18b",
+      "marksTable": {
+        "maxMarks": 3,
+        "distributionPct": {
+          "0": 21.0,
+          "1": 9.0,
+          "2": 9.0,
+          "3": 61.0
+        },
+        "average": 2.1
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "2.6 eV, 1.9 eV, 0.7 eV.\nThe most common error was to list all the possible energies emitted when returning to the ground\nstate. Other errors were arithmetic."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 19a",
+      "interactionId": "B19a",
+      "marksTable": {
+        "maxMarks": 6,
+        "distributionPct": {
+          "0": 11.0,
+          "1": 9.0,
+          "2": 11.0,
+          "3": 15.0,
+          "4": 16.0,
+          "5": 20.0,
+          "6": 17.0
+        },
+        "average": 3.5
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "imageUrl": "/answer-images/2019-b10.png",
+              "width": 1191,
+              "height": 36
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "There were a range of errors:\na. incorrect conversion of mm to m and g to N, which is an expected skill at this level\nb. incorrect orientation of the uncertainty bars\nc. the drawing of a continuous curve through the data points\nIt was clear that visualising data and interpreting data are skills that a great many students do not\nhave. Teachers are recommended to provide students with multiple, repeated opportunities to\ngenerate data, graph it and draw detailed and complex conclusions. This question made it\napparent that many students did not understand how this data referred to a spring system and how\nknowledge of springs would help to interpret this data."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 19bi",
+      "interactionId": "B19bi",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 60.0,
+          "1": 5.0,
+          "2": 35.0
+        },
+        "average": 0.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "𝑘𝐴=\n𝑟𝑖𝑠𝑒\n𝑟𝑢𝑛\n𝑘𝐴=\n9.0\n0.60\n𝑘𝐴= 150 𝑁 𝑚−1\nThe most common errors were to not convert the mass to Newtons or the displacement to metres."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 19bii",
+      "interactionId": "B19bii",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 80.0,
+          "1": 6.0,
+          "2": 14.0
+        },
+        "average": 0.4
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "𝑘𝐵=\n𝑟𝑢𝑛\n𝑘𝐵=\n7.0\n0.20\n𝑘𝐵= 350 𝑁 𝑚−1\nOr\n𝑘𝐴+𝐵=\n𝑟𝑖𝑠𝑒\n𝑟𝑢𝑛\n𝑘𝐴+𝐵=\n10.0\n0.20\n𝑘𝐴+𝐵= 500 𝑁 𝑚−1\n𝑘𝐵= 𝑘𝐴+𝐵−𝑘𝐴\n𝑘𝐵= 500 −150\n𝑘𝐵= 350 𝑁 𝑚−1\nMost students either made no attempt, or demonstrated that they did not know how tackle this\nproblem."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 19ci",
+      "interactionId": "B19ci",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 55.0,
+          "1": 4.0,
+          "2": 41.0
+        },
+        "average": 0.9
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The question stem stated that the required method was to use the area under the graph to\ncalculate the energy.\n𝐸=\n1\n2\n𝑏ℎ\n𝐸= 0.5 × 0.080 × 12\n𝐸= 0.48 𝐽\nOver half the students made either no attempt or were unable to demonstrate how to find the area.\nA number of students attempted to use 𝐸=\n1\n2\n𝑘𝑥2 but were unable to apply this in any meaningful\nway."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 19cii",
+      "interactionId": "B19cii",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 84.0,
+          "1": 2.0,
+          "2": 15.0
+        },
+        "average": 0.3
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "trapezium.\n𝐸=\n1\n2\n𝑏ℎ+\n1\n2\n(𝑎+ 𝑏)ℎ\n𝐸= (0.5 × 0.060 × 9) + (0.5 × (9 + 19) × 0.02)\n𝐸= 0.55 𝐽\nAgain, over 80 per cent of students were unable to demonstrate any meaningful understanding."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 19ciii",
+      "interactionId": "B19ciii",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 79.0,
+          "1": 0.0,
+          "2": 21.0
+        },
+        "average": 0.4
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "To find the work done compressing spring B alone, subtract the spring A energy from the total\nenergy.\n𝑃𝐸𝐵= 𝑃𝐸𝐴+𝐵−𝑃𝐸𝐴\n𝑃𝐸𝐵= 0.55 −0.48\n𝑃𝐸𝐵= 0.07 𝐽\nAgain, most students were not able to demonstrate an understanding of how to solve this problem."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Question 19d",
+      "interactionId": "B19d",
+      "marksTable": {
+        "maxMarks": 2,
+        "distributionPct": {
+          "0": 58.0,
+          "1": 6.0,
+          "2": 36.0
+        },
+        "average": 0.8
+      },
+      "items": [
+        {
+          "kind": "paragraph",
+          "level": 0,
+          "spans": [
+            {
+              "text": "The single spring (A) could provide suspension for small bumps while the combined spring system\n(A+B) could provide suspension for more severe bumps."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
