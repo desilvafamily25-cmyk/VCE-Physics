@@ -1580,6 +1580,24 @@ table.topic-table tr:last-child td {
   padding-left: var(--space-6);
 }
 
+/* Equation images extracted from the examination report (Word Equation
+   Editor OLE objects, rasterised at extraction time -- see
+   scripts/report_extraction_lib.py) are always black-on-white, so they need
+   their own solid light background + padding to read cleanly in dark mode,
+   regardless of the surrounding theme. Inline so they flow with the
+   sentence they were embedded in mid-paragraph in the source report. */
+.answer-inline-image {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  margin: 2px 3px;
+  padding: 2px 5px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
 .answer-table {
   width: 100%;
   font-size: var(--text-xs);

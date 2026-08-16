@@ -1,4 +1,4 @@
-import type { AnswerContentBlock, Interaction, QuestionAnswer, QuestionOutcome } from "../data/types";
+import type { AnswerContentBlock, Interaction, InlineSpan, QuestionAnswer, QuestionOutcome } from "../data/types";
 import { isMcqCorrect } from "../lib/scoring";
 
 /**
@@ -48,8 +48,8 @@ export function AnswerPanel({
 }
 
 /** Derives the exam year from the answer's own source document name (e.g.
- * "VCE_Physics_2025_Examination_Report.docx" -> "2025") rather than
- * hardcoding a year, since this panel is shared across every paper. */
+ * "2025-physics-report.docx" -> "2025") rather than hardcoding a year,
+ * since this panel is shared across every paper. */
 function cohortLabel(questionAnswer: QuestionAnswer): string {
   const match = questionAnswer.source.document.match(/(\d{4})/);
   return match ? `${match[1]} cohort` : "cohort";
@@ -67,6 +67,12 @@ export function acceptedAnswerLabel(questionAnswer: QuestionAnswer): string {
 }
 
 function SectionAAnswer({ studentAnswer, questionAnswer }: { studentAnswer: string; questionAnswer: QuestionAnswer }) {
+  // Richly-extracted years populate examinerComments with spans (text
+  // interleaved with the report's own embedded equation images -- see
+  // scripts/report_extraction_lib.py); older/thinner extractions fall back
+  // to the plain-text officialExplanation split on newlines.
+  const hasRichComment = questionAnswer.examinerComments.length > 0;
+
   if (questionAnswer.withdrawn) {
     return (
       <div>
@@ -75,12 +81,16 @@ function SectionAAnswer({ studentAnswer, questionAnswer }: { studentAnswer: stri
           VCAA withdrew this question after the exam (e.g. a printing error or ambiguity) — it has no correct answer
           and does not count toward your score, in either direction.
         </p>
-        {questionAnswer.officialExplanation && (
-          <div className="answer-explanation">
-            {questionAnswer.officialExplanation.split("\n").map((line, index) => (
-              <p key={index}>{line}</p>
-            ))}
-          </div>
+        {hasRichComment ? (
+          <ContentBlocks blocks={questionAnswer.examinerComments} />
+        ) : (
+          questionAnswer.officialExplanation && (
+            <div className="answer-explanation">
+              {questionAnswer.officialExplanation.split("\n").map((line, index) => (
+                <p key={index}>{line}</p>
+              ))}
+            </div>
+          )
         )}
         <SourceNote questionAnswer={questionAnswer} />
       </div>
@@ -100,12 +110,16 @@ function SectionAAnswer({ studentAnswer, questionAnswer }: { studentAnswer: stri
       {questionAnswer.cohortPercentCorrect != null && (
         <p className="answer-cohort-stat">{questionAnswer.cohortPercentCorrect}% of the {cohortLabel(questionAnswer)} answered this correctly.</p>
       )}
-      {questionAnswer.officialExplanation && (
-        <div className="answer-explanation">
-          {questionAnswer.officialExplanation.split("\n").map((line, index) => (
-            <p key={index}>{line}</p>
-          ))}
-        </div>
+      {hasRichComment ? (
+        <ContentBlocks blocks={questionAnswer.examinerComments} />
+      ) : (
+        questionAnswer.officialExplanation && (
+          <div className="answer-explanation">
+            {questionAnswer.officialExplanation.split("\n").map((line, index) => (
+              <p key={index}>{line}</p>
+            ))}
+          </div>
+        )
       )}
       <SourceNote questionAnswer={questionAnswer} />
     </div>
@@ -134,10 +148,6 @@ function SectionBAnswer({
 
   return (
     <div>
-      <p className="answer-panel-note">
-        Written responses can't be auto-marked reliably. Compare your answer with the official marking guide below,
-        then record how you think you went.
-      </p>
       {questionAnswer.marksDistributionPct && Object.keys(questionAnswer.marksDistributionPct).length > 0 && (
         <p className="answer-cohort-stat">
           {cohortLabel(questionAnswer)} average: {questionAnswer.averageMark ?? "?"} / {questionAnswer.marks}
@@ -158,7 +168,7 @@ function SectionBAnswer({
 
       {onSelfAssess && (
         <div className="self-assess">
-          <p>How did you go?</p>
+          <p>How did you go, compared with the marking guide above?</p>
           <div className="self-assess-buttons">
             <button type="button" onClick={() => onSelfAssess("correct")}>
               Correct
@@ -174,6 +184,21 @@ function SectionBAnswer({
       )}
     </div>
   );
+}
+
+function Span({ span }: { span: InlineSpan }) {
+  if ("imageUrl" in span) {
+    return (
+      <img
+        className="answer-inline-image"
+        src={span.imageUrl}
+        width={span.width}
+        height={span.height}
+        alt={span.alt ?? "Worked equation from the official examination report"}
+      />
+    );
+  }
+  return <>{span.text}</>;
 }
 
 export function ContentBlocks({ blocks }: { blocks: AnswerContentBlock[] }) {
@@ -201,7 +226,9 @@ export function ContentBlocks({ blocks }: { blocks: AnswerContentBlock[] }) {
         return (
           <p key={index} className={className}>
             {block.level > 0 ? "• " : ""}
-            {block.text}
+            {block.spans.map((span, spanIndex) => (
+              <Span key={spanIndex} span={span} />
+            ))}
           </p>
         );
       })}

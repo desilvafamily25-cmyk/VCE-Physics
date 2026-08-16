@@ -4,7 +4,10 @@ structured JSON, plus a curated answer dataset built from that structure.
 This script performs NO physics interpretation and invents nothing: it walks
 the .docx body in true document order (paragraphs interleaved with tables)
 and regroups the report's own text under each question heading. Every field
-in the curated output is either copied verbatim from the report or is a
+in the curated output is either copied verbatim from the report (including
+its embedded equation images -- VCAA's own reports render worked
+calculations as Word Equation Editor objects, not plain text; see
+metafile_convert.py and report_extraction_lib.py's ImageExtractor) or is a
 mechanical derivation (e.g. "average / maxMarks" for a difficulty ratio)
 whose rule is recorded alongside the data. Shared extraction logic lives in
 report_extraction_lib.py (used by every docx-report year's extraction
@@ -15,6 +18,8 @@ Outputs:
                                           grouped by question, for audit/review
   data/answers/2025.json              -- curated per-question answer records
                                           keyed by canonical id "2025-<interactionId>"
+  public/answer-images/2025-*.png     -- every embedded equation/figure image,
+                                          referenced by URL from the JSON above
 """
 import json
 import sys
@@ -24,8 +29,10 @@ import docx
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from report_extraction_lib import (  # noqa: E402
+    ImageExtractor,
     build_section_a_answers,
     build_section_b_answers,
+    extract_section_a_comment_spans,
     extract_section_a_table,
     extract_section_b_questions,
 )
@@ -36,20 +43,24 @@ SOURCE_DOCUMENT = "2025-physics-report.docx"
 YEAR = "2025"
 RAW_OUT = ROOT / "data" / "raw" / "2025-report-extract.json"
 ANSWERS_OUT = ROOT / "data" / "answers" / "2025.json"
+IMAGE_OUT_DIR = ROOT / "public" / "answer-images"
+IMAGE_URL_PREFIX = "/answer-images"
 
 
 def main():
     document = docx.Document(REPORT_PATH)
+    image_extractor = ImageExtractor(document, IMAGE_OUT_DIR, IMAGE_URL_PREFIX, YEAR)
 
     section_a_rows = extract_section_a_table(document)
-    section_b_questions = extract_section_b_questions(document)
+    section_a_comment_spans = extract_section_a_comment_spans(document, image_extractor)
+    section_b_questions = extract_section_b_questions(document, image_extractor)
 
     RAW_OUT.parent.mkdir(parents=True, exist_ok=True)
     RAW_OUT.write_text(
         json.dumps(
             {
                 "source": str(REPORT_PATH.relative_to(ROOT)).replace("\\", "/"),
-                "sectionA": {"tableRows": section_a_rows},
+                "sectionA": {"tableRows": section_a_rows, "commentSpans": section_a_comment_spans},
                 "sectionB": section_b_questions,
             },
             indent=2,
@@ -58,7 +69,7 @@ def main():
         encoding="utf-8",
     )
 
-    section_a_answers = build_section_a_answers(section_a_rows, SOURCE_DOCUMENT, YEAR)
+    section_a_answers = build_section_a_answers(section_a_rows, SOURCE_DOCUMENT, YEAR, section_a_comment_spans)
     section_b_answers = build_section_b_answers(section_b_questions, SOURCE_DOCUMENT, YEAR)
     all_answers = section_a_answers + section_b_answers
 
@@ -72,6 +83,7 @@ def main():
     print(f"Total: {len(all_answers)}")
     print(f"Flagged uncertain: {uncertain_count}")
     print(f"Withdrawn: {withdrawn_count}")
+    print(f"Embedded images extracted: {image_extractor._counter}")
 
 
 if __name__ == "__main__":

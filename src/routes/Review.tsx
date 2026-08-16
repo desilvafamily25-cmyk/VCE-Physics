@@ -245,14 +245,22 @@ export function ReviewRoute() {
                       VCAA withdrew this question after the exam (e.g. a printing error or ambiguity) — it has no
                       correct answer and does not count toward your score, in either direction.
                     </p>
-                    {row.answer.officialExplanation && <p>{row.answer.officialExplanation}</p>}
+                    {row.answer.examinerComments.length > 0 ? (
+                      <ContentBlocks blocks={row.answer.examinerComments} />
+                    ) : (
+                      row.answer.officialExplanation && <p>{row.answer.officialExplanation}</p>
+                    )}
                   </>
                 ) : (
                   <>
                     <p>
                       <strong>Correct answer:</strong> {acceptedAnswerLabel(row.answer)}
                     </p>
-                    {row.answer.officialExplanation && <p>{row.answer.officialExplanation}</p>}
+                    {row.answer.examinerComments.length > 0 ? (
+                      <ContentBlocks blocks={row.answer.examinerComments} />
+                    ) : (
+                      row.answer.officialExplanation && <p>{row.answer.officialExplanation}</p>
+                    )}
                   </>
                 )
               ) : (

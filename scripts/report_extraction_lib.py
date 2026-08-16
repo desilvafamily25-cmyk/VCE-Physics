@@ -19,9 +19,25 @@ correct-answer detection, marks-table parsing) is subject-agnostic. Only the
 subject name in a few strings differs.
 """
 import re
+import sys
+from pathlib import Path
+
 from docx.oxml.ns import qn
 from docx.table import Table
 from docx.text.paragraph import Paragraph
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from metafile_convert import metafile_or_raster_to_png  # noqa: E402
+
+# Namespace URIs for the two ways a paragraph run can embed an image:
+# legacy OLE (Word Equation Editor/MathType -- what every equation in the
+# 2025 report actually is) and modern inline pictures (w:drawing/pic:pic).
+_NS_V = "urn:schemas-microsoft-com:vml"
+_NS_R = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+_NS_A = "http://schemas.openxmlformats.org/drawingml/2006/main"
+_NS_WP = "http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+_EMU_PER_PT = 12700  # OOXML EMU units per point
+_PT_TO_PX = 96 / 72  # CSS px per point, at the standard 96dpi assumption
 
 # Matches every subquestion-heading format seen across years so far:
 # "Question 1a." (letter subpart), "Question 4c.iii" (nested roman numeral,
@@ -67,6 +83,169 @@ COMMENT_RE = re.compile(
     r"causing issues|caused issues|issue arose|issues arose)\b",
     re.I,
 )
+
+
+class ImageExtractor:
+    """Resolves, converts and saves every embedded equation/picture found
+    while walking a report's paragraphs, so report_extraction_lib's own
+    paragraph-to-spans logic never has to know about OOXML relationship
+    plumbing or WMF/EMF conversion directly.
+
+    Every image is written once (by relationship id, memoised) as a PNG
+    under `out_dir`, named `<paperId>-<n>.png`, and referenced from the
+    generated answers JSON by `<url_prefix>/<paperId>-<n>.png` -- see
+    scripts/extract_2025_report.py for how out_dir/url_prefix are wired to
+    public/answer-images/.
+    """
+
+    def __init__(self, document, out_dir, url_prefix, paper_id):
+        self.document = document
+        self.out_dir = out_dir
+        self.url_prefix = url_prefix
+        self.paper_id = paper_id
+        self.out_dir.mkdir(parents=True, exist_ok=True)
+        self._counter = 0
+        self._cache = {}  # r_id -> span dict
+
+    def _next_path(self, ext):
+        self._counter += 1
+        name = f"{self.paper_id}-{self._counter}.png"
+        return name, self.out_dir / name
+
+    def _resolve_bytes(self, r_id):
+        part = self.document.part.related_parts[r_id]
+        blob = part.blob
+        ext = part.partname.ext if hasattr(part.partname, "ext") else str(part.partname).rsplit(".", 1)[-1]
+        return blob, ext
+
+    def from_ole_object(self, object_el, display_pt=None):
+        """`object_el` is a <w:object> element; its <v:imagedata r:id="..."/>
+        points at the rendered WMF/EMF preview. `display_pt` is an optional
+        (width, height) in points read from the v:shape's own style
+        attribute -- Word's own intended on-page display size, which is a
+        more reliable size hint than anything derivable from the raw
+        metafile bounding box (that box already gets a comfortable margin
+        added at raster time, deliberately not 1:1 with the display size)."""
+        imagedata = object_el.find(f".//{{{_NS_V}}}imagedata")
+        if imagedata is None:
+            return None
+        r_id = imagedata.get(f"{{{_NS_R}}}id")
+        if not r_id:
+            return None
+        if r_id in self._cache:
+            return dict(self._cache[r_id])
+
+        blob, ext = self._resolve_bytes(r_id)
+        name, path = self._next_path("png")
+        px_w, px_h = metafile_or_raster_to_png(blob, ext, str(path))
+
+        if display_pt:
+            width, height = round(display_pt[0] * _PT_TO_PX), round(display_pt[1] * _PT_TO_PX)
+        else:
+            width, height = round(px_w / 3), round(px_h / 3)
+
+        span = {"imageUrl": f"{self.url_prefix}/{name}", "width": width, "height": height}
+        self._cache[r_id] = span
+        return dict(span)
+
+    def from_drawing(self, drawing_el):
+        """`drawing_el` is a <w:drawing> element (modern inline picture);
+        <a:blip r:embed="..."/> points at the actual image part directly
+        (no OLE indirection), and <wp:extent cx cy> (EMU) gives display size."""
+        blip = drawing_el.find(f".//{{{_NS_A}}}blip")
+        if blip is None:
+            return None
+        r_id = blip.get(f"{{{_NS_R}}}embed")
+        if not r_id:
+            return None
+        if r_id in self._cache:
+            return dict(self._cache[r_id])
+
+        blob, ext = self._resolve_bytes(r_id)
+        name, path = self._next_path("png")
+        px_w, px_h = metafile_or_raster_to_png(blob, ext, str(path))
+
+        extent = drawing_el.find(f".//{{{_NS_WP}}}extent")
+        if extent is not None:
+            width = round(int(extent.get("cx")) / _EMU_PER_PT * _PT_TO_PX)
+            height = round(int(extent.get("cy")) / _EMU_PER_PT * _PT_TO_PX)
+        else:
+            width, height = px_w, px_h
+
+        span = {"imageUrl": f"{self.url_prefix}/{name}", "width": width, "height": height}
+        self._cache[r_id] = span
+        return dict(span)
+
+
+def _shape_display_size_pt(object_el):
+    """Reads width/height in points from a <w:object>'s <v:shape
+    style="width:128pt;height:107.5pt">, if present."""
+    shape = object_el.find(f".//{{{_NS_V}}}shape")
+    if shape is None:
+        return None
+    style = shape.get("style") or ""
+    m = re.search(r"width:\s*([\d.]+)pt", style)
+    n = re.search(r"height:\s*([\d.]+)pt", style)
+    if not (m and n):
+        return None
+    return float(m.group(1)), float(n.group(1))
+
+
+def paragraph_to_spans(paragraph, image_extractor):
+    """Walks a paragraph's runs in document order, returning a list of
+    InlineSpan-shaped dicts (`{"text": ...}` or `{"imageUrl", "width",
+    "height"}`), so a run of prose with a mid-sentence equation image never
+    gets its image silently dropped or wrenched out to the end -- confirmed
+    directly against the 2025 report's own XML that this genuinely happens
+    ("Many responses simply stated that [equation image] , that force would
+    ..."). Consecutive text runs are merged into one span; an
+    image_extractor of None degrades to text-only (every image silently
+    skipped) for callers that don't have the document/paper context needed
+    to resolve them yet.
+    """
+    spans = []
+    text_buffer = []
+
+    def flush_text():
+        if text_buffer:
+            joined = "".join(text_buffer)
+            if joined:
+                spans.append({"text": joined})
+            text_buffer.clear()
+
+    if image_extractor is None:
+        text = paragraph.text
+        return [{"text": text}] if text else []
+
+    for run in paragraph.runs:
+        el = run._element
+        object_el = el.find(qn("w:object"))
+        if object_el is not None:
+            flush_text()
+            span = image_extractor.from_ole_object(object_el, _shape_display_size_pt(object_el))
+            if span:
+                spans.append(span)
+            continue
+        drawing_el = el.find(qn("w:drawing"))
+        if drawing_el is not None and drawing_el.find(f".//{{{_NS_A}}}blip") is not None:
+            flush_text()
+            span = image_extractor.from_drawing(drawing_el)
+            if span:
+                spans.append(span)
+            continue
+        if run.text:
+            text_buffer.append(run.text)
+
+    flush_text()
+    return spans
+
+
+def spans_text(spans):
+    """Flattens spans back to plain text (images become a bracketed marker)
+    -- used only for regex classification (classify_paragraph) and the
+    plain-text uncertainReason/officialExplanation fallback fields, never
+    for the primary rendered content."""
+    return "".join(s["text"] if "text" in s else "[equation]" for s in spans)
 
 
 def style_name(paragraph: Paragraph) -> str:
@@ -225,7 +404,38 @@ def extract_section_a_table(document):
     raise RuntimeError("Section A results table not found")
 
 
-def build_section_a_answers(rows, source_document, year):
+def extract_section_a_comment_spans(document, image_extractor):
+    """Re-walks the same Section A results table `extract_section_a_table`
+    finds, this time reading the Comments cell (always the last column, in
+    both table formats that function normalises between) as rich spans
+    rather than flat text -- these cells embed equation images too (7 of
+    2025's 20 Section A comments do). Returns {question_num: [spans]}."""
+    out = {}
+    for kind, node in walk_body(document):
+        if kind != "table":
+            continue
+        rows = table_to_rows(node)
+        is_results_table = rows and (
+            rows[0][:2] == ["Question", "Correct answer"]
+            or (rows[0][:1] == ["Question"] and rows[0][1:5] == ["%A", "%B", "%C", "%D"])
+        )
+        if not is_results_table:
+            continue
+        for table_row in node.rows[1:]:
+            qnum_text = table_row.cells[0].text.strip().rstrip(".")
+            if not qnum_text.isdigit():
+                continue
+            comment_cell = table_row.cells[-1]
+            spans = []
+            for paragraph in comment_cell.paragraphs:
+                spans.extend(paragraph_to_spans(paragraph, image_extractor))
+            out[int(qnum_text)] = spans
+        return out
+    return out
+
+
+def build_section_a_answers(rows, source_document, year, comment_spans_by_qnum=None):
+    comment_spans_by_qnum = comment_spans_by_qnum or {}
     entries = []
     for row in rows[1:]:
         # The question-number cell isn't consistently formatted even within
@@ -246,6 +456,14 @@ def build_section_a_answers(rows, source_document, year):
                 except ValueError:
                     pass
         comment = row[6].strip() if len(row) > 6 else ""
+        comment_spans = comment_spans_by_qnum.get(question_num, [])
+        # Prefer the rich, image-preserving spans for the flat-text fallback
+        # too, if present -- spans_text and the docx cell's plain .text
+        # agree character-for-character except spans_text substitutes an
+        # "[equation]" marker where an image sat, which is more honest than
+        # silently concatenating the surrounding words as if nothing were
+        # missing there.
+        comment = spans_text(comment_spans) if comment_spans else comment
 
         # The "Correct answer" cell can name one letter ("B"), several
         # ("AD" -- multiple responses accepted after review), or be blank with
@@ -273,7 +491,7 @@ def build_section_a_answers(rows, source_document, year):
             "cohortPercentCorrect": percents.get(single_correct) if single_correct else None,
             "optionPercents": percents,
             "officialExplanation": comment,
-            "examinerComments": [],
+            "examinerComments": [{"type": "examinerComment", "level": 0, "spans": comment_spans}] if comment_spans else [],
             "source": {"document": source_document, "location": "Section A results table"},
             "uncertain": (not accepted_answers) and not withdrawn,
             "uncertainReason": "" if (accepted_answers or withdrawn) else "No correct-answer letter recorded in the report table.",
@@ -292,10 +510,18 @@ def build_section_a_answers(rows, source_document, year):
     return entries
 
 
-def extract_section_b_questions(document):
+def extract_section_b_questions(document, image_extractor=None):
     """Group every paragraph/table between one question heading and the
     next into a per-question record, style-name-agnostic (see module
-    docstring)."""
+    docstring). `image_extractor` (an ImageExtractor, or None to skip images
+    entirely) resolves embedded equation images to spans -- see
+    paragraph_to_spans. A paragraph that is ENTIRELY an equation image (no
+    surrounding text at all -- confirmed as the majority case: 64 of 2025's
+    84 embedded images sit in their own image-only paragraph) has empty
+    `.text`, so the emptiness check here must be "no spans at all", not "no
+    text", or the whole paragraph -- and the only content it carries -- gets
+    silently dropped.
+    """
     questions = []
     current = None
 
@@ -306,9 +532,12 @@ def extract_section_b_questions(document):
                 current = {"heading": text, "interactionId": heading_to_interaction_id(text), "marksTable": None, "items": []}
                 questions.append(current)
                 continue
-            if current is None or not text:
+            if current is None:
                 continue
-            current["items"].append({"kind": "paragraph", "level": bullet_level(node), "text": text})
+            spans = paragraph_to_spans(node, image_extractor)
+            if not spans:
+                continue
+            current["items"].append({"kind": "paragraph", "level": bullet_level(node), "spans": spans})
         elif kind == "table":
             if current is None:
                 continue
@@ -338,14 +567,15 @@ def build_section_b_answers(questions, source_document, year):
             if item["kind"] == "table":
                 official_answer.append({"type": "table", "rows": item["rows"]})
                 continue
-            if WITHDRAWN_RE.search(item["text"]) and max_marks is None:
+            item_text = spans_text(item["spans"])
+            if WITHDRAWN_RE.search(item_text) and max_marks is None:
                 withdrawn = True
             if item["level"] > 0 and carried_classification is not None:
                 classification = carried_classification
             else:
-                classification = classify_paragraph(item["text"])
+                classification = classify_paragraph(item_text)
                 carried_classification = classification if item["level"] == 0 else None
-            record = {"type": classification, "level": item["level"], "text": item["text"]}
+            record = {"type": classification, "level": item["level"], "spans": item["spans"]}
             if classification == "examinerComment":
                 examiner_comments.append(record)
             else:
@@ -379,11 +609,11 @@ def build_section_b_answers(questions, source_document, year):
                     official_answer.append({
                         "type": "note",
                         "level": 0,
-                        "text": (
+                        "spans": [{"text": (
                             "The official answer for this question could not be captured as text "
                             "(likely a drawn diagram/graph in the source report). "
                             f"See {source_document} under '{q['heading']}' directly."
-                        ),
+                        )}],
                     })
 
         entry = {

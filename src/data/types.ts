@@ -53,8 +53,19 @@ export type Paper = {
 
 // ---- Answer / solution dataset (data/answers/<paperId>.json) ----
 
+// VCAA's own examination reports routinely embed the actual worked
+// equation/calculation as an inline image mid-sentence (a Word "Equation
+// Editor"/MathType OLE object, e.g. "...responses simply stated that
+// [image: F = ma] , that force would...") rather than as plain text --
+// confirmed directly in the 2025 report's own XML (report_extraction_lib.py
+// converts these to PNG at extraction time; see extract_report_images.py).
+// A block is therefore a sequence of inline spans, not a flat string, so
+// that equation image never gets silently dropped or wrenched out of its
+// sentence.
+export type InlineSpan = { text: string } | { imageUrl: string; width: number; height: number; alt?: string };
+
 export type AnswerContentBlock =
-  | { type: "markingPoint" | "examinerComment" | "note"; level: number; text: string }
+  | { type: "markingPoint" | "examinerComment" | "note"; level: number; spans: InlineSpan[] }
   | { type: "table"; rows: string[][] };
 
 export type QuestionAnswer = {

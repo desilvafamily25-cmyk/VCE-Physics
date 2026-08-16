@@ -18,8 +18,30 @@
       "C": 8.0,
       "D": 60.0
     },
-    "officialExplanation": "",
-    "examinerComments": [],
+    "officialExplanation": "[equation][equation][equation]",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-1.png",
+            "width": 65,
+            "height": 19
+          },
+          {
+            "imageUrl": "/answer-images/2025-2.png",
+            "width": 105,
+            "height": 19
+          },
+          {
+            "imageUrl": "/answer-images/2025-3.png",
+            "width": 71,
+            "height": 19
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -52,8 +74,21 @@
       "C": 78.0,
       "D": 9.0
     },
-    "officialExplanation": "At P, the tension and force due to gravity are both directed downwards. The combination provides the centripetal force.\nAt Q, the tension is up while the force due to gravity is down. The tension exceeds the force due to gravity to provide the centripetal force required.",
-    "examinerComments": [],
+    "officialExplanation": "At P, the tension and force due to gravity are both directed downwards. The combination provides the centripetal force.At Q, the tension is up while the force due to gravity is down. The tension exceeds the force due to gravity to provide the centripetal force required.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "At P, the tension and force due to gravity are both directed downwards. The combination provides the centripetal force."
+          },
+          {
+            "text": "At Q, the tension is up while the force due to gravity is down. The tension exceeds the force due to gravity to provide the centripetal force required."
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -86,8 +121,36 @@
       "C": 27.0,
       "D": 51.0
     },
-    "officialExplanation": "Conservation of momentum\n\nCancel m’s and assign motion to right as positive.",
-    "examinerComments": [],
+    "officialExplanation": "Conservation of momentum[equation]Cancel m’s and assign motion to right as positive.[equation][equation]",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Conservation of momentum"
+          },
+          {
+            "imageUrl": "/answer-images/2025-4.png",
+            "width": 147,
+            "height": 25
+          },
+          {
+            "text": "Cancel m’s and assign motion to right as positive."
+          },
+          {
+            "imageUrl": "/answer-images/2025-5.png",
+            "width": 97,
+            "height": 25
+          },
+          {
+            "imageUrl": "/answer-images/2025-6.png",
+            "width": 97,
+            "height": 25
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -120,8 +183,27 @@
       "C": 3.0,
       "D": 12.0
     },
-    "officialExplanation": "As the mass moves upwards:\ngravitational potential energy increases\nelastic potential energy decreases\nthe total energy of the system remains constant.",
-    "examinerComments": [],
+    "officialExplanation": "As the mass moves upwards:gravitational potential energy increaseselastic potential energy decreasesthe total energy of the system remains constant.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "As the mass moves upwards:"
+          },
+          {
+            "text": "gravitational potential energy increases"
+          },
+          {
+            "text": "elastic potential energy decreases"
+          },
+          {
+            "text": "the total energy of the system remains constant."
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -154,8 +236,21 @@
       "C": 2.0,
       "D": 17.0
     },
-    "officialExplanation": "The field around a point mass is always inwards.\nThe field around a negative point charge is always inwards.",
-    "examinerComments": [],
+    "officialExplanation": "The field around a point mass is always inwards.The field around a negative point charge is always inwards.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The field around a point mass is always inwards."
+          },
+          {
+            "text": "The field around a negative point charge is always inwards."
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -188,8 +283,24 @@
       "C": 30.0,
       "D": 6.0
     },
-    "officialExplanation": "The field to the right of the wire is into the page.\nThe current I2 flows up in side X, therefore the force on side X is to the left.\nThe current I2 flows down in side Y, therefore the force on side Y is to the right.",
-    "examinerComments": [],
+    "officialExplanation": "The field to the right of the wire is into the page.The current I2 flows up in side X, therefore the force on side X is to the left.The current I2 flows down in side Y, therefore the force on side Y is to the right.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The field to the right of the wire is into the page."
+          },
+          {
+            "text": "The current I2 flows up in side X, therefore the force on side X is to the left."
+          },
+          {
+            "text": "The current I2 flows down in side Y, therefore the force on side Y is to the right."
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -222,8 +333,21 @@
       "C": 8.0,
       "D": 5.0
     },
-    "officialExplanation": "Both the strength and direction of a static field are constant over time.\nA non-uniform field varies across the region.",
-    "examinerComments": [],
+    "officialExplanation": "Both the strength and direction of a static field are constant over time.A non-uniform field varies across the region.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Both the strength and direction of a static field are constant over time."
+          },
+          {
+            "text": "A non-uniform field varies across the region."
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -256,8 +380,49 @@
       "C": 33.0,
       "D": 12.0
     },
-    "officialExplanation": "From ,\n\n\n\nTherefore,",
-    "examinerComments": [],
+    "officialExplanation": "From [equation],[equation][equation][equation]Therefore, [equation]",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "From "
+          },
+          {
+            "imageUrl": "/answer-images/2025-7.png",
+            "width": 64,
+            "height": 41
+          },
+          {
+            "text": ","
+          },
+          {
+            "imageUrl": "/answer-images/2025-8.png",
+            "width": 57,
+            "height": 46
+          },
+          {
+            "imageUrl": "/answer-images/2025-9.png",
+            "width": 54,
+            "height": 51
+          },
+          {
+            "imageUrl": "/answer-images/2025-10.png",
+            "width": 54,
+            "height": 51
+          },
+          {
+            "text": "Therefore, "
+          },
+          {
+            "imageUrl": "/answer-images/2025-11.png",
+            "width": 75,
+            "height": 25
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -291,7 +456,17 @@
       "D": 34.0
     },
     "officialExplanation": "The work done is zero because the gravitational force acts at 90˚ to the direction of motion.",
-    "examinerComments": [],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The work done is zero because the gravitational force acts at 90˚ to the direction of motion."
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -324,8 +499,30 @@
       "C": 16.0,
       "D": 70.0
     },
-    "officialExplanation": "",
-    "examinerComments": [],
+    "officialExplanation": "[equation][equation][equation]",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-12.png",
+            "width": 45,
+            "height": 19
+          },
+          {
+            "imageUrl": "/answer-images/2025-13.png",
+            "width": 137,
+            "height": 21
+          },
+          {
+            "imageUrl": "/answer-images/2025-14.png",
+            "width": 131,
+            "height": 21
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -359,7 +556,17 @@
       "D": 19.0
     },
     "officialExplanation": "RMS voltage is defined as the AC voltage that delivers the same average power as a DC voltage of the same value.",
-    "examinerComments": [],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "RMS voltage is defined as the AC voltage that delivers the same average power as a DC voltage of the same value."
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -392,8 +599,30 @@
       "C": 3.0,
       "D": 65.0
     },
-    "officialExplanation": "",
-    "examinerComments": [],
+    "officialExplanation": "[equation][equation][equation]",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-15.png",
+            "width": 95,
+            "height": 29
+          },
+          {
+            "imageUrl": "/answer-images/2025-16.png",
+            "width": 141,
+            "height": 29
+          },
+          {
+            "imageUrl": "/answer-images/2025-17.png",
+            "width": 127,
+            "height": 45
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -427,7 +656,17 @@
       "D": 6.0
     },
     "officialExplanation": "Increasing the resistance would lower the current and, subsequently, the torque.",
-    "examinerComments": [],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Increasing the resistance would lower the current and, subsequently, the torque."
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -461,7 +700,17 @@
       "D": 60.0
     },
     "officialExplanation": "Inertial frames of reference cannot be accelerating. Travelling around a bend involves centripetal acceleration.",
-    "examinerComments": [],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Inertial frames of reference cannot be accelerating. Travelling around a bend involves centripetal acceleration."
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -495,7 +744,17 @@
       "D": 91.0
     },
     "officialExplanation": "Diffraction depends on the ratio of wavelength to slit width. If the patterns are the same and the slit width is the same, then the wavelengths must be the same.",
-    "examinerComments": [],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Diffraction depends on the ratio of wavelength to slit width. If the patterns are the same and the slit width is the same, then the wavelengths must be the same."
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -528,8 +787,30 @@
       "C": 5.0,
       "D": 13.0
     },
-    "officialExplanation": "",
-    "examinerComments": [],
+    "officialExplanation": "[equation][equation][equation]",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-18.png",
+            "width": 45,
+            "height": 45
+          },
+          {
+            "imageUrl": "/answer-images/2025-19.png",
+            "width": 55,
+            "height": 41
+          },
+          {
+            "imageUrl": "/answer-images/2025-20.png",
+            "width": 65,
+            "height": 17
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -562,8 +843,21 @@
       "C": 10.0,
       "D": 23.0
     },
-    "officialExplanation": "Absorption spectra show evidence of discrete energies for the electrons.\nDiffraction, interference and photocurrent do not show evidence of discrete behaviour.",
-    "examinerComments": [],
+    "officialExplanation": "Absorption spectra show evidence of discrete energies for the electrons.Diffraction, interference and photocurrent do not show evidence of discrete behaviour.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Absorption spectra show evidence of discrete energies for the electrons."
+          },
+          {
+            "text": "Diffraction, interference and photocurrent do not show evidence of discrete behaviour."
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -596,8 +890,21 @@
       "C": 5.0,
       "D": 7.0
     },
-    "officialExplanation": "Options 1 and 3 are examples of systematic error in that the error will be the same for repeated measurements.\nOptions 2 and 4 are examples of random error in that the error will be different for repeated measurements.",
-    "examinerComments": [],
+    "officialExplanation": "Options 1 and 3 are examples of systematic error in that the error will be the same for repeated measurements.Options 2 and 4 are examples of random error in that the error will be different for repeated measurements.",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Options 1 and 3 are examples of systematic error in that the error will be the same for repeated measurements."
+          },
+          {
+            "text": "Options 2 and 4 are examples of random error in that the error will be different for repeated measurements."
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -631,7 +938,17 @@
       "D": 11.0
     },
     "officialExplanation": "The graph implies that there is an acceleration where no force is applied. This should be interpreted as a constant, additional force. If the bench slopes to the right (in the direction of the force applied during the experiment) there will be a constant gravitational force down the slope.",
-    "examinerComments": [],
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The graph implies that there is an acceleration where no force is applied. This should be interpreted as a constant, additional force. If the bench slopes to the right (in the direction of the force applied during the experiment) there will be a constant gravitational force down the slope."
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -664,8 +981,50 @@
       "C": 15.0,
       "D": 19.0
     },
-    "officialExplanation": "The predicted relationship between velocity and displacement for an object dropped from rest is  or . Therefore, a graph of  will be a straight line with a gradient of .",
-    "examinerComments": [],
+    "officialExplanation": "The predicted relationship between velocity and displacement for an object dropped from rest is [equation] or [equation]. Therefore, a graph of [equation] will be a straight line with a gradient of [equation].",
+    "examinerComments": [
+      {
+        "type": "examinerComment",
+        "level": 0,
+        "spans": [
+          {
+            "text": "The predicted relationship between velocity and displacement for an object dropped from rest is "
+          },
+          {
+            "imageUrl": "/answer-images/2025-21.png",
+            "width": 55,
+            "height": 21
+          },
+          {
+            "text": " or "
+          },
+          {
+            "imageUrl": "/answer-images/2025-22.png",
+            "width": 61,
+            "height": 25
+          },
+          {
+            "text": ". Therefore, a graph of "
+          },
+          {
+            "imageUrl": "/answer-images/2025-23.png",
+            "width": 67,
+            "height": 25
+          },
+          {
+            "text": " will be a straight line with a gradient of "
+          },
+          {
+            "imageUrl": "/answer-images/2025-24.png",
+            "width": 32,
+            "height": 25
+          },
+          {
+            "text": "."
+          }
+        ]
+      }
+    ],
     "source": {
       "document": "2025-physics-report.docx",
       "location": "Section A results table"
@@ -695,7 +1054,22 @@
       {
         "type": "note",
         "level": 0,
-        "text": "This question was generally done well. There were no common errors."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-25.png",
+            "width": 171,
+            "height": 143
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "This question was generally done well. There were no common errors."
+          }
+        ]
       }
     ],
     "examinerComments": [],
@@ -729,12 +1103,31 @@
       {
         "type": "note",
         "level": 0,
-        "text": "This question was generally well done. Some responses forgot to take the square root at the end of the calculations."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-26.png",
+            "width": 167,
+            "height": 98
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "There were other mathematical ways to solve this problem that were accepted."
+        "spans": [
+          {
+            "text": "This question was generally well done. Some responses forgot to take the square root at the end of the calculations."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "There were other mathematical ways to solve this problem that were accepted."
+          }
+        ]
       }
     ],
     "examinerComments": [],
@@ -767,7 +1160,11 @@
       {
         "type": "note",
         "level": 0,
-        "text": "The collision is inelastic with energy being lost as heat, sound and deformation of materials."
+        "spans": [
+          {
+            "text": "The collision is inelastic with energy being lost as heat, sound and deformation of materials."
+          }
+        ]
       }
     ],
     "examinerComments": [],
@@ -801,19 +1198,31 @@
       {
         "type": "note",
         "level": 0,
-        "text": "The time will be the same."
+        "spans": [
+          {
+            "text": "The time will be the same."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "The addition of a horizontal component to the velocity will not affect the vertical motion. The ball still has an initial vertical velocity of zero and still falls 1.8 m."
+        "spans": [
+          {
+            "text": "The addition of a horizontal component to the velocity will not affect the vertical motion. The ball still has an initial vertical velocity of zero and still falls 1.8 m."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "The most common error was to state that the parabolic path is longer than the straight vertical path, which will increase the time. There were also a smaller number of students who stated that the ball now had an initial vertical velocity of 0.75 m s-1."
+        "spans": [
+          {
+            "text": "The most common error was to state that the parabolic path is longer than the straight vertical path, which will increase the time. There were also a smaller number of students who stated that the ball now had an initial vertical velocity of 0.75 m s-1."
+          }
+        ]
       }
     ],
     "source": {
@@ -845,7 +1254,44 @@
       {
         "type": "note",
         "level": 0,
-        "text": "This question was generally well done."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-27.png",
+            "width": 101,
+            "height": 19
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-28.png",
+            "width": 75,
+            "height": 19
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-29.png",
+            "width": 69,
+            "height": 19
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "This question was generally well done."
+          }
+        ]
       }
     ],
     "examinerComments": [],
@@ -879,22 +1325,46 @@
       {
         "type": "note",
         "level": 0,
-        "text": "The change in momentum of the dummy’s head is the same for both the airbag and non-airbag collisions."
+        "spans": [
+          {
+            "text": "The change in momentum of the dummy’s head is the same for both the airbag and non-airbag collisions."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "The use of the airbag increases the time over which the collision occurs."
+        "spans": [
+          {
+            "text": "The use of the airbag increases the time over which the collision occurs."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "If the time is increased, the force can be decreased for the same change in momentum."
+        "spans": [
+          {
+            "text": "If the time is increased, the force can be decreased for the same change in momentum."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "Many responses simply stated that if , that force would decrease if time increased. They did this without reference to either collision. These responses were not a justification for the inclusion of airbags."
+        "spans": [
+          {
+            "text": "Many responses simply stated that if "
+          },
+          {
+            "imageUrl": "/answer-images/2025-30.png",
+            "width": 56,
+            "height": 19
+          },
+          {
+            "text": ", that force would decrease if time increased. They did this without reference to either collision. These responses were not a justification for the inclusion of airbags."
+          }
+        ]
       }
     ],
     "examinerComments": [],
@@ -929,39 +1399,144 @@
       {
         "type": "note",
         "level": 0,
-        "text": "The work done in stopping the dummy’s head is the change in kinetic energy."
+        "spans": [
+          {
+            "text": "The work done in stopping the dummy’s head is the change in kinetic energy."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "The area under the force-displacement graph is the work done."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-31.png",
+            "width": 71,
+            "height": 41
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "Some students were not able to find the area under the graph. They were unable to correctly calculate the areas of the triangle and rectangle in terms of displacement and Fmax."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-32.png",
+            "width": 120,
+            "height": 21
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "Many students believed the area under the graph was the impulse and incorrectly equated the area to 60 Ns."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-33.png",
+            "width": 67,
+            "height": 19
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "Students should be familiar with graphical, in addition to numeric, data in order to interpret graphical data."
+        "spans": [
+          {
+            "text": "The area under the force-displacement graph is the work done."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-34.png",
+            "width": 131,
+            "height": 21
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-35.png",
+            "width": 197,
+            "height": 27
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-36.png",
+            "width": 141,
+            "height": 25
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-37.png",
+            "width": 161,
+            "height": 41
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Some students were not able to find the area under the graph. They were unable to correctly calculate the areas of the triangle and rectangle in terms of displacement and Fmax."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Many students believed the area under the graph was the impulse and incorrectly equated the area to 60 Ns."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Students should be familiar with graphical, in addition to numeric, data in order to interpret graphical data."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "More than half the cohort either did not attempt this question or did not earn any marks. There were also a number of different incorrect responses."
+        "spans": [
+          {
+            "text": "More than half the cohort either did not attempt this question or did not earn any marks. There were also a number of different incorrect responses."
+          }
+        ]
       },
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "Some students could not interpret the graph correctly, and frequently stated that the collision occurred at the 0.20 m point."
+        "spans": [
+          {
+            "text": "Some students could not interpret the graph correctly, and frequently stated that the collision occurred at the 0.20 m point."
+          }
+        ]
       }
     ],
     "source": {
@@ -996,7 +1571,11 @@
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "The most common error was to show an additional ‘Fnet’ force acting down the slope. This was an error because the question stem states that the snowboarder’s speed is constant."
+        "spans": [
+          {
+            "text": "The most common error was to show an additional ‘Fnet’ force acting down the slope. This was an error because the question stem states that the snowboarder’s speed is constant. "
+          }
+        ]
       }
     ],
     "source": {
@@ -1024,12 +1603,50 @@
       "1": 75.0
     },
     "averageMark": 0.8,
-    "officialAnswer": [],
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-38.png",
+            "width": 205,
+            "height": 27
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-39.png",
+            "width": 131,
+            "height": 27
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-40.png",
+            "width": 71,
+            "height": 27
+          }
+        ]
+      }
+    ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "About one quarter of responses did not complete the demonstration. Some of those responses used tan instead of sin. The remainder were a mix of approaches without appropriate analysis of the forces involved."
+        "spans": [
+          {
+            "text": "About one quarter of responses did not complete the demonstration. Some of those responses used tan instead of sin. The remainder were a mix of approaches without appropriate analysis of the forces involved."
+          }
+        ]
       }
     ],
     "source": {
@@ -1062,14 +1679,41 @@
       {
         "type": "note",
         "level": 0,
-        "text": "The work done stopping the snowboarder:"
+        "spans": [
+          {
+            "text": "The work done stopping the snowboarder:"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-41.png",
+            "width": 147,
+            "height": 141
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "This question was not done well, with less than 50% of responses scoring full marks. The most common error was to use  and use 9.81 as the acceleration."
+        "spans": [
+          {
+            "text": "This question was not done well, with less than 50% of responses scoring full marks. The most common error was to use "
+          },
+          {
+            "imageUrl": "/answer-images/2025-42.png",
+            "width": 87,
+            "height": 21
+          },
+          {
+            "text": " and use 9.81 as the acceleration. "
+          }
+        ]
       }
     ],
     "source": {
@@ -1102,12 +1746,53 @@
       {
         "type": "note",
         "level": 0,
-        "text": "The sideways force provided the centripetal force for the circular motion."
+        "spans": [
+          {
+            "text": "The sideways force provided the centripetal force for the circular motion."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "Most students were able to answer this question correctly."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-43.png",
+            "width": 65,
+            "height": 45
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-44.png",
+            "width": 97,
+            "height": 45
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-45.png",
+            "width": 81,
+            "height": 25
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Most students were able to answer this question correctly."
+          }
+        ]
       }
     ],
     "examinerComments": [],
@@ -1138,12 +1823,50 @@
       "3": 76.0
     },
     "averageMark": 2.4,
-    "officialAnswer": [],
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-46.png",
+            "width": 97,
+            "height": 51
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-47.png",
+            "width": 145,
+            "height": 51
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-48.png",
+            "width": 65,
+            "height": 19
+          }
+        ]
+      }
+    ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "Most students answered this question correctly. Those who did not tended to use either sin or cos in their calculations."
+        "spans": [
+          {
+            "text": "Most students answered this question correctly. Those who did not tended to use either sin or cos in their calculations."
+          }
+        ]
       }
     ],
     "source": {
@@ -1175,7 +1898,52 @@
       {
         "type": "note",
         "level": 0,
-        "text": "This question was not well done and there were a number of errors worth noting. One was not converting cm to m. Another was to adding to the top line of the equation. Finally, some responses either forgot to square the distance or incorrectly squared it to get 0.25 or 0.025."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-49.png",
+            "width": 51,
+            "height": 41
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-50.png",
+            "width": 177,
+            "height": 56
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-51.png",
+            "width": 127,
+            "height": 21
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "This question was not well done and there were a number of errors worth noting. One was not converting cm to m. Another was to adding "
+          },
+          {
+            "imageUrl": "/answer-images/2025-52.png",
+            "width": 65,
+            "height": 21
+          },
+          {
+            "text": "to the top line of the equation. Finally, some responses either forgot to square the distance or incorrectly squared it to get 0.25 or 0.025."
+          }
+        ]
       }
     ],
     "examinerComments": [],
@@ -1210,17 +1978,59 @@
       {
         "type": "note",
         "level": 0,
-        "text": "The field at D due to both charges is the vector sum of the E fields for each charge."
+        "spans": [
+          {
+            "text": "The field at D due to both charges is the vector sum of the E fields for each charge."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "Direction is southwest."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-53.png",
+            "width": 211,
+            "height": 32
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "This question was not well answered. Many students tried to use ."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-54.png",
+            "width": 136,
+            "height": 27
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Direction is southwest."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "This question was not well answered. Many students tried to use "
+          },
+          {
+            "imageUrl": "/answer-images/2025-55.png",
+            "width": 31,
+            "height": 41
+          },
+          {
+            "text": "."
+          }
+        ]
       }
     ],
     "examinerComments": [],
@@ -1254,7 +2064,44 @@
       {
         "type": "note",
         "level": 0,
-        "text": "This question was not done well. It is recommended that students should be familiar with electrical fields as they are with gravitational and magnetic fields."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-56.png",
+            "width": 56,
+            "height": 41
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-57.png",
+            "width": 135,
+            "height": 45
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-58.png",
+            "width": 111,
+            "height": 21
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "This question was not done well. It is recommended that students should be familiar with electrical fields as they are with gravitational and magnetic fields."
+          }
+        ]
       }
     ],
     "examinerComments": [],
@@ -1288,29 +2135,57 @@
       {
         "type": "note",
         "level": 0,
-        "text": "The energy gained is the same."
+        "spans": [
+          {
+            "text": "The energy gained is the same."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "The change in kinetic energy for the electron is given by ."
+        "spans": [
+          {
+            "text": "The change in kinetic energy for the electron is given by "
+          },
+          {
+            "imageUrl": "/answer-images/2025-59.png",
+            "width": 75,
+            "height": 41
+          },
+          {
+            "text": "."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "If the voltage remains the same, the final kinetic energy will remain the same regardless of any change in distance."
+        "spans": [
+          {
+            "text": "If the voltage remains the same, the final kinetic energy will remain the same regardless of any change in distance."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "Students who used the approach shown were generally more successful than those who chose other ways to explain their thinking."
+        "spans": [
+          {
+            "text": "Students who used the approach shown were generally more successful than those who chose other ways to explain their thinking."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "Many students identified that the time for the electron to move between the plates would be longer, or that the acceleration would be decreased, or that the force on the electron would be reduced. However, they did not explain that these effects would not change the final kinetic energy of the electron."
+        "spans": [
+          {
+            "text": "Many students identified that the time for the electron to move between the plates would be longer, or that the acceleration would be decreased, or that the force on the electron would be reduced. However, they did not explain that these effects would not change the final kinetic energy of the electron. "
+          }
+        ]
       }
     ],
     "source": {
@@ -1342,14 +2217,22 @@
       {
         "type": "note",
         "level": 0,
-        "text": "As the electron enters the magnetic field it experiences a force down the page."
+        "spans": [
+          {
+            "text": "As the electron enters the magnetic field it experiences a force down the page."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "The most common incorrect response was ‘upwards’. This response took into account the right-hand slap rule (or equivalent) but did not account for the negative charge on the electron."
+        "spans": [
+          {
+            "text": "The most common incorrect response was ‘upwards’. This response took into account the right-hand slap rule (or equivalent) but did not account for the negative charge on the electron."
+          }
+        ]
       }
     ],
     "source": {
@@ -1382,12 +2265,61 @@
       {
         "type": "note",
         "level": 0,
-        "text": "Almost all students who performed the calculation correctly went on to answer with the correct number of significant figures."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-60.png",
+            "width": 51,
+            "height": 45
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "Incorrect responses tended to use  and then fail to continue finding a radius."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-61.png",
+            "width": 203,
+            "height": 57
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-62.png",
+            "width": 69,
+            "height": 19
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Almost all students who performed the calculation correctly went on to answer with the correct number of significant figures."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Incorrect responses tended to use "
+          },
+          {
+            "imageUrl": "/answer-images/2025-63.png",
+            "width": 57,
+            "height": 21
+          },
+          {
+            "text": " and then fail to continue finding a radius."
+          }
+        ]
       }
     ],
     "examinerComments": [],
@@ -1421,12 +2353,61 @@
       {
         "type": "note",
         "level": 0,
-        "text": "While most responses showed the formula above or a suitable variation, around one-third of those went on to use the altitude in km, rather than convert it to m and add it to Earth’s radius."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-64.png",
+            "width": 85,
+            "height": 49
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "There were also a small number of responses that failed to show adequate working. This question asked the students to show that the period is . To do this adequately, a complete substitution, such as the one shown above, must be provided for marks to be awarded."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-65.png",
+            "width": 237,
+            "height": 65
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-66.png",
+            "width": 101,
+            "height": 21
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "While most responses showed the formula above or a suitable variation, around one-third of those went on to use the altitude in km, rather than convert it to m and add it to Earth’s radius."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "There were also a small number of responses that failed to show adequate working. This question asked the students to show that the period is "
+          },
+          {
+            "imageUrl": "/answer-images/2025-67.png",
+            "width": 72,
+            "height": 21
+          },
+          {
+            "text": ". To do this adequately, a complete substitution, such as the one shown above, must be provided for marks to be awarded."
+          }
+        ]
       }
     ],
     "examinerComments": [],
@@ -1456,12 +2437,50 @@
       "2": 41.0
     },
     "averageMark": 0.9,
-    "officialAnswer": [],
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-68.png",
+            "width": 71,
+            "height": 41
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-69.png",
+            "width": 295,
+            "height": 61
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-70.png",
+            "width": 107,
+            "height": 21
+          }
+        ]
+      }
+    ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "Again, the most common error was using the radius of Earth without adding the altitude."
+        "spans": [
+          {
+            "text": "Again, the most common error was using the radius of Earth without adding the altitude."
+          }
+        ]
       }
     ],
     "source": {
@@ -1494,14 +2513,30 @@
       {
         "type": "note",
         "level": 0,
-        "text": "The satellite is accelerating towards Earth because the only force acting on it is the gravitational force of Earth on the satellite. According to Newton’s second law , any body subject to an unbalanced force will accelerate in the direction of the application of that force."
+        "spans": [
+          {
+            "text": "The satellite is accelerating towards Earth because the only force acting on it is the gravitational force of Earth on the satellite. According to Newton’s second law "
+          },
+          {
+            "imageUrl": "/answer-images/2025-71.png",
+            "width": 54,
+            "height": 19
+          },
+          {
+            "text": ", any body subject to an unbalanced force will accelerate in the direction of the application of that force."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "This question was not well done, with only one-third of responses earning two marks. The most common error was referring to either Newton’s first or third laws."
+        "spans": [
+          {
+            "text": "This question was not well done, with only one-third of responses earning two marks. The most common error was referring to either Newton’s first or third laws. "
+          }
+        ]
       }
     ],
     "source": {
@@ -1534,14 +2569,22 @@
       {
         "type": "note",
         "level": 0,
-        "text": "Tom has assumed that the value for g will remain constant, rather than decrease, as the spacecraft moves away from Earth’s surface. This will cause Tom’s calculation of the work required to be an overestimate."
+        "spans": [
+          {
+            "text": "Tom has assumed that the value for g will remain constant, rather than decrease, as the spacecraft moves away from Earth’s surface. This will cause Tom’s calculation of the work required to be an overestimate."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "Errors tended to be statements that did not logically connect to the concepts being assessed. There were a small number of responses that stated the actual work required would be greater than the value shown in the calculation."
+        "spans": [
+          {
+            "text": "Errors tended to be statements that did not logically connect to the concepts being assessed. There were a small number of responses that stated the actual work required would be greater than the value shown in the calculation."
+          }
+        ]
       }
     ],
     "source": {
@@ -1574,24 +2617,48 @@
       {
         "type": "note",
         "level": 0,
-        "text": "As the magnet approaches the solenoid, the solenoid experiences a change in magnetic flux. According to Faraday’s law, , the changing flux will induce an EMF and a current through the ammeter."
+        "spans": [
+          {
+            "text": "As the magnet approaches the solenoid, the solenoid experiences a change in magnetic flux. According to Faraday’s law, "
+          },
+          {
+            "imageUrl": "/answer-images/2025-72.png",
+            "width": 71,
+            "height": 41
+          },
+          {
+            "text": ", the changing flux will induce an EMF and a current through the ammeter."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "More than one-quarter of responses scored no marks on this question. This was often due to poor wording, such as ‘the magnet has a changing field’, or trying to explain induction without referencing either the magnet or the solenoid."
+        "spans": [
+          {
+            "text": "More than one-quarter of responses scored no marks on this question. This was often due to poor wording, such as ‘the magnet has a changing field’, or trying to explain induction without referencing either the magnet or the solenoid."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "Many responses used a Lenz’s law argument. This made it harder for the students to explain as many simply gave a definition of Lenz’s law, which did not address the question."
+        "spans": [
+          {
+            "text": "Many responses used a Lenz’s law argument. This made it harder for the students to explain as many simply gave a definition of Lenz’s law, which did not address the question."
+          }
+        ]
       },
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "There were several responses that contained only generic statements and did not score any marks. All questions require a specific response, in this case addressing the falling magnet and the solenoid."
+        "spans": [
+          {
+            "text": "There were several responses that contained only generic statements and did not score any marks. All questions require a specific response, in this case addressing the falling magnet and the solenoid."
+          }
+        ]
       }
     ],
     "source": {
@@ -1625,17 +2692,45 @@
       {
         "type": "note",
         "level": 0,
-        "text": "As the magnet approaches the solenoid, the solenoid experiences an increasing, downwards flux. As the magnet leaves the solenoid, the solenoid experiences a decreasing, downwards flux. This change from increasing to decreasing changes in flux explains the opposing peaks at A and B."
+        "spans": [
+          {
+            "text": "As the magnet approaches the solenoid, the solenoid experiences an increasing, downwards flux. As the magnet leaves the solenoid, the solenoid experiences a decreasing, downwards flux. This change from increasing to decreasing changes in flux explains the opposing peaks at A and B."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "As the magnet falls, it accelerates. The time for the increasing flux as the magnet approaches the solenoid is greater than the time for the decreasing flux as the magnet retreats from the solenoid due to the higher velocity. Since , the shorter  explains the increased amplitude at B compared to A."
+        "spans": [
+          {
+            "text": "As the magnet falls, it accelerates. The time for the increasing flux as the magnet approaches the solenoid is greater than the time for the decreasing flux as the magnet retreats from the solenoid due to the higher velocity. Since "
+          },
+          {
+            "imageUrl": "/answer-images/2025-73.png",
+            "width": 71,
+            "height": 41
+          },
+          {
+            "text": ", the shorter "
+          },
+          {
+            "imageUrl": "/answer-images/2025-74.png",
+            "width": 20,
+            "height": 19
+          },
+          {
+            "text": " explains the increased amplitude at B compared to A."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "While many responses related the different amplitudes to acceleration of the magnet and, thus, the differences in amplitude, very few explained the opposing polarity. Very few students articulated the increasing and decreasing flux, with many stating that the magnetic field changed direction. Many responses simply referred to the magnetic poles entering or leaving the solenoid."
+        "spans": [
+          {
+            "text": "While many responses related the different amplitudes to acceleration of the magnet and, thus, the differences in amplitude, very few explained the opposing polarity. Very few students articulated the increasing and decreasing flux, with many stating that the magnetic field changed direction. Many responses simply referred to the magnetic poles entering or leaving the solenoid."
+          }
+        ]
       }
     ],
     "examinerComments": [],
@@ -1668,7 +2763,44 @@
       {
         "type": "note",
         "level": 0,
-        "text": "Most responses demonstrated the calculation."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-75.png",
+            "width": 46,
+            "height": 19
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-76.png",
+            "width": 81,
+            "height": 19
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-77.png",
+            "width": 69,
+            "height": 19
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Most responses demonstrated the calculation."
+          }
+        ]
       }
     ],
     "examinerComments": [],
@@ -1703,24 +2835,84 @@
       {
         "type": "note",
         "level": 0,
-        "text": "At 70 W per lamp, this equates to 10 lamps."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-78.png",
+            "width": 67,
+            "height": 25
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "There were other approaches used to solve this question which were also accepted."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-79.png",
+            "width": 197,
+            "height": 49
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "While students are generally able to complete single-step, substitution questions, it is recommended that they should also spend more time in preparing more complex, application type problems such as this."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-80.png",
+            "width": 115,
+            "height": 25
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-81.png",
+            "width": 171,
+            "height": 25
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "At 70 W per lamp, this equates to 10 lamps."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "There were other approaches used to solve this question which were also accepted."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "While students are generally able to complete single-step, substitution questions, it is recommended that they should also spend more time in preparing more complex, application type problems such as this."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "More than 80% of responses scored no marks on this question. These responses did not use the voltages at each end of the lines to find the voltage drop. They did not find the current in the lines and, hence, the shed. They did not determine the power being drawn by the lamps in the shed. A significant number of students attempted to use the 5.00 kW value from the stem with no justification."
+        "spans": [
+          {
+            "text": "More than 80% of responses scored no marks on this question. These responses did not use the voltages at each end of the lines to find the voltage drop. They did not find the current in the lines and, hence, the shed. They did not determine the power being drawn by the lamps in the shed. A significant number of students attempted to use the 5.00 kW value from the stem with no justification."
+          }
+        ]
       }
     ],
     "source": {
@@ -1752,12 +2944,20 @@
       {
         "type": "note",
         "level": 0,
-        "text": "T1 is a step-up transformer, T2 is a step-down transformer."
+        "spans": [
+          {
+            "text": "T1 is a step-up transformer, T2 is a step-down transformer."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "Most students correctly identified the transformers."
+        "spans": [
+          {
+            "text": "Most students correctly identified the transformers."
+          }
+        ]
       }
     ],
     "examinerComments": [],
@@ -1791,14 +2991,30 @@
       {
         "type": "note",
         "level": 0,
-        "text": "T1 should be a step-up transformer, as decreasing the line current will reduce the power lost as . T2 should be a step-down transformer to return the voltage to a suitable level for powering the lamps."
+        "spans": [
+          {
+            "text": "T1 should be a step-up transformer, as decreasing the line current will reduce the power lost as "
+          },
+          {
+            "imageUrl": "/answer-images/2025-82.png",
+            "width": 67,
+            "height": 27
+          },
+          {
+            "text": ". T2 should be a step-down transformer to return the voltage to a suitable level for powering the lamps."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "While most students explained the need for the step-up transformer, many did not explain why stepping down at the shed was required. There were a number of students who stated that the step-down transformer was required to ‘reduce the current to a safe level’, but this does not take into account that the current would be lower in the supply lines than it would be in the shed."
+        "spans": [
+          {
+            "text": "While most students explained the need for the step-up transformer, many did not explain why stepping down at the shed was required. There were a number of students who stated that the step-down transformer was required to ‘reduce the current to a safe level’, but this does not take into account that the current would be lower in the supply lines than it would be in the shed."
+          }
+        ]
       }
     ],
     "source": {
@@ -1830,14 +3046,22 @@
       {
         "type": "note",
         "level": 0,
-        "text": "The flux through the coil is determined by the angle between the plane of the coil and the magnetic field."
+        "spans": [
+          {
+            "text": "The flux through the coil is determined by the angle between the plane of the coil and the magnetic field."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "Around two-thirds of students explained the relationship between the orientation of the coil and the magnetic field. The remaining students gave responses that did not address the question."
+        "spans": [
+          {
+            "text": "Around two-thirds of students explained the relationship between the orientation of the coil and the magnetic field. The remaining students gave responses that did not address the question. "
+          }
+        ]
       }
     ],
     "source": {
@@ -1869,7 +3093,44 @@
       {
         "type": "note",
         "level": 0,
-        "text": "Most students demonstrated this calculation correctly."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-83.png",
+            "width": 61,
+            "height": 21
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-84.png",
+            "width": 167,
+            "height": 27
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-85.png",
+            "width": 125,
+            "height": 25
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Most students demonstrated this calculation correctly."
+          }
+        ]
       }
     ],
     "examinerComments": [],
@@ -1900,12 +3161,50 @@
       "3": 56.0
     },
     "averageMark": 1.9,
-    "officialAnswer": [],
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-86.png",
+            "width": 61,
+            "height": 41
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-87.png",
+            "width": 120,
+            "height": 45
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-88.png",
+            "width": 64,
+            "height": 19
+          }
+        ]
+      }
+    ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "Just over half the responses correctly calculated the EMF, with the most common error being the use of 0.02 as the time."
+        "spans": [
+          {
+            "text": "Just over half the responses correctly calculated the EMF, with the most common error being the use of 0.02 as the time."
+          }
+        ]
       }
     ],
     "source": {
@@ -1938,14 +3237,22 @@
       {
         "type": "note",
         "level": 0,
-        "text": "Replace the slip rings with a split-ring commutator. The split-ring commutator will reverse the connections to the loop every half turn to ensure a DC output."
+        "spans": [
+          {
+            "text": "Replace the slip rings with a split-ring commutator. The split-ring commutator will reverse the connections to the loop every half turn to ensure a DC output."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "This question was not well done. The two most common errors were not naming the device correctly as a split-ring commutator, and being unclear about its function. There were also a significant number of students who explained the role of the split-ring commutator in a motor."
+        "spans": [
+          {
+            "text": "This question was not well done. The two most common errors were not naming the device correctly as a split-ring commutator, and being unclear about its function. There were also a significant number of students who explained the role of the split-ring commutator in a motor."
+          }
+        ]
       }
     ],
     "source": {
@@ -1979,24 +3286,59 @@
       {
         "type": "note",
         "level": 0,
-        "text": "There were other approaches which were equally valid."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-89.png",
+            "width": 287,
+            "height": 206
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "As with Question 11b, this was a multi-step process that required an understanding of physics to solve a complex problem rather than an application of simple mathematics. Students are recommended to practise more detailed problems similar to this question."
+        "spans": [
+          {
+            "text": "There were other approaches which were equally valid."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "As with Question 11b, this was a multi-step process that required an understanding of physics to solve a complex problem rather than an application of simple mathematics. Students are recommended to practise more detailed problems similar to this question."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "Nearly half the cohort either did not attempt the question or did not make a meaningful start. Many calculated the ‘energy’ of the electron using , incorrectly using c when considering the speed of electrons."
+        "spans": [
+          {
+            "text": "Nearly half the cohort either did not attempt the question or did not make a meaningful start. Many calculated the ‘energy’ of the electron using "
+          },
+          {
+            "imageUrl": "/answer-images/2025-90.png",
+            "width": 51,
+            "height": 41
+          },
+          {
+            "text": ", incorrectly using c when considering the speed of electrons."
+          }
+        ]
       },
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "There were a significant number of responses that made a first step in calculating the velocity of the electron but were unable to progress."
+        "spans": [
+          {
+            "text": "There were a significant number of responses that made a first step in calculating the velocity of the electron but were unable to progress."
+          }
+        ]
       }
     ],
     "source": {
@@ -2030,24 +3372,40 @@
       {
         "type": "note",
         "level": 0,
-        "text": "The Michelson–Morley experiment attempted to measure the difference in the speed of light between two perpendicular paths. Regardless of the orientation of their apparatus they were unable to detect any difference in the speed of light in these two paths. This null result supports Einstein’s theory of relativity which postulates that the speed of light is constant for all observers regardless of their relative motion."
+        "spans": [
+          {
+            "text": "The Michelson–Morley experiment attempted to measure the difference in the speed of light between two perpendicular paths. Regardless of the orientation of their apparatus they were unable to detect any difference in the speed of light in these two paths. This null result supports Einstein’s theory of relativity which postulates that the speed of light is constant for all observers regardless of their relative motion."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "There were also many responses that stated that Einstein’s postulate is simply that ‘the speed of light is constant’. In formulating his special theory of relativity, the postulate is that ‘the speed of light is constant for all observers regardless of their relative motion’. This point is important, as the motion of Earth relative to the hypothetical aether was also a key part of the experiment."
+        "spans": [
+          {
+            "text": "There were also many responses that stated that Einstein’s postulate is simply that ‘the speed of light is constant’. In formulating his special theory of relativity, the postulate is that ‘the speed of light is constant for all observers regardless of their relative motion’. This point is important, as the motion of Earth relative to the hypothetical aether was also a key part of the experiment."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "Responses that referred to frames of reference were also accepted, provided those references were correct."
+        "spans": [
+          {
+            "text": "Responses that referred to frames of reference were also accepted, provided those references were correct."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "While it was clear that most students were familiar with the Michelson–Morley experiment, they did not explain it, or its results, in detail. While many stated that the experiment found no difference in the measured speed of light, they did not identify that it was between two perpendicular paths, which was a key part of the experimental design."
+        "spans": [
+          {
+            "text": "While it was clear that most students were familiar with the Michelson–Morley experiment, they did not explain it, or its results, in detail. While many stated that the experiment found no difference in the measured speed of light, they did not identify that it was between two perpendicular paths, which was a key part of the experimental design."
+          }
+        ]
       }
     ],
     "source": {
@@ -2076,12 +3434,28 @@
       "2": 71.0
     },
     "averageMark": 1.5,
-    "officialAnswer": [],
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-91.png",
+            "width": 178,
+            "height": 111
+          }
+        ]
+      }
+    ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "Most students were able to complete this question correctly. The most common error was incorrectly converting 2.75 mm and/or 550 nm to metres."
+        "spans": [
+          {
+            "text": "Most students were able to complete this question correctly. The most common error was incorrectly converting 2.75 mm and/or 550 nm to metres."
+          }
+        ]
       }
     ],
     "source": {
@@ -2114,24 +3488,48 @@
       {
         "type": "note",
         "level": 0,
-        "text": "Lowering the frequency will increase the wavelength."
+        "spans": [
+          {
+            "text": "Lowering the frequency will increase the wavelength."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "According to , if the wavelength increases, the spacing will increase."
+        "spans": [
+          {
+            "text": "According to "
+          },
+          {
+            "imageUrl": "/answer-images/2025-92.png",
+            "width": 61,
+            "height": 41
+          },
+          {
+            "text": ", if the wavelength increases, the spacing will increase."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "Students who scored one mark generally identified that the spacing of the pattern would increase but did not relate it to the increase in wavelength. Students should be aware that, unless stated in the question stem, their response to an earlier part of a question cannot be considered when marking a subsequent part. Even though students may have used a calculation to support part a, they still need to explicitly state why the spacing increases, even if that means restating part of their response to part a."
+        "spans": [
+          {
+            "text": "Students who scored one mark generally identified that the spacing of the pattern would increase but did not relate it to the increase in wavelength. Students should be aware that, unless stated in the question stem, their response to an earlier part of a question cannot be considered when marking a subsequent part. Even though students may have used a calculation to support part a, they still need to explicitly state why the spacing increases, even if that means restating part of their response to part a."
+          }
+        ]
       },
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "Many students referenced diffraction and used the slit separation as their value for ‘w’. There is ongoing confusion between diffraction and interference – they are not the same phenomenon. It is recommended that students should be familiar with the two phenomena of diffraction and interference, and the differences between them."
+        "spans": [
+          {
+            "text": "Many students referenced diffraction and used the slit separation as their value for ‘w’. There is ongoing confusion between diffraction and interference – they are not the same phenomenon. It is recommended that students should be familiar with the two phenomena of diffraction and interference, and the differences between them."
+          }
+        ]
       }
     ],
     "source": {
@@ -2164,24 +3562,89 @@
       {
         "type": "note",
         "level": 0,
-        "text": "Consider the points (."
+        "spans": [
+          {
+            "text": "Consider the points ("
+          },
+          {
+            "imageUrl": "/answer-images/2025-93.png",
+            "width": 197,
+            "height": 31
+          },
+          {
+            "text": "."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "One-quarter of students found a gradient using points that were not on the line. Common errors were using the data points even though they were not on the line, or misreading the y-axis scale."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-94.png",
+            "width": 101,
+            "height": 41
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "Students are reminded that where they are required to find the gradient of a line, they must demonstrate that skill by either showing rise over run, or preferably by using .Students must also use points that lie on the line."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-95.png",
+            "width": 195,
+            "height": 41
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-96.png",
+            "width": 173,
+            "height": 25
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "One-quarter of students found a gradient using points that were not on the line. Common errors were using the data points even though they were not on the line, or misreading the y-axis scale."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Students are reminded that where they are required to find the gradient of a line, they must demonstrate that skill by either showing rise over run, or preferably by using "
+          },
+          {
+            "imageUrl": "/answer-images/2025-97.png",
+            "width": 51,
+            "height": 45
+          },
+          {
+            "text": ".Students must also use points that lie on the line."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "One-third of students did not demonstrate that Planck’s constant is found from the gradient of the graph. The most common errors included using an erroneous method or providing only a fraction that could not be related to points on the graph."
+        "spans": [
+          {
+            "text": "One-third of students did not demonstrate that Planck’s constant is found from the gradient of the graph. The most common errors included using an erroneous method or providing only a fraction that could not be related to points on the graph."
+          }
+        ]
       }
     ],
     "source": {
@@ -2213,14 +3676,38 @@
       {
         "type": "note",
         "level": 0,
-        "text": "The work function is found using the y-axis intercept, which is 2.2 eV."
+        "spans": [
+          {
+            "text": "The work function is found using the y-axis intercept, which is 2.2 eV."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "The most common incorrect approach was to use  and then either misread the axes or use  for Planck’s constant."
+        "spans": [
+          {
+            "text": "The most common incorrect approach was to use "
+          },
+          {
+            "imageUrl": "/answer-images/2025-98.png",
+            "width": 97,
+            "height": 25
+          },
+          {
+            "text": " and then either misread the axes or use "
+          },
+          {
+            "imageUrl": "/answer-images/2025-99.png",
+            "width": 75,
+            "height": 21
+          },
+          {
+            "text": " for Planck’s constant."
+          }
+        ]
       }
     ],
     "source": {
@@ -2254,14 +3741,33 @@
       {
         "type": "note",
         "level": 0,
-        "text": "Some responses calculated gamma incorrectly as 0.990. Students should be aware that gamma can never be less than 1.0. This error resulted in responses that tried to find the square root of a negative number."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-100.png",
+            "width": 121,
+            "height": 312
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Some responses calculated gamma incorrectly as 0.990. Students should be aware that gamma can never be less than 1.0. This error resulted in responses that tried to find the square root of a negative number."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "Students who scored only one mark were generally able to calculate gamma correctly but did not make further progress."
+        "spans": [
+          {
+            "text": "Students who scored only one mark were generally able to calculate gamma correctly but did not make further progress."
+          }
+        ]
       }
     ],
     "source": {
@@ -2290,12 +3796,28 @@
       "2": 62.0
     },
     "averageMark": 1.4,
-    "officialAnswer": [],
+    "officialAnswer": [
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-101.png",
+            "width": 193,
+            "height": 109
+          }
+        ]
+      }
+    ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "The most common error was demonstrating a correct substitution but incorrectly converting the answer to nanometres."
+        "spans": [
+          {
+            "text": "The most common error was demonstrating a correct substitution but incorrectly converting the answer to nanometres."
+          }
+        ]
       }
     ],
     "source": {
@@ -2327,12 +3849,31 @@
       {
         "type": "note",
         "level": 0,
-        "text": "This question was done reasonably well."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-102.png",
+            "width": 446,
+            "height": 209
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "Common errors included drawing incorrect arrow direction (indicating absorption) or just a line with no direction."
+        "spans": [
+          {
+            "text": "This question was done reasonably well."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Common errors included drawing incorrect arrow direction (indicating absorption) or just a line with no direction. "
+          }
+        ]
       }
     ],
     "examinerComments": [],
@@ -2367,37 +3908,65 @@
       {
         "type": "note",
         "level": 0,
-        "text": "The independent variable was mass, the dependent variable was current, the controlled variable could have been either the current in the solenoid, the field produced by the solenoid or the length of QR."
+        "spans": [
+          {
+            "text": "The independent variable was mass, the dependent variable was current, the controlled variable could have been either the current in the solenoid, the field produced by the solenoid or the length of QR."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "Less than 10% of students responded correctly. Common errors can best be summarised in the following categories:"
+        "spans": [
+          {
+            "text": "Less than 10% of students responded correctly. Common errors can best be summarised in the following categories:"
+          }
+        ]
       },
       {
         "type": "note",
         "level": 1,
-        "text": "putting multiple variables into all boxes (as the experiment only had one independent and dependent variables there were no marks awarded for lists)"
+        "spans": [
+          {
+            "text": "putting multiple variables into all boxes (as the experiment only had one independent and dependent variables there were no marks awarded for lists)"
+          }
+        ]
       },
       {
         "type": "note",
         "level": 1,
-        "text": "identifying the variables given in the stem but did not identify which was the independent, the dependent or controlled"
+        "spans": [
+          {
+            "text": "identifying the variables given in the stem but did not identify which was the independent, the dependent or controlled"
+          }
+        ]
       },
       {
         "type": "note",
         "level": 1,
-        "text": "listing equipment as variables, such as the solenoid or the beam"
+        "spans": [
+          {
+            "text": "listing equipment as variables, such as the solenoid or the beam"
+          }
+        ]
       },
       {
         "type": "note",
         "level": 1,
-        "text": "listing variables not given in the question stem."
+        "spans": [
+          {
+            "text": "listing variables not given in the question stem."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "It is recommended that students should be familiar with experimental design, given that there is an entire outcome associated with this question."
+        "spans": [
+          {
+            "text": "It is recommended that students should be familiar with experimental design, given that there is an entire outcome associated with this question."
+          }
+        ]
       }
     ],
     "examinerComments": [],
@@ -2431,19 +4000,31 @@
       {
         "type": "note",
         "level": 0,
-        "text": "Sides PQ and RS are parallel to the long axis of the solenoid. As such, the currents in PQ and RS are parallel to the field inside the solenoid. Therefore, the force on PQ and RS will be zero."
+        "spans": [
+          {
+            "text": "Sides PQ and RS are parallel to the long axis of the solenoid. As such, the currents in PQ and RS are parallel to the field inside the solenoid. Therefore, the force on PQ and RS will be zero."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "It is recommended that students should be familiar with the application of the physics involved in the context of more complex experiments similar to this question."
+        "spans": [
+          {
+            "text": "It is recommended that students should be familiar with the application of the physics involved in the context of more complex experiments similar to this question."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "This question was poorly done, as most responses did not explain that there is no force on a current carrying wire if the angle between the current and the field is zero. Responses that scored no marks frequently included little meaning and referred to motors, generators or commutators. There were many responses that incorrectly reasoned ‘because the current flows in opposite directions in those wires’."
+        "spans": [
+          {
+            "text": "This question was poorly done, as most responses did not explain that there is no force on a current carrying wire if the angle between the current and the field is zero. Responses that scored no marks frequently included little meaning and referred to motors, generators or commutators. There were many responses that incorrectly reasoned ‘because the current flows in opposite directions in those wires’."
+          }
+        ]
       }
     ],
     "source": {
@@ -2476,14 +4057,22 @@
       {
         "type": "note",
         "level": 0,
-        "text": "In order to determine that the magnetic force is equal to the force due to gravity, the distances of each force application from the pivot must be the same. This will result in equal torques for equal forces."
+        "spans": [
+          {
+            "text": "In order to determine that the magnetic force is equal to the force due to gravity, the distances of each force application from the pivot must be the same. This will result in equal torques for equal forces."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "Most students did not form a response in terms of a simple lever. Few students referred to Figure 23, which would have aided their explanation."
+        "spans": [
+          {
+            "text": "Most students did not form a response in terms of a simple lever. Few students referred to Figure 23, which would have aided their explanation."
+          }
+        ]
       }
     ],
     "source": {
@@ -2515,12 +4104,20 @@
       {
         "type": "note",
         "level": 0,
-        "text": "Repeated measurements reduce the effect of random errors."
+        "spans": [
+          {
+            "text": "Repeated measurements reduce the effect of random errors."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "Only one-third of students correctly responded to this question as noted in the study design: ‘Repeated measurements are made to reduce the effect of random errors’ (p. 22). It is recommended that students be thoroughly familiar with the study design to ensure they are aware of all assessable content."
+        "spans": [
+          {
+            "text": "Only one-third of students correctly responded to this question as noted in the study design: ‘Repeated measurements are made to reduce the effect of random errors’ (p. 22). It is recommended that students be thoroughly familiar with the study design to ensure they are aware of all assessable content."
+          }
+        ]
       }
     ],
     "examinerComments": [],
@@ -2557,34 +4154,58 @@
       {
         "type": "note",
         "level": 0,
-        "text": "Most students scored well on this question."
+        "spans": [
+          {
+            "text": "Most students scored well on this question."
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "Notable errors were:"
+        "spans": [
+          {
+            "text": "Notable errors were:"
+          }
+        ]
       },
       {
         "type": "note",
         "level": 1,
-        "text": "equally spacing the data points along the x-axis so the distances between the points was equal"
+        "spans": [
+          {
+            "text": "equally spacing the data points along the x-axis so the distances between the points was equal"
+          }
+        ]
       },
       {
         "type": "note",
         "level": 1,
-        "text": "creating x-axis spacing to place the first three data points on the major grid lines and then misplacing the final data point"
+        "spans": [
+          {
+            "text": "creating x-axis spacing to place the first three data points on the major grid lines and then misplacing the final data point"
+          }
+        ]
       },
       {
         "type": "note",
         "level": 1,
-        "text": "reversing the axes in spite of the axis names being present."
+        "spans": [
+          {
+            "text": "reversing the axes in spite of the axis names being present."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "Students are reminded to scale their graphs to use all the available space. Graphs that contained excessive, unused space from using scales beyond what was required by the data did not score full marks because this practice increases the error that occurs when trying to read data from the graph."
+        "spans": [
+          {
+            "text": "Students are reminded to scale their graphs to use all the available space. Graphs that contained excessive, unused space from using scales beyond what was required by the data did not score full marks because this practice increases the error that occurs when trying to read data from the graph."
+          }
+        ]
       }
     ],
     "source": {
@@ -2617,29 +4238,82 @@
       {
         "type": "note",
         "level": 0,
-        "text": "Consider the points (100 × 10-6, 0.8) and (580 × 10-6, 4.6)"
+        "spans": [
+          {
+            "text": "Consider the points (100 × 10-6, 0.8) and (580 × 10-6, 4.6)"
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "Students whose lines of best fit passed through the origin could use an implied (0, 0) in the calculation provided that their second point lay on the line."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-103.png",
+            "width": 57,
+            "height": 41
+          }
+        ]
       },
       {
         "type": "note",
         "level": 0,
-        "text": "Some responses used the point (120 × 10-6, 1.0) from the table and combined it with (0, 0). This is ill-advised for two reasons. First, close inspection will show that the point lies slightly above the line, which will overestimate the gradient. Second, using points closely spaced exaggerates small errors from reading the graph."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-104.png",
+            "width": 146,
+            "height": 46
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-105.png",
+            "width": 123,
+            "height": 21
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Students whose lines of best fit passed through the origin could use an implied (0, 0) in the calculation provided that their second point lay on the line."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Some responses used the point (120 × 10-6, 1.0) from the table and combined it with (0, 0). This is ill-advised for two reasons. First, close inspection will show that the point lies slightly above the line, which will overestimate the gradient. Second, using points closely spaced exaggerates small errors from reading the graph."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "The most common error was to omit the ‘× 10-6’ from the calculation."
+        "spans": [
+          {
+            "text": "The most common error was to omit the ‘× 10-6’ from the calculation."
+          }
+        ]
       },
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "Students who used data points from the table were not awarded full marks as these points did not lie on the line and resulted in an erroneous gradient."
+        "spans": [
+          {
+            "text": "Students who used data points from the table were not awarded full marks as these points did not lie on the line and resulted in an erroneous gradient."
+          }
+        ]
       }
     ],
     "source": {
@@ -2673,14 +4347,41 @@
       {
         "type": "note",
         "level": 0,
-        "text": "Some students solved the equation by substituting data from the table into the equation. These students were not awarded marks because the question stem clearly stated that the gradient from part f must be used."
+        "spans": [
+          {
+            "imageUrl": "/answer-images/2025-106.png",
+            "width": 133,
+            "height": 173
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "level": 0,
+        "spans": [
+          {
+            "text": "Some students solved the equation by substituting data from the table into the equation. These students were not awarded marks because the question stem clearly stated that the gradient from part f must be used."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "Nearly one-third of students did not attempt this question. Another third identified that the formula  was probably appropriate, but did not complete a substitution step."
+        "spans": [
+          {
+            "text": "Nearly one-third of students did not attempt this question. Another third identified that the formula "
+          },
+          {
+            "imageUrl": "/answer-images/2025-107.png",
+            "width": 54,
+            "height": 19
+          },
+          {
+            "text": " was probably appropriate, but did not complete a substitution step."
+          }
+        ]
       }
     ],
     "source": {
@@ -2713,14 +4414,62 @@
       {
         "type": "note",
         "level": 0,
-        "text": "Since the force on QR is given by , if  were decreased in length,  would decrease as  and  remain constant."
+        "spans": [
+          {
+            "text": "Since the force on QR is given by "
+          },
+          {
+            "imageUrl": "/answer-images/2025-108.png",
+            "width": 54,
+            "height": 19
+          },
+          {
+            "text": ", if "
+          },
+          {
+            "imageUrl": "/answer-images/2025-109.png",
+            "width": 9,
+            "height": 19
+          },
+          {
+            "text": " were decreased in length, "
+          },
+          {
+            "imageUrl": "/answer-images/2025-110.png",
+            "width": 19,
+            "height": 19
+          },
+          {
+            "text": " would decrease as "
+          },
+          {
+            "imageUrl": "/answer-images/2025-111.png",
+            "width": 17,
+            "height": 19
+          },
+          {
+            "text": " and "
+          },
+          {
+            "imageUrl": "/answer-images/2025-112.png",
+            "width": 13,
+            "height": 19
+          },
+          {
+            "text": " remain constant."
+          }
+        ]
       }
     ],
     "examinerComments": [
       {
         "type": "examinerComment",
         "level": 0,
-        "text": "Nearly one-quarter of students did not respond to this question. A small number of students identified that the force would decrease, but did not explain why."
+        "spans": [
+          {
+            "text": "Nearly one-quarter of students did not respond to this question. A small number of students identified that the force would decrease, but did not explain why."
+          }
+        ]
       }
     ],
     "source": {
