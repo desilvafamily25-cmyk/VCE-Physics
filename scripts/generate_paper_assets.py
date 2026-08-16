@@ -57,7 +57,7 @@ ARCHIVE_DUAL = (15, 90, 90)  # 2002-2012 (and the 2004 pilot), per sitting
 
 # Interaction geometry hand-verified against the rendered PDF for 2025 --
 # the "airtight" flagship year -- takes precedence over auto-generation.
-TUNED_INTERACTIONS = {"2025", "2024", "2023", "2022", "2021", "2020", "2019"}
+TUNED_INTERACTIONS = {"2025", "2024", "2023", "2022", "2021", "2020", "2019", "2018"}
 
 # 2024's exam has no text layer at all (confirmed: 0 fonts, every character
 # a vector path -- see Missing_Resources.md), so Section A geometry can't be

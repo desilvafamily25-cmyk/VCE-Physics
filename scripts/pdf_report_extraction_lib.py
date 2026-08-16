@@ -416,8 +416,14 @@ def extract_section_b_questions_pdf(doc, section_b_page_range, image_out_dir, im
     headings = []  # (page_number, y0, question_num, letter, roman)
     for page_number in range(first, last + 1):
         page = doc[page_number - 1]
-        text = page.get_text("text")
-        if re.search(r"END OF (QUESTION|SECTION)|FORMULA SHEET", text, re.I):
+        # Only check the page's own opening text for a genuine end-marker
+        # or formula-sheet page -- searching the whole page wrongly skips
+        # a real content page whose own examiner comment just happens to
+        # mention "the formula sheet" partway down (confirmed on 2018's
+        # Question 17c comment: "...identify a value from the formula
+        # sheet.", which discarded that page's two real headings, B17b
+        # and B17c, entirely).
+        if re.search(r"END OF (QUESTION|SECTION)|FORMULA SHEET", page.get_text("text")[:80], re.I):
             continue
         for block in page.get_text("blocks"):
             block_text = block[4].strip()

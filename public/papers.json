@@ -151,12 +151,12 @@
     "totalMarks": 130,
     "source": "previous-design-2017-2023/2018-physics-exam.pdf",
     "pageCount": 45,
-    "interactionCount": 71,
+    "interactionCount": 69,
     "readingMinutes": 15,
     "writingMinutes": 150,
     "durationSource": "detected",
-    "hasAnswerData": false,
-    "hasCurriculumMap": false,
+    "hasAnswerData": true,
+    "hasCurriculumMap": true,
     "hasMultipleChoice": true
   },
   {
