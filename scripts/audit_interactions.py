@@ -26,6 +26,12 @@ KNOWN_TINY_FIELDS = {
     # via a rendered overlay check -- see MANUAL_ENTRIES in
     # scripts/build_2023_section_b.py.
     "2023": {"B5b", "B17e"},
+    # 2021: B1a is a small "draw an arrow at point P" annotation area inside
+    # a bar-magnet figure; B2b is a small bordered box holding a single
+    # multiple-choice-style letter answer, not a normal writable field.
+    # Confirmed correct via a rendered overlay check -- see MANUAL_ENTRIES
+    # in scripts/build_2021_section_b.py.
+    "2021": {"B1a", "B2b"},
 }
 
 
