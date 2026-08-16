@@ -234,6 +234,56 @@ def _snap_boundary_to_gap(line_ys, midpoint, window=16):
     return best_split if best_split is not None else midpoint
 
 
+def _comments_header_x(page, header_y):
+    """x0 of the 'Comments' header word at header_y, or None if not
+    found on this page (e.g. a continuation page that doesn't repeat the
+    header row)."""
+    for w in page.get_text("words"):
+        if w[4] == "Comments" and abs(w[1] - header_y) < 2:
+            return w[0]
+    return None
+
+
+def _extra_column_exclusion_band(page, header_y, d_x, comments_x):
+    """(x0, x1) of an extra numeric column's own value area, if the
+    report inserts one between %D and Comments -- confirmed on 2017's
+    report, whose header row block reads "Question / %A / %B / %C / %D /
+    % No / Answer / Comments": a '% No Answer' column (percentage of
+    students who gave no answer) sits right after %D, wrapped onto two
+    lines ("% No" above the main header baseline, "Answer" below it), and
+    is positioned noticeably left of where the real comment *body* text
+    starts (that starts well right of it, at x=336, not at the Comments
+    header's own x0 of 405). A fixed 'col_x["D"] + 20' left edge alone
+    swept this extra column's numeric value -- usually "0" -- into every
+    row's own comment text, so this returns a band to exclude instead of
+    moving the whole boundary. Detected by finding a '%' word within
+    +/-10pt of header_y (its own header line can sit above *or* below
+    the main baseline depending on how it wraps) whose x sits strictly
+    between d_x and comments_x (with margin so %D's own header isn't
+    matched). Returns None if no such column exists on this page, or if
+    comments_x is unknown."""
+    if comments_x is None:
+        return None
+    for w in page.get_text("words"):
+        if abs(w[1] - header_y) < 10 and w[4] == "%" and d_x + 15 < w[0] < comments_x - 15:
+            return (w[0] - 15, w[0] + 30)
+    return None
+
+
+def _answer_label_y(page, header_y):
+    """y of a standalone 'Answer' word that is the second line of the
+    extra '% No Answer' column's own wrapped header (see
+    _extra_column_exclusion_band), if present -- it sits ~6pt below the
+    main 'A B C D' header row and is repeated at the top of every
+    continuation page. Without excluding it, whichever question happens
+    to be first on that page picked up a stray leading "Answer" token
+    that isn't part of its own explanation. Returns None if not found."""
+    for w in page.get_text("words"):
+        if w[4] == "Answer" and 0 < w[1] - header_y < 15:
+            return w[1]
+    return None
+
+
 def extract_section_a_table_pdf(doc, section_a_page_range):
     """PDF equivalent of report_extraction_lib.extract_section_a_table,
     returning the same normalised shape: a list of
@@ -258,7 +308,20 @@ def extract_section_a_table_pdf(doc, section_a_page_range):
         sb_heading_y = _section_b_heading_y(page)
 
         comment_x0 = col_x["D"] + 20
-        page_lines = _cluster_lines([w for w in words if w[0] >= comment_x0 and w[1] > header_y])
+        comments_header_x = _comments_header_x(page, header_y)
+        exclude_band = _extra_column_exclusion_band(page, header_y, col_x["D"], comments_header_x)
+        answer_label_y = _answer_label_y(page, header_y)
+
+        def _is_comment_word(w):
+            if w[0] < comment_x0 or w[1] <= header_y:
+                return False
+            if exclude_band is not None and exclude_band[0] <= w[0] <= exclude_band[1]:
+                return False
+            if answer_label_y is not None and w[4] == "Answer" and abs(w[1] - answer_label_y) < 1:
+                return False
+            return True
+
+        page_lines = _cluster_lines([w for w in words if _is_comment_word(w)])
         line_ys = [y for y, _ in page_lines]
 
         # Compute every row's raw window first, snap adjacent rows'

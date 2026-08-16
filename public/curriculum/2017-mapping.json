@@ -1,0 +1,772 @@
+{
+  "studyDesignRef": "data/curriculum/study-design-2016.json",
+  "paperId": "2017",
+  "generatedBy": "editorial mapping \u2014 each question's own text checked against the official 2017-2023 study design's key knowledge (see scripts/build_2017_curriculum_map.py)",
+  "questions": [
+    {
+      "canonicalId": "2017-A1",
+      "interactionId": "A1",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Identifying that a magnetic monopole cannot currently be created",
+      "skills": [
+        "field shapes and directions, attractive/repulsive effects, dipoles and monopoles"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A2",
+      "interactionId": "A2",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Electric force on a charged oil drop in a uniform field (Millikan)",
+      "skills": [
+        "force on a charge in a uniform electric field: F = qE"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A3",
+      "interactionId": "A3",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Voltage between charged plates from electric field strength and separation",
+      "skills": [
+        "potential energy changes in a uniform electric field: W = qV, E = V/d"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A4",
+      "interactionId": "A4",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Turns ratio of a step-down transformer",
+      "skills": [
+        "ideal transformer action"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A5",
+      "interactionId": "A5",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Peak current in a transformer's secondary coil from its RMS power",
+      "skills": [
+        "ideal transformer action",
+        "peak and RMS values of AC voltage and current"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A6",
+      "interactionId": "A6",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Induced EMF graph from a magnetic-flux-versus-time graph",
+      "skills": [
+        "generation of emf ... rate of change of magnetic flux"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A7",
+      "interactionId": "A7",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Acceleration of a model car from a constant applied force",
+      "skills": [
+        "Newton's three laws of motion: forces along a line"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A8",
+      "interactionId": "A8",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Impulse given to a car by a constant force over a time interval",
+      "skills": [
+        "impulse in a system: F*t = m*deltav"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A9",
+      "interactionId": "A9",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Final speed of a car after constant acceleration from rest",
+      "skills": [
+        "Newton's three laws of motion: forces along a line"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A10",
+      "interactionId": "A10",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Comparing experiment results in accelerating versus inertial frames of reference",
+      "skills": [
+        "explain the relationship between force, mass and motion with reference to inertial frames of reference"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A11",
+      "interactionId": "A11",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Mass lost by the Sun each second from its radiated energy",
+      "skills": [
+        "mass-energy equivalence: E = mc^2"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A12",
+      "interactionId": "A12",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Spring constant estimated from a force-distance graph",
+      "skills": [
+        "strain potential energy: ideal springs obeying Hooke's Law"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A13",
+      "interactionId": "A13",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Initial kinetic energy of a car from the area under a force-distance graph",
+      "skills": [
+        "work done = area under force-distance graph",
+        "conservation of energy"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A14",
+      "interactionId": "A14",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Explaining why sound diffracts noticeably around a doorway",
+      "skills": [
+        "the extent of diffraction ... is affected by the ratio of wavelength to obstacle/aperture width"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A15",
+      "interactionId": "A15",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Frequency change heard as a siren approaches then recedes (Doppler effect)",
+      "skills": [
+        "the Doppler effect"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A16",
+      "interactionId": "A16",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Explaining electron diffraction through Heisenberg's uncertainty principle",
+      "skills": [
+        "Heisenberg's Uncertainty Principle as it relates to the position and momentum of a particle"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A17",
+      "interactionId": "A17",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Explaining quantised atomic energy levels via electron standing waves",
+      "skills": [
+        "explain the production of atomic absorption and emission line spectra",
+        "de Broglie wavelength"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A18",
+      "interactionId": "A18",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS3",
+      "topic": "Comparing the accuracy and precision of two students' repeated measurements",
+      "skills": [
+        "precision, accuracy, reliability and validity of data"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A19",
+      "interactionId": "A19",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS3",
+      "topic": "Identifying the best description of a scientific hypothesis",
+      "skills": [
+        "the characteristics of scientific methodology"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-A20",
+      "interactionId": "A20",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS3",
+      "topic": "Distinguishing how repeated readings affect systematic versus random errors",
+      "skills": [
+        "identify and distinguish between random and systematic errors"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B1",
+      "interactionId": "B1",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Direction of the resultant electric field at a point between three charges",
+      "skills": [
+        "field shapes and directions, attractive/repulsive effects, dipoles and monopoles",
+        "inverse square law"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B2a",
+      "interactionId": "B2a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Showing the Coulomb force between a proton and an electron in a hydrogen atom",
+      "skills": [
+        "inverse square law for gravitational and electric fields about a point mass/charge: F = kq1q2/r^2"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B2b",
+      "interactionId": "B2b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Speed of an electron in a circular orbit from the Coulomb force",
+      "skills": [
+        "magnetic force on a charged particle",
+        "circular motion modelled with Newton's second law"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B3a",
+      "interactionId": "B3a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Size and direction of the magnetic force on a DC motor coil's side",
+      "skills": [
+        "force on a current-carrying conductor: F = nIlB"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B3b",
+      "interactionId": "B3b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Force on a motor coil's other side in the same orientation",
+      "skills": [
+        "force on a current-carrying conductor: F = nIlB"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B4a",
+      "interactionId": "B4a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Gravitational field strength at the surface of Pluto",
+      "skills": [
+        "gravitational field and gravitational force concepts"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B4b",
+      "interactionId": "B4b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Orbital period of Pluto's moon Charon",
+      "skills": [
+        "satellite motion modelled as uniform circular motion"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B4c",
+      "interactionId": "B4c",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS1",
+      "topic": "Evaluating claims about orbital speed depending on a satellite's own mass",
+      "skills": [
+        "satellite motion modelled as uniform circular motion"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B5a",
+      "interactionId": "B5a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Magnitude of the magnetic field from an alternator's flux and coil geometry",
+      "skills": [
+        "magnetic flux: Phi = B*A"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B5b",
+      "interactionId": "B5b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Average EMF generated by an alternator in a quarter turn",
+      "skills": [
+        "generation of emf ... rate of change of magnetic flux"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B5c",
+      "interactionId": "B5c",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Sketching an alternator's output after replacing slip rings with a commutator",
+      "skills": [
+        "explain the production of DC voltage in DC generators"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B6a",
+      "interactionId": "B6a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Total power loss in transmission lines from line current and resistance",
+      "skills": [
+        "analyse the supply of power by considering transmission losses"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B6b",
+      "interactionId": "B6b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS2",
+      "topic": "Factor increase in transmission power loss from a lower transformer ratio",
+      "skills": [
+        "analyse the supply of power by considering transmission losses"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B7a",
+      "interactionId": "B7a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Drawing the forces on a rider and bicycle on a banked circular track",
+      "skills": [
+        "Newton's second law to circular motion in a vertical plane",
+        "use vector diagrams to determine the resultant vector of two or more forces"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B7b",
+      "interactionId": "B7b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Angle of bank giving no sideways friction force on a circular track",
+      "skills": [
+        "Newton's second law to circular motion in a vertical plane"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B8a",
+      "interactionId": "B8a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Speed giving zero normal reaction force at the top of a circular arc",
+      "skills": [
+        "Newton's second law to circular motion in a vertical plane"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B8b",
+      "interactionId": "B8b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Speed at the bottom of an arc from energy conservation",
+      "skills": [
+        "conservation of energy and momentum in isolated systems"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B9a",
+      "interactionId": "B9a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Height of a projectile ball above the ground when it strikes a wall",
+      "skills": [
+        "motion of projectiles near Earth's surface"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B9b",
+      "interactionId": "B9b",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS3",
+      "topic": "Identifying controlled, dependent and independent variables in a projectile investigation",
+      "skills": [
+        "independent, dependent and controlled variables"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B9c",
+      "interactionId": "B9c",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS3",
+      "topic": "Plotting projectile-range data with uncertainty bars and a curve of best fit",
+      "skills": [
+        "methods of organising, analysing and evaluating primary data ... sources of uncertainty and error"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B10",
+      "interactionId": "B10",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Speed of a spaceship from a measured length-contraction ratio",
+      "skills": [
+        "model mathematically time dilation and length contraction"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B11a",
+      "interactionId": "B11a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Lifetime of a decaying particle in the laboratory's frame of reference",
+      "skills": [
+        "model mathematically time dilation and length contraction"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B11b",
+      "interactionId": "B11b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Distance travelled by a particle as measured in its own frame of reference",
+      "skills": [
+        "model mathematically time dilation and length contraction"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B11c",
+      "interactionId": "B11c",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Why more particles are observed than classical physics would predict",
+      "skills": [
+        "model mathematically time dilation and length contraction",
+        "comparison of Newton's and Einstein's approach to relativity"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B12",
+      "interactionId": "B12",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Determining whether a trolley collision is elastic or inelastic",
+      "skills": [
+        "conservation of energy and momentum in isolated systems"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B13a",
+      "interactionId": "B13a",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "Distance a spring stretches before a falling mass momentarily stops",
+      "skills": [
+        "strain potential energy: ideal springs obeying Hooke's Law",
+        "conservation of energy"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B13b",
+      "interactionId": "B13b",
+      "unit": "Unit 3",
+      "areaOfStudy": "U3AoS3",
+      "topic": "How kinetic, gravitational and strain energy vary as a mass falls onto a spring",
+      "skills": [
+        "conservation of energy and momentum in isolated systems"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B14a",
+      "interactionId": "B14a",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Critical angle for total internal reflection from glucose solution to air",
+      "skills": [
+        "total internal reflection and critical angle"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B14b",
+      "interactionId": "B14b",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Sketching the refracted ray below the critical angle",
+      "skills": [
+        "refraction using Snell's Law"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B14c",
+      "interactionId": "B14c",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Explaining why an observer beyond the critical angle cannot see the laser",
+      "skills": [
+        "total internal reflection and critical angle"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B15a",
+      "interactionId": "B15a",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Wavelength of a 680 Hz sound from its speed",
+      "skills": [
+        "wave speed, frequency, wavelength and period: v = f*lambda"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B15b",
+      "interactionId": "B15b",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Evaluating predictions about combined-loudspeaker sound intensity",
+      "skills": [
+        "constructive and destructive interference from two sources with reference to ... path difference"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B15c",
+      "interactionId": "B15c",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Comparing sound intensity heard by two students from path difference",
+      "skills": [
+        "constructive and destructive interference from two sources with reference to ... path difference"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B16a",
+      "interactionId": "B16a",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Wavelength of the lowest-frequency standing wave on a fixed string",
+      "skills": [
+        "standing waves in strings fixed at one or both ends"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B16b",
+      "interactionId": "B16b",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Frequency of the second-lowest resonance on a fixed string",
+      "skills": [
+        "standing waves in strings fixed at one or both ends"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B16c",
+      "interactionId": "B16c",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS1",
+      "topic": "Explaining with a diagram how standing waves form on a string",
+      "skills": [
+        "standing waves in strings fixed at one or both ends"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B17a",
+      "interactionId": "B17a",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Cut-off (stopping) potential for a given light frequency on a photocell",
+      "skills": [
+        "kinetic energy of emitted photoelectrons: Ek max = hf - phi"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B17b",
+      "interactionId": "B17b",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Sketching a photoelectric current graph for higher-intensity UV light",
+      "skills": [
+        "effects of intensity of incident irradiation on the emission of photoelectrons"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B17c",
+      "interactionId": "B17c",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Aspects of the photoelectric effect that evidence light's particle nature",
+      "skills": [
+        "compare wave and particle models used to explain the photoelectric effect"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B18a",
+      "interactionId": "B18a",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Drawing an atomic transition producing a 1.65 eV emitted photon",
+      "skills": [
+        "explain the production of atomic absorption and emission line spectra"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B18b",
+      "interactionId": "B18b",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Shortest possible photon wavelength for a decay from n=5 to ground state",
+      "skills": [
+        "explain the production of atomic absorption and emission line spectra"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B18c",
+      "interactionId": "B18c",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Explaining why an impossible spectral line energy cannot be observed",
+      "skills": [
+        "explain the production of atomic absorption and emission line spectra"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    },
+    {
+      "canonicalId": "2017-B19",
+      "interactionId": "B19",
+      "unit": "Unit 4",
+      "areaOfStudy": "U4AoS2",
+      "topic": "Evaluating claims about electron diffraction and describing supporting experiments",
+      "skills": [
+        "distinguish between the diffraction patterns produced by photons and electrons",
+        "de Broglie wavelength"
+      ],
+      "confidence": "high",
+      "uncertain": false
+    }
+  ]
+}
